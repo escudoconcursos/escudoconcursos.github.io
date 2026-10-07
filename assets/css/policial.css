@@ -1,0 +1,118 @@
+/* ESCUDO Concursos: tema policial (só nas páginas de carreira policial, com <body class="tema-policial">).
+   Mesmo visual dos posts do Instagram com "tema": "policial": fundo tático com grade, giroflex, etiquetas de estêncil,
+   insígnia e divisas genéricas. O brasão do órgão entra só como selo do concurso. */
+.tema-policial{--tat:#060B16;--tat2:#0A1428;--tat3:#0D1730;--card:rgba(13,23,48,.92);--linha:#22314F;--muted:#93A4BF;--txt:#D5DCE8;
+  background:var(--tat);color:var(--txt)}
+
+/* giroflex e aviso do topo */
+.giroflex{height:6px;background:linear-gradient(90deg,#E53935 0 47%,#111827 47% 53%,#2563EB 53% 100%);
+  -webkit-mask-image:repeating-linear-gradient(90deg,#000 0 46px,transparent 46px 52px);mask-image:repeating-linear-gradient(90deg,#000 0 46px,transparent 46px 52px)}
+.aviso-topo{margin:0;background:#04080F;color:var(--muted);font-size:.8rem;line-height:1.35;text-align:center;padding:7px 16px;border-bottom:1px solid var(--linha)}
+.tema-policial .topo{background:var(--tat);border-bottom:1px solid var(--linha)}
+
+/* fundos táticos */
+.tema-policial .escuro{background:var(--tat)}
+.tema-policial .escuro::before{background:
+  radial-gradient(560px 320px at 0% 0%,rgba(229,57,53,.20),transparent 65%),
+  radial-gradient(560px 320px at 100% 0%,rgba(37,99,235,.20),transparent 65%),
+  linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px) 0 0/48px 48px,
+  linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px) 0 0/48px 48px,
+  repeating-linear-gradient(135deg,rgba(255,255,255,.016) 0 2px,transparent 2px 9px),
+  linear-gradient(180deg,#081023,#050A14)}
+.tema-policial .secao.claro,.tema-policial .secao.creme{color:var(--txt);background-color:var(--tat2);
+  background-image:linear-gradient(rgba(255,255,255,.032) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.032) 1px,transparent 1px);
+  background-size:48px 48px}
+.tema-policial .secao.creme{background-color:var(--tat3)}
+.tema-policial .secao{border-top:1px solid var(--linha)}
+.tema-policial .marca-dagua{opacity:.06;width:380px;right:-110px;top:30px}
+
+/* tipografia */
+.tema-policial h1,.tema-policial h2{text-shadow:0 3px 0 rgba(0,0,0,.45)}
+.tema-policial .secao h2,.tema-policial .hero h1{color:var(--cream)}
+.tema-policial .secao h2 em,.tema-policial .hero h1 em{color:var(--c)}
+.tema-policial .kicker,.tema-policial .claro .kicker,.tema-policial .creme .kicker{color:var(--gold);letter-spacing:.24em}
+.tema-policial .hero .kicker::before,.tema-policial .cta-final .kicker::before{content:"";display:inline-block;width:20px;height:17px;margin:0 10px -2px 0;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 34'%3E%3Cg fill='none' stroke='%23C9A24B' stroke-width='4.5'%3E%3Cpolyline points='4,13 20,4 36,13'/%3E%3Cpolyline points='4,22 20,13 36,22'/%3E%3Cpolyline points='4,31 20,22 36,31'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
+.tema-policial .regua{width:120px;height:5px;border-radius:0;background:linear-gradient(90deg,var(--c) 0 62%,transparent 62% 68%,var(--gold) 68%)}
+.tema-policial .secao .intro,.tema-policial .escuro .intro{color:var(--muted)}
+.tema-policial .destaque{color:#fff}
+.tema-policial .hero .lead{color:var(--txt)}
+
+/* etiqueta de estêncil (BRIEFING, MISSÃO...) */
+.etq{display:flex;align-items:center;gap:14px;margin:0 0 16px}
+.etq span{display:inline-flex;align-items:center;gap:10px;border:2px solid var(--c);padding:5px 15px 5px 11px;background:rgba(217,83,79,.10);
+  font-family:var(--ff-t);font-weight:900;text-transform:uppercase;letter-spacing:.3em;font-size:.82rem;line-height:1.2;color:var(--cb);
+  clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%)}
+.etq span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c);flex:none}
+.etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
+.cta-final .etq{justify-content:center}
+.cta-final .etq::after{display:none}
+
+/* selo do concurso com o brasão */
+.selo-orgao{display:flex;align-items:center;gap:16px;margin:0 0 24px}
+.selo-orgao img{width:auto;height:96px;flex:none;filter:drop-shadow(0 10px 16px rgba(0,0,0,.6))}
+.selo-orgao p{margin:0;border-left:3px solid var(--gold);padding:2px 0 2px 14px;font-family:var(--ff-t);text-transform:uppercase;line-height:1.05}
+.selo-orgao span{display:block;font-weight:800;letter-spacing:.3em;font-size:.78rem;color:var(--gold)}
+.selo-orgao b{display:block;font-weight:900;font-size:2.1rem;color:var(--cream);margin:4px 0 3px;letter-spacing:.01em}
+.selo-orgao b+span{color:#B7C4D8;letter-spacing:.24em;font-size:.86rem}
+.petri{display:block;height:5px;width:130px;margin-top:10px;background:linear-gradient(90deg,#14924A 0 33.3%,#F4C21B 33.3% 66.6%,#DC2B2B 66.6%);
+  clip-path:polygon(0 0,100% 0,calc(100% - 5px) 100%,0 100%)}
+
+/* números, preço e botões */
+.tema-policial .numeros li{background:var(--card);border:1px solid var(--linha);border-left:4px solid var(--c);border-radius:4px}
+.tema-policial .numeros b{color:var(--cream)}
+.tema-policial .preco{position:relative;background:linear-gradient(180deg,rgba(13,23,48,.95),rgba(8,16,35,.97));border:1px solid var(--linha);border-radius:4px}
+.tema-policial .preco::before,.tema-policial .preco::after{content:"";position:absolute;width:22px;height:22px;border:0 solid var(--gold);pointer-events:none}
+.tema-policial .preco::before{top:-5px;left:-5px;border-top-width:3px;border-left-width:3px}
+.tema-policial .preco::after{bottom:-5px;right:-5px;border-bottom-width:3px;border-right-width:3px}
+.tema-policial .btn{border-radius:0;clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
+.tema-policial .capa-livro .selo{border-radius:0;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}
+
+/* blocos de conteúdo no escuro */
+.tema-policial .fatos li{background:var(--card);border:1px solid var(--linha);border-top:4px solid var(--c);border-radius:4px}
+.tema-policial .fatos b{color:var(--cream)}
+.tema-policial .fatos span{color:var(--muted)}
+.tema-policial .prova{background:var(--card);color:var(--txt)}
+.tema-policial .prova th{background:#0E1A36;color:var(--goldb)}
+.tema-policial .prova th,.tema-policial .prova td{border-bottom-color:var(--linha)}
+.tema-policial .prova tfoot td{background:#0E1A36;color:var(--cream)}
+.tema-policial .prova .bloco{color:var(--cb)}
+.tema-policial .entregas li{background:var(--card);border:1px solid var(--linha);border-left:4px solid var(--c);border-radius:4px}
+.tema-policial .entregas strong{color:var(--goldb)}
+.tema-policial .modulos caption{color:var(--muted)}
+.tema-policial .modulos th{background:#0E1A36;color:var(--goldb)}
+.tema-policial .modulos td{background:var(--card);border-bottom-color:var(--linha)}
+.tema-policial .modulos tr:nth-child(even) td{background:rgba(10,20,40,.94)}
+.tema-policial .modulos td:first-child{color:var(--cream)}
+.tema-policial .modulos td:first-child span{color:var(--cb)}
+.tema-policial .modulos td:last-child{color:var(--muted)}
+.tema-policial .simulado{background:var(--tat3);border:1px solid var(--linha);border-top:4px solid var(--c);border-radius:4px}
+.tema-policial .simulado .data{border-radius:0}
+.tema-policial .pqe .cartao{background:var(--card);border:1px solid var(--linha);border-radius:4px}
+.tema-policial .garantia{background:var(--tat);border:1px solid var(--linha);border-radius:4px}
+.tema-policial .faq details{background:var(--card);border:1px solid var(--linha);border-radius:4px}
+.tema-policial .faq summary{color:var(--cream)}
+.tema-policial .faq summary::after{border-color:var(--cb)}
+.tema-policial .faq details[open] summary{border-bottom-color:var(--linha)}
+.tema-policial .faq details p{color:#C3CEDF}
+
+/* rodapé e barra de compra */
+.tema-policial .rodape{background:#04080F;border-top:1px solid var(--linha)}
+.aviso-rodape{display:flex;align-items:center;gap:12px;margin:0 0 16px;color:var(--cream);font-weight:600}
+.aviso-rodape img{width:auto;height:44px;flex:none}
+.tema-policial .barra{background:rgba(6,11,22,.97);border-top:2px solid var(--c)}
+
+@media (max-width:719px){
+  .tema-policial .modulos tr{background:var(--card);border:1px solid var(--linha);border-left:4px solid var(--c);border-radius:4px}
+  .tema-policial .modulos td,.tema-policial .modulos tr:nth-child(even) td{background:transparent}
+  .tema-policial .modulos td:last-child::before{color:var(--cream)}
+}
+@media (min-width:900px){
+  .selo-orgao{gap:22px;margin-bottom:30px}
+  .selo-orgao img{height:128px}
+  .selo-orgao b{font-size:2.7rem}
+  .selo-orgao span{font-size:.9rem}
+  .petri{width:170px;height:6px}
+  .giroflex{height:7px}
+  .tema-policial .marca-dagua{width:600px;right:-140px;top:-30px}
+}

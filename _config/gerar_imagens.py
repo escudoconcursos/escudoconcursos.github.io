@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """Gera favicon (ico/png) e as imagens Open Graph 1200x630 do site com o Playwright.
-Uso: PYTHONIOENCODING=utf-8 python 07-site/_config/gerar_imagens.py
+Uso: PYTHONIOENCODING=utf-8 python 07-site/_config/gerar_imagens.py [og-pmpe-soldado-2026.jpg ...]
+Com nomes, gera só essas imagens Open Graph (sem favicon).
 """
-import io, pathlib
+import io, pathlib, sys
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
@@ -39,20 +40,41 @@ h1{font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:.005e
 """ % (FONTES, ICONE, ICONE)
 
 PMPE = BASE + """<style>
-.txt{position:absolute;left:72px;top:150px;width:700px}
-.k{color:#FF8A80}
-h1{font-size:82px;margin:14px 0 0;white-space:nowrap}
-h1 em{font-style:normal;color:#D9534F;display:block}
-.r{background:linear-gradient(90deg,#FF8A80,#D9534F);margin:26px 0 24px}
-.capa{position:absolute;right:86px;top:70px;width:300px;transform:rotate(-3deg);border-radius:6px;box-shadow:0 30px 60px -16px rgba(0,0,0,.8),0 0 0 2px rgba(201,162,75,.45)}
+/* tema policial, como os posts e a página: fundo tático, giroflex e o brasão como selo do concurso */
+body{background:#060B16}
+.bg{background:radial-gradient(560px 320px at 0%% 0%%,rgba(229,57,53,.26),transparent 65%%),radial-gradient(560px 320px at 100%% 0%%,rgba(37,99,235,.26),transparent 65%%),
+  linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px) 0 0/48px 48px,linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px) 0 0/48px 48px,
+  linear-gradient(180deg,#081023,#050A14)}
+.wm{opacity:0}
+.giro{position:absolute;left:0;right:0;top:0;height:9px;background:linear-gradient(90deg,#E53935 0 47%%,#111827 47%% 53%%,#2563EB 53%% 100%%);
+  -webkit-mask-image:repeating-linear-gradient(90deg,#000 0 58px,transparent 58px 65px)}
+.ins{position:absolute;right:-90px;bottom:-120px;width:520px;opacity:.06}
+.logo{top:32px}
+.selo{position:absolute;left:72px;top:126px;display:flex;align-items:center;gap:20px}
+.selo img{height:126px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.6))}
+.selo p{border-left:3px solid #C9A24B;padding-left:16px;text-transform:uppercase;line-height:1.05}
+.selo span{display:block;font-weight:800;letter-spacing:.3em;font-size:18px;color:#C9A24B}
+.selo b{display:block;font-weight:900;font-size:50px;margin:4px 0 2px}
+.selo b+span{color:#B7C4D8;letter-spacing:.24em;font-size:19px}
+.selo i{display:block;height:6px;width:160px;margin-top:10px;background:linear-gradient(90deg,#14924A 0 33.3%%,#F4C21B 33.3%% 66.6%%,#DC2B2B 66.6%%)}
+.txt{position:absolute;left:72px;top:282px;width:720px}
+h1{font-size:72px;white-space:nowrap;text-shadow:0 4px 0 rgba(0,0,0,.45)}
+h1 em{font-style:normal;color:#E25450;display:block}
+.r{width:120px;height:6px;border-radius:0;background:linear-gradient(90deg,#D9534F 0 62%%,transparent 62%% 68%%,#C9A24B 68%%);margin:20px 0 18px}
+.sub{font-size:25px}
+.av{position:absolute;left:72px;bottom:92px;font-family:A;font-weight:600;font-size:19px;color:#93A4BF}
+.capa{position:absolute;right:86px;top:84px;width:292px;transform:rotate(-3deg);border-radius:6px;box-shadow:0 30px 60px -16px rgba(0,0,0,.85),0 0 0 2px rgba(201,162,75,.45)}
 .pe span:first-child{color:#F5F1E6;letter-spacing:.04em;text-transform:none}
-.pe span:last-child{color:#D9534F}.pe b{color:#F5F1E6}
+.pe span:last-child{color:#C9A24B}.pe b{color:#F5F1E6}
 </style>
-<div class="txt"><p class="k">PMPE 2026 · Curso em PDF</p><h1>Soldado da<em>PM de Pernambuco</em></h1><div class="r"></div>
-<p class="sub">116 capítulos · 550 questões comentadas<br>Redação + 2 simulados · Instituto AOCP</p></div>
+<div class="giro"></div><img class="ins" src="%s">
+<div class="selo"><img src="%s"><p><span>Concurso</span><b>PMPE 2026</b><span>Soldado</span><i></i></p></div>
+<div class="txt"><h1>Soldado da<em>PM de Pernambuco</em></h1><div class="r"></div>
+<p class="sub">116 capítulos · 550 questões comentadas · 2 simulados</p></div>
+<p class="av">Material independente, sem vínculo com a PMPE.</p>
 <img class="capa" src="%s">
 <div class="pe"><span>@escudoconcursos</span><span>Material para o <b>SEU</b> edital</span></div>
-""" % (IMG / "pmpe" / "capa.webp").as_uri()
+""" % ((IMG / "insignia.svg").as_uri(), (IMG / "pmpe" / "brasao-pmpe.webp").as_uri(), (IMG / "pmpe" / "capa.webp").as_uri())
 
 HOME = BASE + """<style>
 .txt{position:absolute;left:72px;top:150px;width:900px}
@@ -72,7 +94,10 @@ FAV = """<!doctype html><style>*{margin:0}body{background:transparent}img{displa
 with sync_playwright() as p:
     b = p.chromium.launch()
     pg = b.new_page(viewport={"width": 1200, "height": 630})
+    so = sys.argv[1:]
     for nome, doc in [("og-pmpe-soldado-2026.jpg", PMPE), ("og-escudo.jpg", HOME)]:
+        if so and nome not in so:
+            continue
         tmp = RAIZ / "_config" / "_og.html"
         tmp.write_text(doc, encoding="utf-8")
         pg.goto(tmp.as_uri()); pg.wait_for_timeout(400)
@@ -80,6 +105,9 @@ with sync_playwright() as p:
         Image.open(io.BytesIO(png)).convert("RGB").save(IMG / nome, "JPEG", quality=86, optimize=True, progressive=True)
         tmp.unlink()
         print("ok", nome)
+    if so:
+        b.close()
+        sys.exit(0)
     pg2 = b.new_page(viewport={"width": 512, "height": 512})
     tmp = RAIZ / "_config" / "_fav.html"
     tmp.write_text(FAV % (512, 512, (IMG / "favicon.svg").as_uri()), encoding="utf-8")

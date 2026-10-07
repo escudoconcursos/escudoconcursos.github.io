@@ -225,6 +225,7 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
 .produto img{aspect-ratio:1/1;width:100%;object-fit:cover}
 .produto .corpo{padding:18px 18px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
 .produto .tag{font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.88rem;color:var(--cd)}
+.produto .tag-orgao{display:inline-block;width:auto;height:30px;aspect-ratio:auto;object-fit:contain;vertical-align:middle;margin:-8px 8px -6px 0}
 .produto h3{font-weight:900;font-size:1.9rem;color:var(--navy)}
 .produto ul{margin:0;padding:0 0 0 18px;color:var(--ink2);font-size:.98rem}
 .produto .valor{font-family:var(--ff-t);font-weight:800;font-size:1.25rem;color:var(--navy);text-transform:uppercase;letter-spacing:.03em;margin-top:auto}
