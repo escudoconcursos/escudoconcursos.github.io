@@ -1,9 +1,7 @@
 {
-  "_leia": "Vitrine da página inicial. Um objeto por curso. Depois de editar, rode: PYTHONIOENCODING=utf-8 python _config/vitrine.py && PYTHONIOENCODING=utf-8 python _config/aplicar.py. Datas em AAAA-MM-DD. A ordem da lista não importa: a vitrine ordena pela data mais próxima (cupom, inscrições, prova) e esconde o curso no dia seguinte à prova. carreira: policial, guarda, administrativo, saude, educacao, bombeiro, tribunais, fiscal.",
+  "_leia": "Vitrine da página inicial. Um objeto por curso. Depois de editar, rode: PYTHONIOENCODING=utf-8 python _config/vitrine.py && PYTHONIOENCODING=utf-8 python _config/aplicar.py. Datas em AAAA-MM-DD. A ordem da lista não importa: a vitrine ordena pela data mais próxima (cupom, inscrições, prova) e esconde o curso no dia seguinte à prova. carreira: policial (inclui PM, PC, PF, PRF, DEPEN, Polícia Penal, Guarda Municipal e Bombeiro), administrativo, saude, educacao, tribunais, fiscal.",
   "carreiras": {
     "policial": "Policial",
-    "guarda": "Guarda Municipal",
-    "bombeiro": "Bombeiro",
     "administrativo": "Administrativo",
     "saude": "Saúde",
     "educacao": "Educação",
@@ -19,11 +17,18 @@
       "tag": "PMPE 2026 · Instituto AOCP",
       "brasao": "assets/img/pmpe/brasao-pmpe-p.webp",
       "titulo": "Soldado da PM de Pernambuco",
-      "itens": ["116 capítulos e 550 questões comentadas", "Redação e 2 simulados"],
+      "itens": [
+        "116 capítulos e 550 questões comentadas",
+        "Redação e 2 simulados"
+      ],
       "imagem": "assets/img/produto-pmpe-soldado-2026.webp",
       "alt": "Curso em PDF ESCUDO: Soldado da PM de Pernambuco, PMPE 2026, 116 capítulos e 550 questões comentadas",
       "preco": 47,
-      "cupom": {"codigo": "PMPE37", "preco": 37, "ate": "2026-11-05"},
+      "cupom": {
+        "codigo": "PMPE37",
+        "preco": 37,
+        "ate": "2026-11-05"
+      },
       "inscricoes_ate": "2026-11-05",
       "prova": "2027-02-21",
       "link": "pmpe-soldado-2026/",
@@ -36,11 +41,18 @@
       "tema": "tema-roxo",
       "tag": "UFBA 2026 · Instituto Avalia",
       "titulo": "Assistente em Administração",
-      "itens": ["918 páginas e 665 questões comentadas", "Redação e simulado"],
+      "itens": [
+        "918 páginas e 665 questões comentadas",
+        "Redação e simulado"
+      ],
       "imagem": "assets/img/produto-ufba-assistente-2026.webp",
       "alt": "Curso em PDF ESCUDO: Assistente em Administração, UFBA 2026, 918 páginas e 665 questões comentadas",
       "preco": 47,
-      "cupom": {"codigo": "UFBA37", "preco": 37, "ate": "2026-10-29"},
+      "cupom": {
+        "codigo": "UFBA37",
+        "preco": 37,
+        "ate": "2026-10-29"
+      },
       "inscricoes_ate": "2026-10-29",
       "prova": "2026-12-20",
       "link": "https://go.hotmart.com/E107809961E",
