@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="ESCUDO Concursos: material para o SEU edital">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/SairaCondensed-Black.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/escudo.css?v=3">
+<link rel="stylesheet" href="assets/css/escudo.css?v=4">
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -51,40 +51,46 @@
 
 <section class="secao claro" id="cursos" aria-labelledby="t-cursos">
   <div class="wrap">
-    <p class="kicker">À venda</p>
+    <p class="kicker">Vitrine</p>
     <h2 id="t-cursos">Cursos <em>abertos</em></h2>
     <hr class="regua">
-    <ul class="produtos">
-      <li class="produto tema-vermelho" data-oferta>
-        <img src="assets/img/produto-pmpe-soldado-2026.webp" width="560" height="560" alt="Curso em PDF ESCUDO: Soldado da PM de Pernambuco, PMPE 2026, 116 capítulos e 550 questões comentadas">
+    <!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produtos.json; não editar à mão) -->
+    <div class="filtros" role="group" aria-label="Filtrar cursos por carreira" data-filtros hidden>
+      <button type="button" class="chip" data-filtro="" aria-pressed="true">Todas <span data-conta="">2</span></button>
+      <button type="button" class="chip" data-filtro="policial" aria-pressed="false">Policial <span data-conta="policial">1</span></button>
+      <button type="button" class="chip" data-filtro="administrativo" aria-pressed="false">Administrativo <span data-conta="administrativo">1</span></button>
+    </div>
+    <p class="vitrine-info" data-vitrine-info aria-live="polite">Ordenados pelo prazo mais próximo: cupom, inscrições ou prova.</p>
+    <ul class="produtos" data-vitrine>
+      <li class="produto tema-roxo" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-20&quot;}]'>
+        <a class="capa" href="https://go.hotmart.com/E107809961E" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-ufba-assistente-2026.webp" width="560" height="560" loading="lazy" alt=""></a>
         <div class="corpo">
-          <p class="tag"><img class="tag-orgao" src="assets/img/pmpe/brasao-pmpe-p.webp" width="61" height="80" alt="">PMPE 2026 · Instituto AOCP</p>
-          <h3>Soldado da PM de Pernambuco</h3>
-          <ul>
-            <li>116 capítulos e 550 questões comentadas</li>
-            <li>Redação e 2 simulados</li>
-            <li>Prova em 21/02/2027</li>
-          </ul>
-          <p class="valor" data-cupom-ate="2026-11-05T23:59:59-03:00">De <s>R$ 47</s> por R$ 37 com o cupom PMPE37</p>
-          <p class="valor" data-sem-cupom hidden>R$ 47</p>
-          <a class="btn" href="pmpe-soldado-2026/">Ver o curso</a>
-        </div>
-      </li>
-      <li class="produto tema-roxo" data-oferta>
-        <img src="assets/img/produto-ufba-assistente-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Assistente em Administração, UFBA 2026, 918 páginas e 665 questões comentadas">
-        <div class="corpo">
+          <p class="selo" data-selo>Cupom e inscrições até 29/10</p>
           <p class="tag">UFBA 2026 · Instituto Avalia</p>
           <h3>Assistente em Administração</h3>
-          <ul>
-            <li>918 páginas e 665 questões comentadas</li>
-            <li>Redação e simulado</li>
-            <li>Prova em 20/12/2026</li>
-          </ul>
-          <p class="valor">R$ 47</p>
-          <a class="btn btn-ouro" href="https://go.hotmart.com/E107809961E">Ver o curso na Hotmart</a>
+          <ul><li>918 páginas e 665 questões comentadas</li><li>Redação e simulado</li><li>Prova em 20/12/2026</li></ul>
+          <p class="carreira-rotulo">Administrativo</p>
+          <p class="valor" data-cupom-ate="2026-10-29T23:59:59-03:00">De <s>R$ 47</s> por R$ 37 com o cupom UFBA37</p>
+          <p class="valor" data-sem-cupom hidden>R$ 47</p>
+          <a class="btn btn-ouro" href="https://go.hotmart.com/E107809961E" aria-label="Ver o curso na Hotmart: Assistente em Administração, UFBA 2026 · Instituto Avalia">Ver o curso na Hotmart</a>
+        </div>
+      </li>
+      <li class="produto tema-vermelho" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-21&quot;}]'>
+        <a class="capa" href="pmpe-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmpe-soldado-2026.webp" width="560" height="560" loading="lazy" alt=""></a>
+        <div class="corpo">
+          <p class="selo" data-selo>Cupom e inscrições até 05/11</p>
+          <p class="tag"><img class="tag-orgao" src="assets/img/pmpe/brasao-pmpe-p.webp" width="61" height="80" alt="">PMPE 2026 · Instituto AOCP</p>
+          <h3>Soldado da PM de Pernambuco</h3>
+          <ul><li>116 capítulos e 550 questões comentadas</li><li>Redação e 2 simulados</li><li>Prova em 21/02/2027</li></ul>
+          <p class="carreira-rotulo">Policial</p>
+          <p class="valor" data-cupom-ate="2026-11-05T23:59:59-03:00">De <s>R$ 47</s> por R$ 37 com o cupom PMPE37</p>
+          <p class="valor" data-sem-cupom hidden>R$ 47</p>
+          <a class="btn" href="pmpe-soldado-2026/" aria-label="Ver o curso: Soldado da PM de Pernambuco, PMPE 2026 · Instituto AOCP">Ver o curso</a>
         </div>
       </li>
     </ul>
+    <p class="vitrine-vazia" data-vazia hidden>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
+    <!-- vitrine:fim -->
   </div>
 </section>
 
@@ -126,6 +132,6 @@
     <small>© 2026 ESCUDO Concursos. Todos os direitos reservados.</small>
   </div>
 </footer>
-<script src="assets/js/site.js?v=2" defer></script>
+<script src="assets/js/site.js?v=3" defer></script>
 </body>
 </html>

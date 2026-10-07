@@ -236,6 +236,26 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
 .como li::before{content:counter(c);position:absolute;left:16px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--navy);color:var(--goldb);font-family:var(--ff-t);font-weight:900;font-size:1.2rem;display:grid;place-items:center}
 .como b{display:block;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:1.15rem;color:var(--navy)}
 
+/* ---------- vitrine (home) ---------- */
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0}
+.filtros[hidden]{display:none}
+.chip{font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.95rem;min-height:44px;padding:8px 16px;border-radius:999px;
+  border:2px solid #D9CFB4;background:#fff;color:var(--navy);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.chip span{font-size:.8rem;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--cream);color:var(--goldt);display:inline-grid;place-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:var(--goldb)}
+.chip[aria-pressed="true"] span{background:var(--gold);color:var(--navy)}
+.chip:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.vitrine-info{margin:14px 0 0;color:var(--ink2);font-size:.92rem}
+.vitrine-vazia{margin:24px 0 0;padding:22px;border:2px dashed #D9CFB4;border-radius:14px;color:var(--ink2);text-align:center}
+.vitrine-vazia[hidden],.produto[hidden]{display:none}
+.produto .capa{display:block}
+.produto .selo{align-self:flex-start;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.86rem;
+  padding:5px 11px;border-radius:7px;background:var(--cream);color:var(--goldt);border:1px solid #E6DFCC}
+.produto .selo.urgente{background:#FCE9E6;color:#A23B27;border-color:#F2C4BA}
+.produto .carreira-rotulo{margin:0;font-size:.85rem;color:var(--ink2)}
+.produto .carreira-rotulo::before{content:"Carreira: ";font-weight:700}
+
 /* ---------- rodapé ---------- */
 .rodape{background:#07122A;color:var(--muted);padding:38px 0 30px;font-size:.92rem;line-height:1.55}
 .rodape a{color:var(--goldb)}
@@ -283,6 +303,8 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
   .pqe{grid-template-columns:1fr 1fr;gap:40px}
   .marca-dagua{width:620px;right:-120px;top:-40px}
   .rodape .legal{grid-template-columns:1.2fr 1fr;gap:28px}
+  .produtos{grid-template-columns:repeat(3,1fr)}
+  .produto h3{font-size:1.7rem}
   .barra{display:none}
   body.com-barra{padding-bottom:0}
 }
