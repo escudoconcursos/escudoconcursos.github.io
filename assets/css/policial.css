@@ -44,6 +44,7 @@
   font-family:var(--ff-t);font-weight:900;text-transform:uppercase;letter-spacing:.3em;font-size:.82rem;line-height:1.2;color:var(--cb);
   clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%)}
 .etq span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c);flex:none}
+.tema-azul .etq span{background:rgba(59,130,246,.12)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
 .cta-final .etq{justify-content:center}
 .cta-final .etq::after{display:none}
@@ -57,6 +58,8 @@
 .selo-orgao b+span{color:#B7C4D8;letter-spacing:.24em;font-size:.86rem}
 .petri{display:block;height:5px;width:130px;margin-top:10px;background:linear-gradient(90deg,#14924A 0 33.3%,#F4C21B 33.3% 66.6%,#DC2B2B 66.6%);
   clip-path:polygon(0 0,100% 0,calc(100% - 5px) 100%,0 100%)}
+/* faixa nas cores do brasão de São Gonçalo (vermelho, azul e verde) */
+.petri.sg{background:linear-gradient(90deg,#CF2B24 0 33.3%,#2F6FD0 33.3% 66.6%,#018E5D 66.6%)}
 
 /* números, preço e botões */
 .tema-policial .numeros li{background:var(--card);border:1px solid var(--linha);border-left:4px solid var(--c);border-radius:4px}

@@ -35,6 +35,31 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gm-sao-goncalo-2026",
+      "atalho": "saogoncalo",
+      "carreira": "policial",
+      "tema": "tema-azul",
+      "tag": "GM São Gonçalo 2026 · Instituto SELECON",
+      "brasao": "assets/img/sao-goncalo/brasao-sao-goncalo-p.webp",
+      "titulo": "Guarda Municipal de São Gonçalo",
+      "itens": [
+        "131 capítulos e 650 questões comentadas",
+        "2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-gm-sao-goncalo-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de São Gonçalo, GM São Gonçalo 2026, 131 capítulos e 650 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "GMSG37",
+        "preco": 37,
+        "ate": "2026-11-18"
+      },
+      "inscricoes_ate": "2026-11-18",
+      "prova": "2027-01-24",
+      "link": "gm-sao-goncalo-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ufba-assistente-2026",
       "atalho": "ufba",
       "carreira": "administrativo",

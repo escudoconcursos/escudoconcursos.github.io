@@ -19,6 +19,7 @@
   --ff:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
 }
 .tema-vermelho{--c:#D9534F; --cb:#FF8A80; --cd:#B0302C; --cbtn1:#D9534F; --cbtn2:#B0302C; --cbtn-txt:#fff}
+.tema-azul{--c:#3B82F6; --cb:#8AB8FF; --cd:#1D56C8; --cbtn1:#3B82F6; --cbtn2:#1D56C8; --cbtn-txt:#fff}
 .tema-roxo{--c:#8B5CF6; --cb:#B99BFF; --cd:#6334D1}
 
 *,*::before,*::after{box-sizing:border-box}
