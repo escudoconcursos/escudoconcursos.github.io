@@ -80,7 +80,7 @@ h1 em{font-style:normal;color:%s;display:block}
            selo, cargo, h1a, h1b, sub, aviso, (IMG / pasta / capa).as_uri())
 
 
-PMPE = policial("pmpe", "brasao-pmpe.webp", "capa.webp", "PMPE 2026", "Soldado", "Soldado da", "PM de Pernambuco",
+PMPE = policial("pmpe", "brasao-pmpe.webp", "capa.webp", "PMPE 2026", "Soldado", "Soldado da", "PM/PE",
                 "116 capítulos · 550 questões comentadas · 2 simulados", "Material independente, sem vínculo com a PMPE.",
                 "#E25450", "#D9534F", ("#14924A", "#F4C21B", "#DC2B2B"))
 
