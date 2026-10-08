@@ -45,6 +45,8 @@
   clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%)}
 .etq span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c);flex:none}
 .tema-azul .etq span{background:rgba(59,130,246,.12)}
+.tema-verde .etq span{background:rgba(47,163,107,.12)}
+.tema-laranja .etq span{background:rgba(242,140,40,.12)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
 .cta-final .etq{justify-content:center}
 .cta-final .etq::after{display:none}
@@ -59,6 +61,7 @@
 .petri{display:block;height:5px;width:130px;margin-top:10px;background:linear-gradient(90deg,#14924A 0 33.3%,#F4C21B 33.3% 66.6%,#DC2B2B 66.6%);
   clip-path:polygon(0 0,100% 0,calc(100% - 5px) 100%,0 100%)}
 /* faixa nas cores do brasão de São Gonçalo (vermelho, azul e verde) */
+.petri.al{background:linear-gradient(90deg,#D52B1E 0 33.3%,#F2B33D 33.3% 66.6%,#0A55A8 66.6%)}
 .petri.sg{background:linear-gradient(90deg,#CF2B24 0 33.3%,#2F6FD0 33.3% 66.6%,#018E5D 66.6%)}
 
 /* números, preço e botões */

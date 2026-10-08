@@ -82,6 +82,56 @@
       "prova": "2026-12-20",
       "link": "https://go.hotmart.com/E107809961E",
       "botao": "Ver o curso na Hotmart"
+    },
+    {
+      "id": "pmal-soldado-2026",
+      "atalho": "pmal",
+      "carreira": "policial",
+      "tema": "tema-verde",
+      "tag": "PM/AL 2026 · Cebraspe",
+      "brasao": "assets/img/pmal/brasao-pmal-p.webp",
+      "titulo": "Soldado da PM de Alagoas",
+      "itens": [
+        "180 capítulos e 1.750 itens certo ou errado comentados",
+        "2 simulados de 120 itens com discursiva"
+      ],
+      "imagem": "assets/img/produto-pmal-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da PM de Alagoas, PM/AL 2026, 180 capítulos e 1.750 itens comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMAL37",
+        "preco": 37,
+        "ate": "2026-10-16"
+      },
+      "inscricoes_ate": "2026-10-16",
+      "prova": "2027-01-17",
+      "link": "pmal-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "cbmpe-soldado-2026",
+      "atalho": "cbmpe",
+      "carreira": "policial",
+      "tema": "tema-laranja",
+      "tag": "CBMPE 2026 · Instituto AOCP",
+      "brasao": "assets/img/cbmpe/brasao-cbmpe-p.webp",
+      "titulo": "Soldado dos Bombeiros de Pernambuco",
+      "itens": [
+        "142 capítulos e 680 questões comentadas",
+        "Redação e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-cbmpe-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado dos Bombeiros de Pernambuco, CBMPE 2026, 142 capítulos e 680 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CBMPE37",
+        "preco": 37,
+        "ate": "2026-11-05"
+      },
+      "inscricoes_ate": "2026-11-05",
+      "prova": "2027-02-28",
+      "link": "cbmpe-soldado-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
