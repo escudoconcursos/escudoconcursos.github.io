@@ -132,6 +132,31 @@
       "prova": "2027-02-28",
       "link": "cbmpe-soldado-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "pcpe-agente-2026",
+      "atalho": "pcpe",
+      "carreira": "policial",
+      "tema": "tema-ciano",
+      "tag": "PC-PE 2026 · Cebraspe",
+      "brasao": "assets/img/pcpe/brasao-pcpe-p.webp",
+      "titulo": "Agente de Polícia Civil de Pernambuco",
+      "itens": [
+        "139 capítulos e 665 questões comentadas",
+        "Discursiva e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-pcpe-agente-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente de Polícia Civil de Pernambuco, PC-PE 2026, 139 capítulos e 665 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCPE37",
+        "preco": 37,
+        "ate": "2026-12-16"
+      },
+      "inscricoes_ate": "2026-12-16",
+      "prova": "2027-03-07",
+      "link": "pcpe-agente-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
