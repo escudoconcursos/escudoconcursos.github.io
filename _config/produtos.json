@@ -157,6 +157,54 @@
       "prova": "2027-03-07",
       "link": "pcpe-agente-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "agente-educativo-aparecida-2026",
+      "atalho": "apg-agente",
+      "carreira": "educacao",
+      "tema": "tema-rosa",
+      "tag": "Aparecida de Goiânia 2026 · Instituto Verbena/UFG",
+      "titulo": "Agente Educativo",
+      "itens": [
+        "81 capítulos e 400 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-agente-educativo-aparecida-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente Educativo, Aparecida de Goiânia 2026, 81 capítulos e 400 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "AGENTE37",
+        "preco": 37,
+        "ate": "2026-12-09"
+      },
+      "inscricoes_ate": "2026-12-09",
+      "prova": "2027-01-31",
+      "link": "agente-educativo-aparecida-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "pedagogia-aparecida-2026",
+      "atalho": "pedagogia",
+      "carreira": "educacao",
+      "tema": "tema-turquesa",
+      "tag": "Aparecida de Goiânia 2026 · Instituto Verbena/UFG",
+      "titulo": "Professor PE-I Pedagogia",
+      "itens": [
+        "110 capítulos e 520 questões comentadas",
+        "Redação e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-pedagogia-aparecida-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor PE-I Pedagogia, Aparecida de Goiânia 2026, 110 capítulos e 520 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PEDAGOGIA37",
+        "preco": 37,
+        "ate": "2026-12-09"
+      },
+      "inscricoes_ate": "2026-12-09",
+      "prova": "2027-01-31",
+      "link": "pedagogia-aparecida-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

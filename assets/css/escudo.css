@@ -24,6 +24,8 @@
 .tema-laranja{--c:#F28C28; --cb:#FFB561; --cd:#B8600B; --cbtn1:#F28C28; --cbtn2:#B8600B; --cbtn-txt:#0B1A33}
 .tema-ciano{--c:#0E9FC0; --cb:#67D5EE; --cd:#0A6A85; --cbtn1:#0E9FC0; --cbtn2:#0A6A85; --cbtn-txt:#0B1A33}
 .tema-roxo{--c:#8B5CF6; --cb:#B99BFF; --cd:#6334D1}
+.tema-turquesa{--c:#14B8A6; --cb:#5EEAD4; --cd:#0B7C70; --cbtn1:#14B8A6; --cbtn2:#0B7C70; --cbtn-txt:#0B1A33}
+.tema-rosa{--c:#E0457B; --cb:#FF8FB3; --cd:#A82356; --cbtn1:#E0457B; --cbtn2:#A82356; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
