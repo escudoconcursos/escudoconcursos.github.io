@@ -1,0 +1,127 @@
+/* ESCUDO Concursos: tema educação (páginas de professor, pedagogo e apoio escolar, com <body class="tema-<cor> tema-educacao">).
+   Mesmo visual dos posts do Instagram com "tema": "educacao": blocos escuros viram lousa (pó de giz, apagador, bandeja),
+   blocos claros viram caderno (pauta azul e margem vermelha), creme vira papel quadriculado. Ícones em traço de giz
+   desenhados em SVG próprio. Só CSS: a página não precisa de marcação nova além da classe no body. */
+.tema-educacao{--lousa:#0F2A2E;--lousa2:#0A1C22;--giz:#F4F2EA;--giz2:#B5C6C4;--linha-giz:rgba(244,242,234,.32);
+  --pauta:rgba(70,120,185,.24);--margem:rgba(214,64,64,.55);--papel:#FFFDF6;
+  --mx:max(5px,calc((100% - 1120px)/2 - 14px))}
+
+/* friso do alfabeto embaixo do topo, como em cima da lousa da sala */
+.tema-educacao .topo{border-bottom:0}
+.tema-educacao .topo::after{content:"Aa  Bb  Cc  Dd  Ee  Ff  Gg  Hh  Ii  Jj  Kk  Ll  Mm  Nn  Oo  Pp  Qq  Rr  Ss  Tt  Uu  Vv  Ww  Xx  Yy  Zz";
+  display:block;white-space:pre;overflow:hidden;text-align:center;padding:3px 0 4px;background:#0E2240;
+  border-top:1px solid rgba(201,162,75,.25);border-bottom:2px solid rgba(201,162,75,.55);
+  font-family:var(--ff-t);font-weight:800;font-size:.9rem;letter-spacing:.06em;color:rgba(231,200,115,.75)}
+
+/* lousa */
+.tema-educacao .escuro{background:var(--lousa2);border-bottom:10px solid #16262D;box-shadow:inset 0 -3px 0 #2A3F48}
+.tema-educacao .escuro::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .9 0 0 0 -.42'/%3E%3C/filter%3E%3Crect width='280' height='280' filter='url%28%23n%29'/%3E%3C/svg%3E") 0 0/280px 280px,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500' preserveAspectRatio='none'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.005 .014' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .55 0 0 0 -.27'/%3E%3C/filter%3E%3Crect width='800' height='500' filter='url%28%23m%29'/%3E%3C/svg%3E") 0 0/100% 100% no-repeat,
+  radial-gradient(1100px 700px at 40% 30%,#173A3D,transparent 70%),linear-gradient(180deg,var(--lousa),var(--lousa2))}
+.tema-educacao .escuro::after{content:"";position:absolute;z-index:-1;right:-30px;top:20px;width:340px;height:300px;opacity:.11;pointer-events:none;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 460'%3E%3Csvg x='380' y='20' width='92' height='92' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%2810 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 34C40 24 18 26 18 50C18 72 34 88 44 88C47 88 48 86 50 86C52 86 53 88 56 88C66 88 82 72 82 50C82 26 60 24 50 34Z'/%3E%3Cpath d='M50 34C50 26 52 18 56 12M54 22C60 12 72 12 76 16C70 24 60 26 54 22Z'/%3E%3Cpath d='M30 46C30 40 34 36 38 35'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='230' y='80' width='110' height='110' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-8 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ctext x='50' y='64' text-anchor='middle' font-family='Saira Condensed' font-weight='900' font-size='44' letter-spacing='2' stroke-width='2.4'%3EABC%3C/text%3E%3Cpath d='M14 74C34 70 66 70 86 74'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='400' y='190' width='100' height='100' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%280 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='48' cy='42' r='27'/%3E%3Cellipse cx='48' cy='42' rx='11' ry='27'/%3E%3Cpath d='M21 42H75M25 28H71M25 56H71'/%3E%3Cpath d='M83 26A38 38 0 0 1 26 76'/%3E%3Cpath d='M50 79V90M36 92H64'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='250' y='300' width='120' height='120' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%280 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='rotate%28-35 50 50%29'%3E%3Cpath d='M16 40H76L94 50L76 60H16Z'/%3E%3Cpath d='M76 40V60M16 50H76'/%3E%3Cpath d='M87 46.3L94 50L87 53.7Z' fill='currentColor'/%3E%3Cpath d='M16 40H10Q6 40 6 44V56Q6 60 10 60H16'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%3Csvg x='60' y='360' width='110' height='110' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-6 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ctext x='50' y='62' text-anchor='middle' font-family='Saira Condensed' font-weight='800' font-size='40' stroke-width='2.2'%3E2%2B3=5%3C/text%3E%3Cpath d='M12 72C30 69 50 74 70 70S88 70 92 71'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='120' y='40' width='70' height='70' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-12 50 50%29' fill='none' stroke='%23F4F2EA' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 14L58.8 37.9L84.2 38.8L64.2 54.5L71.2 79L50 64.8L28.8 79L35.8 54.5L15.8 38.8L41.2 37.9Z'/%3E%3Cpath d='M86 12L88 18M92 24L98 22M80 8L80 2'/%3E%3C/g%3E%3C/svg%3E%3C/svg%3E") right top/contain no-repeat}
+.tema-educacao .marca-dagua{display:none}
+.tema-educacao .escuro a:not(.btn){color:var(--cb)}
+
+/* títulos: giz na lousa, marca-texto no caderno */
+.tema-educacao .escuro h1,.tema-educacao .escuro.secao h2{color:var(--giz);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='1' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -3 0 0 0 2.75'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url%28%23g%29'/%3E%3C/svg%3E") 0 0/220px 220px;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='1' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -3 0 0 0 2.75'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url%28%23g%29'/%3E%3C/svg%3E") 0 0/220px 220px;
+  text-shadow:0 0 1px rgba(244,242,234,.5)}
+.tema-educacao .hero h1 em,.tema-educacao .escuro.secao h2 em{color:var(--cb)}
+.tema-educacao .secao:not(.escuro) h2 em{color:var(--navy);padding:0 .06em;
+  background:linear-gradient(176deg,transparent 54%,color-mix(in srgb,var(--cb) 62%,transparent) 54% 92%,transparent 92%);
+  -webkit-box-decoration-break:clone;box-decoration-break:clone}
+.tema-educacao .kicker{color:var(--gold);letter-spacing:.2em}
+.tema-educacao .claro .kicker,.tema-educacao .creme .kicker{color:var(--goldt)}
+.tema-educacao .hero .kicker::before,.tema-educacao .cta-final .kicker::before{content:"";display:inline-block;width:22px;height:22px;
+  margin:0 10px -5px 0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23C9A24B' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='rotate%28-35 50 50%29'%3E%3Cpath d='M16 40H76L94 50L76 60H16Z'/%3E%3Cpath d='M76 40V60M16 50H76'/%3E%3Cpath d='M87 46.3L94 50L87 53.7Z' fill='currentColor'/%3E%3Cpath d='M16 40H10Q6 40 6 44V56Q6 60 10 60H16'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
+.tema-educacao .regua{width:150px;height:14px;border-radius:0;background:var(--cb);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 20' preserveAspectRatio='none'%3E%3Cpath d='M4 12C30 6 52 15 80 10S130 5 160 10S214 14 236 8' fill='none' stroke='%23000' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M40 15C80 12 120 16 170 13' fill='none' stroke='%23000' stroke-width='2.4' stroke-linecap='round' opacity='.7'/%3E%3C/svg%3E") center/100% 100% no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 20' preserveAspectRatio='none'%3E%3Cpath d='M4 12C30 6 52 15 80 10S130 5 160 10S214 14 236 8' fill='none' stroke='%23000' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M40 15C80 12 120 16 170 13' fill='none' stroke='%23000' stroke-width='2.4' stroke-linecap='round' opacity='.7'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+.tema-educacao .secao:not(.escuro) .regua{background:var(--c)}
+.tema-educacao .escuro .intro,.tema-educacao .hero .lead{color:#D8E0DE}
+.tema-educacao .escuro .intro{color:var(--giz2)}
+
+/* caderno pautado (seção clara) e papel quadriculado (seção creme), com margem vermelha dupla */
+.tema-educacao .secao.claro{background:
+  linear-gradient(90deg,transparent var(--mx),var(--margem) var(--mx) calc(var(--mx) + 2px),transparent calc(var(--mx) + 2px) calc(var(--mx) + 6px),
+   var(--margem) calc(var(--mx) + 6px) calc(var(--mx) + 8px),transparent calc(var(--mx) + 8px)),
+  repeating-linear-gradient(180deg,transparent 0 31px,var(--pauta) 31px 32px),var(--papel)}
+.tema-educacao .secao.creme{background:
+  linear-gradient(90deg,transparent var(--mx),var(--margem) var(--mx) calc(var(--mx) + 2px),transparent calc(var(--mx) + 2px)),
+  linear-gradient(var(--pauta) 1px,transparent 1px) 0 0/26px 26px,linear-gradient(90deg,var(--pauta) 1px,transparent 1px) 0 0/26px 26px,#FBF6E8}
+.tema-educacao .secao.claro::after,.tema-educacao .secao.creme::after{content:"";position:absolute;pointer-events:none;right:-20px;top:30px;
+  width:300px;height:260px;opacity:.06;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 460'%3E%3Csvg x='380' y='20' width='92' height='92' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%2810 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 34C40 24 18 26 18 50C18 72 34 88 44 88C47 88 48 86 50 86C52 86 53 88 56 88C66 88 82 72 82 50C82 26 60 24 50 34Z'/%3E%3Cpath d='M50 34C50 26 52 18 56 12M54 22C60 12 72 12 76 16C70 24 60 26 54 22Z'/%3E%3Cpath d='M30 46C30 40 34 36 38 35'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='230' y='80' width='110' height='110' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-8 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ctext x='50' y='64' text-anchor='middle' font-family='Saira Condensed' font-weight='900' font-size='44' letter-spacing='2' stroke-width='2.4'%3EABC%3C/text%3E%3Cpath d='M14 74C34 70 66 70 86 74'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='400' y='190' width='100' height='100' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%280 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='48' cy='42' r='27'/%3E%3Cellipse cx='48' cy='42' rx='11' ry='27'/%3E%3Cpath d='M21 42H75M25 28H71M25 56H71'/%3E%3Cpath d='M83 26A38 38 0 0 1 26 76'/%3E%3Cpath d='M50 79V90M36 92H64'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='250' y='300' width='120' height='120' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%280 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='rotate%28-35 50 50%29'%3E%3Cpath d='M16 40H76L94 50L76 60H16Z'/%3E%3Cpath d='M76 40V60M16 50H76'/%3E%3Cpath d='M87 46.3L94 50L87 53.7Z' fill='currentColor'/%3E%3Cpath d='M16 40H10Q6 40 6 44V56Q6 60 10 60H16'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%3Csvg x='60' y='360' width='110' height='110' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-6 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ctext x='50' y='62' text-anchor='middle' font-family='Saira Condensed' font-weight='800' font-size='40' stroke-width='2.2'%3E2%2B3=5%3C/text%3E%3Cpath d='M12 72C30 69 50 74 70 70S88 70 92 71'/%3E%3C/g%3E%3C/svg%3E%3Csvg x='120' y='40' width='70' height='70' viewBox='0 0 100 100' overflow='visible'%3E%3Cg transform='rotate%28-12 50 50%29' fill='none' stroke='%230B1A33' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 14L58.8 37.9L84.2 38.8L64.2 54.5L71.2 79L50 64.8L28.8 79L35.8 54.5L15.8 38.8L41.2 37.9Z'/%3E%3Cpath d='M86 12L88 18M92 24L98 22M80 8L80 2'/%3E%3C/g%3E%3C/svg%3E%3C/svg%3E") right top/contain no-repeat}
+.tema-educacao .secao.claro,.tema-educacao .secao.creme{position:relative;overflow:hidden;isolation:isolate}
+.tema-educacao .secao.claro::after,.tema-educacao .secao.creme::after{z-index:-1}
+
+/* números do topo e preço: riscados a giz, com fita adesiva */
+.tema-educacao .numeros li{background:rgba(255,255,255,.04);border:2px solid var(--linha-giz);border-radius:14px 6px 16px 8px/8px 16px 6px 14px}
+.tema-educacao .numeros b{color:var(--cb)}
+.tema-educacao .numeros span{color:var(--giz2)}
+.tema-educacao .preco{position:relative;background:rgba(10,28,34,.72);border:2px dashed rgba(244,242,234,.45);border-radius:18px 8px 20px 10px/10px 20px 8px 18px}
+.tema-educacao .preco::before{content:"";position:absolute;top:-13px;left:50%;width:110px;height:26px;transform:translateX(-50%) rotate(-3deg);
+  background:linear-gradient(180deg,rgba(244,240,226,.78),rgba(232,226,206,.72));box-shadow:0 1px 2px rgba(0,0,0,.25)}
+.tema-educacao .preco .cupom code{background:var(--cb);border-radius:3px 6px 4px 7px}
+.tema-educacao .btn{border-radius:255px 16px 225px 16px/16px 225px 16px 255px;box-shadow:4px 5px 0 rgba(0,0,0,.32)}
+.tema-educacao .btn:hover{transform:translate(-1px,-1px) rotate(-.4deg)}
+.tema-educacao .secao:not(.escuro) .btn{box-shadow:4px 5px 0 rgba(11,26,51,.22)}
+.tema-educacao .selos svg{color:var(--cb)}
+
+/* selo da capa vira post-it na cor do concurso */
+.tema-educacao .capa-livro .selo{background:linear-gradient(180deg,color-mix(in srgb,var(--cb) 70%,#FFF6D6),color-mix(in srgb,var(--cb) 82%,#F2E3B0));
+  color:var(--navy);border-radius:2px;transform:rotate(5deg);box-shadow:4px 8px 14px rgba(0,0,0,.4)}
+.tema-educacao .capa-livro .selo::before{content:"";position:absolute;top:-10px;left:50%;width:56px;height:18px;transform:translateX(-50%) rotate(-4deg);background:linear-gradient(180deg,rgba(244,240,226,.78),rgba(232,226,206,.72))}
+
+/* fichas e cadernos */
+.tema-educacao .fatos li{border:1px solid #E3DAC4;border-top:5px solid #E05A4F;border-radius:3px;box-shadow:3px 4px 0 rgba(11,26,51,.08);
+  background:repeating-linear-gradient(180deg,transparent 0 23px,rgba(70,120,185,.16) 23px 24px) 0 34px/100% 100% no-repeat,#fff}
+.tema-educacao .fatos li:nth-child(odd){transform:rotate(-.7deg)}
+.tema-educacao .fatos li:nth-child(even){transform:rotate(.6deg)}
+.tema-educacao .fatos b{color:var(--navy)}
+.tema-educacao .entregas li{border:1px solid #E3DAC4;border-left:6px double var(--margem);border-radius:3px 10px 10px 3px;box-shadow:3px 4px 0 rgba(11,26,51,.06)}
+.tema-educacao .pqe .cartao{position:relative;border-radius:3px;border:1px solid #E3DAC4;box-shadow:4px 6px 0 rgba(11,26,51,.07);
+  background:repeating-linear-gradient(180deg,transparent 0 31px,rgba(70,120,185,.18) 31px 32px),#fff}
+.tema-educacao .pqe .cartao::before{content:"";position:absolute;top:-12px;left:28px;width:96px;height:24px;transform:rotate(-4deg);background:linear-gradient(180deg,rgba(244,240,226,.78),rgba(232,226,206,.72));box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.tema-educacao .faq details{border-radius:3px;border:1px solid #E3DAC4;border-top:4px solid #E05A4F;box-shadow:3px 4px 0 rgba(11,26,51,.06)}
+.tema-educacao .faq summary::after{border-color:var(--c)}
+
+/* tabelas: cabeçalho de lousa */
+.tema-educacao .prova th,.tema-educacao .modulos th{background:var(--lousa);color:var(--giz)}
+.tema-educacao .prova{border:2px solid var(--navy)}
+.tema-educacao .prova td,.tema-educacao .modulos td{border-bottom-color:rgba(70,120,185,.28)}
+.tema-educacao .modulos tr:nth-child(even) td{background:#FFFDF6}
+
+/* galeria: páginas presas com fita */
+.tema-educacao .galeria figure{position:relative}
+.tema-educacao .galeria figure::before{content:"";position:absolute;z-index:2;top:-10px;left:50%;width:84px;height:22px;transform:translateX(-50%) rotate(-3deg);
+  background:linear-gradient(180deg,rgba(244,240,226,.78),rgba(232,226,206,.72));box-shadow:0 1px 2px rgba(0,0,0,.25);pointer-events:none}
+.tema-educacao .galeria li:nth-child(3n+1) a{transform:rotate(-1deg)}
+.tema-educacao .galeria li:nth-child(3n+2) a{transform:rotate(.8deg)}
+.tema-educacao .galeria li:nth-child(3n) a{transform:rotate(-.4deg)}
+.tema-educacao .galeria figcaption{color:var(--giz2)}
+.tema-educacao .galeria figcaption b{color:var(--giz)}
+
+/* simulados e garantia */
+.tema-educacao .simulado{background:rgba(255,255,255,.04);border:2px solid var(--linha-giz);border-radius:16px 8px 18px 10px/10px 18px 8px 16px}
+.tema-educacao .simulado .n{color:var(--cb)}
+.tema-educacao .simulado h3{-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='1' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -3 0 0 0 2.75'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url%28%23g%29'/%3E%3C/svg%3E") 0 0/220px 220px;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='1' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -3 0 0 0 2.75'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url%28%23g%29'/%3E%3C/svg%3E") 0 0/220px 220px}
+.tema-educacao .simulado p{color:var(--giz2)}
+.tema-educacao .simulado .data{background:var(--cb);color:var(--navy);border-radius:3px 7px 4px 8px}
+.tema-educacao .garantia{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .9 0 0 0 -.42'/%3E%3C/filter%3E%3Crect width='280' height='280' filter='url%28%23n%29'/%3E%3C/svg%3E") 0 0/280px 280px,radial-gradient(700px 400px at 30% 20%,#173A3D,transparent 70%),var(--lousa2);
+  border:0;border-bottom:8px solid #16262D;border-radius:6px}
+.tema-educacao .garantia .sete{border-radius:50% 46% 52% 47%/47% 52% 46% 53%}
+
+/* CTA final, rodapé e barra de compra */
+.tema-educacao .assinatura{color:var(--giz2)}
+.tema-educacao .rodape{border-top:3px solid rgba(201,162,75,.4)}
+.tema-educacao .barra{background:rgba(10,28,34,.97);border-top:2px dashed rgba(244,242,234,.4)}
+
+@media (max-width:719px){
+  /* no celular o friso começa no Aa e some na borda direita, em vez de cortar as duas pontas */
+  .tema-educacao .topo::after{text-align:left;padding-left:16px}
+  .tema-educacao .modulos tr{border-left:5px double var(--margem);border-radius:3px}
+}
+@media (min-width:900px){
+  .tema-educacao .topo::after{font-size:1rem;letter-spacing:.12em}
+  .tema-educacao .escuro::after{width:520px;height:460px;right:-10px;top:30px}
+  .tema-educacao .hero::after{right:auto;left:42%;top:auto;bottom:10px;width:360px;height:320px}
+  .tema-educacao .regua{width:180px;height:16px}
+}
+@media (prefers-reduced-motion:reduce){.tema-educacao .btn:hover{transform:none}}
