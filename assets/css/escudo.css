@@ -28,6 +28,7 @@
 .tema-rosa{--c:#E0457B; --cb:#FF8FB3; --cd:#A82356; --cbtn1:#E0457B; --cbtn2:#A82356; --cbtn-txt:#fff}
 .tema-lima{--c:#84CC16; --cb:#BEF264; --cd:#4D7C0F; --cbtn1:#84CC16; --cbtn2:#4D7C0F; --cbtn-txt:#0B1A33}
 .tema-indigo{--c:#6366F1; --cb:#A5B4FC; --cd:#4338CA; --cbtn1:#6366F1; --cbtn2:#4338CA; --cbtn-txt:#fff}
+.tema-amarelo{--c:#EAB308; --cb:#FDE047; --cd:#A16207; --cbtn1:#EAB308; --cbtn2:#A16207; --cbtn-txt:#0B1A33}
 .tema-magenta{--c:#C026D3; --cb:#F0ABFC; --cd:#86198F; --cbtn1:#C026D3; --cbtn2:#86198F; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}

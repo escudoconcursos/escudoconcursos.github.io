@@ -277,6 +277,30 @@
       "prova": "2026-12-13",
       "link": "tecnico-enfermagem-porto-velho-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "professor-semed-porto-velho-2026",
+      "atalho": "pvh-professor",
+      "carreira": "educacao",
+      "tema": "tema-amarelo",
+      "tag": "SEMED Porto Velho/RO 2026 · IBGP",
+      "titulo": "Professor Séries Iniciais",
+      "itens": [
+        "141 capítulos e 700 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-professor-semed-porto-velho-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor Séries Iniciais, SEMED Porto Velho/RO 2026, 141 capítulos e 700 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFESSOR37",
+        "preco": 37,
+        "ate": "2026-11-11"
+      },
+      "inscricoes_ate": "2026-11-11",
+      "prova": "2026-12-06",
+      "link": "professor-semed-porto-velho-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
