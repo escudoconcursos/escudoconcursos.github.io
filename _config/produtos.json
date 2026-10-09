@@ -229,6 +229,54 @@
       "prova": "2027-01-17",
       "link": "gcm-santana-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "assistente-semusa-porto-velho-2026",
+      "atalho": "pvh-assistente",
+      "carreira": "administrativo",
+      "tema": "tema-indigo",
+      "tag": "SEMUSA Porto Velho/RO 2026 · IBGP",
+      "titulo": "Assistente Administrativo",
+      "itens": [
+        "138 capítulos e 685 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-assistente-semusa-porto-velho-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Assistente Administrativo, SEMUSA Porto Velho/RO 2026, 138 capítulos e 685 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "ASSISTENTE37",
+        "preco": 37,
+        "ate": "2026-11-11"
+      },
+      "inscricoes_ate": "2026-11-11",
+      "prova": "2026-12-13",
+      "link": "assistente-semusa-porto-velho-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "tecnico-enfermagem-porto-velho-2026",
+      "atalho": "pvh-tecnico",
+      "carreira": "saude",
+      "tema": "tema-magenta",
+      "tag": "SEMUSA Porto Velho/RO 2026 · IBGP",
+      "titulo": "Técnico em Enfermagem",
+      "itens": [
+        "125 capítulos e 620 questões comentadas",
+        "2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-tecnico-enfermagem-porto-velho-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Técnico em Enfermagem, SEMUSA Porto Velho/RO 2026, 125 capítulos e 620 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "TECNICO37",
+        "preco": 37,
+        "ate": "2026-11-11"
+      },
+      "inscricoes_ate": "2026-11-11",
+      "prova": "2026-12-13",
+      "link": "tecnico-enfermagem-porto-velho-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
