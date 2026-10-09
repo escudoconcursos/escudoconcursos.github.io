@@ -48,6 +48,7 @@
 .tema-verde .etq span{background:rgba(47,163,107,.12)}
 .tema-laranja .etq span{background:rgba(242,140,40,.12)}
 .tema-ciano .etq span{background:rgba(14,159,192,.12)}
+.tema-lima .etq span{background:rgba(132,204,22,.12)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
 .cta-final .etq{justify-content:center}
 .cta-final .etq::after{display:none}

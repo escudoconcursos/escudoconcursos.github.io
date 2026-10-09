@@ -13,8 +13,8 @@ import html, json, pathlib, re, sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 CFG = json.loads((RAIZ / "_config" / "site.json").read_text(encoding="utf-8"))
-PAGINAS = ["index.html", "pmpe-soldado-2026/index.html", "gm-sao-goncalo-2026/index.html", "pmal-soldado-2026/index.html", "cbmpe-soldado-2026/index.html", "pcpe-agente-2026/index.html", "agente-educativo-aparecida-2026/index.html", "pedagogia-aparecida-2026/index.html", "404.html"]
-SITEMAP = ["", "pmpe-soldado-2026/", "gm-sao-goncalo-2026/", "pmal-soldado-2026/", "cbmpe-soldado-2026/", "pcpe-agente-2026/", "agente-educativo-aparecida-2026/", "pedagogia-aparecida-2026/"]
+PAGINAS = ["index.html", "pmpe-soldado-2026/index.html", "gm-sao-goncalo-2026/index.html", "pmal-soldado-2026/index.html", "cbmpe-soldado-2026/index.html", "pcpe-agente-2026/index.html", "agente-educativo-aparecida-2026/index.html", "pedagogia-aparecida-2026/index.html", "gcm-santana-2026/index.html", "404.html"]
+SITEMAP = ["", "pmpe-soldado-2026/", "gm-sao-goncalo-2026/", "pmal-soldado-2026/", "cbmpe-soldado-2026/", "pcpe-agente-2026/", "agente-educativo-aparecida-2026/", "pedagogia-aparecida-2026/", "gcm-santana-2026/"]
 
 base = (CFG.get("url_base") or "").strip()
 if base and not base.endswith("/"):

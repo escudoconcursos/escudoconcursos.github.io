@@ -205,6 +205,30 @@
       "prova": "2027-01-31",
       "link": "pedagogia-aparecida-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "gcm-santana-2026",
+      "atalho": "santana",
+      "carreira": "policial",
+      "tema": "tema-lima",
+      "tag": "GCM Santana/AP 2026 · IDCAP",
+      "titulo": "Guarda Civil Municipal de Santana/AP",
+      "itens": [
+        "133 capítulos e 660 questões comentadas",
+        "2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-gcm-santana-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Civil Municipal de Santana/AP, GCM Santana/AP 2026, 133 capítulos e 660 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SANTANA37",
+        "preco": 37,
+        "ate": "2026-11-09"
+      },
+      "inscricoes_ate": "2026-11-09",
+      "prova": "2027-01-17",
+      "link": "gcm-santana-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

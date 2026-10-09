@@ -26,6 +26,7 @@
 .tema-roxo{--c:#8B5CF6; --cb:#B99BFF; --cd:#6334D1}
 .tema-turquesa{--c:#14B8A6; --cb:#5EEAD4; --cd:#0B7C70; --cbtn1:#14B8A6; --cbtn2:#0B7C70; --cbtn-txt:#0B1A33}
 .tema-rosa{--c:#E0457B; --cb:#FF8FB3; --cd:#A82356; --cbtn1:#E0457B; --cbtn2:#A82356; --cbtn-txt:#fff}
+.tema-lima{--c:#84CC16; --cb:#BEF264; --cd:#4D7C0F; --cbtn1:#84CC16; --cbtn2:#4D7C0F; --cbtn-txt:#0B1A33}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
