@@ -110,3 +110,13 @@
     atualiza();
   }
 })();
+
+/* Origem da visita: ?src=gads (ou outro) na URL da página troca o src=site dos links do checkout,
+   para a Hotmart mostrar de onde veio a venda no filtro "Origem (SRC)". */
+(function () {
+  var m = /[?&]src=([\w-]{1,40})/.exec(location.search);
+  if (!m) return;
+  document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (a) {
+    a.href = a.href.replace(/([?&])src=[^&]*/, "$1src=" + m[1]);
+  });
+})();
