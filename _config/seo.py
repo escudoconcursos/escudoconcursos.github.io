@@ -61,6 +61,24 @@ def main():
             "priceCurrency": "BRL",
             "availability": "https://schema.org/InStock",
             "url": BASE + pasta + "/",
+            # produto digital: entrega imediata e sem frete; garantia de 7 dias da Hotmart
+            "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "BRL"},
+                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "BR"},
+                "deliveryTime": {
+                    "@type": "ShippingDeliveryTime",
+                    "handlingTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"},
+                    "transitTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"},
+                },
+            },
+            "hasMerchantReturnPolicy": {
+                "@type": "MerchantReturnPolicy",
+                "applicableCountry": "BR",
+                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+                "merchantReturnDays": 7,
+                "returnFees": "https://schema.org/FreeReturn",
+            },
         }
         ld = {
             "@context": "https://schema.org",
