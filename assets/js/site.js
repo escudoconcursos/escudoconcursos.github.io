@@ -111,12 +111,24 @@
   }
 })();
 
-/* Origem da visita: ?src=gads (ou outro) na URL da página troca o src=site dos links do checkout,
-   para a Hotmart mostrar de onde veio a venda no filtro "Origem (SRC)". */
+/* Origem da visita, repassada aos links do checkout:
+   - ?src=gads (ou outro) troca o src=site, para a Hotmart mostrar a origem no filtro "Origem (SRC)";
+   - gclid, gbraid, wbraid e utm_* seguem junto, para o pixel do Google Ads na Hotmart ligar a venda ao clique.
+   Guardado na sessão: vale também se a pessoa entra pela home e só depois abre a página do curso. */
 (function () {
-  var m = /[?&]src=([\w-]{1,40})/.exec(location.search);
-  if (!m) return;
+  var CHAVES = ["src", "gclid", "gbraid", "wbraid", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
+  var guardado = {};
+  try { guardado = JSON.parse(sessionStorage.getItem("escudo-origem") || "{}"); } catch (e) { guardado = {}; }
+  var url = new URLSearchParams(location.search), novo = false;
+  CHAVES.forEach(function (k) {
+    var v = url.get(k);
+    if (v && /^[\w.~-]{1,200}$/.test(v)) { guardado[k] = v; novo = true; }
+  });
+  if (novo) { try { sessionStorage.setItem("escudo-origem", JSON.stringify(guardado)); } catch (e) {} }
+  if (!Object.keys(guardado).length) return;
   document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (a) {
-    a.href = a.href.replace(/([?&])src=[^&]*/, "$1src=" + m[1]);
+    var u = new URL(a.href);
+    Object.keys(guardado).forEach(function (k) { u.searchParams.set(k, guardado[k]); });
+    a.href = u.toString();
   });
 })();
