@@ -23,6 +23,9 @@ def d(s):
     return dt.date.fromisoformat(s)
 
 
+SEM_DATA = "2099-12-31"  # curso sem prova marcada nunca sai da vitrine
+
+
 def ddmm(s, ano=False):
     x = d(s)
     return x.strftime("%d/%m/%Y" if ano else "%d/%m")
@@ -36,7 +39,10 @@ def eventos(p):
         ev.append({"tipo": "cupom", "data": c["ate"]})
     if p.get("inscricoes_ate"):
         ev.append({"tipo": "inscricoes", "data": p["inscricoes_ate"]})
-    ev.append({"tipo": "prova", "data": p["prova"]})
+    if p.get("prova"):
+        ev.append({"tipo": "prova", "data": p["prova"]})
+    else:  # sem edital novo (ex.: Polícia Penal/PR): o cartão não some e o selo diz "Edital previsto"
+        ev.append({"tipo": "previsto", "data": SEM_DATA})
     return sorted(ev, key=lambda x: (x["data"], x["tipo"] != "cupom"))
 
 
@@ -48,9 +54,11 @@ def selo(p):
     x = ev[0]
     juntos = x["tipo"] == "cupom" and any(y["tipo"] == "inscricoes" and y["data"] == x["data"] for y in ev)
     txt = {"cupom": "Cupom e inscrições até %s" if juntos else "Cupom até %s",
-           "inscricoes": "Inscrições até %s", "prova": "Prova em %s"}[x["tipo"]] % ddmm(x["data"])
+           "inscricoes": "Inscrições até %s", "prova": "Prova em %s", "previsto": "Edital previsto"}[x["tipo"]]
+    if x["tipo"] != "previsto":
+        txt = txt % ddmm(x["data"])
     faltam = (d(x["data"]) - HOJE).days
-    if faltam <= 7:
+    if faltam <= 7 and x["tipo"] != "previsto":
         txt += " · último dia" if faltam == 0 else " · faltam %d dia%s" % (faltam, "s" if faltam > 1 else "")
     return x["data"], txt, faltam <= 7
 
@@ -60,7 +68,8 @@ def cartao(p):
     c = p.get("cupom")
     ev = json.dumps(eventos(p), ensure_ascii=False, separators=(",", ":"))
     brasao = ('<img class="tag-orgao" src="%s" width="61" height="80" alt="">' % e(p["brasao"])) if p.get("brasao") else ""
-    itens = "".join("<li>%s</li>" % e(i) for i in p["itens"]) + "<li>Prova em %s</li>" % ddmm(p["prova"], True)
+    prova = ("Prova em %s" % ddmm(p["prova"], True)) if p.get("prova") else "Prova: aguardando o edital novo"
+    itens = "".join("<li>%s</li>" % e(i) for i in p["itens"]) + "<li>%s</li>" % prova
     if c and d(c["ate"]) >= HOJE:
         valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s com o cupom %s</p>\n'
                  '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], p["preco"], c["preco"], e(c["codigo"]), p["preco"]))
@@ -81,7 +90,7 @@ def cartao(p):
       </li>""", chave
 
 
-abertos = [p for p in DADOS["produtos"] if d(p["prova"]) >= HOJE]
+abertos = [p for p in DADOS["produtos"] if not p.get("prova") or d(p["prova"]) >= HOJE]
 cartoes = sorted((cartao(p) for p in abertos), key=lambda t: t[1])
 usadas = [k for k in CARREIRAS if any(p["carreira"] == k for p in abertos)]
 botoes = ['<button type="button" class="chip" data-filtro="" aria-pressed="true">Todas <span data-conta="">%d</span></button>' % len(abertos)]

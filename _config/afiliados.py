@@ -25,6 +25,9 @@ RECRUTAMENTO = {
     "assistente-semusa-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5835S107958655",
     "tecnico-enfermagem-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5793S107958583",
     "professor-semed-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7334S107961886",
+    # "soldado-pmsc-2026": "HOTMART_RECRUTAMENTO_PMSC",  # descomentar com o link da Página de Recrutamento (ver 43-PMSC-Soldado\hotmart\SITE-PENDENTE.md)
+    # "escrevente-tjsp-2026": "HOTMART_RECRUTAMENTO_TJSP",  # descomentar com o link da Página de Recrutamento (ver 42-TJSP-Escrevente\apostila-escudo\hotmart\SITE-PENDENTE.md)
+    # "policial-penal-pr-2026": "HOTMART_RECRUTAMENTO_PPPR",  # descomentar com o link da Página de Recrutamento (ver 44-PPPR-Policial-Penal\hotmart\SITE-PENDENTE.md)
 }
 
 

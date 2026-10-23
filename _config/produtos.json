@@ -301,6 +301,30 @@
       "prova": "2026-12-06",
       "link": "professor-semed-porto-velho-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "soldado-pmsc-2026",
+      "atalho": "pmsc",
+      "carreira": "policial",
+      "tema": "tema-oliva",
+      "tag": "PM/SC 2026 · Instituto AOCP",
+      "titulo": "Soldado da Polícia Militar de Santa Catarina",
+      "itens": [
+        "165 capítulos e 790 questões comentadas",
+        "Redação e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-soldado-pmsc-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Santa Catarina, PM/SC 2026, 165 capítulos e 790 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMSC37",
+        "preco": 37,
+        "ate": "2026-11-16"
+      },
+      "inscricoes_ate": "2026-11-16",
+      "prova": "2026-12-13",
+      "link": "soldado-pmsc-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

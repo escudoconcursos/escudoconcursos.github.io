@@ -33,9 +33,11 @@
       if (!prox.length) { li.hidden = true; li.setAttribute("data-encerrado", ""); return; }
       var x = prox[0], selo = li.querySelector("[data-selo]");
       var juntos = x.tipo === "cupom" && prox.some(function (y) { return y.tipo === "inscricoes" && y.data === x.data; });
-      var txt = { cupom: juntos ? "Cupom e inscrições até " : "Cupom até ", inscricoes: "Inscrições até ", prova: "Prova em " }[x.tipo] + ddmm(x.data);
+      // "previsto" = curso sem edital novo (data 2099-12-31 no vitrine.py): selo sem data e o cartão nunca some
+      var txt = x.tipo === "previsto" ? "Edital previsto" :
+        { cupom: juntos ? "Cupom e inscrições até " : "Cupom até ", inscricoes: "Inscrições até ", prova: "Prova em " }[x.tipo] + ddmm(x.data);
       var faltam = Math.round((data(x.data) - hoje) / DIA);
-      if (faltam <= 7) txt += faltam === 0 ? " · último dia" : " · faltam " + faltam + " dia" + (faltam > 1 ? "s" : "");
+      if (faltam <= 7 && x.tipo !== "previsto") txt += faltam === 0 ? " · último dia" : " · faltam " + faltam + " dia" + (faltam > 1 ? "s" : "");
       if (selo) { selo.textContent = txt; selo.classList.toggle("urgente", faltam <= 7); }
       li.setAttribute("data-chave", x.data);
     });

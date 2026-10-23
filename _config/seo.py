@@ -25,6 +25,9 @@ BUSCA = {
     "professor-semed-porto-velho-2026": "SEMED Porto Velho Professor Séries Iniciais",
     "agente-educativo-aparecida-2026": "Aparecida de Goiânia Agente Educativo",
     "pedagogia-aparecida-2026": "Aparecida de Goiânia Professor PE-I Pedagogia",
+    "soldado-pmsc-2026": "PM/SC Soldado",
+    "escrevente-tjsp-2026": "TJSP Escrevente Técnico Judiciário",
+    "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
 }
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
