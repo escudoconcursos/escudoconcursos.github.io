@@ -198,6 +198,9 @@ strong{font-weight:700}
 .garantia .sete span{font-size:1rem;letter-spacing:.12em}
 .garantia h2{color:var(--cream)!important;font-size:clamp(1.9rem,7vw,2.6rem)!important}
 .garantia p{color:var(--muted);margin:10px 0 0}
+/* o que libera e quando (abaixo da garantia; os itens usam .entregas) */
+.liberacao{margin-top:48px}
+.liberacao .intro{margin:18px 0 0}
 
 /* FAQ */
 .faq{margin:26px 0 0;display:grid;gap:10px;max-width:820px}
