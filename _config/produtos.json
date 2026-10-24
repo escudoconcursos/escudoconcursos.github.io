@@ -325,6 +325,28 @@
       "prova": "2026-12-13",
       "link": "soldado-pmsc-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "policial-penal-pr-2026",
+      "atalho": "pppr",
+      "carreira": "policial",
+      "tema": "tema-aco",
+      "tag": "Polícia Penal/PR 2026 · Instituto AOCP",
+      "titulo": "Policial Penal do Paraná",
+      "itens": [
+        "109 capítulos e 545 questões comentadas",
+        "2 simulados de 75 questões"
+      ],
+      "imagem": "assets/img/produto-policial-penal-pr-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal do Paraná, Polícia Penal/PR 2026, 109 capítulos e 545 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PENAL37",
+        "preco": 37,
+        "ate": "2026-11-30"
+      },
+      "link": "policial-penal-pr-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
