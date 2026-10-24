@@ -1,0 +1,68 @@
+/* ESCUDO Concursos: tema tribunais (páginas de tribunal e cartório judicial, com <body class="tema-<cor> tema-tribunais">).
+   Mesmo visual dos posts com "tema": "tribunais" (tools/escudo/TEMA-TRIBUNAIS.md): blocos escuros viram plenário (navy
+   fundo, colunas caneladas nas bordas, fachada de tribunal como marca-d'água, escadaria de pedra embaixo), blocos claros
+   viram mármore com veios, o topo ganha o friso de cornija com inscrição e dentículos. Botões e caixas com moldura
+   dourada e cantos retos. Desenhos em SVG próprio, sem foto e sem brasão. Gerado em 23/10/2026. */
+.tema-tribunais{--pedra:#0D1A30;--pedra2:#070F1E}
+
+/* friso de cornija embaixo do topo: inscrição dourada e dentículos */
+.tema-tribunais .topo{border-bottom:0}
+.tema-tribunais .topo::after{content:"JUSTIÇA  ·  LEI  ·  AUTOS  ·  PRAZO  ·  CITAÇÃO  ·  SENTENÇA  ·  RECURSO  ·  CARTÓRIO  ·  PROCESSO  ·  DIREITO";display:block;white-space:pre;overflow:hidden;text-align:center;
+  padding:4px 0 15px;background:linear-gradient(90deg,rgba(201,162,75,.6) 0 100%) 0 calc(100% - 12px)/100% 2px no-repeat,
+   repeating-linear-gradient(90deg,rgba(201,162,75,.45) 0 10px,transparent 10px 20px) 0 100%/100% 10px no-repeat,#0E2240;
+  font-family:var(--ff-t);font-weight:800;font-size:.78rem;letter-spacing:.3em;color:rgba(231,200,115,.8)}
+
+/* plenário */
+.tema-tribunais .escuro{background:radial-gradient(1000px 520px at 50% -12%,color-mix(in srgb,var(--c) 28%,transparent),transparent 62%),
+  radial-gradient(800px 700px at 100% 110%,rgba(28,58,102,.55),transparent 60%),linear-gradient(180deg,var(--pedra),var(--pedra2));
+  border-bottom:12px solid #121F36;box-shadow:inset 0 -2px 0 rgba(201,162,75,.5)}
+.tema-tribunais .escuro::before{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;opacity:.5;
+  background:linear-gradient(180deg,rgba(201,162,75,.3) 0 9px,transparent 9px) 10px 0/38px 100% no-repeat,
+   repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 3px,transparent 3px 10px) 10px 0/38px 100% no-repeat,
+   linear-gradient(180deg,rgba(201,162,75,.3) 0 9px,transparent 9px) calc(100% - 10px) 0/38px 100% no-repeat,
+   repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 3px,transparent 3px 10px) calc(100% - 10px) 0/38px 100% no-repeat}
+.tema-tribunais .escuro::after{content:"";position:absolute;z-index:-1;right:-60px;bottom:-30px;width:520px;height:520px;opacity:.07;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23E7C873' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 34L50 10L92 34Z'/%3E%3Ccircle cx='50' cy='25' r='4'/%3E%3Cpath d='M12 38H88M14 42H86'/%3E%3Cpath d='M22 46V80M38 46V80M62 46V80M78 46V80'/%3E%3Cpath d='M16 46H28M32 46H44M56 46H68M72 46H84'/%3E%3Cpath d='M12 84H88M6 90H94'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat;pointer-events:none}
+.tema-tribunais .marca-dagua{display:none}
+.tema-tribunais .escuro h1,.tema-tribunais .escuro.secao h2{text-shadow:0 3px 0 rgba(0,0,0,.35)}
+.tema-tribunais .kicker{letter-spacing:.24em}
+.tema-tribunais .escuro .kicker{color:#C9A24B}
+.tema-tribunais .claro .kicker,.tema-tribunais .creme .kicker{color:#7A5E22}
+
+/* régua: filete duplo (dourado e a cor do concurso) com losango no meio */
+.tema-tribunais .regua{position:relative;width:150px;height:11px;border-radius:0;overflow:visible;
+  background:linear-gradient(#E7C873,#E7C873) 0 0/100% 3px no-repeat,linear-gradient(var(--cb),var(--cb)) 0 100%/100% 3px no-repeat}
+.tema-tribunais .regua::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;transform:rotate(45deg);
+  background:#C9A24B;box-shadow:0 0 0 4px var(--pedra)}
+.tema-tribunais .secao:not(.escuro) .regua{background:linear-gradient(#9E7C32,#9E7C32) 0 0/100% 3px no-repeat,linear-gradient(var(--c),var(--c)) 0 100%/100% 3px no-repeat}
+.tema-tribunais .secao.claro .regua::after{background:#9E7C32;box-shadow:0 0 0 4px #F3EFE7}
+.tema-tribunais .secao.creme .regua::after{background:#9E7C32;box-shadow:0 0 0 4px var(--cream)}
+
+/* mármore nas seções claras; creme fica como papel dos autos, com a balança discreta */
+.tema-tribunais .secao.claro{position:relative;isolation:isolate;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 675' preserveAspectRatio='none'%3E%3Cfilter id='v' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.0045 .0105' numOctaves='5' seed='23'/%3E%3CfeColorMatrix values='0 0 0 0 .40  0 0 0 0 .43  0 0 0 0 .50  1 0 0 0 0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .34 .14 0 0 0 .2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'/%3E%3C/feComponentTransfer%3E%3CfeGaussianBlur stdDeviation='.5'/%3E%3C/filter%3E%3Crect width='540' height='675' filter='url%28%23v%29'/%3E%3C/svg%3E") 0 0/100% 100% no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 675' preserveAspectRatio='none'%3E%3Cfilter id='w' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.008 .0035' numOctaves='4' seed='5'/%3E%3CfeColorMatrix values='0 0 0 0 .62  0 0 0 0 .50  0 0 0 0 .22  0 1 0 0 0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='540' height='675' filter='url%28%23w%29'/%3E%3C/svg%3E") 0 0/100% 100% no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .2  0 0 0 0 .2  0 0 0 0 .25  .5 0 0 0 -.2'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url%28%23n%29'/%3E%3C/svg%3E") 0 0/240px 240px,radial-gradient(900px 600px at 30% 20%,#FFFFFF,transparent 70%),linear-gradient(160deg,#F7F4EE,#ECE7DD)}
+.tema-tribunais .secao.creme{position:relative;isolation:isolate;overflow:hidden}
+.tema-tribunais .secao.creme::after{content:"";position:absolute;z-index:-1;right:-40px;top:20px;width:300px;height:300px;opacity:.05;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%230B1A33' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M50 16V84M30 90H70M38 84H62'/%3E%3Ccircle cx='50' cy='11' r='3.5'/%3E%3Cpath d='M16 27C30 23 70 23 84 27'/%3E%3Cpath d='M45 24L50 17L55 24'/%3E%3Cpath d='M16 27L6 56M16 27L26 56M84 27L74 56M84 27L94 56'/%3E%3Cpath d='M4 56Q16 70 28 56ZM72 56Q84 70 96 56Z'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat;pointer-events:none}
+
+/* números, preço e botão: placas com moldura dourada e cantos retos */
+.tema-tribunais .numeros li{border-radius:4px;background:rgba(14,28,52,.9);border:1px solid rgba(201,162,75,.4)}
+.tema-tribunais .preco{border-radius:4px;box-shadow:inset 0 0 0 4px rgba(7,15,30,.6),inset 0 0 0 5px rgba(201,162,75,.45)}
+.tema-tribunais .preco .cupom code{border-radius:3px}
+.tema-tribunais .btn{border-radius:4px;background:linear-gradient(180deg,var(--cbtn1),var(--cbtn2));color:var(--cbtn-txt);
+  box-shadow:inset 0 0 0 2px rgba(231,200,115,.75),0 6px 0 rgba(0,0,0,.3)}
+.tema-tribunais .capa-livro .selo{border-radius:4px;box-shadow:inset 0 0 0 2px rgba(231,200,115,.7),0 10px 24px -8px rgba(0,0,0,.6)}
+
+/* fichas, entregas, cartões e FAQ: folhas dos autos com filete na cor do concurso */
+.tema-tribunais .fatos li{border-radius:4px;border-top:1px solid #DDD5C3;border-left:6px solid var(--c)}
+.tema-tribunais .entregas li{border-radius:4px;border-left:4px solid var(--c)}
+.tema-tribunais .pqe .cartao,.tema-tribunais .faq details{border-radius:4px}
+.tema-tribunais .pqe .cartao{border-top:4px solid var(--c)}
+.tema-tribunais .prova,.tema-tribunais .modulos{border-radius:0}
+.tema-tribunais .prova th,.tema-tribunais .modulos th{border-bottom:3px solid #C9A24B}
+.tema-tribunais .modulos tr{border-radius:4px}
+
+/* galeria com moldura dourada, simulados e garantia no plenário */
+.tema-tribunais .galeria img{border-radius:2px;box-shadow:0 0 0 2px rgba(201,162,75,.45),0 18px 30px -14px rgba(0,0,0,.7)}
+.tema-tribunais .simulado{border-radius:4px;border-top:4px solid var(--cb)}
+.tema-tribunais .garantia{border-radius:4px;box-shadow:inset 0 0 0 4px var(--navy),inset 0 0 0 5px rgba(201,162,75,.5)}

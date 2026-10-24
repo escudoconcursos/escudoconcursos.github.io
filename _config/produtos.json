@@ -347,6 +347,30 @@
       },
       "link": "policial-penal-pr-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "escrevente-tjsp-2026",
+      "atalho": "tjsp",
+      "carreira": "tribunais",
+      "tema": "tema-bordo",
+      "tag": "TJSP 2026 · Vunesp",
+      "titulo": "Escrevente Técnico Judiciário",
+      "itens": [
+        "87 capítulos e 430 questões comentadas",
+        "2 simulados com redação"
+      ],
+      "imagem": "assets/img/produto-escrevente-tjsp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Escrevente Técnico Judiciário, TJSP 2026, 87 capítulos e 430 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "TJSP37",
+        "preco": 37,
+        "ate": "2026-12-10"
+      },
+      "inscricoes_ate": "2026-12-10",
+      "prova": "2027-03-14",
+      "link": "escrevente-tjsp-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
