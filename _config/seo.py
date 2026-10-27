@@ -27,6 +27,7 @@ BUSCA = {
     "pedagogia-aparecida-2026": "Aparecida de Goiânia Professor PE-I Pedagogia",
     "soldado-pmsc-2026": "PM/SC Soldado",
     "escrevente-tjsp-2026": "TJSP Escrevente Técnico Judiciário",
+    "assistente-administrativo-contagem-2026": "Prefeitura de Contagem Assistente Administrativo",
     "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
 }
 

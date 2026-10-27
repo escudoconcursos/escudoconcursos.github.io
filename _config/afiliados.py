@@ -27,6 +27,7 @@ RECRUTAMENTO = {
     "professor-semed-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7334S107961886",
     "soldado-pmsc-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/9165P108168217",
     # "escrevente-tjsp-2026": "HOTMART_RECRUTAMENTO_TJSP",  # descomentar com o link da Página de Recrutamento (ver 42-TJSP-Escrevente\apostila-escudo\hotmart\SITE-PENDENTE.md)
+    # "assistente-administrativo-contagem-2026": "HOTMART_RECRUTAMENTO_CONTAGEM",  # descomentar com o link da Página de Recrutamento depois de cadastrar o produto na Hotmart (afiliados 50%)
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
 }
 

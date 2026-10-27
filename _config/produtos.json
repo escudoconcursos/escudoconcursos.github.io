@@ -371,6 +371,30 @@
       "prova": "2027-03-14",
       "link": "escrevente-tjsp-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "assistente-administrativo-contagem-2026",
+      "atalho": "contagem",
+      "carreira": "administrativo",
+      "tema": "tema-indigo",
+      "tag": "Prefeitura de Contagem/MG 2026 · IBGP",
+      "titulo": "Assistente Administrativo",
+      "itens": [
+        "122 capítulos e 605 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-assistente-contagem-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Assistente Administrativo, Prefeitura de Contagem/MG 2026, 122 capítulos e 605 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CONTAGEM37",
+        "preco": 37,
+        "ate": "2026-11-17"
+      },
+      "inscricoes_ate": "2026-11-17",
+      "prova": "2027-01-24",
+      "link": "assistente-administrativo-contagem-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
