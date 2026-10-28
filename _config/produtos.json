@@ -420,6 +420,30 @@
       "prova": "2027-01-24",
       "link": "tecnico-bancario-banestes-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "tecnico-defensoria-dpe-pb-2026",
+      "atalho": "dpepb",
+      "carreira": "tribunais",
+      "tema": "tema-bordo",
+      "tag": "DPE-PB 2026 · FCC",
+      "titulo": "Técnico da Defensoria",
+      "itens": [
+        "133 capítulos e 660 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-tecnico-defensoria-dpe-pb-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Técnico da Defensoria, DPE-PB 2026, 133 capítulos e 660 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "DPEPB37",
+        "preco": 37,
+        "ate": "2026-11-13"
+      },
+      "inscricoes_ate": "2026-11-13",
+      "prova": "2027-02-28",
+      "link": "tecnico-defensoria-dpe-pb-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

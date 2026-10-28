@@ -29,6 +29,7 @@ RECRUTAMENTO = {
     # "escrevente-tjsp-2026": "HOTMART_RECRUTAMENTO_TJSP",  # descomentar com o link da Página de Recrutamento (ver 42-TJSP-Escrevente\apostila-escudo\hotmart\SITE-PENDENTE.md)
     "assistente-administrativo-contagem-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2494P108214111",
     "tecnico-bancario-banestes-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4044B108218182",
+    "tecnico-defensoria-dpe-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1465D108236420",
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
 }
 

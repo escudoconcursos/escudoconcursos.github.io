@@ -35,6 +35,7 @@ SIMULADO2 = {
     "escrevente-tjsp-2026": "em 07/03/2027, 7 dias antes da prova, para o último teste.",
     "assistente-administrativo-contagem-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "tecnico-bancario-banestes-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
+    "tecnico-defensoria-dpe-pb-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pr-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
 }
 

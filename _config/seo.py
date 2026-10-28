@@ -29,6 +29,7 @@ BUSCA = {
     "escrevente-tjsp-2026": "TJSP Escrevente Técnico Judiciário",
     "assistente-administrativo-contagem-2026": "Prefeitura de Contagem Assistente Administrativo",
     "tecnico-bancario-banestes-2026": "Banestes Técnico Bancário",
+    "tecnico-defensoria-dpe-pb-2026": "DPE-PB Técnico da Defensoria",
     "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
 }
 
