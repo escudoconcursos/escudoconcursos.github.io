@@ -444,6 +444,29 @@
       "prova": "2027-02-28",
       "link": "tecnico-defensoria-dpe-pb-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "investigador-policia-civil-mg-pcmg-2026",
+      "atalho": "pcmg",
+      "carreira": "policial",
+      "tema": "tema-aco",
+      "tag": "PCMG 2026 · FGV",
+      "titulo": "Investigador da Polícia Civil MG",
+      "itens": [
+        "129 capítulos e 645 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-investigador-pcmg-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Investigador da Polícia Civil de Minas Gerais, PCMG 2026, 129 capítulos e 645 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCMG37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "investigador-policia-civil-mg-pcmg-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

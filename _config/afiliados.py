@@ -30,6 +30,7 @@ RECRUTAMENTO = {
     "assistente-administrativo-contagem-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2494P108214111",
     "tecnico-bancario-banestes-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4044B108218182",
     "tecnico-defensoria-dpe-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1465D108236420",
+    "investigador-policia-civil-mg-pcmg-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2102P108238085",
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
 }
 
