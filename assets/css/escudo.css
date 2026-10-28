@@ -35,6 +35,8 @@
 .tema-bordo{--c:#9F1D35; --cb:#E2677D; --cd:#701426; --cbtn1:#9F1D35; --cbtn2:#701426; --cbtn-txt:#fff}
 /* oliva, Soldado PM/SC 2026: botão claro com texto navy; #0B1A33 dá 11,1:1 sobre #C5D86D e 4,6:1 sobre #7A8B2E (branco daria só 3,8:1) */
 .tema-oliva{--c:#7A8B2E; --cb:#C5D86D; --cd:#4D5A19; --cbtn1:#C5D86D; --cbtn2:#7A8B2E; --cbtn-txt:#0B1A33}
+/* cobre, Técnico Bancário Banestes 2026 (27/10/2026): botão cobre com texto branco (4,1:1 sobre #B8693F); a clara #EBB08A dá 9,5:1 sobre o navy */
+.tema-cobre{--c:#B8693F; --cb:#EBB08A; --cd:#7E4222; --cbtn1:#B8693F; --cbtn2:#7E4222; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}

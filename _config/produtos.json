@@ -6,7 +6,8 @@
     "saude": "Saúde",
     "educacao": "Educação",
     "tribunais": "Tribunais",
-    "fiscal": "Fiscal"
+    "fiscal": "Fiscal",
+    "bancaria": "Bancária"
   },
   "produtos": [
     {
@@ -394,6 +395,30 @@
       "inscricoes_ate": "2026-11-17",
       "prova": "2027-01-24",
       "link": "assistente-administrativo-contagem-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "tecnico-bancario-banestes-2026",
+      "atalho": "banestes",
+      "carreira": "bancaria",
+      "tema": "tema-cobre",
+      "tag": "Banestes 2026 · FCC",
+      "titulo": "Técnico Bancário",
+      "itens": [
+        "139 capítulos e 690 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-tecnico-bancario-banestes-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Técnico Bancário, Banestes 2026, 139 capítulos e 690 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "BANESTES37",
+        "preco": 37,
+        "ate": "2026-11-23"
+      },
+      "inscricoes_ate": "2026-11-23",
+      "prova": "2027-01-24",
+      "link": "tecnico-bancario-banestes-2026/",
       "botao": "Ver o curso"
     }
   ]
