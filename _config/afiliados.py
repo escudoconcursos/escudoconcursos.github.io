@@ -31,6 +31,7 @@ RECRUTAMENTO = {
     "tecnico-bancario-banestes-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4044B108218182",
     "tecnico-defensoria-dpe-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1465D108236420",
     "investigador-policia-civil-mg-pcmg-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2102P108238085",
+    "soldado-pmpr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/9752P108251402",
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
 }
 

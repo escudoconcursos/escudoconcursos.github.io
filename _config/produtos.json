@@ -467,6 +467,29 @@
       "prova": "2099-12-31",
       "link": "investigador-policia-civil-mg-pcmg-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "soldado-pmpr-2026",
+      "atalho": "pmpr",
+      "carreira": "policial",
+      "tema": "tema-oliva",
+      "tag": "PM/PR 2026 · IBFC",
+      "titulo": "Soldado da Polícia Militar do Paraná",
+      "itens": [
+        "126 capítulos e 595 questões comentadas",
+        "Redação e 2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-soldado-pmpr-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Paraná, PM/PR 2026, 126 capítulos e 595 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMPR37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "soldado-pmpr-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }
