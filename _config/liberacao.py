@@ -17,7 +17,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 CSS_VERSAO = "13"  # versão de assets/css/escudo.css que tem o estilo .liberacao
 
 SIMULADO1_PADRAO = "30 dias após a compra, para medir onde você está no meio da preparação."
-SIMULADO1 = {}  # exceções por página: "slug": "texto"
+SIMULADO1 = {  # exceções por página: "slug": "texto"
+    "agente-administrativo-curitiba-2026": "na compra, porque faltam poucas semanas para a prova e você já pode medir onde está.",
+}
 
 SIMULADO2 = {
     "pmpe-soldado-2026": "em 14/02/2027, 7 dias antes da prova, para o último teste.",
@@ -34,6 +36,7 @@ SIMULADO2 = {
     "soldado-pmsc-2026": "em 06/12/2026, 7 dias antes da prova, para o último teste.",
     "escrevente-tjsp-2026": "em 07/03/2027, 7 dias antes da prova, para o último teste.",
     "assistente-administrativo-contagem-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
+    "agente-administrativo-curitiba-2026": "em 06/12/2026, 7 dias antes da prova, para o último teste.",
     "tecnico-bancario-banestes-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "tecnico-defensoria-dpe-pb-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pr-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",

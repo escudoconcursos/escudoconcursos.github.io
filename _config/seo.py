@@ -30,6 +30,7 @@ BUSCA = {
     "soldado-pmpr-2026": "PM/PR Soldado Polícia Militar do Paraná",
     "escrevente-tjsp-2026": "TJSP Escrevente Técnico Judiciário",
     "assistente-administrativo-contagem-2026": "Prefeitura de Contagem Assistente Administrativo",
+    "agente-administrativo-curitiba-2026": "Prefeitura de Curitiba Agente Administrativo",
     "tecnico-bancario-banestes-2026": "Banestes Técnico Bancário",
     "tecnico-defensoria-dpe-pb-2026": "DPE-PB Técnico da Defensoria",
     "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",

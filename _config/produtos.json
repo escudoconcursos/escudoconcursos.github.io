@@ -490,6 +490,30 @@
       "prova": "2099-12-31",
       "link": "soldado-pmpr-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "agente-administrativo-curitiba-2026",
+      "atalho": "curitiba",
+      "carreira": "administrativo",
+      "tema": "tema-verde",
+      "tag": "Prefeitura de Curitiba/PR 2026 · FAFIPA",
+      "titulo": "Agente Administrativo",
+      "itens": [
+        "186 capítulos e 930 questões comentadas",
+        "2 simulados no formato da prova"
+      ],
+      "imagem": "assets/img/produto-agente-administrativo-curitiba-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente Administrativo, Prefeitura de Curitiba/PR 2026, 186 capítulos e 930 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CURITIBA37",
+        "preco": 37,
+        "ate": "2026-11-30"
+      },
+      "inscricoes_ate": "2026-11-05",
+      "prova": "2026-12-13",
+      "link": "agente-administrativo-curitiba-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

@@ -32,6 +32,7 @@ RECRUTAMENTO = {
     "tecnico-defensoria-dpe-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1465D108236420",
     "investigador-policia-civil-mg-pcmg-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2102P108238085",
     "soldado-pmpr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/9752P108251402",
+    "agente-administrativo-curitiba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1323C108255689",
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
 }
 
