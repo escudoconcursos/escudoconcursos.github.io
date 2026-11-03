@@ -21,6 +21,7 @@ BUSCA = {
     "pcpe-agente-2026": "PC/PE Agente de Polícia",
     "gcm-santana-2026": "GCM Santana/AP",
     "gcm-salvador-2026": "GCM Salvador/BA",
+    "gm-recife-2026": "GM Recife Agente de Segurança Municipal",
     "assistente-semusa-porto-velho-2026": "SEMUSA Porto Velho Assistente Administrativo",
     "tecnico-enfermagem-porto-velho-2026": "SEMUSA Porto Velho Técnico em Enfermagem",
     "professor-semed-porto-velho-2026": "SEMED Porto Velho Professor Séries Iniciais",

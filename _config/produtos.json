@@ -516,6 +516,28 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gm-recife-2026",
+      "atalho": "recife",
+      "carreira": "policial",
+      "tema": "tema-ciano",
+      "tag": "GM Recife 2026 · AOCP",
+      "titulo": "Agente de Segurança Municipal do Recife",
+      "itens": [
+        "126 capítulos e 625 questões comentadas",
+        "2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-gm-recife-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente de Segurança Municipal do Recife, GM Recife 2026, 126 capítulos e 625 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "GMRECIFE37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "link": "gm-recife-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "agente-administrativo-curitiba-2026",
       "atalho": "curitiba",
       "carreira": "administrativo",
