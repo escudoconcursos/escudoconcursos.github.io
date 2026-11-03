@@ -22,6 +22,7 @@ RECRUTAMENTO = {
     "agente-educativo-aparecida-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0383A107951762",
     "pedagogia-aparecida-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0405A107951804",
     "gcm-santana-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4285G107956267",
+    "gcm-salvador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2460G108322760",
     "assistente-semusa-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5835S107958655",
     "tecnico-enfermagem-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5793S107958583",
     "professor-semed-porto-velho-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7334S107961886",
