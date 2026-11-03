@@ -30,6 +30,7 @@ SIMULADO2 = {
     "agente-educativo-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "pedagogia-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "gcm-santana-2026": "em 10/01/2027, 7 dias antes da prova, para o último teste.",
+    "gcm-salvador-2026": "em 10/01/2027, 7 dias antes da prova, para o último teste.",
     "assistente-semusa-porto-velho-2026": "em 06/12/2026, 7 dias antes da prova, para o último teste.",
     "tecnico-enfermagem-porto-velho-2026": "em 06/12/2026, 7 dias antes da prova, para o último teste.",
     "professor-semed-porto-velho-2026": "em 29/11/2026, 7 dias antes da prova, para o último teste.",

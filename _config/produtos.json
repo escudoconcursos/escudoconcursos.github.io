@@ -232,6 +232,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gcm-salvador-2026",
+      "atalho": "salvador",
+      "carreira": "policial",
+      "tema": "tema-turquesa",
+      "tag": "GCM Salvador/BA 2026 · FGV",
+      "titulo": "Guarda Civil Municipal de Salvador/BA",
+      "itens": [
+        "158 capítulos e 785 questões comentadas",
+        "2 simulados de 70 questões"
+      ],
+      "imagem": "assets/img/produto-gcm-salvador-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Civil Municipal de Salvador/BA, GCM Salvador/BA 2026, 158 capítulos e 785 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SALVADOR37",
+        "preco": 37,
+        "ate": "2026-11-30"
+      },
+      "inscricoes_ate": "2026-10-30",
+      "prova": "2027-01-17",
+      "link": "gcm-salvador-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "assistente-semusa-porto-velho-2026",
       "atalho": "pvh-assistente",
       "carreira": "administrativo",
