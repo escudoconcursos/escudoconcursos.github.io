@@ -44,6 +44,7 @@ SIMULADO2 = {
     "tecnico-defensoria-dpe-pb-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pe-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pr-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "pmerj-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
 }
 
 INI, FIM = "<!-- liberacao:inicio -->", "<!-- liberacao:fim -->"

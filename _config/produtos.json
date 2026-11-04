@@ -584,6 +584,29 @@
       "prova": "2026-12-13",
       "link": "agente-administrativo-curitiba-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "pmerj-soldado-2026",
+      "atalho": "pmerj",
+      "carreira": "policial",
+      "tema": "tema-indigo",
+      "tag": "PM/RJ 2026 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar do Rio de Janeiro",
+      "itens": [
+        "129 capítulos e 615 questões comentadas",
+        "Redação e 2 simulados no estilo FGV"
+      ],
+      "imagem": "assets/img/produto-pmerj-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Rio de Janeiro, PM/RJ 2026, 129 capítulos e 615 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMERJ37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmerj-soldado-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

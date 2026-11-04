@@ -37,6 +37,7 @@ RECRUTAMENTO = {
     "agente-administrativo-curitiba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1323C108255689",
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
     "policial-penal-pe-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5042P108329856",
+    "pmerj-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1601P108340512",
 }
 
 
