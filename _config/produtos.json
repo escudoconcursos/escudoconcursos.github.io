@@ -607,6 +607,30 @@
       "prova": "2099-12-31",
       "link": "pmerj-soldado-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "cbm-al-soldado-2026",
+      "atalho": "cbmal",
+      "carreira": "policial",
+      "tema": "tema-vermelho",
+      "tag": "CBM/AL 2026 · Cebraspe",
+      "titulo": "Soldado dos Bombeiros de Alagoas",
+      "itens": [
+        "170 capítulos e 1.690 itens certo ou errado comentados",
+        "2 simulados de 120 itens com discursiva"
+      ],
+      "imagem": "assets/img/produto-cbmal-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado do CBM/AL, 170 capítulos e 1.690 itens comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CBMAL37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "inscricoes_ate": "2026-10-26",
+      "prova": "2027-01-24",
+      "link": "cbm-al-soldado-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

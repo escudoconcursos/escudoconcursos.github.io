@@ -38,6 +38,7 @@ BUSCA = {
     "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
     "policial-penal-pe-2026": "Polícia Penal PE Policial Penal",
     "pmerj-soldado-2026": "PM/RJ Soldado Polícia Militar do Rio de Janeiro",
+    "cbm-al-soldado-2026": "CBM/AL Soldado Bombeiro Militar",
 }
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
