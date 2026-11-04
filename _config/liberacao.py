@@ -18,6 +18,7 @@ CSS_VERSAO = "13"  # versão de assets/css/escudo.css que tem o estilo .liberaca
 
 SIMULADO1_PADRAO = "30 dias após a compra, para medir onde você está no meio da preparação."
 SIMULADO1 = {  # exceções por página: "slug": "texto"
+    "policial-penal-pe-2026": "na compra, para medir onde você está logo no início do estudo.",
     "agente-administrativo-curitiba-2026": "na compra, porque faltam poucas semanas para a prova e você já pode medir onde está.",
 }
 
@@ -41,7 +42,7 @@ SIMULADO2 = {
     "agente-administrativo-curitiba-2026": "em 06/12/2026, 7 dias antes da prova, para o último teste.",
     "tecnico-bancario-banestes-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "tecnico-defensoria-dpe-pb-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
-    "policial-penal-pe-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "policial-penal-pe-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pr-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
 }
 
