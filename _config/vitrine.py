@@ -68,7 +68,7 @@ def cartao(p):
     c = p.get("cupom")
     ev = json.dumps(eventos(p), ensure_ascii=False, separators=(",", ":"))
     brasao = ('<img class="tag-orgao" src="%s" width="61" height="80" alt="">' % e(p["brasao"])) if p.get("brasao") else ""
-    prova = ("Prova em %s" % ddmm(p["prova"], True)) if p.get("prova") else "Prova: aguardando o edital novo"
+    prova = ("Prova em %s" % ddmm(p["prova"], True)) if (p.get("prova") and p["prova"] != SEM_DATA) else "Prova: aguardando o edital novo"
     itens = "".join("<li>%s</li>" % e(i) for i in p["itens"]) + "<li>%s</li>" % prova
     if c and d(c["ate"]) >= HOJE:
         valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s com o cupom %s</p>\n'

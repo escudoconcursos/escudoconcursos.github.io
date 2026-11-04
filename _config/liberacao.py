@@ -45,6 +45,7 @@ SIMULADO2 = {
     "policial-penal-pe-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",
     "policial-penal-pr-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmerj-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "pmpa-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "cbm-al-soldado-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
 }
 

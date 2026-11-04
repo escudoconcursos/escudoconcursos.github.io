@@ -38,6 +38,7 @@ RECRUTAMENTO = {
     "policial-penal-pr-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0975P108171821",
     "policial-penal-pe-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5042P108329856",
     "pmerj-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1601P108340512",
+    "pmpa-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2613P108343626",
     "cbm-al-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1784C108341073",
 }
 

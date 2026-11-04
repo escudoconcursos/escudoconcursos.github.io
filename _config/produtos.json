@@ -609,6 +609,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmpa-soldado-2026",
+      "atalho": "pmpa",
+      "carreira": "policial",
+      "tema": "tema-bordo",
+      "tag": "PM/PA 2026 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar do Pará",
+      "itens": [
+        "160 capítulos e 795 questões comentadas",
+        "2 simulados de 60 questões no estilo Cebraspe"
+      ],
+      "imagem": "assets/img/produto-pmpa-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Pará, PM/PA 2026, 160 capítulos e 795 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMPA37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmpa-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "cbm-al-soldado-2026",
       "atalho": "cbmal",
       "carreira": "policial",
