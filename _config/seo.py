@@ -36,6 +36,7 @@ BUSCA = {
     "tecnico-bancario-banestes-2026": "Banestes Técnico Bancário",
     "tecnico-defensoria-dpe-pb-2026": "DPE-PB Técnico da Defensoria",
     "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
+    "policial-penal-pe-2026": "Polícia Penal PE Policial Penal",
 }
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
