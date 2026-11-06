@@ -19,6 +19,7 @@ CSS_VERSAO = "13"  # versão de assets/css/escudo.css que tem o estilo .liberaca
 SIMULADO1_PADRAO = "30 dias após a compra, para medir onde você está no meio da preparação."
 SIMULADO1 = {  # exceções por página: "slug": "texto"
     "policial-penal-pe-2026": "na compra, para medir onde você está logo no início do estudo.",
+    "pmesp-soldado-2026": "na compra, para medir onde você está logo no início do estudo.",
     "agente-administrativo-curitiba-2026": "na compra, porque faltam poucas semanas para a prova e você já pode medir onde está.",
 }
 
@@ -48,6 +49,7 @@ SIMULADO2 = {
     "pmpa-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "cbm-al-soldado-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "pmba-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "pmesp-soldado-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
 }
 
 INI, FIM = "<!-- liberacao:inicio -->", "<!-- liberacao:fim -->"

@@ -72,6 +72,8 @@
 .petri.sg{background:linear-gradient(90deg,#CF2B24 0 33.3%,#2F6FD0 33.3% 66.6%,#018E5D 66.6%)}
 /* faixa nas cores da bandeira de Santa Catarina (vermelho, branco e verde), Soldado PM/SC 2026 */
 .petri.sc{background:linear-gradient(90deg,#DC2B2B 0 33.3%,#F5F1E6 33.3% 66.6%,#2E9E5B 66.6%)}
+/* faixa nas cores da bandeira de São Paulo (vermelho, branco e preto), Soldado PM/SP 2026 */
+.petri.sp{background:linear-gradient(90deg,#DC2B2B 0 33.3%,#F5F1E6 33.3% 66.6%,#111827 66.6%)}
 /* faixa nas cores da bandeira do Paraná (verde, branco e azul), Policial Penal PPPR 2026 */
 .petri.pr{background:linear-gradient(90deg,#2E9E5B 0 33.3%,#F5F1E6 33.3% 66.6%,#2F6FD0 66.6%)}
 

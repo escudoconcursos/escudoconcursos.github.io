@@ -677,6 +677,30 @@
       "prova": "2099-12-31",
       "link": "pmba-soldado-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "pmesp-soldado-2026",
+      "atalho": "pmesp",
+      "carreira": "policial",
+      "tema": "tema-rosa",
+      "tag": "PM/SP 2026 · Edital aberto · VUNESP",
+      "titulo": "Soldado da Polícia Militar de São Paulo",
+      "itens": [
+        "75 capítulos e 345 questões, de acordo com o edital aberto",
+        "2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pmesp-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de São Paulo, PM/SP 2026, edital aberto, 75 capítulos e 345 questões",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMESP37",
+        "preco": 37,
+        "ate": "2026-12-22"
+      },
+      "link": "pmesp-soldado-2026/",
+      "botao": "Ver o curso",
+      "prova": "2027-02-28",
+      "inscricoes_ate": "2026-12-22"
     }
   ]
 }
