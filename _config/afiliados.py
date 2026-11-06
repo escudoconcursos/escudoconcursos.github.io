@@ -40,7 +40,7 @@ RECRUTAMENTO = {
     "pmerj-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1601P108340512",
     "pmpa-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2613P108343626",
     "cbm-al-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1784C108341073",
-    # "pmba-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/FALTA",  # link de recrutamento depois do checkout
+    "pmba-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2405P108363119",
     "pmesp-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2366P108363041",
 }
 
