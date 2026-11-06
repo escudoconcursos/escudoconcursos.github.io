@@ -54,6 +54,7 @@
 .tema-lima .etq span{background:rgba(132,204,22,.12)}
 .tema-oliva .etq span{background:rgba(122,139,46,.14)}
 .tema-aco .etq span{background:rgba(124,141,166,.14)}
+.tema-turquesa .etq span{background:rgba(20,184,166,.14)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
 .cta-final .etq{justify-content:center}
 .cta-final .etq::after{display:none}

@@ -701,6 +701,30 @@
       "botao": "Ver o curso",
       "prova": "2027-02-28",
       "inscricoes_ate": "2026-12-22"
+    },
+    {
+      "id": "pcac-oficial-investigador-2026",
+      "atalho": "pcac",
+      "carreira": "policial",
+      "tema": "tema-turquesa",
+      "tag": "PC-AC 2026 · Edital aberto · IDECAN",
+      "titulo": "Oficial Investigador da Polícia Civil do Acre",
+      "itens": [
+        "168 capítulos e 810 questões, de acordo com o edital aberto",
+        "Prova discursiva e 2 simulados de 100 questões"
+      ],
+      "imagem": "assets/img/produto-pcac-oficial-investigador-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Oficial Investigador da Polícia Civil do Acre, PC-AC 2026, edital aberto, 168 capítulos e 810 questões",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCAC37",
+        "preco": 37,
+        "ate": "2026-12-14"
+      },
+      "link": "pcac-oficial-investigador-2026/",
+      "botao": "Ver o curso",
+      "prova": "2027-01-24",
+      "inscricoes_ate": "2026-12-14"
     }
   ]
 }

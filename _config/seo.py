@@ -42,6 +42,7 @@ BUSCA = {
     "cbm-al-soldado-2026": "CBM/AL Soldado Bombeiro Militar",
     "pmba-soldado-2026": "PM/BA Soldado Polícia Militar da Bahia",
     "pmesp-soldado-2026": "PM/SP Soldado Polícia Militar de São Paulo",
+    "pcac-oficial-investigador-2026": "PC-AC Oficial Investigador Polícia Civil do Acre",
 }
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
