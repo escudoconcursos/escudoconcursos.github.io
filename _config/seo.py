@@ -40,6 +40,7 @@ BUSCA = {
     "pmerj-soldado-2026": "PM/RJ Soldado Polícia Militar do Rio de Janeiro",
     "pmpa-soldado-2026": "PM/PA Soldado Polícia Militar do Pará",
     "cbm-al-soldado-2026": "CBM/AL Soldado Bombeiro Militar",
+    "pmba-soldado-2026": "PM/BA Soldado Polícia Militar da Bahia",
 }
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"

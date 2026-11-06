@@ -654,6 +654,29 @@
       "prova": "2027-01-24",
       "link": "cbm-al-soldado-2026/",
       "botao": "Ver o curso"
+    },
+    {
+      "id": "pmba-soldado-2026",
+      "atalho": "pmba",
+      "carreira": "policial",
+      "tema": "tema-magenta",
+      "tag": "PM/BA 2026 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar da Bahia",
+      "itens": [
+        "166 capítulos e 795 questões comentadas",
+        "Redação e 2 simulados de 80 questões no estilo FCC"
+      ],
+      "imagem": "assets/img/produto-pmba-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar da Bahia, PM/BA 2026, 166 capítulos e 795 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMBA37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmba-soldado-2026/",
+      "botao": "Ver o curso"
     }
   ]
 }

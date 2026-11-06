@@ -47,6 +47,7 @@ SIMULADO2 = {
     "pmerj-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmpa-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "cbm-al-soldado-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
+    "pmba-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
 }
 
 INI, FIM = "<!-- liberacao:inicio -->", "<!-- liberacao:fim -->"
