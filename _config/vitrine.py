@@ -16,6 +16,20 @@ DADOS = json.loads((RAIZ / "_config" / "produtos.json").read_text(encoding="utf-
 CARREIRAS = DADOS["carreiras"]
 _NOMES = RAIZ / "_config" / "nomes.json"
 NOMES = json.loads(_NOMES.read_text(encoding="utf-8"))["cursos"] if _NOMES.exists() else {}
+APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
+    "pmesp-soldado-2026": "PMESP PMSP PM SP Polícia Militar", "pmpe-soldado-2026": "PMPE PM PE Polícia Militar",
+    "pmal-soldado-2026": "PMAL PM AL Polícia Militar", "pmba-soldado-2026": "PMBA PM BA Polícia Militar",
+    "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
+    "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",
+    "cbmpe-soldado-2026": "CBMPE CBM PE Bombeiros Bombeiro Militar", "cbm-al-soldado-2026": "CBMAL CBM AL Bombeiros Bombeiro Militar",
+    "pcpe-agente-2026": "PCPE PC PE Polícia Civil", "pcac-oficial-investigador-2026": "PCAC PC AC Polícia Civil",
+    "investigador-policia-civil-mg-pcmg-2026": "PCMG PC MG Polícia Civil", "policial-penal-pe-2026": "PPPE Polícia Penal SERES",
+    "policial-penal-pr-2026": "PPPR Polícia Penal DEPPEN", "gm-recife-2026": "GCM Recife Guarda Municipal",
+    "gcm-salvador-2026": "GM Salvador Guarda Municipal", "gm-sao-goncalo-2026": "GCM São Gonçalo Guarda Municipal",
+    "gcm-santana-2026": "GM Santana Guarda Municipal", "escrevente-tjsp-2026": "TJ SP Tribunal de Justiça",
+    "tecnico-defensoria-dpe-pb-2026": "DPEPB Defensoria Pública", "tecnico-bancario-banestes-2026": "Banco Banestes ES",
+    "recenseador-ibge-2026": "Censo Recenseador", "ufba-assistente-2026": "UFBA Universidade Federal da Bahia",
+}
 UF_NOME = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "BA": "Bahia", "ES": "Espírito Santo", "GO": "Goiás",
            "MG": "Minas Gerais", "PA": "Pará", "PB": "Paraíba", "PE": "Pernambuco", "PR": "Paraná", "RJ": "Rio de Janeiro",
            "RO": "Rondônia", "SC": "Santa Catarina", "SP": "São Paulo", "BR": "Brasil nacional"}
@@ -83,7 +97,7 @@ def cartao(p):
     externo = p["link"].startswith("http")
     n = NOMES.get(p["id"], {})
     busca = " ".join(x for x in [p["titulo"], p["tag"], n.get("sigla", ""), re.sub(r"[\s/-]", "", n.get("sigla", "")), n.get("cargo", ""), n.get("uf", ""),
-                                 UF_NOME.get(n.get("uf", ""), ""), CARREIRAS.get(p["carreira"], "")] if x)
+                                 UF_NOME.get(n.get("uf", ""), ""), CARREIRAS.get(p["carreira"], ""), APELIDOS.get(p["id"], "")] if x)
     return f"""      <li class="produto {e(p['tema'])}" data-oferta data-carreira="{e(p['carreira'])}" data-busca="{e(busca)}" data-eventos='{e(ev)}'>
         <a class="capa" href="{e(p['link'])}" tabindex="-1" aria-hidden="true"><img src="{e(p['imagem'])}" width="560" height="560" loading="lazy" alt="{e(p.get('alt', ''))}"></a>
         <div class="corpo">
