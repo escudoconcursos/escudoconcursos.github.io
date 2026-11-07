@@ -390,3 +390,18 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
 .hubs h3{font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:1rem;color:var(--ink2);margin:24px 0 10px}
 .hubs-lista{display:flex;flex-wrap:wrap;gap:8px}
 a.chip{text-decoration:none}
+
+/* ---------- onda 2: amostra grátis (07/11/2026) ---------- */
+.am-topo{margin:0 0 26px;padding:16px 18px;background:#fff;border:1px solid #E6DFCC;border-left:5px solid var(--gold);border-radius:12px}
+.am-topo p{margin:0 0 12px}
+.am-pdf{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--navy);color:var(--goldb)!important;text-decoration:none;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.am-questao{margin:18px 0;padding:16px 18px;background:#fff;border:1px solid #E6DFCC;border-radius:12px}
+.am-questao h3{margin-top:0}
+.am-questao ul{list-style:none;padding-left:0}
+.am-questao li{margin:6px 0}
+.am-gabarito{margin-top:12px;border-top:1px dashed #D9CFB4;padding-top:10px}
+.am-gabarito summary{cursor:pointer;font-weight:700;color:var(--cd,#7A5E22);min-height:44px;display:flex;align-items:center}
+.am-fim .am-voltar{margin-top:18px}
+.am-fim .am-voltar a{color:var(--goldb)}
+.amostra-link{text-align:center;margin:14px 0 0}
+.amostra-link a{color:var(--goldb);font-weight:700}

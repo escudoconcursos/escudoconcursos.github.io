@@ -22,6 +22,7 @@ _extra = sorted(d.parent.name + "/" for d in RAIZ.glob("concurso-*/index.html"))
 if (RAIZ / "quem-faz" / "index.html").exists():
     _extra.append("quem-faz/")
 _extra += sorted(d.parent.name + "/" for d in RAIZ.glob("concursos-*/index.html"))  # páginas de carreira e estado (hubs.py)
+_extra += sorted(d.parent.parent.name + "/amostra/" for d in RAIZ.glob("*/amostra/index.html"))  # amostras grátis (amostra.py)
 if (RAIZ / "guarda-municipal" / "index.html").exists():
     _extra.append("guarda-municipal/")
 if (RAIZ / "recenseador-ibge-2026" / "index.html").exists():
