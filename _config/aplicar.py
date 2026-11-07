@@ -16,6 +16,19 @@ CFG = json.loads((RAIZ / "_config" / "site.json").read_text(encoding="utf-8"))
 PAGINAS = ["index.html", "tecnico-defensoria-dpe-pb-2026/index.html", "pmpe-soldado-2026/index.html", "gm-sao-goncalo-2026/index.html", "pmal-soldado-2026/index.html", "cbmpe-soldado-2026/index.html", "pcpe-agente-2026/index.html", "agente-educativo-aparecida-2026/index.html", "pedagogia-aparecida-2026/index.html", "gcm-santana-2026/index.html", "gcm-salvador-2026/index.html", "gm-recife-2026/index.html", "assistente-semusa-porto-velho-2026/index.html", "tecnico-enfermagem-porto-velho-2026/index.html", "professor-semed-porto-velho-2026/index.html", "soldado-pmsc-2026/index.html", "policial-penal-pr-2026/index.html", "policial-penal-pe-2026/index.html", "escrevente-tjsp-2026/index.html", "assistente-administrativo-contagem-2026/index.html", "tecnico-bancario-banestes-2026/index.html", "investigador-policia-civil-mg-pcmg-2026/index.html", "soldado-pmpr-2026/index.html", "agente-administrativo-curitiba-2026/index.html", "pmerj-soldado-2026/index.html", "pmpa-soldado-2026/index.html", "cbm-al-soldado-2026/index.html", "pmba-soldado-2026/index.html", "pmesp-soldado-2026/index.html", "pcac-oficial-investigador-2026/index.html", "afiliados/index.html", "404.html"]
 SITEMAP = ["", "tecnico-defensoria-dpe-pb-2026/", "pmpe-soldado-2026/", "gm-sao-goncalo-2026/", "pmal-soldado-2026/", "cbmpe-soldado-2026/", "pcpe-agente-2026/", "agente-educativo-aparecida-2026/", "pedagogia-aparecida-2026/", "gcm-santana-2026/", "gcm-salvador-2026/", "gm-recife-2026/", "assistente-semusa-porto-velho-2026/", "tecnico-enfermagem-porto-velho-2026/", "professor-semed-porto-velho-2026/", "soldado-pmsc-2026/", "policial-penal-pr-2026/", "policial-penal-pe-2026/", "escrevente-tjsp-2026/", "assistente-administrativo-contagem-2026/", "tecnico-bancario-banestes-2026/", "investigador-policia-civil-mg-pcmg-2026/", "soldado-pmpr-2026/", "agente-administrativo-curitiba-2026/", "pmerj-soldado-2026/", "pmpa-soldado-2026/", "cbm-al-soldado-2026/", "pmba-soldado-2026/", "pmesp-soldado-2026/", "pcac-oficial-investigador-2026/", "afiliados/"]
 
+
+# guias:extra (incluído por guias.py: guias de concurso, Quem faz e cursos que faltavam no sitemap)
+_extra = sorted(d.parent.name + "/" for d in RAIZ.glob("concurso-*/index.html"))
+if (RAIZ / "quem-faz" / "index.html").exists():
+    _extra.append("quem-faz/")
+if (RAIZ / "recenseador-ibge-2026" / "index.html").exists():
+    _extra.append("recenseador-ibge-2026/")
+for _u in _extra:
+    if _u not in SITEMAP:
+        SITEMAP.append(_u)
+    if _u + "index.html" not in PAGINAS:
+        PAGINAS.append(_u + "index.html")
+
 base = (CFG.get("url_base") or "").strip()
 if base and not base.endswith("/"):
     base += "/"
