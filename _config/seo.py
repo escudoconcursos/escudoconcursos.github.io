@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-BASE = "https://escudoconcursos.github.io/"
+BASE = "https://escudoconcursos.com.br/"
 
 BUSCA = {
     "pmpe-soldado-2026": "PMPE Soldado",

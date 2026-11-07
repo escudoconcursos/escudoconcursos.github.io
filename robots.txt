@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://escudoconcursos.github.io/sitemap.xml
+Sitemap: https://escudoconcursos.com.br/sitemap.xml

@@ -136,7 +136,7 @@
       var MAPA = [[/chatgpt\.com|openai\.com/, "chatgpt"], [/instagram\.com/, "instagram"], [/facebook\.com|fb\.com/, "facebook"],
         [/whatsapp|wa\.me/, "whatsapp"], [/gemini\.google|bard\.google/, "gemini"], [/google\./, "google"], [/bing\.com/, "bing"],
         [/perplexity\.ai/, "perplexity"], [/youtube\.com/, "youtube"], [/t\.co$|twitter\.com|x\.com/, "x"],
-        [/escudoconcursos\.github\.io/, ""]];
+        [/escudoconcursos\.(github\.io|com\.br)$/, ""]];
       for (var i = 0; i < MAPA.length; i++) { if (MAPA[i][0].test(host)) { origem = MAPA[i][1]; break; } }
       if (!origem && host) origem = "ref-" + host.replace(/[^\w.-]/g, "").slice(0, 40);
     }
