@@ -126,6 +126,23 @@
     var v = url.get(k);
     if (v && /^[\w.~-]{1,200}$/.test(v)) { guardado[k] = v; novo = true; }
   });
+  /* Sem src na URL: usa utm_source ou o site de onde a pessoa veio (06/11/2026), para a Hotmart separar
+     ChatGPT, Google, Instagram etc. em vez de juntar tudo em src=site. */
+  if (!guardado.src) {
+    var origem = guardado.utm_source || "";
+    if (!origem && document.referrer) {
+      var host = "";
+      try { host = new URL(document.referrer).hostname.replace(/^www\./, ""); } catch (e) {}
+      var MAPA = [[/chatgpt\.com|openai\.com/, "chatgpt"], [/instagram\.com/, "instagram"], [/facebook\.com|fb\.com/, "facebook"],
+        [/whatsapp|wa\.me/, "whatsapp"], [/gemini\.google|bard\.google/, "gemini"], [/google\./, "google"], [/bing\.com/, "bing"],
+        [/perplexity\.ai/, "perplexity"], [/youtube\.com/, "youtube"], [/t\.co$|twitter\.com|x\.com/, "x"],
+        [/escudoconcursos\.github\.io/, ""]];
+      for (var i = 0; i < MAPA.length; i++) { if (MAPA[i][0].test(host)) { origem = MAPA[i][1]; break; } }
+      if (!origem && host) origem = "ref-" + host.replace(/[^\w.-]/g, "").slice(0, 40);
+    }
+    origem = origem.replace(/\.(com|ai|me)$/, "").replace(/[^\w.~-]/g, "").slice(0, 40);
+    if (origem) { guardado.src = "site-" + origem; novo = true; }
+  }
   if (novo) { try { sessionStorage.setItem("escudo-origem", JSON.stringify(guardado)); } catch (e) {} }
   if (!Object.keys(guardado).length) return;
   document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (a) {
