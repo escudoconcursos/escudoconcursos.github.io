@@ -725,6 +725,30 @@
       "botao": "Ver o curso",
       "prova": "2027-01-24",
       "inscricoes_ate": "2026-12-14"
+    },
+    {
+      "id": "recenseador-ibge-2026",
+      "atalho": "ibge",
+      "carreira": "administrativo",
+      "tema": "tema-verde",
+      "tag": "IBGE 2026 · Edital 03/2026 · Cesgranrio",
+      "titulo": "Recenseador IBGE (12º Censo Agro)",
+      "itens": [
+        "75 capítulos e 370 questões, de acordo com o edital",
+        "2 simulados de 60 questões no formato da prova"
+      ],
+      "imagem": "assets/img/produto-recenseador-ibge-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Recenseador IBGE 2026, 12º Censo Agro, Edital 03/2026, 75 capítulos e 370 questões",
+      "preco": 47,
+      "cupom": {
+        "codigo": "IBGE37",
+        "preco": 37,
+        "ate": "2026-11-25"
+      },
+      "link": "recenseador-ibge-2026/",
+      "botao": "Ver o curso",
+      "prova": "2027-01-31",
+      "inscricoes_ate": "2026-11-25"
     }
   ]
 }
