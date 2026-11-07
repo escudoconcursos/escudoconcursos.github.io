@@ -59,9 +59,12 @@
 <!-- amostras:inicio -->
 ## Amostras grátis
 
+- [Amostra grátis da apostila Curitiba 2026: Agente Administrativo](https://escudoconcursos.com.br/agente-administrativo-curitiba-2026/amostra/)
 - [Amostra grátis da apostila Aparecida de Goiânia 2026: Agente Educativo](https://escudoconcursos.com.br/agente-educativo-aparecida-2026/amostra/)
+- [Amostra grátis da apostila Contagem 2026: Assistente Administrativo](https://escudoconcursos.com.br/assistente-administrativo-contagem-2026/amostra/)
 - [Amostra grátis da apostila Porto Velho 2026: Assistente Administrativo](https://escudoconcursos.com.br/assistente-semusa-porto-velho-2026/amostra/)
 - [Amostra grátis da apostila CBMPE 2026: Soldado Bombeiro](https://escudoconcursos.com.br/cbmpe-soldado-2026/amostra/)
+- [Amostra grátis da apostila TJSP 2026: Escrevente Técnico Judiciário](https://escudoconcursos.com.br/escrevente-tjsp-2026/amostra/)
 - [Amostra grátis da apostila GCM Salvador 2026: Guarda Civil Municipal](https://escudoconcursos.com.br/gcm-salvador-2026/amostra/)
 - [Amostra grátis da apostila GCM Santana 2026: Guarda Civil Municipal](https://escudoconcursos.com.br/gcm-santana-2026/amostra/)
 - [Amostra grátis da apostila GM Recife 2026: Guarda Municipal](https://escudoconcursos.com.br/gm-recife-2026/amostra/)
@@ -78,6 +81,8 @@
 - [Amostra grátis da apostila IBGE 2026: Recenseador](https://escudoconcursos.com.br/recenseador-ibge-2026/amostra/)
 - [Amostra grátis da apostila PMPR 2026: Soldado PM](https://escudoconcursos.com.br/soldado-pmpr-2026/amostra/)
 - [Amostra grátis da apostila PMSC 2026: Soldado PM](https://escudoconcursos.com.br/soldado-pmsc-2026/amostra/)
+- [Amostra grátis da apostila Banestes 2026: Técnico Bancário](https://escudoconcursos.com.br/tecnico-bancario-banestes-2026/amostra/)
+- [Amostra grátis da apostila DPE-PB 2026: Técnico da Defensoria](https://escudoconcursos.com.br/tecnico-defensoria-dpe-pb-2026/amostra/)
 - [Amostra grátis da apostila Porto Velho 2026: Técnico em Enfermagem](https://escudoconcursos.com.br/tecnico-enfermagem-porto-velho-2026/amostra/)
 <!-- amostras:fim -->
 
