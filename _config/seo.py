@@ -13,38 +13,38 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 BASE = "https://escudoconcursos.com.br/"
 
-BUSCA = {
-    "pmpe-soldado-2026": "PMPE Soldado",
-    "gm-sao-goncalo-2026": "Guarda Municipal de São Gonçalo",
-    "pmal-soldado-2026": "PM/AL Soldado",
-    "cbmpe-soldado-2026": "CBMPE Soldado Bombeiro",
-    "pcpe-agente-2026": "PC/PE Agente de Polícia",
-    "gcm-santana-2026": "GCM Santana/AP",
-    "gcm-salvador-2026": "GCM Salvador/BA",
-    "gm-recife-2026": "GM Recife Agente de Segurança Municipal",
-    "assistente-semusa-porto-velho-2026": "SEMUSA Porto Velho Assistente Administrativo",
-    "tecnico-enfermagem-porto-velho-2026": "SEMUSA Porto Velho Técnico em Enfermagem",
-    "professor-semed-porto-velho-2026": "SEMED Porto Velho Professor Séries Iniciais",
-    "agente-educativo-aparecida-2026": "Aparecida de Goiânia Agente Educativo",
-    "pedagogia-aparecida-2026": "Aparecida de Goiânia Professor PE-I Pedagogia",
-    "soldado-pmsc-2026": "PM/SC Soldado",
-    "investigador-policia-civil-mg-pcmg-2026": "PCMG Investigador de Polícia Civil MG",
-    "soldado-pmpr-2026": "PM/PR Soldado Polícia Militar do Paraná",
-    "escrevente-tjsp-2026": "TJSP Escrevente Técnico Judiciário",
-    "assistente-administrativo-contagem-2026": "Prefeitura de Contagem Assistente Administrativo",
-    "agente-administrativo-curitiba-2026": "Prefeitura de Curitiba Agente Administrativo",
-    "tecnico-bancario-banestes-2026": "Banestes Técnico Bancário",
-    "tecnico-defensoria-dpe-pb-2026": "DPE-PB Técnico da Defensoria",
-    "policial-penal-pr-2026": "Polícia Penal PR Policial Penal",
-    "policial-penal-pe-2026": "Polícia Penal PE Policial Penal",
-    "pmerj-soldado-2026": "PM/RJ Soldado Polícia Militar do Rio de Janeiro",
-    "pmpa-soldado-2026": "PM/PA Soldado Polícia Militar do Pará",
-    "cbm-al-soldado-2026": "CBM/AL Soldado Bombeiro Militar",
-    "pmba-soldado-2026": "PM/BA Soldado Polícia Militar da Bahia",
-    "pmesp-soldado-2026": "PM/SP Soldado Polícia Militar de São Paulo",
-    "pcac-oficial-investigador-2026": "PC-AC Oficial Investigador Polícia Civil do Acre",
-    "recenseador-ibge-2026": "Recenseador IBGE",
-}
+# Nome de busca de cada curso: _config/nomes.json (sigla + cargo), padrão do plano de SEO de 07/11/2026.
+NOMES = json.loads((RAIZ / "_config" / "nomes.json").read_text(encoding="utf-8"))["cursos"]
+BUSCA = {k: "%s %s" % (v["sigla"], v["cargo"]) for k, v in NOMES.items()}
+ANO = "2026"
+LIMITE_TITULO, LIMITE_DESC = 60, 155
+
+
+def titulo_de(n):
+    t = f"Apostila {n['sigla']} {ANO} em PDF: {n['cargo']} | ESCUDO"
+    return t if len(t) <= LIMITE_TITULO else t.rsplit(" | ", 1)[0]
+
+
+def numero(html, rotulo):
+    m = re.search(r"<li><b>([\d.]+)</b><span>" + rotulo, html)
+    return m.group(1) if m else ""
+
+
+def descricao_de(html, n, p):
+    cap, q = numero(html, "capítulos"), numero(html, "questões")
+    pre = "Pré-edital" in p.get("tag", "") or p.get("prova") in (None, "2099-12-31")
+    edital = "pronta para o próximo edital" if pre else "de acordo com o edital"
+    partes = []
+    if cap:
+        partes.append(f"{cap} capítulos")
+    if q:
+        partes.append(f"{q} questões comentadas")
+    corpo = " e ".join(partes)
+    d = f"Apostila {n['sigla']} {ANO} em PDF para {n['cargo']}" + (f": {corpo}, {edital}." if corpo else f", {edital}.")
+    if len(d + " Garantia de 7 dias.") <= LIMITE_DESC:
+        d += " Garantia de 7 dias."
+    return d if len(d) <= LIMITE_DESC else ""
+
 
 INI, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
 
@@ -65,8 +65,14 @@ def main():
         html = arq.read_text(encoding="utf-8")
         p = produtos.get(pasta, {})
 
-        titulo = f"Apostila {chave} 2026 em PDF | ESCUDO Concursos"
+        n = NOMES[pasta]
+        titulo = titulo_de(n)
         html = re.sub(r"<title>[^<]*</title>", f"<title>{titulo}</title>", html, count=1)
+        desc = descricao_de(html, n, p)
+        if desc:
+            html = re.sub(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1) + desc.replace('"', "&quot;") + m.group(2), html, count=1)
+        else:
+            print("AVISO descrição passou de", LIMITE_DESC, "caracteres:", pasta)
 
         html = html.replace('content="Curso em PDF (sem videoaulas) para',
                             'content="Apostila em PDF (curso sem videoaulas) para', 1)
@@ -102,10 +108,11 @@ def main():
         ld = {
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": f"Apostila {chave} 2026 em PDF",
+            "name": f"Apostila {n['sigla']} {ANO} em PDF: {n['cargo']}",
             "description": meta(html, "name", "description"),
             "image": meta(html, "property", "og:image"),
             "brand": {"@type": "Brand", "name": "ESCUDO Concursos"},
+            "manufacturer": {"@id": BASE + "#organizacao"},
             "category": "Apostila para concurso público",
             "offers": oferta,
         }

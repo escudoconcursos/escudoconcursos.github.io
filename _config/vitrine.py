@@ -77,7 +77,7 @@ def cartao(p):
         valor = '<p class="valor">R$ %s</p>' % (p['preco'] if isinstance(p['preco'], int) else ('%.2f' % p['preco']).replace('.', ','))
     externo = p["link"].startswith("http")
     return f"""      <li class="produto {e(p['tema'])}" data-oferta data-carreira="{e(p['carreira'])}" data-eventos='{e(ev)}'>
-        <a class="capa" href="{e(p['link'])}" tabindex="-1" aria-hidden="true"><img src="{e(p['imagem'])}" width="560" height="560" loading="lazy" alt=""></a>
+        <a class="capa" href="{e(p['link'])}" tabindex="-1" aria-hidden="true"><img src="{e(p['imagem'])}" width="560" height="560" loading="lazy" alt="{e(p.get('alt', ''))}"></a>
         <div class="corpo">
           <p class="selo{' urgente' if urgente else ''}" data-selo>{e(txt)}</p>
           <p class="tag">{brasao}{e(p['tag'])}</p>

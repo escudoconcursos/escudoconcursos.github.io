@@ -64,7 +64,20 @@ for rel in PAGINAS:
 
 robots = "User-agent: *\nAllow: /\n"
 if base:
-    urls = "".join("  <url><loc>%s%s</loc></url>\n" % (base, u) for u in SITEMAP)
+    import subprocess
+
+    def lastmod(u):
+        """Data do último commit da página (ajuda o Google a voltar depois de retificação de edital)."""
+        alvo = (u or ".") + ("index.html" if u else "/index.html")
+        try:
+            r = subprocess.run(["git", "-C", str(RAIZ), "log", "-1", "--format=%cs", "--", alvo],
+                               capture_output=True, text=True, timeout=20)
+            d = r.stdout.strip()
+        except Exception:
+            d = ""
+        return "<lastmod>%s</lastmod>" % d if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) else ""
+
+    urls = "".join("  <url><loc>%s%s</loc>%s</url>\n" % (base, u, lastmod(u)) for u in SITEMAP)
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</urlset>\n' % urls,
         encoding="utf-8")

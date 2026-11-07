@@ -328,3 +328,53 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
   .barra{display:none}
   body.com-barra{padding-bottom:0}
 }
+
+/* ---------- onda 1 do plano de SEO (07/11/2026) ---------- */
+.trilha{background:#070F1F;color:var(--muted);font-size:.8rem;line-height:1.3;border-bottom:1px solid rgba(201,162,75,.14)}
+.trilha .wrap{padding-top:7px;padding-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trilha a{color:var(--goldb);text-decoration:none}
+.trilha a:hover{text-decoration:underline}
+.trilha span[aria-hidden]{margin:0 7px;opacity:.6}
+.hero h1 .h1-kw{display:block;font-family:var(--ff-t);font-weight:800;letter-spacing:.16em;font-size:clamp(.82rem,3.6vw,1.05rem);line-height:1.3;color:var(--cb);margin:0 0 12px}
+.preco .off{display:inline-block;vertical-align:1px;margin-left:6px;padding:1px 8px;border-radius:6px;background:var(--goldb);color:var(--navy);font-family:var(--ff-t);font-weight:800;letter-spacing:.06em;font-size:.86rem}
+.compra-meio{max-width:460px;margin:34px auto 0;text-align:center}
+.compra-meio p{margin:10px 0 0;font-size:.88rem;color:var(--muted)}
+.entregas li.com-img{grid-template-columns:34px 1fr}
+.entregas .minis{grid-column:2;display:flex;gap:8px;margin-top:2px}
+.entregas .mini{display:block;position:relative;width:118px;border-radius:5px;overflow:hidden;background:#fff;border:1px solid #E6DFCC;box-shadow:0 8px 18px -10px rgba(11,26,51,.55);transition:transform .15s}
+.entregas .mini:hover{transform:translateY(-2px)}
+.entregas .mini img{display:block;width:100%;height:auto;aspect-ratio:640/906}
+.entregas .mini::after{content:"";position:absolute;right:5px;bottom:5px;width:24px;height:24px;border-radius:50%;background:rgba(11,26,51,.82) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23E7C873' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E") center/15px no-repeat}
+.outros-lista{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:26px 0 0;padding:0;list-style:none}
+.outros-lista a{display:flex;flex-direction:column;height:100%;background:#fff;border:1px solid #E6DFCC;border-radius:12px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .15s,box-shadow .15s}
+.outros-lista a:hover{transform:translateY(-2px);box-shadow:0 14px 26px -16px rgba(11,26,51,.5)}
+.outros-lista img{display:block;width:100%;height:auto;aspect-ratio:1/1}
+.outros-lista .o-tag{display:block;padding:10px 12px 0;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:.76rem;color:var(--cd)}
+.outros-lista b{display:block;padding:2px 12px 12px;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;font-size:1.02rem;line-height:1.1;color:var(--navy)}
+.outros-links{margin:20px 0 0;font-size:.98rem}
+.outros-links a{color:var(--goldt);font-weight:600}
+@media (max-width:899px){
+  /* celular: preço e botão logo depois do título, antes da capa */
+  .hero{padding-top:22px}
+  .hero-grid{display:flex;flex-direction:column}
+  .h-resto{display:contents}
+  .h-titulo{order:1}
+  .h-resto .preco{order:2;margin:0 0 30px}
+  .capa-col{order:3}
+  .h-resto .lead{order:4}
+  .h-resto .numeros{order:5}
+  .hero .etq{display:none}
+  .hero .regua{margin:12px 0 16px}
+  body .aviso-topo{font-size:.68rem;line-height:1.25;padding:4px 12px}
+  .hero .selo-orgao{margin-bottom:14px}
+  .hero .selo-orgao img{height:64px}
+  .hero .selo-orgao b{font-size:1.6rem}
+}
+@media (min-width:900px){
+  .entregas li.com-img{grid-template-columns:34px 1fr auto}
+  .entregas .minis{grid-column:3;margin:0}
+  .entregas .mini{width:96px}
+  .outros-lista{grid-template-columns:repeat(4,1fr)}
+}
+.tema-policial .outros-links a{color:var(--goldb)}
+.tema-policial .outros-lista a{border-color:rgba(201,162,75,.3)}
