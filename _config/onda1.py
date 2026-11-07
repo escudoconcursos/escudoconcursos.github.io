@@ -21,6 +21,8 @@ NOMES = json.loads((RAIZ / "_config/nomes.json").read_text(encoding="utf-8"))["c
 DADOS = json.loads((RAIZ / "_config/produtos.json").read_text(encoding="utf-8"))
 PRODUTOS = {p["id"]: p for p in DADOS["produtos"]}
 CARREIRAS = DADOS["carreiras"]
+_BEN = RAIZ / "_config/beneficios.json"
+BENEFICIOS = json.loads(_BEN.read_text(encoding="utf-8")) if _BEN.exists() else {}  # {pasta: [{"item": início do texto, "img": "assets/img/x/b-y", "alt": "..."}]}
 BASE = json.loads((RAIZ / "_config/site.json").read_text(encoding="utf-8"))["url_base"]
 HOJE = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
 ANO = "2026"
@@ -118,7 +120,7 @@ REGRAS = [  # (palavras do benefício, prefixos de imagem), em ordem de preferê
 ]
 
 
-def imagens_beneficios(html):
+def imagens_beneficios(html, pasta=""):
     """Página real do PDF ao lado de cada benefício de 'O que você recebe'."""
     gal = re.findall(r'<a href="([^"]+-g\.webp)" data-zoom="([^"]*)"><img src="([^"]+)"[^>]*alt="([^"]*)"', html)
     sec = re.search(r'(<section class="secao claro" aria-labelledby="t-recebe">.*?<ul class="entregas(?: com-imagens)?)(">)(.*?)(</ul>)', html, flags=re.S)
@@ -141,6 +143,13 @@ def imagens_beneficios(html):
                 if nome(g[2]).startswith(prefixos):
                     usados.append(g)
                     livres.remove(g)
+                    break
+        if not usados:  # sem página na galeria: usa a página tirada do PDF para este benefício
+            limpo = re.sub(r"\s+", " ", texto).strip()
+            for b in BENEFICIOS.get(pasta, []):
+                if limpo.startswith(re.sub(r"\s+", " ", b["item"]).strip().lower()):
+                    src = "../" + b["img"]
+                    usados.append((src + "-g.webp", b.get("alt", ""), src + ".webp", "Página da apostila: " + b.get("alt", b["item"])))
                     break
         if usados:
             minis = "".join(
@@ -221,7 +230,7 @@ def main():
         html = off(html)
         html, ok_meio = botao_meio(html)
         html = contador_cliques(html)
-        html, ok_img = imagens_beneficios(html)
+        html, ok_img = imagens_beneficios(html, pasta)
         html = trilha(html, pasta, n, p)
         html = outros(html, pasta, n, p)
         arq.write_text(html, encoding="utf-8")

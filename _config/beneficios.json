@@ -1,0 +1,877 @@
+{
+ "pmpe-soldado-2026": [
+  {
+   "item": "Questões reais da prova de Soldado",
+   "img": "assets/img/pmpe/b-prova-real",
+   "alt": "Questão da prova de Soldado PMPE 2024 comentada na teoria"
+  },
+  {
+   "item": "História de Pernambuco em 13 capítulos",
+   "img": "assets/img/pmpe/b-historia-pe",
+   "alt": "Sumário da disciplina História de Pernambuco"
+  },
+  {
+   "item": "Legislação atualizada: Constituição Federal, ECA, Estatuto",
+   "img": "assets/img/pmpe/b-legislacao",
+   "alt": "Sumário de Direitos Humanos e Legislação Extravagante"
+  },
+  {
+   "item": "Bloco de redação: como a AOCP",
+   "img": "assets/img/pmpe/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmpe/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pmpe/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "gm-sao-goncalo-2026": [
+  {
+   "item": "Conhecimentos Específicos em 27 capítulos: SUSP",
+   "img": "assets/img/sao-goncalo/b-especificos",
+   "alt": "Sumário de Conhecimentos Específicos"
+  },
+  {
+   "item": "Legislação atualizada: Constituição Federal e o",
+   "img": "assets/img/sao-goncalo/b-legislacao",
+   "alt": "Sumário de Legislação Extravagante"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/sao-goncalo/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/sao-goncalo/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmal-soldado-2026": [
+  {
+   "item": "Legislação do PM de Alagoas em",
+   "img": "assets/img/pmal/b-legislacao-pmal",
+   "alt": "Sumário da Legislação do Policial Militar de Alagoas"
+  },
+  {
+   "item": "Direito Penal Militar e Processual Penal",
+   "img": "assets/img/pmal/b-penal-militar",
+   "alt": "Sumário de Direito Penal Militar"
+  },
+  {
+   "item": "A discursiva de Atualidades: a nota",
+   "img": "assets/img/pmal/b-discursiva",
+   "alt": "Sumário da Discursiva de Atualidades"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmal/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pmal/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "cbmpe-soldado-2026": [
+  {
+   "item": "Questões reais de provas anteriores de",
+   "img": "assets/img/cbmpe/b-prova-real",
+   "alt": "Questão da prova de Soldado CBMPE 2024 comentada na teoria"
+  },
+  {
+   "item": "Matemática, Física e Biologia em 42",
+   "img": "assets/img/cbmpe/b-matematica",
+   "alt": "Sumário da disciplina Matemática"
+  },
+  {
+   "item": "Direito Constitucional em 20 capítulos e",
+   "img": "assets/img/cbmpe/b-constitucional",
+   "alt": "Sumário de Direito Constitucional"
+  },
+  {
+   "item": "História de Pernambuco em 13 capítulos",
+   "img": "assets/img/cbmpe/b-historia-pe",
+   "alt": "Sumário da disciplina História de Pernambuco"
+  },
+  {
+   "item": "Bloco de redação: como a AOCP",
+   "img": "assets/img/cbmpe/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/cbmpe/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/cbmpe/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pcpe-agente-2026": [
+  {
+   "item": "Questões reais da prova de Agente",
+   "img": "assets/img/pcpe/b-prova-real",
+   "alt": "Questão da prova de Agente da PC-PE 2023 comentada na teoria"
+  },
+  {
+   "item": "Legislação Estadual de Pernambuco em 10",
+   "img": "assets/img/pcpe/b-legislacao-pe",
+   "alt": "Sumário da Legislação Estadual de Pernambuco"
+  },
+  {
+   "item": "Noções de Direito em 72 capítulos",
+   "img": "assets/img/pcpe/b-penal-especial",
+   "alt": "Sumário de Legislação Penal Especial"
+  },
+  {
+   "item": "Contabilidade Geral (10 capítulos) e Estatística",
+   "img": "assets/img/pcpe/b-contabilidade",
+   "alt": "Sumário de Contabilidade Geral"
+  },
+  {
+   "item": "Bloco da discursiva em 5 capítulos:",
+   "img": "assets/img/pcpe/b-discursiva",
+   "alt": "Sumário do bloco da Discursiva"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pcpe/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pcpe/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "gcm-santana-2026": [
+  {
+   "item": "Legislação da Guarda Civil Municipal em",
+   "img": "assets/img/santana/b-legislacao-gcm",
+   "alt": "Sumário da Legislação da Guarda Civil Municipal"
+  },
+  {
+   "item": "História e Geografia do Amapá em",
+   "img": "assets/img/santana/b-historia-ap",
+   "alt": "Sumário de História do Amapá"
+  },
+  {
+   "item": "Legislação Especial em 18 capítulos: Maria",
+   "img": "assets/img/santana/b-legislacao-especial",
+   "alt": "Sumário de Legislação Especial"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/santana/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/santana/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "gcm-salvador-2026": [
+  {
+   "item": "Conhecimentos na Área de Atuação em",
+   "img": "assets/img/salvador/b-area-atuacao",
+   "alt": "Sumário de Conhecimentos na Área de Atuação"
+  },
+  {
+   "item": "Legislação de Salvador em 15 capítulos",
+   "img": "assets/img/salvador/b-legislacao-salvador",
+   "alt": "Sumário da Legislação Municipal de Salvador"
+  },
+  {
+   "item": "Legislação geral em 18 capítulos: Maria",
+   "img": "assets/img/salvador/b-legislacao-geral",
+   "alt": "Sumário de Legislação Geral"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/salvador/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/salvador/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "gm-recife-2026": [
+  {
+   "item": "Legislação aplicada à Segurança Pública em",
+   "img": "assets/img/recife/b-legislacao",
+   "alt": "Sumário de Legislação Aplicada à Segurança Pública"
+  },
+  {
+   "item": "Na mesma disciplina, a legislação geral:",
+   "img": "assets/img/recife/b-desarmamento",
+   "alt": "Abertura do capítulo do Estatuto do Desarmamento"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/recife/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/recife/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "assistente-semusa-porto-velho-2026": [
+  {
+   "item": "Legislação em 35 capítulos: Lei Orgânica",
+   "img": "assets/img/porto-velho-assistente/b-legislacao",
+   "alt": "Sumário da disciplina Legislação"
+  },
+  {
+   "item": "Conhecimentos Específicos em 50 capítulos, pelo",
+   "img": "assets/img/porto-velho-assistente/b-especificos",
+   "alt": "Sumário de Administração Pública e Direito Público"
+  },
+  {
+   "item": "Conhecimentos Gerais e Atualidades em 7",
+   "img": "assets/img/porto-velho-assistente/b-gerais",
+   "alt": "Sumário de Conhecimentos Gerais e Atualidades"
+  },
+  {
+   "item": "Caso prático na rotina da Secretaria",
+   "img": "assets/img/porto-velho-assistente/b-caso",
+   "alt": "Caso prático no atendimento da unidade de saúde"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/porto-velho-assistente/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/porto-velho-assistente/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "tecnico-enfermagem-porto-velho-2026": [
+  {
+   "item": "SUS e legislação profissional em 15",
+   "img": "assets/img/porto-velho-tecnico/b-sus",
+   "alt": "Sumário de SUS e Legislação Profissional"
+  },
+  {
+   "item": "Cuidados de enfermagem em 22 capítulos:",
+   "img": "assets/img/porto-velho-tecnico/b-cuidados",
+   "alt": "Sumário de Cuidados de Enfermagem"
+  },
+  {
+   "item": "Legislação em 35 capítulos: Lei Orgânica",
+   "img": "assets/img/porto-velho-tecnico/b-legislacao",
+   "alt": "Sumário da disciplina Legislação"
+  },
+  {
+   "item": "Conhecimentos Gerais em 7 capítulos: história",
+   "img": "assets/img/porto-velho-tecnico/b-gerais",
+   "alt": "Sumário de Conhecimentos Gerais e Atualidades"
+  },
+  {
+   "item": "Caso prático na rotina da Secretaria",
+   "img": "assets/img/porto-velho-tecnico/b-caso",
+   "alt": "Caso prático no atendimento da unidade de saúde"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/porto-velho-tecnico/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/porto-velho-tecnico/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "professor-semed-porto-velho-2026": [
+  {
+   "item": "Legislação Educação em 37 capítulos: direito",
+   "img": "assets/img/porto-velho-professor/b-legislacao",
+   "alt": "Sumário de Legislação Educação"
+  },
+  {
+   "item": "Conhecimentos Específicos em 48 capítulos, pelo",
+   "img": "assets/img/porto-velho-professor/b-especificos",
+   "alt": "Sumário de Conhecimentos Específicos: Currículo e Diretrizes"
+  },
+  {
+   "item": "Conhecimentos Gerais e Atualidades em 7",
+   "img": "assets/img/porto-velho-professor/b-gerais",
+   "alt": "Sumário de Conhecimentos Gerais e Atualidades"
+  },
+  {
+   "item": "Casos práticos na escola municipal de",
+   "img": "assets/img/porto-velho-professor/b-caso",
+   "alt": "Caso prático com um professor da rede municipal"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/porto-velho-professor/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/porto-velho-professor/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "agente-educativo-aparecida-2026": [
+  {
+   "item": "Conhecimentos Específicos em 29 capítulos, pela",
+   "img": "assets/img/aparecida-agente/b-especificos",
+   "alt": "Sumário de Conhecimentos Específicos"
+  },
+  {
+   "item": "Realidade de Goiás e de Aparecida",
+   "img": "assets/img/aparecida-agente/b-realidade",
+   "alt": "Sumário de Realidade de Goiás e de Aparecida de Goiânia"
+  },
+  {
+   "item": "Caso prático na rotina do CMEI",
+   "img": "assets/img/aparecida-agente/b-caso",
+   "alt": "Caso prático no registro de ocorrência da escola"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/aparecida-agente/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/aparecida-agente/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pedagogia-aparecida-2026": [
+  {
+   "item": "Conhecimentos Específicos em 49 capítulos ,",
+   "img": "assets/img/aparecida-pedagogia/b-especificos",
+   "alt": "Sumário de Conhecimentos Específicos: Legislação Educacional e Pedagogia"
+  },
+  {
+   "item": "Lei Orgânica de Aparecida de Goiânia",
+   "img": "assets/img/aparecida-pedagogia/b-lei-organica",
+   "alt": "Sumário da Lei Orgânica de Aparecida de Goiânia"
+  },
+  {
+   "item": "Realidade de Goiás e de Aparecida",
+   "img": "assets/img/aparecida-pedagogia/b-realidade",
+   "alt": "Sumário de Realidade de Goiás e de Aparecida de Goiânia"
+  },
+  {
+   "item": "Bloco de Redação em 5 capítulos:",
+   "img": "assets/img/aparecida-pedagogia/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/aparecida-pedagogia/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/aparecida-pedagogia/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "soldado-pmsc-2026": [
+  {
+   "item": "Legislação Institucional em 15 capítulos ,",
+   "img": "assets/img/pmsc/b-institucional",
+   "alt": "Sumário de Legislação Institucional"
+  },
+  {
+   "item": "Direito Constitucional em 22 capítulos ,",
+   "img": "assets/img/pmsc/b-constitucional",
+   "alt": "Sumário de Direito Constitucional"
+  },
+  {
+   "item": "Legislação Especial em 20 capítulos (crimes",
+   "img": "assets/img/pmsc/b-legislacao-especial",
+   "alt": "Sumário de Legislação Especial"
+  },
+  {
+   "item": "Bloco de redação em 6 capítulos:",
+   "img": "assets/img/pmsc/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmsc/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pmsc/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "investigador-policia-civil-mg-pcmg-2026": [
+  {
+   "item": "Lei Orgânica da PCMG em 8",
+   "img": "assets/img/pcmg/b-lei-organica",
+   "alt": "Sumário da Lei Orgânica da Polícia Civil de Minas Gerais"
+  },
+  {
+   "item": "Legislação Penal e Processual Extravagante em",
+   "img": "assets/img/pcmg/b-extravagante",
+   "alt": "Sumário de Legislação Penal e Processual Extravagante"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pcmg/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pcmg/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "soldado-pmpr-2026": [
+  {
+   "item": "Legislação Institucional em 8 capítulos ,",
+   "img": "assets/img/pmpr/b-institucional",
+   "alt": "Sumário de Legislação Institucional"
+  },
+  {
+   "item": "Legislação em 20 capítulos (crimes hediondos,",
+   "img": "assets/img/pmpr/b-legislacao",
+   "alt": "Sumário da disciplina Legislação"
+  },
+  {
+   "item": "Bloco de redação em 6 capítulos:",
+   "img": "assets/img/pmpr/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmpr/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/pmpr/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "escrevente-tjsp-2026": [
+  {
+   "item": "Conhecimentos em Direito em 49 capítulos,",
+   "img": "assets/img/tjsp-escrevente/b-direito",
+   "alt": "Sumário de Direito Penal, a primeira das disciplinas de Direito"
+  },
+  {
+   "item": "Legislação Interna do TJSP em 7",
+   "img": "assets/img/tjsp-escrevente/b-legislacao-tjsp",
+   "alt": "Sumário da Legislação Interna do TJSP"
+  },
+  {
+   "item": "Conhecimentos Gerais em 25 capítulos: Atualidades",
+   "img": "assets/img/tjsp-escrevente/b-atualidades",
+   "alt": "Sumário de Atualidades, que abre os Conhecimentos Gerais"
+  },
+  {
+   "item": "Exemplos práticos na rotina do cartório",
+   "img": "assets/img/tjsp-escrevente/b-exemplo",
+   "alt": "Exemplo prático na rotina do cartório"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/tjsp-escrevente/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/tjsp-escrevente/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "assistente-administrativo-contagem-2026": [
+  {
+   "item": "Conhecimentos Específicos em 48 capítulos, pelo",
+   "img": "assets/img/contagem-assistente/b-especificos",
+   "alt": "Sumário de Administração Pública e Licitações"
+  },
+  {
+   "item": "Noções de Informática em 17 capítulos:",
+   "img": "assets/img/contagem-assistente/b-informatica",
+   "alt": "Sumário de Noções de Informática"
+  },
+  {
+   "item": "Conhecimentos Gerais do Município em 8",
+   "img": "assets/img/contagem-assistente/b-municipio",
+   "alt": "Sumário de Conhecimentos Gerais do Município"
+  },
+  {
+   "item": "Caso prático na rotina de uma",
+   "img": "assets/img/contagem-assistente/b-caso",
+   "alt": "Caso prático na rotina da Prefeitura"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/contagem-assistente/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/contagem-assistente/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "agente-administrativo-curitiba-2026": [
+  {
+   "item": "Legislação Municipal de Curitiba em 17",
+   "img": "assets/img/curitiba-agente/b-legislacao",
+   "alt": "Sumário da Legislação Municipal de Curitiba"
+  },
+  {
+   "item": "Conhecimentos Específicos em 67 capítulos, pelo",
+   "img": "assets/img/curitiba-agente/b-especificos",
+   "alt": "Sumário de Administração Pública e Orçamento"
+  },
+  {
+   "item": "Língua Portuguesa e Literatura em 30",
+   "img": "assets/img/curitiba-agente/b-portugues",
+   "alt": "Sumário de Língua Portuguesa e Literatura"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/curitiba-agente/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/curitiba-agente/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "tecnico-bancario-banestes-2026": [
+  {
+   "item": "Conhecimentos Bancários em 27 capítulos, a",
+   "img": "assets/img/banestes-tecnico/b-bancarios",
+   "alt": "Sumário de Conhecimentos Bancários"
+  },
+  {
+   "item": "Ética, Compliance e ESG em 13",
+   "img": "assets/img/banestes-tecnico/b-etica",
+   "alt": "Sumário de Ética, Compliance e ESG"
+  },
+  {
+   "item": "Matemática Financeira em 10 capítulos: juros",
+   "img": "assets/img/banestes-tecnico/b-mat-financeira",
+   "alt": "Sumário de Matemática Financeira"
+  },
+  {
+   "item": "Informática e Comportamentos Digitais em 15",
+   "img": "assets/img/banestes-tecnico/b-informatica",
+   "alt": "Sumário de Informática e Comportamentos Digitais"
+  },
+  {
+   "item": "Vendas, Negociação e Atendimento em 14",
+   "img": "assets/img/banestes-tecnico/b-vendas",
+   "alt": "Sumário de Vendas, Negociação e Atendimento"
+  },
+  {
+   "item": "Caso prático na rotina de uma",
+   "img": "assets/img/banestes-tecnico/b-caso",
+   "alt": "Caso prático no atendimento da agência"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/banestes-tecnico/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/banestes-tecnico/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "tecnico-defensoria-dpe-pb-2026": [
+  {
+   "item": "Legislação da Defensoria: Constituição Federal (arts.",
+   "img": "assets/img/dpe-pb-tecnico/b-legislacao",
+   "alt": "Sumário de Legislação da Defensoria e Conhecimentos Jurídicos"
+  },
+  {
+   "item": "Os Conhecimentos Específicos, que pesam o",
+   "img": "assets/img/dpe-pb-tecnico/b-especificos",
+   "alt": "Sumário de Administração Pública, que abre os Conhecimentos Específicos"
+  },
+  {
+   "item": "Caso prático no atendimento da Defensoria",
+   "img": "assets/img/dpe-pb-tecnico/b-caso",
+   "alt": "Caso prático no atendimento da Defensoria"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/dpe-pb-tecnico/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/dpe-pb-tecnico/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "policial-penal-pr-2026": [
+  {
+   "item": "Direito Penitenciário em 11 capítulos: Lei",
+   "img": "assets/img/pppr/b-penitenciario",
+   "alt": "Sumário de Direito Penitenciário e Criminologia"
+  },
+  {
+   "item": "Legislação do Paraná no Direito Administrativo:",
+   "img": "assets/img/pppr/b-processo-adm",
+   "alt": "Abertura do capítulo de processo administrativo no Paraná"
+  },
+  {
+   "item": "Legislação Extravagante em 13 capítulos: Drogas,",
+   "img": "assets/img/pppr/b-extravagante",
+   "alt": "Sumário de Legislação Extravagante"
+  },
+  {
+   "item": "Casos práticos na rotina do sistema",
+   "img": "assets/img/pppr/b-caso",
+   "alt": "Quadro Na prática do sistema prisional"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pppr/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato da",
+   "img": "assets/img/pppr/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "policial-penal-pe-2026": [
+  {
+   "item": "Execução Penal em 12 capítulos: Lei",
+   "img": "assets/img/pppe/b-execucao",
+   "alt": "Sumário de Execução Penal"
+  },
+  {
+   "item": "Legislação Estadual em 15 capítulos: Código",
+   "img": "assets/img/pppe/b-legislacao-pe",
+   "alt": "Sumário da Legislação Estadual"
+  },
+  {
+   "item": "Prova discursiva em 5 capítulos, com",
+   "img": "assets/img/pppe/b-discursiva",
+   "alt": "Sumário da Prova Discursiva"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pppe/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pppe/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmerj-soldado-2026": [
+  {
+   "item": "Legislação da PMERJ em 17 capítulos:",
+   "img": "assets/img/pmerj/b-legislacao",
+   "alt": "Sumário da Legislação Aplicada à PMERJ"
+  },
+  {
+   "item": "Legislação penal especial em 14 capítulos,",
+   "img": "assets/img/pmerj/b-penal-especial",
+   "alt": "Sumário de Legislação Penal Especial"
+  },
+  {
+   "item": "Redação em 5 capítulos, no padrão",
+   "img": "assets/img/pmerj/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmerj/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/pmerj/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmpa-soldado-2026": [
+  {
+   "item": "Legislação do Pará em 13 capítulos:",
+   "img": "assets/img/pmpa/b-institucional",
+   "alt": "Sumário de Legislação Institucional do Pará"
+  },
+  {
+   "item": "Direito Penal Militar e Processo Penal",
+   "img": "assets/img/pmpa/b-penal-militar",
+   "alt": "Sumário de Direito Penal Militar"
+  },
+  {
+   "item": "Legislação penal extravagante em 16 capítulos,",
+   "img": "assets/img/pmpa/b-extravagante",
+   "alt": "Sumário de Legislação Penal Extravagante"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmpa/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pmpa/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "cbm-al-soldado-2026": [
+  {
+   "item": "Legislação militar de Alagoas em 15",
+   "img": "assets/img/cbmal/b-legislacao",
+   "alt": "Sumário da Legislação Pertinente ao CBM/AL"
+  },
+  {
+   "item": "Física, Química, Biologia e Mecânica Geral",
+   "img": "assets/img/cbmal/b-fisica",
+   "alt": "Sumário de Física, que abre a P2"
+  },
+  {
+   "item": "A discursiva de Atualidades: dois simulados",
+   "img": "assets/img/cbmal/b-discursiva",
+   "alt": "Proposta da prova discursiva do Simulado 1"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/cbmal/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/cbmal/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmba-soldado-2026": [
+  {
+   "item": "A Bahia que decide a prova:",
+   "img": "assets/img/pmba/b-bahia",
+   "alt": "Abertura do capítulo da Constituição da Bahia"
+  },
+  {
+   "item": "História e Geografia da Bahia em",
+   "img": "assets/img/pmba/b-historia-ba",
+   "alt": "Abertura do capítulo de História da Bahia"
+  },
+  {
+   "item": "Redação em 6 capítulos, no padrão",
+   "img": "assets/img/pmba/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmba/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pmba/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmesp-soldado-2026": [
+  {
+   "item": "Administração Pública em 15 capítulos: Constituição",
+   "img": "assets/img/pmesp/b-administracao",
+   "alt": "Sumário de Noções de Administração Pública"
+  },
+  {
+   "item": "Informática pelo que o edital pede,",
+   "img": "assets/img/pmesp/b-informatica",
+   "alt": "Sumário de Noções Básicas de Informática"
+  },
+  {
+   "item": "Redação em 5 capítulos, com o",
+   "img": "assets/img/pmesp/b-redacao",
+   "alt": "Sumário do bloco de Redação"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pmesp/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pmesp/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pcac-oficial-investigador-2026": [
+  {
+   "item": "Os Específicos, que valem 75% da",
+   "img": "assets/img/pcac/b-contabilidade",
+   "alt": "Sumário de Contabilidade Geral e Análise Financeira"
+  },
+  {
+   "item": "A legislação do Acre: Constituição do",
+   "img": "assets/img/pcac/b-legislacao-ac",
+   "alt": "Sumário da Legislação Institucional do Acre"
+  },
+  {
+   "item": "Prova discursiva em 5 capítulos: texto",
+   "img": "assets/img/pcac/b-discursiva",
+   "alt": "Sumário da Prova Discursiva"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/pcac/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 100 questões",
+   "img": "assets/img/pcac/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "recenseador-ibge-2026": [
+  {
+   "item": "Conhecimentos Técnicos seção por seção da",
+   "img": "assets/img/ibge-recenseador/b-tecnicos",
+   "alt": "Sumário de Conhecimentos Técnicos"
+  },
+  {
+   "item": "Matemática pelo Anexo III , com",
+   "img": "assets/img/ibge-recenseador/b-escala",
+   "alt": "Capítulo de escala na Matemática"
+  },
+  {
+   "item": "Navegação clicável: do sumário você vai",
+   "img": "assets/img/ibge-recenseador/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos no formato exato",
+   "img": "assets/img/ibge-recenseador/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ]
+}
