@@ -378,3 +378,15 @@ dialog.zoom button{position:absolute;top:-14px;right:-6px;width:44px;height:44px
 }
 .tema-policial .outros-links a{color:var(--goldb)}
 .tema-policial .outros-lista a{border-color:rgba(201,162,75,.3)}
+
+/* ---------- onda 2: páginas de carreira e estado (07/11/2026) ---------- */
+.hub-cursos{margin-top:40px}
+.hub-cursos h2{font-weight:900;font-size:clamp(1.45rem,5vw,1.9rem);color:var(--navy);margin:0}
+.hub-cursos h2 em{font-style:normal;color:var(--goldt)}
+.hub-outros{margin-top:34px;padding:18px;border:1px solid #E6DFCC;border-radius:14px;background:#fff}
+.hub-outros p{margin:0 0 8px;line-height:1.9}
+.hub-outros p:last-child{margin:0}
+.hub-outros a{color:var(--cd,#7A5E22);font-weight:600}
+.hubs h3{font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:1rem;color:var(--ink2);margin:24px 0 10px}
+.hubs-lista{display:flex;flex-wrap:wrap;gap:8px}
+a.chip{text-decoration:none}

@@ -23,6 +23,11 @@ PRODUTOS = {p["id"]: p for p in DADOS["produtos"]}
 CARREIRAS = DADOS["carreiras"]
 _BEN = RAIZ / "_config/beneficios.json"
 BENEFICIOS = json.loads(_BEN.read_text(encoding="utf-8")) if _BEN.exists() else {}  # {pasta: [{"item": início do texto, "img": "assets/img/x/b-y", "alt": "..."}]}
+import importlib.util as _iu
+_spec = _iu.spec_from_file_location("hubs", RAIZ / "_config/hubs.py")
+HUBS = _iu.module_from_spec(_spec)
+_spec.loader.exec_module(HUBS)  # hub_da_carreira() e hub_do_estado(): páginas da onda 2
+GUIAS = HUBS.guias()  # {curso: {slug do guia, banca, situação}}
 BASE = json.loads((RAIZ / "_config/site.json").read_text(encoding="utf-8"))["url_base"]
 HOJE = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
 ANO = "2026"
@@ -168,14 +173,18 @@ def imagens_beneficios(html, pasta=""):
 def trilha(html, pasta, n, p):
     car = p.get("carreira", "")
     rotulo = CARREIRAS.get(car, "Cursos")
+    hub = HUBS.hub_da_carreira(pasta)
+    destino = f"../{hub['slug']}/" if hub and (RAIZ / hub["slug"] / "index.html").exists() else f"../#{car}"
+    if hub:
+        rotulo = hub["nome"]
     atual = f"{n['sigla']} {ANO}: {n['cargo']}"
     nav = (f'<nav class="trilha" aria-label="Você está em"><div class="wrap"><a href="../">Início</a>'
-           f'<span aria-hidden="true">›</span><a href="../#{e(car)}">{e(rotulo)}</a>'
+           f'<span aria-hidden="true">›</span><a href="{e(destino)}">{e(rotulo)}</a>'
            f'<span aria-hidden="true">›</span><span aria-current="page">{e(atual)}</span></div></nav>\n')
     html, _ = bloco(html, "trilha", nav, lambda h, t: h.replace('<main id="conteudo">', t + '\n<main id="conteudo">', 1))
     ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE},
-        {"@type": "ListItem", "position": 2, "name": rotulo, "item": BASE + "#" + car},
+        {"@type": "ListItem", "position": 2, "name": rotulo, "item": BASE + destino.replace("../", "")},
         {"@type": "ListItem", "position": 3, "name": atual, "item": BASE + pasta + "/"}]}
     js = '\n<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=1) + "\n</script>\n"
     html, _ = bloco(html, "trilha-ld", js, lambda h, t: h.replace("</head>", t + "\n</head>", 1))
@@ -205,15 +214,19 @@ def outros(html, pasta, n, p):
         f'<span class="o-tag">{e(q.get("tag", ""))}</span><b>{e(q.get("titulo", nq["cargo"]))}</b></a></li>'
         for _, pid, q, nq in escolhidos)
     guia = ""
-    for cand in sorted(RAIZ.glob("concurso-*/index.html")):
-        if f'href="../{pasta}/"' in cand.read_text(encoding="utf-8"):
-            guia = f'<a href="../{cand.parent.name}/">Guia do concurso: edital, vagas e o que cai</a> · '
-            break
+    g = GUIAS.get(pasta)
+    if g and (RAIZ / g["slug"] / "index.html").exists():
+        guia = f'<a href="../{g["slug"]}/">Guia do concurso: edital, vagas e o que cai</a> · '
     plural = CARREIRA_PLURAL.get(car, "cursos")
+    hub, est = HUBS.hub_da_carreira(pasta), HUBS.hub_do_estado(pasta)
+    existe = lambda h: h and (RAIZ / h["slug"] / "index.html").exists()
+    todos = f'<a href="../{hub["slug"]}/">Ver todos: {e(hub["nome"].lower() if hub["tipo"] == "carreira" and hub["slug"] != "guarda-municipal" else hub["nome"])}</a>' if existe(hub) else f'<a href="../#{e(car)}">Ver todos os {plural}</a>'
+    if existe(est):
+        todos += f' · <a href="../{est["slug"]}/">Concursos {e(est["em"])}</a>' 
     sec = (f'\n<section class="secao creme outros" aria-labelledby="t-outros">\n  <div class="wrap">\n'
            f'    <p class="kicker">Continue estudando</p>\n    <h2 id="t-outros">Outros cursos <em>para você</em></h2>\n'
            f'    <ul class="outros-lista">{cards}\n    </ul>\n'
-           f'    <p class="outros-links">{guia}<a href="../#{e(car)}">Ver todos os {plural}</a></p>\n  </div>\n</section>\n')
+           f'    <p class="outros-links">{guia}{todos}</p>\n  </div>\n</section>\n')
     html, _ = bloco(html, "outros", sec, lambda h, t: h.replace("\n</main>", "\n" + t + "\n</main>", 1))
     return html
 

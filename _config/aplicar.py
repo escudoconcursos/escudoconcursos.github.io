@@ -21,6 +21,9 @@ SITEMAP = ["", "tecnico-defensoria-dpe-pb-2026/", "pmpe-soldado-2026/", "gm-sao-
 _extra = sorted(d.parent.name + "/" for d in RAIZ.glob("concurso-*/index.html"))
 if (RAIZ / "quem-faz" / "index.html").exists():
     _extra.append("quem-faz/")
+_extra += sorted(d.parent.name + "/" for d in RAIZ.glob("concursos-*/index.html"))  # páginas de carreira e estado (hubs.py)
+if (RAIZ / "guarda-municipal" / "index.html").exists():
+    _extra.append("guarda-municipal/")
 if (RAIZ / "recenseador-ibge-2026" / "index.html").exists():
     _extra.append("recenseador-ibge-2026/")
 for _u in _extra:

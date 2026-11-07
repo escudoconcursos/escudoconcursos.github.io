@@ -1,0 +1,242 @@
+{
+ "_leia": "Páginas de carreira e de estado (onda 2 do plano de SEO). Gerar com _config/hubs.py. 'filtro': carreira (campo de produtos.json), uf (de nomes.json) ou guarda (sigla começando por GM/GCM). 'intro' em Markdown, um parágrafo por item. Datas, bancas e vagas da tabela vêm dos guias e de produtos.json, não escrever número na intro sem conferir no guia.",
+ "hubs": [
+  {
+   "slug": "concursos-policiais",
+   "tipo": "carreira",
+   "nome": "Concursos policiais",
+   "filtro": {
+    "carreira": "policial",
+    "guarda": false
+   },
+   "titulo": "Concursos policiais 2026: apostilas em PDF",
+   "descricao": "Concursos policiais 2026 com apostila em PDF: PM, Bombeiros, Polícia Civil e Polícia Penal em vários estados, com banca, situação e data da prova.",
+   "h1": "Concursos policiais 2026: PM, Bombeiros, Polícia Civil e Penal",
+   "intro": [
+    "Esta página reúne os concursos da área policial que têm curso ESCUDO: Polícia Militar, Corpo de Bombeiros Militar, Polícia Civil e Polícia Penal. Para cada um há um curso em PDF montado a partir do edital do cargo, com as disciplinas na ordem do programa e questões inéditas no formato da banca, todas com gabarito comentado.",
+    "Nas provas policiais, a legislação do próprio estado costuma pesar tanto quanto as matérias básicas. Estatuto dos militares estaduais, lei orgânica da corporação, Constituição estadual e regulamentos disciplinares mudam de um estado para outro, e é aí que um material genérico deixa lacunas. Por isso cada curso traz a legislação estadual conferida na fonte oficial, na versão vigente.",
+    "Os concursos com edital publicado aparecem com a data da prova. Os que ainda esperam edital estão marcados como previstos: o curso segue o último edital do cargo e é atualizado quando o novo sair. As guardas municipais têm uma página própria."
+   ]
+  },
+  {
+   "slug": "guarda-municipal",
+   "tipo": "carreira",
+   "nome": "Guarda Municipal",
+   "filtro": {
+    "guarda": true
+   },
+   "titulo": "Concurso Guarda Municipal 2026: apostilas em PDF",
+   "descricao": "Concursos de Guarda Municipal e Guarda Civil Municipal 2026 com apostila em PDF: Recife, Salvador, São Gonçalo e Santana, com banca e data da prova.",
+   "h1": "Concurso Guarda Municipal 2026: apostilas por cidade",
+   "intro": [
+    "Os concursos de Guarda Municipal e Guarda Civil Municipal pedem, em geral, ensino médio e cobram as matérias básicas junto com a legislação da própria cidade: lei orgânica do município, estatuto da guarda e o regime dos servidores municipais. Somam-se a isso o Estatuto Geral das Guardas Municipais (Lei 13.022/2014) e a legislação de segurança pública, que aparecem em quase todo edital.",
+    "Cada curso ESCUDO desta lista foi montado para uma cidade e uma banca específicas. A legislação municipal entra conferida na fonte oficial, e as questões inéditas seguem o formato da banca daquele concurso, com gabarito comentado.",
+    "Quando o edital ainda não saiu, como no Recife, o curso segue o documento oficial mais recente e é atualizado quando o edital for publicado."
+   ]
+  },
+  {
+   "slug": "concursos-administrativos",
+   "tipo": "carreira",
+   "nome": "Concursos administrativos",
+   "filtro": {
+    "carreira": "administrativo"
+   },
+   "titulo": "Concursos administrativos 2026: apostilas em PDF",
+   "descricao": "Concursos administrativos 2026 com apostila em PDF: prefeituras, universidade federal e IBGE, com banca, situação e data da prova de cada um.",
+   "h1": "Concursos administrativos 2026: prefeituras, UFBA e IBGE",
+   "intro": [
+    "Aqui estão os concursos de cargos administrativos que têm curso ESCUDO: assistentes e agentes administrativos de prefeituras, assistente em administração de universidade federal e o recenseador do IBGE. São cargos de nível médio ou fundamental, com prova objetiva e, em alguns casos, redação.",
+    "O que muda de um concurso para outro é a parte específica: legislação do município ou do órgão, noções de administração pública, informática e atendimento. Cada curso segue o programa do seu edital, item por item, com questões inéditas no formato da banca e gabarito comentado."
+   ]
+  },
+  {
+   "slug": "concursos-educacao",
+   "tipo": "carreira",
+   "nome": "Concursos de educação",
+   "filtro": {
+    "carreira": "educacao"
+   },
+   "titulo": "Concursos de educação 2026: apostilas em PDF",
+   "descricao": "Concursos de educação 2026 com apostila em PDF: professor e agente educativo em Porto Velho e Aparecida de Goiânia, com banca e data da prova.",
+   "h1": "Concursos de educação 2026: professor e agente educativo",
+   "intro": [
+    "Esta página reúne os concursos da área de educação com curso ESCUDO: professor das séries iniciais, professor pedagogo e agente educativo em redes municipais.",
+    "Nas provas de educação, os conhecimentos pedagógicos e a legislação educacional, como LDB, BNCC, ECA e as normas da rede municipal, costumam valer mais que as matérias básicas. Cada curso segue o programa do seu edital, com a legislação conferida na fonte oficial, casos práticos da rotina da escola e questões inéditas no formato da banca."
+   ]
+  },
+  {
+   "slug": "concursos-tribunais",
+   "tipo": "carreira",
+   "nome": "Concursos de tribunais",
+   "filtro": {
+    "carreira": "tribunais"
+   },
+   "titulo": "Concursos de tribunais 2026: apostilas em PDF",
+   "descricao": "Concursos de tribunais e Defensoria 2026 com apostila em PDF: TJSP Escrevente e DPE-PB Técnico, com banca, situação e data da prova.",
+   "h1": "Concursos de tribunais e Defensoria 2026",
+   "intro": [
+    "Aqui estão os concursos da área jurídica de nível médio com curso ESCUDO: Escrevente Técnico Judiciário do TJSP e Técnico da Defensoria Pública da Paraíba.",
+    "São provas em que as noções de Direito e a legislação interna do órgão decidem a classificação. Cada curso segue o programa do edital na ordem em que ele traz, com a legislação conferida na fonte oficial e questões inéditas no formato da banca, todas com gabarito comentado."
+   ]
+  },
+  {
+   "slug": "concursos-bancarios",
+   "tipo": "carreira",
+   "nome": "Concursos bancários",
+   "filtro": {
+    "carreira": "bancaria"
+   },
+   "titulo": "Concursos bancários 2026: apostilas em PDF",
+   "descricao": "Concursos bancários 2026 com apostila em PDF: Banestes Técnico Bancário, com banca FCC, conhecimentos bancários, vendas e matemática financeira.",
+   "h1": "Concursos bancários 2026: apostila em PDF",
+   "intro": [
+    "Os concursos de bancos públicos cobram, além de português e matemática, uma parte própria da carreira: conhecimentos bancários, matemática financeira, vendas e negociação, ética e compliance. O curso ESCUDO desta lista segue o edital do Banestes item por item, com questões inéditas no formato da FCC e gabarito comentado.",
+    "Novos concursos bancários entram nesta página quando tiverem curso."
+   ]
+  },
+  {
+   "slug": "concursos-pernambuco",
+   "tipo": "estado",
+   "nome": "Pernambuco",
+   "filtro": {
+    "uf": "PE"
+   },
+   "titulo": "Concursos em Pernambuco 2026: apostilas em PDF",
+   "descricao": "Concursos em Pernambuco 2026 com apostila em PDF: PM-PE, CBM-PE, PC-PE, Polícia Penal e Guarda Municipal do Recife, com banca e data da prova.",
+   "h1": "Concursos em Pernambuco 2026: PM, Bombeiros, Polícia Civil, Penal e Guarda",
+   "intro": [
+    "Pernambuco concentra alguns dos maiores concursos policiais do país neste ciclo: Soldado da PM-PE e do CBM-PE, Agente da Polícia Civil, Policial Penal e Guarda Municipal do Recife. Esta página reúne todos os cursos ESCUDO do estado.",
+    "Os concursos estaduais de Pernambuco costumam cobrar legislação do estado e, em vários deles, história de Pernambuco, mas cada edital tem seu recorte e sua banca. Cada curso segue o programa do seu edital, com a legislação estadual conferida na fonte oficial e questões inéditas no formato da banca."
+   ],
+   "em": "em Pernambuco"
+  },
+  {
+   "slug": "concursos-parana",
+   "tipo": "estado",
+   "nome": "Paraná",
+   "filtro": {
+    "uf": "PR"
+   },
+   "titulo": "Concursos no Paraná 2026: apostilas em PDF",
+   "descricao": "Concursos no Paraná 2026 com apostila em PDF: PMPR Soldado, Polícia Penal do Paraná e Prefeitura de Curitiba, com banca e situação de cada um.",
+   "h1": "Concursos no Paraná 2026: PMPR, Polícia Penal e Curitiba",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no Paraná: Soldado da Polícia Militar, Policial Penal e Agente Administrativo da Prefeitura de Curitiba.",
+    "Nos concursos estaduais, a legislação do Paraná mudou bastante nos últimos anos, principalmente na Polícia Penal, e cada curso traz a versão vigente conferida na fonte oficial. Os concursos sem edital novo aparecem como previstos e o curso é atualizado quando o edital sair."
+   ],
+   "em": "no Paraná"
+  },
+  {
+   "slug": "concursos-rondonia",
+   "tipo": "estado",
+   "nome": "Rondônia",
+   "filtro": {
+    "uf": "RO"
+   },
+   "titulo": "Concursos em Rondônia 2026: Porto Velho em PDF",
+   "descricao": "Concursos em Rondônia 2026 com apostila em PDF: Prefeitura de Porto Velho para Assistente Administrativo, Técnico em Enfermagem e Professor.",
+   "h1": "Concursos em Rondônia 2026: Prefeitura de Porto Velho",
+   "intro": [
+    "A Prefeitura de Porto Velho abriu concursos na Saúde (SEMUSA) e na Educação (SEMED), todos com a banca IBGP. Esta página reúne os três cursos ESCUDO: Assistente Administrativo e Técnico em Enfermagem da SEMUSA e Professor das séries iniciais da SEMED.",
+    "Os três cobram a Lei Orgânica e o Estatuto dos Servidores de Porto Velho e conhecimentos gerais de Rondônia. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato do IBGP, com gabarito comentado."
+   ],
+   "em": "em Rondônia"
+  },
+  {
+   "slug": "concursos-alagoas",
+   "tipo": "estado",
+   "nome": "Alagoas",
+   "filtro": {
+    "uf": "AL"
+   },
+   "titulo": "Concursos em Alagoas 2026: PM-AL e CBM-AL em PDF",
+   "descricao": "Concursos em Alagoas 2026 com apostila em PDF: Soldado da PM-AL e do CBM-AL, os dois com banca Cebraspe, com a data da prova de cada um.",
+   "h1": "Concursos em Alagoas 2026: PM-AL e CBM-AL",
+   "intro": [
+    "Alagoas tem dois concursos militares para Soldado neste ciclo, os dois com a banca Cebraspe: Polícia Militar e Corpo de Bombeiros Militar. Esta página reúne os dois cursos ESCUDO.",
+    "Nas provas do Cebraspe, cada item errado anula um certo, e a legislação militar de Alagoas tem peso alto. Cada curso traz essa legislação conferida na fonte oficial e itens inéditos no formato certo ou errado, com gabarito comentado."
+   ],
+   "em": "em Alagoas"
+  },
+  {
+   "slug": "concursos-bahia",
+   "tipo": "estado",
+   "nome": "Bahia",
+   "filtro": {
+    "uf": "BA"
+   },
+   "titulo": "Concursos na Bahia 2026: apostilas em PDF",
+   "descricao": "Concursos na Bahia 2026 com apostila em PDF: PM-BA Soldado, GCM Salvador e UFBA Assistente em Administração, com banca e situação de cada um.",
+   "h1": "Concursos na Bahia 2026: PM-BA, GCM Salvador e UFBA",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos na Bahia: Soldado da Polícia Militar, Guarda Civil Municipal de Salvador e Assistente em Administração da UFBA.",
+    "Cada um tem banca e programa próprios. O curso da PM-BA segue o último edital enquanto o novo não sai, com a Constituição da Bahia e a história e geografia do estado. Os de Salvador e da UFBA seguem os editais publicados, com questões inéditas no formato de cada banca."
+   ],
+   "em": "na Bahia"
+  },
+  {
+   "slug": "concursos-goias",
+   "tipo": "estado",
+   "nome": "Goiás",
+   "filtro": {
+    "uf": "GO"
+   },
+   "titulo": "Concursos em Goiás 2026: Aparecida de Goiânia em PDF",
+   "descricao": "Concursos em Goiás 2026 com apostila em PDF: Educação de Aparecida de Goiânia para Agente Educativo e Professor Pedagogo, banca Verbena/UFG.",
+   "h1": "Concursos em Goiás 2026: Educação de Aparecida de Goiânia",
+   "intro": [
+    "A Prefeitura de Aparecida de Goiânia abriu um concurso grande na Educação, com a banca Instituto Verbena/UFG. Esta página reúne os dois cursos ESCUDO: Agente Educativo e Professor PE-I Pedagogia.",
+    "Os dois cobram a Lei Orgânica de Aparecida de Goiânia e a realidade de Goiás e do município, além dos conhecimentos específicos de cada cargo. Cada curso traz casos práticos da rotina do CMEI e da escola e questões inéditas no formato da banca."
+   ],
+   "em": "em Goiás"
+  },
+  {
+   "slug": "concursos-minas-gerais",
+   "tipo": "estado",
+   "nome": "Minas Gerais",
+   "filtro": {
+    "uf": "MG"
+   },
+   "titulo": "Concursos em Minas Gerais 2026: apostilas em PDF",
+   "descricao": "Concursos em Minas Gerais 2026 com apostila em PDF: Investigador da PCMG e Assistente Administrativo da Prefeitura de Contagem, com banca e situação.",
+   "h1": "Concursos em Minas Gerais 2026: PCMG e Contagem",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos em Minas Gerais: Investigador da Polícia Civil e Assistente Administrativo da Prefeitura de Contagem.",
+    "O curso da PCMG segue o último edital enquanto o novo não é publicado, com a Lei Orgânica da Polícia Civil de Minas. O de Contagem segue o edital publicado, com a banca IBGP e a legislação do município."
+   ],
+   "em": "em Minas Gerais"
+  },
+  {
+   "slug": "concursos-rio-de-janeiro",
+   "tipo": "estado",
+   "nome": "Rio de Janeiro",
+   "filtro": {
+    "uf": "RJ"
+   },
+   "titulo": "Concursos no Rio de Janeiro 2026: apostilas em PDF",
+   "descricao": "Concursos no Rio de Janeiro 2026 com apostila em PDF: Soldado da PMERJ e Guarda Municipal de São Gonçalo, com banca e situação de cada um.",
+   "h1": "Concursos no Rio de Janeiro 2026: PMERJ e GM São Gonçalo",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado do Rio de Janeiro: Soldado da Polícia Militar e Guarda Municipal de São Gonçalo.",
+    "O curso da PMERJ segue o último edital enquanto o novo não sai, com a legislação da corporação. O de São Gonçalo segue o edital publicado, com a banca SELECON e a legislação do município."
+   ],
+   "em": "no Rio de Janeiro"
+  },
+  {
+   "slug": "concursos-sao-paulo",
+   "tipo": "estado",
+   "nome": "São Paulo",
+   "filtro": {
+    "uf": "SP"
+   },
+   "titulo": "Concursos em São Paulo 2026: apostilas em PDF",
+   "descricao": "Concursos em São Paulo 2026 com apostila em PDF: Soldado da PM-SP e Escrevente do TJSP, os dois com banca Vunesp, com a data da prova.",
+   "h1": "Concursos em São Paulo 2026: PM-SP e TJSP",
+   "intro": [
+    "São Paulo tem dois concursos grandes com a banca Vunesp neste ciclo: Soldado da Polícia Militar e Escrevente Técnico Judiciário do Tribunal de Justiça. Esta página reúne os dois cursos ESCUDO.",
+    "A Vunesp cobra muito a letra da lei e as regras de português. Cada curso segue o programa do seu edital, com a legislação conferida na fonte oficial e questões inéditas no formato da banca, todas com gabarito comentado."
+   ],
+   "em": "em São Paulo"
+  }
+ ]
+}
