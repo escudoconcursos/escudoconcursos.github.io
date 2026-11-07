@@ -1,0 +1,42 @@
+# ESCUDO Concursos
+
+> Cursos em PDF para concursos públicos, feitos a partir do edital: capítulos, questões comentadas, simulados e revisão. Venda pela Hotmart, curso de R$ 47 e R$ 37 com o cupom de cada página, garantia de 7 dias.
+
+## Cursos
+
+- [PMPE 2026 · Instituto AOCP: Soldado da PM de Pernambuco](https://escudoconcursos.github.io/pmpe/): 116 capítulos e 550 questões comentadas; Redação e 2 simulados (prova 2027-02-21, inscrições até 2026-11-05)
+- [GM São Gonçalo 2026 · Instituto SELECON: Guarda Municipal de São Gonçalo](https://escudoconcursos.github.io/saogoncalo/): 131 capítulos e 650 questões comentadas; 2 simulados de 80 questões (prova 2027-01-24, inscrições até 2026-11-18)
+- [UFBA 2026 · Instituto Avalia: Assistente em Administração](https://escudoconcursos.github.io/ufba/): 918 páginas e 665 questões comentadas; Redação e simulado (prova 2026-12-20, inscrições até 2026-10-29)
+- [PM/AL 2026 · Cebraspe: Soldado da PM de Alagoas](https://escudoconcursos.github.io/pmal/): 180 capítulos e 1.750 itens certo ou errado comentados; 2 simulados de 120 itens com discursiva (prova 2027-01-17, inscrições até 2026-10-16)
+- [CBMPE 2026 · Instituto AOCP: Soldado dos Bombeiros de Pernambuco](https://escudoconcursos.github.io/cbmpe/): 142 capítulos e 680 questões comentadas; Redação e 2 simulados (prova 2027-02-28, inscrições até 2026-11-05)
+- [PC-PE 2026 · Cebraspe: Agente de Polícia Civil de Pernambuco](https://escudoconcursos.github.io/pcpe/): 139 capítulos e 665 questões comentadas; Discursiva e 2 simulados (prova 2027-03-07, inscrições até 2026-12-16)
+- [Aparecida de Goiânia 2026 · Instituto Verbena/UFG: Agente Educativo](https://escudoconcursos.github.io/apg-agente/): 81 capítulos e 400 questões comentadas; 2 simulados no formato da prova (prova 2027-01-31, inscrições até 2026-12-09)
+- [Aparecida de Goiânia 2026 · Instituto Verbena/UFG: Professor PE-I Pedagogia](https://escudoconcursos.github.io/pedagogia/): 110 capítulos e 520 questões comentadas; Redação e 2 simulados (prova 2027-01-31, inscrições até 2026-12-09)
+- [GCM Santana/AP 2026 · IDCAP: Guarda Civil Municipal de Santana/AP](https://escudoconcursos.github.io/santana/): 133 capítulos e 660 questões comentadas; 2 simulados de 60 questões (prova 2027-01-17, inscrições até 2026-11-09)
+- [GCM Salvador/BA 2026 · FGV: Guarda Civil Municipal de Salvador/BA](https://escudoconcursos.github.io/salvador/): 158 capítulos e 785 questões comentadas; 2 simulados de 70 questões (prova 2027-01-17, inscrições até 2026-10-30)
+- [SEMUSA Porto Velho/RO 2026 · IBGP: Assistente Administrativo](https://escudoconcursos.github.io/pvh-assistente/): 138 capítulos e 685 questões comentadas; 2 simulados no formato da prova (prova 2026-12-13, inscrições até 2026-11-11)
+- [SEMUSA Porto Velho/RO 2026 · IBGP: Técnico em Enfermagem](https://escudoconcursos.github.io/pvh-tecnico/): 125 capítulos e 620 questões comentadas; 2 simulados de 50 questões (prova 2026-12-13, inscrições até 2026-11-11)
+- [SEMED Porto Velho/RO 2026 · IBGP: Professor Séries Iniciais](https://escudoconcursos.github.io/pvh-professor/): 141 capítulos e 700 questões comentadas; 2 simulados no formato da prova (prova 2026-12-06, inscrições até 2026-11-11)
+- [PM/SC 2026 · Instituto AOCP: Soldado da Polícia Militar de Santa Catarina](https://escudoconcursos.github.io/pmsc/): 165 capítulos e 790 questões comentadas; Redação e 2 simulados (prova 2026-12-13, inscrições até 2026-11-16)
+- [Polícia Penal/PR 2026 · Instituto AOCP: Policial Penal do Paraná](https://escudoconcursos.github.io/pppr/): 109 capítulos e 545 questões comentadas; 2 simulados de 75 questões
+- [TJSP 2026 · Vunesp: Escrevente Técnico Judiciário](https://escudoconcursos.github.io/tjsp/): 87 capítulos e 430 questões comentadas; 2 simulados com redação (prova 2027-03-14, inscrições até 2026-12-10)
+- [Prefeitura de Contagem/MG 2026 · IBGP: Assistente Administrativo](https://escudoconcursos.github.io/contagem/): 122 capítulos e 605 questões comentadas; 2 simulados no formato da prova (prova 2027-01-24, inscrições até 2026-11-17)
+- [Banestes 2026 · FCC: Técnico Bancário](https://escudoconcursos.github.io/banestes/): 139 capítulos e 690 questões comentadas; 2 simulados no formato da prova (prova 2027-01-24, inscrições até 2026-11-23)
+- [DPE-PB 2026 · FCC: Técnico da Defensoria](https://escudoconcursos.github.io/dpepb/): 133 capítulos e 660 questões comentadas; 2 simulados no formato da prova (prova 2027-02-28, inscrições até 2026-11-13)
+- [PCMG 2026 · FGV: Investigador da Polícia Civil MG](https://escudoconcursos.github.io/pcmg/): 129 capítulos e 645 questões comentadas; 2 simulados no formato da prova (prova 2099-12-31)
+- [PM/PR 2026 · IBFC: Soldado da Polícia Militar do Paraná](https://escudoconcursos.github.io/pmpr/): 126 capítulos e 595 questões comentadas; Redação e 2 simulados no formato da prova (prova 2099-12-31)
+- [GM Recife 2026 · AOCP: Agente de Segurança Municipal do Recife](https://escudoconcursos.github.io/recife/): 126 capítulos e 625 questões comentadas; 2 simulados de 50 questões
+- [Polícia Penal/PE 2026 · Edital aberto · Cebraspe: Policial Penal de Pernambuco](https://escudoconcursos.github.io/pppe/): 170 capítulos e 820 questões, de acordo com o edital aberto; 2 simulados de 60 questões (prova 2027-03-21, inscrições até 2027-01-04)
+- [Prefeitura de Curitiba/PR 2026 · FAFIPA: Agente Administrativo](https://escudoconcursos.github.io/curitiba/): 186 capítulos e 930 questões comentadas; 2 simulados no formato da prova (prova 2026-12-13, inscrições até 2026-11-05)
+- [PM/RJ 2026 · Pré-edital: Soldado da Polícia Militar do Rio de Janeiro](https://escudoconcursos.github.io/pmerj/): 129 capítulos e 615 questões comentadas; Redação e 2 simulados no estilo FGV (prova 2099-12-31)
+- [PM/PA 2026 · Pré-edital: Soldado da Polícia Militar do Pará](https://escudoconcursos.github.io/pmpa/): 160 capítulos e 795 questões comentadas; 2 simulados de 60 questões no estilo Cebraspe (prova 2099-12-31)
+- [CBM/AL 2026 · Cebraspe: Soldado dos Bombeiros de Alagoas](https://escudoconcursos.github.io/cbmal/): 170 capítulos e 1.690 itens certo ou errado comentados; 2 simulados de 120 itens com discursiva (prova 2027-01-24, inscrições até 2026-10-26)
+- [PM/BA 2026 · Pré-edital: Soldado da Polícia Militar da Bahia](https://escudoconcursos.github.io/pmba/): 166 capítulos e 795 questões comentadas; Redação e 2 simulados de 80 questões no estilo FCC (prova 2099-12-31)
+- [PM/SP 2026 · Edital aberto · VUNESP: Soldado da Polícia Militar de São Paulo](https://escudoconcursos.github.io/pmesp/): 75 capítulos e 345 questões, de acordo com o edital aberto; 2 simulados de 60 questões (prova 2027-02-28, inscrições até 2026-12-22)
+- [PC-AC 2026 · Edital aberto · IDECAN: Oficial Investigador da Polícia Civil do Acre](https://escudoconcursos.github.io/pcac/): 168 capítulos e 810 questões, de acordo com o edital aberto; Prova discursiva e 2 simulados de 100 questões (prova 2027-01-24, inscrições até 2026-12-14)
+- [IBGE 2026 · Edital 03/2026 · Cesgranrio: Recenseador IBGE (12º Censo Agro)](https://escudoconcursos.github.io/ibge/): 75 capítulos e 370 questões, de acordo com o edital; 2 simulados de 60 questões no formato da prova (prova 2027-01-31, inscrições até 2026-11-25)
+
+## Mais
+
+- [Vitrine com todos os cursos](https://escudoconcursos.github.io/)
+- [Seja afiliado, 50% de comissão](https://escudoconcursos.github.io/afiliados/)
