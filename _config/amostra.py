@@ -47,7 +47,8 @@ def le(arq):
 
 
 def md(s):
-    return markdown.markdown(s, extensions=["tables", "sane_lists"], output_format="html")
+    h = markdown.markdown(s, extensions=["tables", "sane_lists"], output_format="html")
+    return h.replace("<table>", '<div class="guia-tabela"><table>').replace("</table>", "</table></div>")  # rola no celular
 
 
 def questoes(corpo):
