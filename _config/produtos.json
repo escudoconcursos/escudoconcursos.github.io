@@ -739,12 +739,7 @@
       ],
       "imagem": "assets/img/produto-recenseador-ibge-2026.webp",
       "alt": "Curso em PDF ESCUDO: Recenseador IBGE 2026, 12º Censo Agro, Edital 03/2026, 75 capítulos e 370 questões",
-      "preco": 47,
-      "cupom": {
-        "codigo": "IBGE37",
-        "preco": 37,
-        "ate": "2026-11-25"
-      },
+      "preco": 29.9,
       "link": "recenseador-ibge-2026/",
       "botao": "Ver o curso",
       "prova": "2027-01-31",

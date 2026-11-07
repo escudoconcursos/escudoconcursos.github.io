@@ -74,7 +74,7 @@ def cartao(p):
         valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s com o cupom %s</p>\n'
                  '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], p["preco"], c["preco"], e(c["codigo"]), p["preco"]))
     else:
-        valor = '<p class="valor">R$ %s</p>' % p["preco"]
+        valor = '<p class="valor">R$ %s</p>' % (p['preco'] if isinstance(p['preco'], int) else ('%.2f' % p['preco']).replace('.', ','))
     externo = p["link"].startswith("http")
     return f"""      <li class="produto {e(p['tema'])}" data-oferta data-carreira="{e(p['carreira'])}" data-eventos='{e(ev)}'>
         <a class="capa" href="{e(p['link'])}" tabindex="-1" aria-hidden="true"><img src="{e(p['imagem'])}" width="560" height="560" loading="lazy" alt=""></a>
