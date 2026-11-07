@@ -159,7 +159,7 @@ def monta(h, prods, ativos_por_hub, G, V, modelo):
         s = s.replace(k, v)
     s = s.replace(" · por Mateus Vazzoller, ESCUDO Concursos", "")
     s = s.replace("    </article>\n  </div>\n</main>", "    </article>" + cursos + "  </div>\n</main>", 1)
-    s = s.replace("</body>", '<script src="../assets/js/site.js?v=6" defer></script>\n</body>', 1)
+    s = s.replace("</body>", '<script src="../assets/js/site.js?v=7" defer></script>\n</body>', 1)
     destino = RAIZ / slug / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")

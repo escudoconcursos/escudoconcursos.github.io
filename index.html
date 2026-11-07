@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="ESCUDO Concursos: material para o SEU edital">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/SairaCondensed-Black.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/escudo.css?v=17">
+<link rel="stylesheet" href="assets/css/escudo.css?v=18">
 <!-- Nome do site no Google (developers.google.com/search/docs/appearance/site-names): só na home -->
 <script type="application/ld+json">
 {
@@ -81,6 +81,10 @@
     <h2 id="t-cursos">Cursos <em>abertos</em></h2>
     <hr class="regua">
     <!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produtos.json; não editar à mão) -->
+    <div class="busca" data-busca-caixa hidden>
+      <label for="busca-curso">Busque o seu concurso</label>
+      <input id="busca-curso" type="search" placeholder="Ex.: PM-SP, Recife, Bahia, Soldado" autocomplete="off" enterkeyhint="search" data-busca-campo>
+    </div>
     <div class="filtros" role="group" aria-label="Filtrar cursos por carreira" data-filtros hidden>
       <button type="button" class="chip" data-filtro="" aria-pressed="true">Todas <span data-conta="">31</span></button>
       <button type="button" class="chip" data-filtro="policial" aria-pressed="false">Policial <span data-conta="policial">19</span></button>
@@ -92,7 +96,7 @@
     </div>
     <p class="vitrine-info" data-vitrine-info aria-live="polite">Ordenados pelo prazo mais próximo: cupom, inscrições ou prova.</p>
     <ul class="produtos" data-vitrine>
-      <li class="produto tema-lima" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
+      <li class="produto tema-lima" data-oferta data-carreira="policial" data-busca="Guarda Civil Municipal de Santana/AP GCM Santana/AP 2026 · IDCAP GCM Santana GCMSantana Guarda Civil Municipal AP Amapá Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
         <a class="capa" href="gcm-santana-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-gcm-santana-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Guarda Civil Municipal de Santana/AP, GCM Santana/AP 2026, 133 capítulos e 660 questões comentadas"></a>
         <div class="corpo">
           <p class="selo urgente" data-selo>Cupom e inscrições até 09/11 · faltam 2 dias</p>
@@ -105,7 +109,7 @@
           <a class="btn" href="gcm-santana-2026/" aria-label="Ver o curso: Guarda Civil Municipal de Santana/AP, GCM Santana/AP 2026 · IDCAP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-indigo" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
+      <li class="produto tema-indigo" data-oferta data-carreira="administrativo" data-busca="Assistente Administrativo da SEMUSA Porto Velho SEMUSA Porto Velho/RO 2026 · IBGP Porto Velho PortoVelho Assistente Administrativo RO Rondônia Administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
         <a class="capa" href="assistente-semusa-porto-velho-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-assistente-semusa-porto-velho-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Assistente Administrativo, SEMUSA Porto Velho/RO 2026, 138 capítulos e 685 questões comentadas"></a>
         <div class="corpo">
           <p class="selo urgente" data-selo>Cupom e inscrições até 11/11 · faltam 4 dias</p>
@@ -118,7 +122,7 @@
           <a class="btn" href="assistente-semusa-porto-velho-2026/" aria-label="Ver o curso: Assistente Administrativo da SEMUSA Porto Velho, SEMUSA Porto Velho/RO 2026 · IBGP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-magenta" data-oferta data-carreira="saude" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
+      <li class="produto tema-magenta" data-oferta data-carreira="saude" data-busca="Técnico em Enfermagem da SEMUSA Porto Velho SEMUSA Porto Velho/RO 2026 · IBGP Porto Velho PortoVelho Técnico em Enfermagem RO Rondônia Saúde" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
         <a class="capa" href="tecnico-enfermagem-porto-velho-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-tecnico-enfermagem-porto-velho-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Técnico em Enfermagem, SEMUSA Porto Velho/RO 2026, 125 capítulos e 620 questões comentadas"></a>
         <div class="corpo">
           <p class="selo urgente" data-selo>Cupom e inscrições até 11/11 · faltam 4 dias</p>
@@ -131,7 +135,7 @@
           <a class="btn" href="tecnico-enfermagem-porto-velho-2026/" aria-label="Ver o curso: Técnico em Enfermagem da SEMUSA Porto Velho, SEMUSA Porto Velho/RO 2026 · IBGP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-amarelo" data-oferta data-carreira="educacao" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-06&quot;}]'>
+      <li class="produto tema-amarelo" data-oferta data-carreira="educacao" data-busca="Professor Séries Iniciais de Porto Velho SEMED Porto Velho/RO 2026 · IBGP Porto Velho PortoVelho Professor RO Rondônia Educação" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-11&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-06&quot;}]'>
         <a class="capa" href="professor-semed-porto-velho-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-professor-semed-porto-velho-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Professor Séries Iniciais, SEMED Porto Velho/RO 2026, 141 capítulos e 700 questões comentadas"></a>
         <div class="corpo">
           <p class="selo urgente" data-selo>Cupom e inscrições até 11/11 · faltam 4 dias</p>
@@ -144,7 +148,7 @@
           <a class="btn" href="professor-semed-porto-velho-2026/" aria-label="Ver o curso: Professor Séries Iniciais de Porto Velho, SEMED Porto Velho/RO 2026 · IBGP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-bordo" data-oferta data-carreira="tribunais" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-13&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-13&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
+      <li class="produto tema-bordo" data-oferta data-carreira="tribunais" data-busca="Técnico da Defensoria Pública da Paraíba DPE-PB 2026 · FCC DPE-PB DPEPB Técnico da Defensoria PB Paraíba Tribunais" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-13&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-13&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
         <a class="capa" href="tecnico-defensoria-dpe-pb-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-tecnico-defensoria-dpe-pb-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Técnico da Defensoria, DPE-PB 2026, 133 capítulos e 660 questões comentadas"></a>
         <div class="corpo">
           <p class="selo urgente" data-selo>Cupom e inscrições até 13/11 · faltam 6 dias</p>
@@ -157,7 +161,7 @@
           <a class="btn" href="tecnico-defensoria-dpe-pb-2026/" aria-label="Ver o curso: Técnico da Defensoria Pública da Paraíba, DPE-PB 2026 · FCC">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-oliva" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
+      <li class="produto tema-oliva" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar de Santa Catarina PM/SC 2026 · Instituto AOCP PMSC PMSC Soldado PM SC Santa Catarina Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
         <a class="capa" href="soldado-pmsc-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-soldado-pmsc-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar de Santa Catarina, PM/SC 2026, 165 capítulos e 790 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 16/11</p>
@@ -170,7 +174,7 @@
           <a class="btn" href="soldado-pmsc-2026/" aria-label="Ver o curso: Soldado da Polícia Militar de Santa Catarina, PM/SC 2026 · Instituto AOCP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-indigo" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-17&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-17&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
+      <li class="produto tema-indigo" data-oferta data-carreira="administrativo" data-busca="Assistente Administrativo de Contagem/MG Prefeitura de Contagem/MG 2026 · IBGP Contagem Contagem Assistente Administrativo MG Minas Gerais Administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-17&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-17&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
         <a class="capa" href="assistente-administrativo-contagem-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-assistente-contagem-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Assistente Administrativo, Prefeitura de Contagem/MG 2026, 122 capítulos e 605 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 17/11</p>
@@ -183,7 +187,7 @@
           <a class="btn" href="assistente-administrativo-contagem-2026/" aria-label="Ver o curso: Assistente Administrativo de Contagem/MG, Prefeitura de Contagem/MG 2026 · IBGP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-azul" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-18&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-18&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
+      <li class="produto tema-azul" data-oferta data-carreira="policial" data-busca="Guarda Municipal de São Gonçalo GM São Gonçalo 2026 · Instituto SELECON GM São Gonçalo GMSãoGonçalo Guarda Municipal RJ Rio de Janeiro Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-18&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-18&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
         <a class="capa" href="gm-sao-goncalo-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-gm-sao-goncalo-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Guarda Municipal de São Gonçalo, GM São Gonçalo 2026, 131 capítulos e 650 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 18/11</p>
@@ -196,7 +200,7 @@
           <a class="btn" href="gm-sao-goncalo-2026/" aria-label="Ver o curso: Guarda Municipal de São Gonçalo, GM São Gonçalo 2026 · Instituto SELECON">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-cobre" data-oferta data-carreira="bancaria" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-23&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-23&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
+      <li class="produto tema-cobre" data-oferta data-carreira="bancaria" data-busca="Técnico Bancário do Banestes Banestes 2026 · FCC Banestes Banestes Técnico Bancário ES Espírito Santo Bancária" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-23&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-23&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
         <a class="capa" href="tecnico-bancario-banestes-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-tecnico-bancario-banestes-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Técnico Bancário, Banestes 2026, 139 capítulos e 690 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 23/11</p>
@@ -209,7 +213,7 @@
           <a class="btn" href="tecnico-bancario-banestes-2026/" aria-label="Ver o curso: Técnico Bancário do Banestes, Banestes 2026 · FCC">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-verde" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-25&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
+      <li class="produto tema-verde" data-oferta data-carreira="administrativo" data-busca="Recenseador IBGE (12º Censo Agro) IBGE 2026 · Edital 03/2026 · Cesgranrio IBGE IBGE Recenseador BR Brasil nacional Administrativo" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-25&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
         <a class="capa" href="recenseador-ibge-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-recenseador-ibge-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Recenseador IBGE 2026, 12º Censo Agro, Edital 03/2026, 75 capítulos e 370 questões"></a>
         <div class="corpo">
           <p class="selo" data-selo>Inscrições até 25/11</p>
@@ -221,7 +225,7 @@
           <a class="btn" href="recenseador-ibge-2026/" aria-label="Ver o curso: Recenseador IBGE (12º Censo Agro), IBGE 2026 · Edital 03/2026 · Cesgranrio">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-turquesa" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-30&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
+      <li class="produto tema-turquesa" data-oferta data-carreira="policial" data-busca="Guarda Civil Municipal de Salvador/BA GCM Salvador/BA 2026 · FGV GCM Salvador GCMSalvador Guarda Civil Municipal BA Bahia Policial" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-30&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
         <a class="capa" href="gcm-salvador-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-gcm-salvador-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Guarda Civil Municipal de Salvador/BA, GCM Salvador/BA 2026, 158 capítulos e 785 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 30/11</p>
@@ -234,7 +238,7 @@
           <a class="btn" href="gcm-salvador-2026/" aria-label="Ver o curso: Guarda Civil Municipal de Salvador/BA, GCM Salvador/BA 2026 · FGV">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-aco" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;previsto&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-aco" data-oferta data-carreira="policial" data-busca="Policial Penal do Paraná Polícia Penal/PR 2026 · Instituto AOCP Polícia Penal PR PolíciaPenalPR Policial Penal PR Paraná Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;previsto&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="policial-penal-pr-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-policial-penal-pr-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Policial Penal do Paraná, Polícia Penal/PR 2026, 109 capítulos e 545 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 30/11</p>
@@ -247,7 +251,7 @@
           <a class="btn" href="policial-penal-pr-2026/" aria-label="Ver o curso: Policial Penal do Paraná, Polícia Penal/PR 2026 · Instituto AOCP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-verde" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
+      <li class="produto tema-verde" data-oferta data-carreira="administrativo" data-busca="Agente Administrativo de Curitiba Prefeitura de Curitiba/PR 2026 · FAFIPA Curitiba Curitiba Agente Administrativo PR Paraná Administrativo" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-30&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-13&quot;}]'>
         <a class="capa" href="agente-administrativo-curitiba-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-agente-administrativo-curitiba-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Agente Administrativo, Prefeitura de Curitiba/PR 2026, 186 capítulos e 930 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 30/11</p>
@@ -260,7 +264,7 @@
           <a class="btn" href="agente-administrativo-curitiba-2026/" aria-label="Ver o curso: Agente Administrativo de Curitiba, Prefeitura de Curitiba/PR 2026 · FAFIPA">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-rosa" data-oferta data-carreira="educacao" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
+      <li class="produto tema-rosa" data-oferta data-carreira="educacao" data-busca="Agente Educativo de Aparecida de Goiânia Aparecida de Goiânia 2026 · Instituto Verbena/UFG Aparecida de Goiânia AparecidadeGoiânia Agente Educativo GO Goiás Educação" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
         <a class="capa" href="agente-educativo-aparecida-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-agente-educativo-aparecida-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Agente Educativo, Aparecida de Goiânia 2026, 81 capítulos e 400 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 09/12</p>
@@ -273,7 +277,7 @@
           <a class="btn" href="agente-educativo-aparecida-2026/" aria-label="Ver o curso: Agente Educativo de Aparecida de Goiânia, Aparecida de Goiânia 2026 · Instituto Verbena/UFG">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-turquesa" data-oferta data-carreira="educacao" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
+      <li class="produto tema-turquesa" data-oferta data-carreira="educacao" data-busca="Professor PE-I Pedagogia de Aparecida de Goiânia Aparecida de Goiânia 2026 · Instituto Verbena/UFG Aparecida de Goiânia AparecidadeGoiânia Pedagogia GO Goiás Educação" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-09&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-31&quot;}]'>
         <a class="capa" href="pedagogia-aparecida-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pedagogia-aparecida-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Professor PE-I Pedagogia, Aparecida de Goiânia 2026, 110 capítulos e 520 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 09/12</p>
@@ -286,7 +290,7 @@
           <a class="btn" href="pedagogia-aparecida-2026/" aria-label="Ver o curso: Professor PE-I Pedagogia de Aparecida de Goiânia, Aparecida de Goiânia 2026 · Instituto Verbena/UFG">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-bordo" data-oferta data-carreira="tribunais" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-10&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-10&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-14&quot;}]'>
+      <li class="produto tema-bordo" data-oferta data-carreira="tribunais" data-busca="Escrevente Técnico Judiciário do TJSP TJSP 2026 · Vunesp TJSP TJSP Escrevente Técnico Judiciário SP São Paulo Tribunais" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-10&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-10&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-14&quot;}]'>
         <a class="capa" href="escrevente-tjsp-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-escrevente-tjsp-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Escrevente Técnico Judiciário, TJSP 2026, 87 capítulos e 430 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 10/12</p>
@@ -299,7 +303,7 @@
           <a class="btn" href="escrevente-tjsp-2026/" aria-label="Ver o curso: Escrevente Técnico Judiciário do TJSP, TJSP 2026 · Vunesp">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-turquesa" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-14&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-14&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
+      <li class="produto tema-turquesa" data-oferta data-carreira="policial" data-busca="Oficial Investigador da Polícia Civil do Acre PC-AC 2026 · Edital aberto · IDECAN PC-AC PCAC Oficial Investigador AC Acre Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-14&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-14&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
         <a class="capa" href="pcac-oficial-investigador-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pcac-oficial-investigador-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Oficial Investigador da Polícia Civil do Acre, PC-AC 2026, edital aberto, 168 capítulos e 810 questões"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 14/12</p>
@@ -312,7 +316,7 @@
           <a class="btn" href="pcac-oficial-investigador-2026/" aria-label="Ver o curso: Oficial Investigador da Polícia Civil do Acre, PC-AC 2026 · Edital aberto · IDECAN">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-ciano" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-07&quot;}]'>
+      <li class="produto tema-ciano" data-oferta data-carreira="policial" data-busca="Agente de Polícia Civil de Pernambuco PC-PE 2026 · Cebraspe PC-PE PCPE Agente de Polícia PE Pernambuco Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-07&quot;}]'>
         <a class="capa" href="pcpe-agente-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pcpe-agente-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Agente de Polícia Civil de Pernambuco, PC-PE 2026, 139 capítulos e 665 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 16/12</p>
@@ -325,7 +329,7 @@
           <a class="btn" href="pcpe-agente-2026/" aria-label="Ver o curso: Agente de Polícia Civil de Pernambuco, PC-PE 2026 · Cebraspe">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-roxo" data-oferta data-carreira="administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-20&quot;}]'>
+      <li class="produto tema-roxo" data-oferta data-carreira="administrativo" data-busca="Assistente em Administração da UFBA UFBA 2026 · Instituto Avalia Administrativo" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-29&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2026-12-20&quot;}]'>
         <a class="capa" href="https://go.hotmart.com/E107809961E" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-ufba-assistente-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Assistente em Administração, UFBA 2026, 918 páginas e 665 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Prova em 20/12</p>
@@ -337,7 +341,7 @@
           <a class="btn btn-ouro" href="https://go.hotmart.com/E107809961E" aria-label="Ver o curso na Hotmart: Assistente em Administração da UFBA, UFBA 2026 · Instituto Avalia">Ver o curso na Hotmart</a>
         </div>
       </li>
-      <li class="produto tema-rosa" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-22&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-22&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
+      <li class="produto tema-rosa" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar de São Paulo PM/SP 2026 · Edital aberto · VUNESP PM-SP PMSP Soldado PM SP São Paulo Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-22&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-12-22&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
         <a class="capa" href="pmesp-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmesp-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar de São Paulo, PM/SP 2026, edital aberto, 75 capítulos e 345 questões"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 22/12</p>
@@ -350,7 +354,7 @@
           <a class="btn" href="pmesp-soldado-2026/" aria-label="Ver o curso: Soldado da Polícia Militar de São Paulo, PM/SP 2026 · Edital aberto · VUNESP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-aco" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-aco" data-oferta data-carreira="policial" data-busca="Investigador da Polícia Civil MG PCMG 2026 · FGV PCMG PCMG Investigador de Polícia MG Minas Gerais Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="investigador-policia-civil-mg-pcmg-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-investigador-pcmg-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Investigador da Polícia Civil de Minas Gerais, PCMG 2026, 129 capítulos e 645 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -363,7 +367,7 @@
           <a class="btn" href="investigador-policia-civil-mg-pcmg-2026/" aria-label="Ver o curso: Investigador da Polícia Civil MG, PCMG 2026 · FGV">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-oliva" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-oliva" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar do Paraná PM/PR 2026 · IBFC PMPR PMPR Soldado PM PR Paraná Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="soldado-pmpr-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-soldado-pmpr-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar do Paraná, PM/PR 2026, 126 capítulos e 595 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -376,7 +380,7 @@
           <a class="btn" href="soldado-pmpr-2026/" aria-label="Ver o curso: Soldado da Polícia Militar do Paraná, PM/PR 2026 · IBFC">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-ciano" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;previsto&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-ciano" data-oferta data-carreira="policial" data-busca="Agente de Segurança Municipal do Recife GM Recife 2026 · AOCP GM Recife GMRecife Guarda Municipal PE Pernambuco Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;previsto&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="gm-recife-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-gm-recife-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Agente de Segurança Municipal do Recife, GM Recife 2026, 126 capítulos e 625 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -389,7 +393,7 @@
           <a class="btn" href="gm-recife-2026/" aria-label="Ver o curso: Agente de Segurança Municipal do Recife, GM Recife 2026 · AOCP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-indigo" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-indigo" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar do Rio de Janeiro PM/RJ 2026 · Pré-edital PMERJ PMERJ Soldado PM RJ Rio de Janeiro Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="pmerj-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmerj-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar do Rio de Janeiro, PM/RJ 2026, 129 capítulos e 615 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -402,7 +406,7 @@
           <a class="btn" href="pmerj-soldado-2026/" aria-label="Ver o curso: Soldado da Polícia Militar do Rio de Janeiro, PM/RJ 2026 · Pré-edital">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-bordo" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-bordo" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar do Pará PM/PA 2026 · Pré-edital PM-PA PMPA Soldado PM PA Pará Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="pmpa-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmpa-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar do Pará, PM/PA 2026, 160 capítulos e 795 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -415,7 +419,7 @@
           <a class="btn" href="pmpa-soldado-2026/" aria-label="Ver o curso: Soldado da Polícia Militar do Pará, PM/PA 2026 · Pré-edital">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-vermelho" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-26&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
+      <li class="produto tema-vermelho" data-oferta data-carreira="policial" data-busca="Soldado dos Bombeiros de Alagoas CBM/AL 2026 · Cebraspe CBM-AL CBMAL Soldado Bombeiro AL Alagoas Policial" data-eventos='[{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-26&quot;},{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-24&quot;}]'>
         <a class="capa" href="cbm-al-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-cbmal-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado do CBM/AL, 170 capítulos e 1.690 itens comentados"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -428,7 +432,7 @@
           <a class="btn" href="cbm-al-soldado-2026/" aria-label="Ver o curso: Soldado dos Bombeiros de Alagoas, CBM/AL 2026 · Cebraspe">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-magenta" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
+      <li class="produto tema-magenta" data-oferta data-carreira="policial" data-busca="Soldado da Polícia Militar da Bahia PM/BA 2026 · Pré-edital PM-BA PMBA Soldado PM BA Bahia Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-12-31&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2099-12-31&quot;}]'>
         <a class="capa" href="pmba-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmba-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da Polícia Militar da Bahia, PM/BA 2026, 166 capítulos e 795 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom até 31/12</p>
@@ -441,7 +445,7 @@
           <a class="btn" href="pmba-soldado-2026/" aria-label="Ver o curso: Soldado da Polícia Militar da Bahia, PM/BA 2026 · Pré-edital">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-roxo" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2027-01-04&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2027-01-04&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-21&quot;}]'>
+      <li class="produto tema-roxo" data-oferta data-carreira="policial" data-busca="Policial Penal de Pernambuco Polícia Penal/PE 2026 · Edital aberto · Cebraspe Polícia Penal PE PolíciaPenalPE Policial Penal PE Pernambuco Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2027-01-04&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2027-01-04&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-03-21&quot;}]'>
         <a class="capa" href="policial-penal-pe-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-policial-penal-pe-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Policial Penal de Pernambuco, Polícia Penal/PE 2026, edital aberto, 170 capítulos e 820 questões"></a>
         <div class="corpo">
           <p class="selo" data-selo>Cupom e inscrições até 04/01</p>
@@ -454,7 +458,7 @@
           <a class="btn" href="policial-penal-pe-2026/" aria-label="Ver o curso: Policial Penal de Pernambuco, Polícia Penal/PE 2026 · Edital aberto · Cebraspe">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-verde" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-10-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
+      <li class="produto tema-verde" data-oferta data-carreira="policial" data-busca="Soldado da PM de Alagoas PM/AL 2026 · Cebraspe PM-AL PMAL Soldado PM AL Alagoas Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-10-16&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-10-16&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-01-17&quot;}]'>
         <a class="capa" href="pmal-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmal-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da PM de Alagoas, PM/AL 2026, 180 capítulos e 1.750 itens comentados"></a>
         <div class="corpo">
           <p class="selo" data-selo>Prova em 17/01</p>
@@ -466,7 +470,7 @@
           <a class="btn" href="pmal-soldado-2026/" aria-label="Ver o curso: Soldado da PM de Alagoas, PM/AL 2026 · Cebraspe">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-vermelho" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-21&quot;}]'>
+      <li class="produto tema-vermelho" data-oferta data-carreira="policial" data-busca="Soldado da PM de Pernambuco PMPE 2026 · Instituto AOCP PMPE PMPE Soldado PM PE Pernambuco Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-21&quot;}]'>
         <a class="capa" href="pmpe-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-pmpe-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado da PM de Pernambuco, PMPE 2026, 116 capítulos e 550 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Prova em 21/02</p>
@@ -478,7 +482,7 @@
           <a class="btn" href="pmpe-soldado-2026/" aria-label="Ver o curso: Soldado da PM de Pernambuco, PMPE 2026 · Instituto AOCP">Ver o curso</a>
         </div>
       </li>
-      <li class="produto tema-laranja" data-oferta data-carreira="policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
+      <li class="produto tema-laranja" data-oferta data-carreira="policial" data-busca="Soldado dos Bombeiros de Pernambuco CBMPE 2026 · Instituto AOCP CBMPE CBMPE Soldado Bombeiro PE Pernambuco Policial" data-eventos='[{&quot;tipo&quot;:&quot;cupom&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;inscricoes&quot;,&quot;data&quot;:&quot;2026-11-05&quot;},{&quot;tipo&quot;:&quot;prova&quot;,&quot;data&quot;:&quot;2027-02-28&quot;}]'>
         <a class="capa" href="cbmpe-soldado-2026/" tabindex="-1" aria-hidden="true"><img src="assets/img/produto-cbmpe-soldado-2026.webp" width="560" height="560" loading="lazy" alt="Curso em PDF ESCUDO: Soldado dos Bombeiros de Pernambuco, CBMPE 2026, 142 capítulos e 680 questões comentadas"></a>
         <div class="corpo">
           <p class="selo" data-selo>Prova em 28/02</p>
@@ -491,6 +495,7 @@
         </div>
       </li>
     </ul>
+    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#por-carreira">veja por carreira e estado</a>.</p>
     <p class="vitrine-vazia" data-vazia hidden>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
     <!-- vitrine:fim -->
   </div>
@@ -567,7 +572,7 @@
     <small>© 2026 ESCUDO Concursos. Todos os direitos reservados.</small>
   </div>
 </footer>
-<script src="assets/js/site.js?v=6" defer></script>
+<script src="assets/js/site.js?v=7" defer></script>
 <!-- contador:inicio -->
 <script data-goatcounter="https://escudoconcursos.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <!-- contador:fim -->

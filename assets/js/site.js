@@ -57,12 +57,31 @@
     });
     var visiveis = chips.filter(function (b) { return !b.hidden; });
     if (vazia) vazia.hidden = abertos.length > 0;
+    /* Busca por concurso (07/11/2026): soma com o filtro de carreira; ignora acento, caixa e hífen. */
+    var limpa = function (t) { return (t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); };
+    var campo = document.querySelector("[data-busca-campo]"), semRes = document.querySelector("[data-sem-resultado]");
+    var atual = "";
+    var aplica = function () {
+      var termos = limpa(campo ? campo.value : "").split(" ").filter(Boolean), n = 0;
+      abertos.forEach(function (li) {
+        var txt = " " + limpa(li.getAttribute("data-busca")) + " ";
+        var ok = (!atual || li.getAttribute("data-carreira") === atual) &&
+          termos.every(function (t) { return txt.indexOf(" " + t) >= 0; });
+        li.hidden = !ok; if (ok) n++;
+      });
+      if (semRes) semRes.hidden = n > 0 || !abertos.length;
+    };
     var filtra = function (k, rolar) {
       if (!chips.some(function (b) { return !b.hidden && b.getAttribute("data-filtro") === k; })) k = "";
       chips.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-filtro") === k)); });
-      abertos.forEach(function (li) { li.hidden = !!k && li.getAttribute("data-carreira") !== k; });
+      atual = k;
+      aplica();
       if (rolar) { var sec = document.getElementById("cursos"); if (sec) sec.scrollIntoView(); }
     };
+    if (campo && abertos.length > 6) {
+      campo.closest("[data-busca-caixa]").hidden = false;
+      campo.addEventListener("input", aplica);
+    }
     if (caixa && visiveis.length > 2) {
       caixa.hidden = false;
       caixa.addEventListener("click", function (ev) {

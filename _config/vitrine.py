@@ -14,6 +14,11 @@ import datetime as dt, html, json, pathlib, re
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DADOS = json.loads((RAIZ / "_config" / "produtos.json").read_text(encoding="utf-8"))
 CARREIRAS = DADOS["carreiras"]
+_NOMES = RAIZ / "_config" / "nomes.json"
+NOMES = json.loads(_NOMES.read_text(encoding="utf-8"))["cursos"] if _NOMES.exists() else {}
+UF_NOME = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "BA": "Bahia", "ES": "Espírito Santo", "GO": "Goiás",
+           "MG": "Minas Gerais", "PA": "Pará", "PB": "Paraíba", "PE": "Pernambuco", "PR": "Paraná", "RJ": "Rio de Janeiro",
+           "RO": "Rondônia", "SC": "Santa Catarina", "SP": "São Paulo", "BR": "Brasil nacional"}
 FUSO = dt.timezone(dt.timedelta(hours=-3))
 HOJE = dt.datetime.now(FUSO).date()
 e = lambda s: html.escape(str(s), quote=True)
@@ -76,7 +81,10 @@ def cartao(p):
     else:
         valor = '<p class="valor">R$ %s</p>' % (p['preco'] if isinstance(p['preco'], int) else ('%.2f' % p['preco']).replace('.', ','))
     externo = p["link"].startswith("http")
-    return f"""      <li class="produto {e(p['tema'])}" data-oferta data-carreira="{e(p['carreira'])}" data-eventos='{e(ev)}'>
+    n = NOMES.get(p["id"], {})
+    busca = " ".join(x for x in [p["titulo"], p["tag"], n.get("sigla", ""), re.sub(r"[\s/-]", "", n.get("sigla", "")), n.get("cargo", ""), n.get("uf", ""),
+                                 UF_NOME.get(n.get("uf", ""), ""), CARREIRAS.get(p["carreira"], "")] if x)
+    return f"""      <li class="produto {e(p['tema'])}" data-oferta data-carreira="{e(p['carreira'])}" data-busca="{e(busca)}" data-eventos='{e(ev)}'>
         <a class="capa" href="{e(p['link'])}" tabindex="-1" aria-hidden="true"><img src="{e(p['imagem'])}" width="560" height="560" loading="lazy" alt="{e(p.get('alt', ''))}"></a>
         <div class="corpo">
           <p class="selo{' urgente' if urgente else ''}" data-selo>{e(txt)}</p>
@@ -98,6 +106,10 @@ botoes += ['<button type="button" class="chip" data-filtro="%s" aria-pressed="fa
            % (k, e(CARREIRAS[k]), k, sum(p["carreira"] == k for p in abertos)) for k in usadas]
 
 bloco = """<!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produtos.json; não editar à mão) -->
+    <div class="busca" data-busca-caixa hidden>
+      <label for="busca-curso">Busque o seu concurso</label>
+      <input id="busca-curso" type="search" placeholder="Ex.: PM-SP, Recife, Bahia, Soldado" autocomplete="off" enterkeyhint="search" data-busca-campo>
+    </div>
     <div class="filtros" role="group" aria-label="Filtrar cursos por carreira" data-filtros hidden>
       %s
     </div>
@@ -105,6 +117,7 @@ bloco = """<!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produt
     <ul class="produtos" data-vitrine>
 %s
     </ul>
+    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#por-carreira">veja por carreira e estado</a>.</p>
     <p class="vitrine-vazia" data-vazia%s>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
     <!-- vitrine:fim -->""" % ("\n      ".join(botoes), "\n".join(t[0] for t in cartoes), "" if not abertos else " hidden")
 
