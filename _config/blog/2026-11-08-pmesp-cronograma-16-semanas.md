@@ -8,13 +8,16 @@ publicado: 2026-11-08
 atualizado_em: 2026-11-08
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
-calculado: ["03/01/2027", "04/01", "07/02/2027", "08/02"]
+capa_titulo: "PM-SP Soldado: cronograma de 16 semanas"
+capa_destaque: "16 semanas"
+valido_ate: 2027-02-28
+resumo: [["Prova (prevista)", "28/02/2027, à tarde, 5 horas"], ["Tempo até a prova", "16 semanas a partir de 09/11/2026"], ["Carga sugerida", "15 horas por semana"], ["Fases", "Base (semanas 1 a 8), questões (9 a 13), simulados (14 a 16)"], ["Prova objetiva", "60 questões, mínimo de 30 pontos"], ["Redação", "Até 30 linhas, 40 pontos, mínimo de 20"]]
+calculado: ["03/01/2027", "04/01", "07/02/2027", "08/02", "08/02/2027"]
 fontes: [{"nome": "Edital de Concurso Público nº DP-4/321/26, Diário Oficial do Estado de São Paulo de 05/11/2026", "url": "https://www.concursopublico.sp.gov.br/"}]
 ---
 
 Entre segunda-feira, 09/11/2026, e a prova prevista para **28/02/2027** há **16 semanas**. Este plano reparte 15 horas por semana entre as matérias na proporção das questões do edital e divide o tempo em três fases: base, questões e simulados.
 
-> **Resposta rápida:** 15 horas por semana (2 horas nos dias úteis e 5 no fim de semana). Português leva 4 horas, Matemática 3h30, Conhecimentos Gerais 3 horas, Administração Pública 1h30, Informática 1 hora e redação 2 horas. Semanas 1 a 8 para teoria, 9 a 13 para questões e 14 a 16 para simulados completos de 5 horas.
 
 ## De onde vêm as horas
 
@@ -54,3 +57,14 @@ Administração Pública ganha meia hora a mais que Informática porque cobra ar
 ## Se você tem menos tempo
 
 Com 8 horas por semana, mantenha a mesma proporção: Português 2h, Matemática 2h, Conhecimentos Gerais 1h30, Administração Pública 1h, Informática 30 minutos e redação 1h. Não corte a redação: ela vale 40 dos 100 pontos da classificação.
+
+## Perguntas frequentes
+
+### Quantas horas por dia preciso estudar para a PM-SP?
+Este plano usa 15 horas por semana: 2 horas nos dias úteis e 5 horas no fim de semana. Com 8 horas por semana ainda dá, mantendo a mesma proporção entre as matérias.
+
+### Qual matéria estudar primeiro?
+Português e Matemática, que somam 35 das 60 questões da objetiva e garantem os 30 pontos mínimos para ter a redação corrigida.
+
+### Quando começar os simulados?
+Na semana 14, a partir de 08/02/2027: um simulado completo de 5 horas por fim de semana, no horário da tarde.

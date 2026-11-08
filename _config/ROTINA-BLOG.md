@@ -16,7 +16,7 @@ Responder e escrever sempre em português do Brasil, sem travessão. Horários s
 
 ## Passo a passo
 
-1. Clonar os dois repositórios (o site com `--depth 1`; `git fetch origin main` antes de empurrar).
+1. Clonar os dois repositórios (o site com `--depth 1`; `git fetch origin main` antes de empurrar). Instalar `pip install markdown pillow fonttools brotli`.
 2. Ler `_config/blog-config.json`. Se `publicar_direto` for `false`, trabalhar no ramo `blog` (rebase em `origin/main`) em vez do `main`.
 3. **Pautas do dia**, nesta ordem:
    - Mudanças oficiais nos concursos com curso à venda: retificação, prorrogação, locais de prova, gabarito, resultado. Ver a página do concurso na banca (Cebraspe, FCC, FGV, Cesgranrio, AOCP, IBFC, Idecan, Consulplan, IBGP) e o Diário Oficial correspondente.
@@ -24,7 +24,15 @@ Responder e escrever sempre em português do Brasil, sem travessão. Horários s
    - Datas que vencem nos próximos 3 dias (fim de inscrição, isenção, pagamento, prova) tiradas dos guias em `_config/guias/`: vira lembrete curto.
    - Sem fato novo: um post "o que estudar" (por banca e matéria, a partir de `escudo-dados/fichas/`) ou "rotina de estudos" (cronograma até a prova). Não repetir assunto que já tenha post em `_config/blog/`, nem copiar o guia do concurso: o post precisa trazer ângulo novo.
 4. Salvar o texto do documento oficial em `escudo-dados/fontes/<slug>/<nome>.txt` (PDF: `pdftotext -layout`).
-5. Escrever o post em `_config/blog/AAAA-MM-DD-<slug>.md` com o cabeçalho descrito em `blog.py` (tipo, titulo_seo até 60 caracteres, descricao até 160, h1, publicado, atualizado_em, curso_id, guia, ficha se usar, fontes com link oficial, calculado para valores que o post calcula). Primeiro parágrafo = a resposta; depois "> **Resposta rápida:**"; seções curtas; tabela quando houver datas. Sem promessa de aprovação, sem "imperdível", sem emoji.
+5. Escrever o post em `_config/blog/AAAA-MM-DD-<slug>.md` com o cabeçalho descrito em `blog.py` (tipo, titulo_seo até 60 caracteres, descricao até 160, h1, publicado, atualizado_em, curso_id, guia, ficha se usar, fontes com link oficial, calculado para valores que o post calcula, resumo, capa_titulo, capa_destaque, valido_ate). Padrão editorial (benchmark de 08/11 com Gran, Estratégia, Folha Dirigida, Focus e Solução):
+   - Título SEO e H1 dizem a mesma coisa, com o nome do concurso e o fato (ex.: "PM-SP Soldado: inscrições abrem 09/11").
+   - Primeiro parágrafo = a resposta (o quê, quando, quanto). Não repetir em "Resposta rápida": a tabela `resumo` (4 a 6 linhas: órgão, banca, vagas, salário, datas) já faz esse papel.
+   - Seções H2 curtas, cada uma respondendo a uma pergunta. Datas e planos semanais sempre em tabela, nunca em lista.
+   - Fechar com "## Perguntas frequentes" (3 perguntas em H3, resposta de 1 a 3 frases): vira FAQPage no schema.
+   - Capa: `capa_titulo` até ~45 caracteres e `capa_destaque` com o trecho que fica em rosa (data, número).
+   - `valido_ate` = data em que o post perde a validade (fim de inscrição, prova): depois dela a página mostra aviso de prazo encerrado.
+   - Link do documento oficial sempre em `fontes`. No máximo 2 chamadas para o curso (a caixa automática e uma no texto).
+   - Sem promessa de aprovação, sem "imperdível", sem emoji, sem afirmação genérica sem fonte.
 6. Revisão: reler o post contra a fonte como um revisor exigente (afirmação sem base, data errada, frase parecida com portal, português). Corrigir.
 7. Conferidor (regra 5). Barrado: mover para `escudo-dados/fila/` com o motivo e seguir.
 8. Gerar: `python3 _config/blog.py && python3 _config/aplicar.py && python3 -I -X utf8 _config/contador.py`.

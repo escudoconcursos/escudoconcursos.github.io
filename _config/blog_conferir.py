@@ -107,7 +107,9 @@ def confere(arq, dados):
     calculado = {normaliza(str(x)) for x in (meta.get("calculado") or [])}
     ano = re.compile(r"20\d{2}")
     faltam = []
-    for f in fatos(corpo + "\n" + meta.get("descricao", "") + "\n" + meta.get("h1", "")):
+    resumo = " \n".join(str(b) for _, b in (meta.get("resumo") or []))
+    extra = "\n".join(str(meta.get(k, "")) for k in ("descricao", "h1", "titulo_seo", "capa_titulo"))
+    for f in fatos(corpo + "\n" + extra + "\n" + resumo):
         if f in calculado or ano.fullmatch(f):
             continue
         if not any(v in texto_fontes for v in variantes(f)):

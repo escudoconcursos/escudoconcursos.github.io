@@ -26,6 +26,8 @@ Uso: PYTHONIOENCODING=utf-8 uv run --no-project --with markdown python _config/b
 """
 import datetime, html, json, pathlib, re, sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+
 import markdown
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
@@ -43,6 +45,7 @@ CATEGORIAS = {  # tipo -> (pasta, nome no plural, selo)
     "rotina": ("rotina-de-estudos", "Rotina de estudos", "Rotina de estudos"),
 }
 CSS_CARREIRA = {"policial": "policial", "educacao": "educacao", "tribunais": "tribunais", "bancario": "bancario"}
+TODOS = []  # todos os posts publicados, mais novo primeiro (para o "Leia também")
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro",
          "outubro", "novembro", "dezembro"]
 
@@ -77,10 +80,50 @@ def data_br(iso):
 
 
 def md(s):
-    h = markdown.markdown(s, extensions=["tables", "sane_lists"], output_format="html")
+    h = markdown.markdown(s, extensions=["tables", "sane_lists", "toc"], output_format="html")
     h = h.replace("<table>", '<div class="guia-tabela"><table>').replace("</table>", "</table></div>")
     h = h.replace("<blockquote>", '<blockquote class="guia-resposta">')
     return h
+
+
+def separa_faq(corpo):
+    """Tira '## Perguntas frequentes' do corpo e devolve (corpo_sem_faq, [(pergunta, resposta_md)])."""
+    m = re.search(r"^## Perguntas frequentes\s*$", corpo, re.M)
+    if not m:
+        return corpo, []
+    faq = []
+    for bloco in re.split(r"^### ", corpo[m.end():], flags=re.M)[1:]:
+        q, _, a = bloco.partition("\n")
+        faq.append((q.strip(), a.strip()))
+    return corpo[: m.start()], faq
+
+
+def texto_puro(s):
+    s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+    s = re.sub(r"[*_`>#]", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def resumo_html(itens):
+    """Tabela 'Resumo' logo depois do primeiro parágrafo. itens = [["Vagas", "2.000"], ...]."""
+    if not itens:
+        return ""
+    linhas = "".join("<tr><th>%s</th><td>%s</td></tr>" % (html.escape(str(a)), md(str(b))[3:-4] if str(b) else "")
+                     for a, b in itens)
+    return '<div class="guia-tabela blog-resumo"><table><tbody>%s</tbody></table></div>' % linhas
+
+
+def sumario_html(artigo):
+    h2 = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', artigo)
+    if len(h2) < 4:
+        return ""
+    itens = "".join('<li><a href="#%s">%s</a></li>' % (i, t) for i, t in h2)
+    return '<nav class="blog-sumario" aria-label="Neste texto"><strong>Neste texto</strong><ol>%s</ol></nav>' % itens
+
+
+AUTOR_HTML = ('<aside class="blog-autor"><strong>Quem escreve:</strong> Mateus Vazzoller trabalha com concursos públicos desde 2012, '
+              'é formado em Direito e foi editor dos livros da AlfaCon. Todo texto aqui sai do edital e dos documentos oficiais, '
+              'com o link da fonte no fim. <a href="../../quem-faz/">Conheça a ESCUDO</a></aside>')
 
 
 def ld(obj):
@@ -145,14 +188,42 @@ def monta_post(meta, corpo):
     pub = meta.get("publicado", "")
     atu = meta.get("atualizado_em") or pub
     corpo = re.sub(r"<!--.*?-->", "", corpo, flags=re.S).strip()
+    corpo, faq = separa_faq(corpo)
     artigo = md(corpo)
+    # resumo depois do primeiro parágrafo; sumário depois do resumo
+    extra = resumo_html(meta.get("resumo") or [])
+    extra += sumario_html(artigo)
+    if extra:
+        i = artigo.find("</p>")
+        artigo = artigo[: i + 4] + "\n" + extra + artigo[i + 4:] if i >= 0 else extra + artigo
+    # capa
+    from blog_capa import gera
+    img_prod = (RAIZ / p["imagem"]) if p and p.get("imagem") else None
+    gera(SAIDA / slug / "capa.jpg", meta.get("capa_titulo") or h1, selo, img_prod, meta.get("capa_destaque"))
+    capa_alt = "%s: %s" % (selo, h1)
+    capa = '<figure class="blog-capa"><img src="capa.jpg" alt="%s" width="1200" height="630"></figure>' % html.escape(capa_alt, quote=True)
+    # aviso de prazo vencido
+    aviso = ""
+    va = str(meta.get("valido_ate", ""))
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", va) and va < datetime.date.today().isoformat():
+        aviso = ('<p class="blog-aviso"><strong>Atenção:</strong> este texto é de %s e o prazo de que ele trata terminou em %s. '
+                 'Veja a situação atual no guia do concurso.</p>') % (data_br(pub), data_br(va))
+    artigo = aviso + capa + artigo
     if p:
         artigo += "\n" + caixa_curso(p, slug)
+    faq_html = ""
+    if faq:
+        faq_html = '<h2 id="perguntas-frequentes">Perguntas frequentes</h2>\n<div class="faq">%s</div>' % "".join(
+            "<details><summary>%s</summary>%s</details>" % (html.escape(q), md(a)) for q, a in faq)
     rel = []
     if meta.get("guia") and (RAIZ / meta["guia"] / "index.html").exists():
         rel.append('<a href="../../%s/">Guia completo do concurso: edital, vagas e o que cai</a>' % meta["guia"])
     rel.append('<a href="../">Mais notícias e dicas de concursos</a>')
-    relacionados = '<p class="rodape-links">%s</p>' % " · ".join(rel)
+    leia = ""
+    outros = [m for m in TODOS if m["slug"] != slug and (m.get("guia") == meta.get("guia") or m.get("tipo") == tipo)][:3]
+    if outros:
+        leia = '<h2 id="leia-tambem">Leia também</h2><ul class="blog-lista">%s</ul>' % "".join(item_lista(m, "../") for m in outros)
+    relacionados = AUTOR_HTML + leia + '<p class="rodape-links">%s</p>' % " · ".join(rel)
 
     org = {"@type": "Organization", "name": "ESCUDO Concursos", "url": BASE,
            "legalName": CFG.get("razao_social"), "taxID": CFG.get("cnpj"), "sameAs": [INSTA],
@@ -162,12 +233,16 @@ def monta_post(meta, corpo):
         ld({"@context": "https://schema.org", "@type": "NewsArticle" if tipo == "noticia" else "Article",
             "headline": h1[:110], "description": desc, "url": url, "mainEntityOfPage": url, "inLanguage": "pt-BR",
             "datePublished": pub, "dateModified": atu, "author": autor, "publisher": org,
-            "articleSection": CATEGORIAS.get(tipo, CATEGORIAS["noticia"])[1]}),
+            "articleSection": CATEGORIAS.get(tipo, CATEGORIAS["noticia"])[1],
+            "image": url + "capa.jpg"}),
         ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "ESCUDO Concursos", "item": BASE},
             {"@type": "ListItem", "position": 2, "name": "Notícias e dicas", "item": BASE + "noticias/"},
             {"@type": "ListItem", "position": 3, "name": h1, "item": url}]}),
     ]
+    if faq:
+        blocos.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": texto_puro(a)}} for q, a in faq]}))
     trilha = ('<nav class="guia-trilha" aria-label="Você está em"><a href="../../">Início</a> <span aria-hidden="true">›</span> '
               '<a href="../">Notícias e dicas</a> <span aria-hidden="true">›</span> <a href="../%s/">%s</a></nav>') % (pasta, html.escape(selo))
     datas = "Publicado em %s" % data_br(pub)
@@ -181,7 +256,9 @@ def monta_post(meta, corpo):
         "{{topo_link}}": ('<a class="topo-link" href="../../%s?src=blog-%s">Ver o curso</a>' % (p.get("link", p["id"] + "/"), slug)) if p
         else '<a class="topo-link" href="../../">Ver os cursos</a>',
         "{{trilha}}": trilha, "{{h1}}": html.escape(h1), "{{selo}}": '<span class="blog-selo">%s</span>' % html.escape(selo),
-        "{{atualizado}}": datas, "{{artigo}}": artigo, "{{faq}}": "", "{{fontes}}": fontes_html(meta.get("fontes")),
+        "{{atualizado}}": datas, "{{artigo}}": artigo, "{{faq}}": faq_html,
+        "{{tw_card}}": "summary_large_image",
+        "{{og_imagem}}": '<meta property="og:image" content="%scapa.jpg">\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">' % url, "{{fontes}}": fontes_html(meta.get("fontes")),
         "{{relacionados}}": relacionados, "{{raiz}}": "../../",
     }
     trocas.update(rodape_trocas())
@@ -227,7 +304,8 @@ def monta_lista(posts, pasta=None):
               "{{url}}": url, "{{og_tipo}}": "website", "{{css_extra}}": "", "{{ld}}": lista_ld, "{{tema}}": "",
               "{{topo_link}}": '<a class="topo-link" href="%s">Ver os cursos</a>' % raiz, "{{trilha}}": trilha,
               "{{h1}}": html.escape(h1), "{{selo}}": "", "{{atualizado}}": "Atualizado em %s" % data_br(datetime.date.today().isoformat()),
-              "{{artigo}}": corpo, "{{faq}}": "", "{{fontes}}": "", "{{relacionados}}": "", "{{raiz}}": raiz}
+              "{{artigo}}": corpo, "{{faq}}": "", "{{fontes}}": "", "{{relacionados}}": "", "{{raiz}}": raiz,
+              "{{tw_card}}": "summary", "{{og_imagem}}": '<meta property="og:image" content="%sassets/img/og-escudo.jpg">' % BASE}
     trocas.update(rodape_trocas())
     s = preenche(trocas).replace(" · por <a href=\"%squem-faz/\">Mateus Vazzoller</a>, ESCUDO Concursos" % raiz, "")
     destino = (SAIDA / pasta / "index.html") if pasta else (SAIDA / "index.html")
@@ -295,7 +373,7 @@ def liga_llms(posts):
 
 
 def main():
-    posts, slugs = [], set()
+    posts, slugs, corpos = [], set(), {}
     reservadas = {c[0] for c in CATEGORIAS.values()}
     for arq in sorted((RAIZ / "_config" / "blog").glob("*.md")):
         meta, corpo = le(arq)
@@ -308,10 +386,17 @@ def main():
             sys.exit("ERRO: slug repetido ou reservado: %s (%s)" % (slug, arq.name))
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(meta.get("publicado", ""))):
             sys.exit("ERRO: 'publicado' faltando ou fora do formato AAAA-MM-DD em %s" % arq.name)
+        tit = meta.get("titulo_seo") or ""
+        if len(tit) > 60:
+            print("aviso: titulo_seo com %d caracteres (máx. 60) em %s" % (len(tit), arq.name))
         slugs.add(slug)
-        monta_post(meta, corpo)
         posts.append(meta)
-        print("ok noticias/%s/" % slug)
+        corpos[slug] = corpo
+    posts.sort(key=lambda m: (m.get("publicado", ""), m["slug"]), reverse=True)
+    TODOS[:] = posts
+    for meta in posts:
+        monta_post(meta, corpos[meta["slug"]])
+        print("ok noticias/%s/" % meta["slug"])
     # apaga páginas de posts que saíram (rascunho ou arquivo removido)
     for d in SAIDA.glob("*/index.html") if SAIDA.exists() else []:
         nome = d.parent.name
@@ -322,7 +407,6 @@ def main():
             except OSError:
                 pass
             print("removido noticias/%s/" % nome)
-    posts.sort(key=lambda m: (m.get("publicado", ""), m["slug"]), reverse=True)
     monta_lista(posts)
     for pasta, _, _ in CATEGORIAS.values():
         monta_lista(posts, pasta)

@@ -8,12 +8,15 @@ publicado: 2026-11-08
 atualizado_em: 2026-11-08
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
+capa_titulo: "PM-SP Soldado: inscrições abrem 09/11"
+capa_destaque: "09/11"
+valido_ate: 2026-12-22
+resumo: [["Cargo", "Aluno-Soldado PM (Quadro de Praças)"], ["Vagas", "2.000"], ["Salário inicial", "R$ 5.482,51"], ["Banca", "Fundação VUNESP"], ["Escolaridade", "Ensino médio (exigido na posse)"], ["Inscrições", "09/11 a 22/12/2026, em www.vunesp.com.br"], ["Isenção ou redução da taxa", "09/11 a 11/11/2026"], ["Taxa", "R$ 110,00"], ["Prova (prevista)", "28/02/2027, à tarde"]]
 fontes: [{"nome": "Edital de Concurso Público nº DP-4/321/26, Diário Oficial do Estado de São Paulo de 05/11/2026", "url": "https://www.concursopublico.sp.gov.br/"}, {"nome": "Fundação VUNESP, página de inscrições", "url": "https://www.vunesp.com.br/"}]
 ---
 
 As inscrições do concurso da Polícia Militar do Estado de São Paulo para **Aluno-Soldado PM** abrem às **10h de segunda-feira, 09/11/2026**, e vão até as **23h59 de 22/12/2026**, só pelo site da Fundação VUNESP. São **2.000 cargos**, com remuneração básica inicial de **R$ 5.482,51**, segundo o Edital nº DP-4/321/26.
 
-> **Resposta rápida:** inscrições de 09/11 a 22/12/2026 em www.vunesp.com.br, taxa de R$ 110,00. Quem quer isenção ou redução da taxa precisa pedir entre 14h de 09/11 e 23h59 de 11/11/2026. Prova objetiva e redação previstas para 28/02/2027, à tarde.
 
 ## O prazo que vence primeiro é o da isenção
 
@@ -42,3 +45,14 @@ Na ficha de inscrição o candidato escolhe a cidade da prova entre **51 municí
 | Prova objetiva e redação (prevista) | 28/02/2027, à tarde |
 
 A prova tem 60 questões de cinco alternativas e uma redação de até 30 linhas, em 5 horas. O que cai em cada matéria está no [guia do concurso](../../concurso-pm-sp/).
+
+## Perguntas frequentes
+
+### Quando abrem as inscrições da PM-SP para Soldado?
+Às 10h de 09/11/2026, só pelo site da Fundação VUNESP. O prazo vai até as 23h59 de 22/12/2026.
+
+### Até quando posso pedir isenção da taxa?
+O pedido de isenção ou de redução de 50% vai das 14h de 09/11 às 23h59 de 11/11/2026. Depois disso, a taxa é de R$ 110,00.
+
+### Posso trocar a cidade da prova depois?
+Não. O edital diz que a cidade escolhida na ficha de inscrição, entre 51 municípios, não pode ser alterada depois.
