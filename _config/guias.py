@@ -93,6 +93,46 @@ def produtos_do_guia(meta):
     return [POR_ID[i] for i in ids if i in POR_ID]
 
 
+ATUALIZACOES = RAIZ / "_config" / "guias" / "atualizacoes.json"
+
+
+def data_br(iso):
+    return "/".join(reversed(str(iso).split("-")))
+
+
+def atualizacoes_do_guia(slug):
+    """Linha do tempo do concurso (08/11/2026): notícias pequenas de atualizacoes.json + posts de notícia do blog
+    com guia: <slug>. Mais nova primeiro. Cada item: (data ISO, texto, link do post ou None, link da fonte oficial ou None)."""
+    itens = []
+    if ATUALIZACOES.exists():
+        for a in json.loads(ATUALIZACOES.read_text(encoding="utf-8")).get(slug, []):
+            itens.append((a["data"], a["texto"], a.get("link"), a.get("fonte")))
+    for arq in sorted((RAIZ / "_config" / "blog").glob("*.md")):
+        m, _ = le(arq)
+        if m.get("guia") == slug and m.get("tipo") == "noticia" and str(m.get("rascunho", "")).lower() != "true":
+            itens.append((str(m.get("publicado", ""))[:10], m.get("h1") or m.get("titulo_seo", ""),
+                          "/noticias/%s/" % m.get("slug", arq.stem[11:]), None))
+    return sorted(itens, key=lambda x: x[0], reverse=True)
+
+
+def atualizacoes_html(itens):
+    if not itens:
+        return ""
+    def li(a):
+        d, txt, link, fonte = a
+        t = html.escape(txt)
+        if link:
+            t += ' <a href="%s">Leia a notícia</a>' % html.escape(link, quote=True)
+        elif fonte:
+            t += ' <a href="%s" rel="nofollow noopener" target="_blank">Fonte oficial</a>' % html.escape(fonte, quote=True)
+        return '<li><time datetime="%s">%s</time> %s</li>' % (d, data_br(d), t)
+    vis, resto = itens[:6], itens[6:]
+    s = '<section class="guia-atualizacoes" aria-labelledby="ult-atual">\n<h2 id="ult-atual">Últimas atualizações</h2>\n<ul>%s</ul>' % "".join(li(a) for a in vis)
+    if resto:
+        s += '<details><summary>Atualizações anteriores</summary><ul>%s</ul></details>' % "".join(li(a) for a in resto)
+    return s + "\n</section>\n"
+
+
 def monta(meta, corpo, slug):
     url = BASE + slug + "/"
     quem = slug == "quem-faz"
@@ -104,6 +144,8 @@ def monta(meta, corpo, slug):
     corpo_sem_faq = re.sub(r"^## Notas para a montagem.*", "", corpo_sem_faq, flags=re.S | re.M)
     corpo_sem_faq = re.sub(r"<!--.*?-->", "", corpo_sem_faq, flags=re.S).rstrip().rstrip("-").rstrip()
     artigo = md(corpo_sem_faq)
+    atual = [] if slug == "quem-faz" else atualizacoes_do_guia(slug)
+    artigo = atualizacoes_html(atual) + artigo
     faq_html = ""
     if faq:
         itens = "\n".join(
@@ -115,7 +157,7 @@ def monta(meta, corpo, slug):
     titulo = meta.get("titulo_seo") or meta.get("h1")
     desc = meta.get("descricao", "")
     h1 = meta.get("h1") or titulo
-    data = meta.get("atualizado_em", "")
+    data = max([str(meta.get("atualizado_em", ""))] + [a[0] for a in atual])
     org = {"@type": "Organization", "name": "ESCUDO Concursos", "url": BASE,
            "legalName": CFG.get("razao_social"), "taxID": CFG.get("cnpj"), "sameAs": [INSTA]}
     autor = {"@type": "Person", "name": "Mateus Vazzoller", "url": BASE + "quem-faz/", "sameAs": [INSTA]}
@@ -149,7 +191,7 @@ def monta(meta, corpo, slug):
         "{{url}}": url, "{{og_tipo}}": "profile" if quem else "article", "{{css_extra}}": css_extra,
         "{{ld}}": "\n".join(blocos), "{{tema}}": " ".join(c for c in [tema, "tema-" + carreira if carreira else ""] if c),
         "{{topo_link}}": topo_link, "{{trilha}}": trilha_html, "{{h1}}": html.escape(h1),
-        "{{atualizado}}": ("Atualizado em %s" % "/".join(reversed(data.split("-")))) if data else "",
+        "{{atualizado}}": ("Atualizado em %s" % data_br(data)) if data else "",
         "{{artigo}}": artigo, "{{faq}}": faq_html,
         "{{razao_social}}": html.escape(CFG.get("razao_social", "")), "{{cnpj}}": CFG.get("cnpj", ""),
         "{{endereco}}": html.escape(CFG.get("endereco", "")), "{{email}}": CFG.get("email", ""),

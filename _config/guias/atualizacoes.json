@@ -1,0 +1,10 @@
+{
+ "_leia": "Notícias pequenas do concurso (autorização, banca escolhida, comissão, retificação pequena, prorrogação). Chave = slug do guia. Cada item: data AAAA-MM-DD, texto (1 frase, fato do documento oficial), fonte (link oficial). Notícia grande vira post em _config/blog/ e entra sozinha na lista. Conferir com blog_conferir.py --atualizacoes.",
+ "concurso-pm-sp": [
+  {
+   "data": "2026-11-05",
+   "texto": "Edital nº DP-4/321/26 publicado no Diário Oficial do Estado: 2.000 cargos de Aluno-Soldado PM, banca Fundação VUNESP.",
+   "fonte": "https://www.concursopublico.sp.gov.br/"
+  }
+ ]
+}

@@ -9,7 +9,8 @@ algarismos (vagas, inscritos) que aparece no post precisa aparecer, igual, em pe
 Valores que o próprio post calcula (datas de fases de um cronograma, por exemplo) vão em "calculado:"
 no cabeçalho, como lista JSON, e ficam à vista de quem revisa.
 
-Uso: python _config/blog_conferir.py [--dados ../escudo-dados] _config/blog/arquivo.md [...]
+Uso: python _config/blog_conferir.py [--dados ../escudo-dados] [--atualizacoes] _config/blog/arquivo.md [...]
+(--atualizacoes também confere _config/guias/atualizacoes.json, a linha do tempo dos guias)
 Sai com código 1 se algum post falhar, listando o que não foi achado.
 """
 import json, pathlib, re, sys
@@ -121,6 +122,29 @@ def confere(arq, dados):
     return faltam
 
 
+def confere_atualizacoes(dados):
+    """Cada linha de _config/guias/atualizacoes.json: fatos precisam estar no guia ou em <dados>/fontes/<guia>/."""
+    arq = RAIZ / "_config" / "guias" / "atualizacoes.json"
+    ruim = 0
+    if not arq.exists():
+        return 0
+    for guia, itens in json.loads(arq.read_text(encoding="utf-8")).items():
+        if guia.startswith("_"):
+            continue
+        fontes = fontes_do_post({"guia": guia, "slug": guia}, dados)
+        for a in itens:
+            faltam = [f for f in fatos(a["texto"]) if not re.fullmatch(r"20\d{2}", f)
+                      and not any(v in fontes for v in variantes(f))]
+            if not a.get("fonte"):
+                faltam.insert(0, "(sem 'fonte')")
+            if faltam:
+                ruim += 1
+                print("BARRADO atualização %s %s\n  não achado nas fontes: %s" % (guia, a["data"], ", ".join(faltam)))
+            else:
+                print("ok atualização %s %s" % (guia, a["data"]))
+    return ruim
+
+
 def main():
     args = sys.argv[1:]
     dados = None
@@ -128,9 +152,14 @@ def main():
         i = args.index("--dados")
         dados = pathlib.Path(args[i + 1]).resolve()
         del args[i:i + 2]
+    ruim = 0
+    if "--atualizacoes" in args:
+        args.remove("--atualizacoes")
+        ruim += confere_atualizacoes(dados)
+        if not args:
+            sys.exit(1 if ruim else 0)
     if not args:
         args = [str(p) for p in sorted((RAIZ / "_config" / "blog").glob("*.md"))]
-    ruim = 0
     for a in args:
         faltam = confere(pathlib.Path(a), dados)
         if faltam:
