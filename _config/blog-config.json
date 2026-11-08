@@ -1,5 +1,1 @@
-{
-  "_leia": "Rotina do blog (ROTINA-BLOG.md). publicar_direto=false: a rotina deixa os posts no ramo 'blog' para o Mateus ver; true: publica no main.",
-  "publicar_direto": false,
-  "max_posts_por_dia": 2
-}
+{"publicar_direto": true, "max_posts_por_dia": 2}
