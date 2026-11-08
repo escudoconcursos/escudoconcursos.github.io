@@ -11,6 +11,12 @@ from datetime import date
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+BASE = json.loads((RAIZ / "_config/site.json").read_text(encoding="utf-8"))["url_base"]
+import importlib.util as _iu
+_spec = _iu.spec_from_file_location("hubs", RAIZ / "_config/hubs.py")
+_HUBS = _iu.module_from_spec(_spec)
+_spec.loader.exec_module(_HUBS)
+GUIAS = _HUBS.guias()  # {curso: {slug do guia}}: os textos levam o link do guia e da amostra (links de fora para o site)
 
 RECRUTAMENTO = {
     "pmpe-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/8003P107926923",
@@ -75,6 +81,8 @@ def main():
             "pagina": p["link"] if p["link"].startswith("http") else "../" + p["link"],
             "og": f"../assets/img/og-{p['id']}.jpg" if (RAIZ / f"assets/img/og-{p['id']}.jpg").exists() else "",
             "quadrada": "../" + p["imagem"],
+            "guia": BASE + GUIAS[p["id"]]["slug"] + "/" if p["id"] in GUIAS else "",
+            "amostra": BASE + p["id"] + "/amostra/" if (RAIZ / p["id"] / "amostra" / "index.html").exists() else "",
         })
 
     cards = []
@@ -83,12 +91,20 @@ def main():
         artes = f'<a href="{e["quadrada"]}" download>Arte quadrada</a>'
         if c["og"]:
             artes += f' · <a href="{e["og"]}" download>Arte horizontal</a>'
+        guia = ""
+        if c["guia"] or c["amostra"]:
+            partes = []
+            if c["guia"]:
+                partes.append(f'Guia do concurso: <a href="{e["guia"]}">{e["guia"]}</a>')
+            if c["amostra"]:
+                partes.append(f'Amostra grátis: <a href="{e["amostra"]}">{e["amostra"]}</a>')
+            guia = '\n        <p class="af-guia">' + "<br>".join(partes) + "</p>"
         cards.append(f"""      <li class="af-card">
         <p class="af-tag">{e["concurso"]} · {e["banca"]}</p>
         <h3>{e["titulo"]}</h3>
         <p class="af-datas">Inscrições até {e["inscricoes"]} · prova em {e["prova"]}</p>
         <a class="btn" href="{e["recrutar"]}" rel="noopener">Quero me afiliar</a>
-        <p class="af-links"><a href="{e["pagina"]}">Ver a página do curso</a> · {artes}</p>
+        <p class="af-links"><a href="{e["pagina"]}">Ver a página do curso</a> · {artes}</p>{guia}
       </li>""")
 
     pagina = (RAIZ / "_config/afiliados.modelo.html").read_text(encoding="utf-8")
