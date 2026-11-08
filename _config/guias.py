@@ -189,6 +189,8 @@ for pag in [RAIZ / "index.html"] + sorted(RAIZ.glob("*/index.html")):
         continue
     pre = "" if pag.parent == RAIZ else "../"
     links = '<a class="rodape-link" href="%squem-faz/">Quem faz a ESCUDO</a>' % pre
+    if (RAIZ / "noticias" / "index.html").exists():  # blog (blog.py), 08/11/2026
+        links = '<a class="rodape-link" href="%snoticias/">Notícias e dicas de concursos</a> · ' % pre + links
     curso = pag.parent.name
     if curso in guia_do_curso:
         links = '<a class="rodape-link" href="../%s/">Guia do concurso: edital, vagas e o que cai</a> · ' % guia_do_curso[curso] + links
