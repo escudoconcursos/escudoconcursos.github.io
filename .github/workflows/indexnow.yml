@@ -1,0 +1,18 @@
+# Avisa o Bing (IndexNow) das páginas que mudaram a cada push no main (08/11/2026).
+# A nuvem do Claude não alcança api.indexnow.org; o GitHub alcança. Sem custo (repositório público).
+name: IndexNow
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", "sitemap.xml"]
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Espera o GitHub Pages publicar
+        run: sleep 150
+      - name: Avisa o IndexNow
+        run: python3 _config/indexnow.py --git HEAD~1 || true

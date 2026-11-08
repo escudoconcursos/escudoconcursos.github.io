@@ -8,6 +8,7 @@ publicado: 2026-11-08
 atualizado_em: 2026-11-08
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
+calculado: ["03/01/2027", "04/01", "07/02/2027", "08/02"]
 fontes: [{"nome": "Edital de Concurso Público nº DP-4/321/26, Diário Oficial do Estado de São Paulo de 05/11/2026", "url": "https://www.concursopublico.sp.gov.br/"}]
 ---
 

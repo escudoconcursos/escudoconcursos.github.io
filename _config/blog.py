@@ -110,7 +110,9 @@ def caixa_curso(p, slug):
     elif preco:
         oferta = " R$ %s." % preco
     itens = ", ".join(p.get("itens") or [])
-    return ('<p class="guia-curso"><strong>Curso ESCUDO %s em PDF:</strong> %s, de acordo com o edital.%s<br>'
+    if "edital" not in itens:
+        itens += ", de acordo com o edital"
+    return ('<p class="guia-curso"><strong>Curso ESCUDO %s em PDF:</strong> %s.%s<br>'
             '<a href="../../%s?src=blog-%s">Ver o curso</a></p>') % (
         html.escape(p.get("titulo", "")), html.escape(itens), html.escape(oferta), p.get("link", p["id"] + "/"), slug)
 
