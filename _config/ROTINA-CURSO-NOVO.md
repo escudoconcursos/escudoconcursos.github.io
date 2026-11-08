@@ -33,6 +33,8 @@ No PC, rode tudo de dentro de `G:\Amazon\07-site` com `PYTHONIOENCODING=utf-8 py
 
 Depois: conferir `git -c core.autocrlf=true status`, commit e `git -C G:/Amazon/07-site push origin main`.
 
+Uns 2 minutos depois do push, avise o Bing (IndexNow): `python _config/indexnow.py --git HEAD~1` (ou sem argumentos para mandar o sitemap inteiro).
+
 ## 3. Quando mudar CSS ou JS
 
 Subir a versão em todas as páginas e nos geradores: `escudo.css?v=N` e `site.js?v=N` (strings em `amostra.py`, `hubs.py`, `guia.modelo.html` e `afiliados.modelo.html`).
