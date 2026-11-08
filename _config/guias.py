@@ -126,7 +126,7 @@ def monta(meta, corpo, slug):
     if quem:
         blocos.append(ld({"@context": "https://schema.org", "@type": "AboutPage", "name": h1, "url": url,
                           "description": desc,
-                          "mainEntity": dict(autor, **{"worksFor": org, "jobTitle": "Autor e professor de concursos"})}))
+                          "mainEntity": dict(autor, **{"worksFor": org, "jobTitle": "Editor de materiais para concursos públicos", "description": "Trabalha com concursos públicos desde 2012, formado em Direito (2018), foi editor dos livros da AlfaCon.", "knowsAbout": ["Concursos públicos", "Direito"]})}))
         blocos.append(ld(dict(org, **{"@context": "https://schema.org", "founder": autor,
                                       "address": {"@type": "PostalAddress", "streetAddress": CFG.get("endereco"),
                                                   "addressCountry": "BR"}})))

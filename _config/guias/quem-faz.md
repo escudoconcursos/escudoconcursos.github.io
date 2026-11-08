@@ -10,7 +10,9 @@ A ESCUDO Concursos é um projeto do professor e autor **Mateus Vazzoller**. Ela 
 
 ## Quem é Mateus Vazzoller
 
-Mateus Vazzoller assina a série **Provas & Concursos** na Amazon, com mais de 25 livros publicados para concursos de polícias militares, guardas municipais, polícias civis e penais, tribunais, bancos e educação. Os mesmos materiais, organizados como curso, estão na ESCUDO, vendidos pela Hotmart.
+Mateus Vazzoller trabalha com concursos públicos desde 2012 e é formado em Direito (2018). Foi editor dos livros da **AlfaCon**, uma das maiores preparatórias do país, que divulga mais de 308 mil alunos aprovados: são mais de 420 títulos com ISBN publicados entre 2014 e 2026, com apostilas para polícias, tribunais, bancos e carreiras militares e séries como Provas & Concursos, Passe Já e Código Interativo.
+
+Hoje ele aplica essa experiência na ESCUDO Concursos, em Cascavel/PR, onde cada edital novo vira um curso completo em PDF, vendido pela Hotmart.
 
 [Instagram @escudoconcursos](https://www.instagram.com/escudoconcursos/)
 
@@ -42,5 +44,5 @@ Mateus Vazzoller assina a série **Provas & Concursos** na Amazon, com mais de 2
 
 - Schema `Person` (Mateus Vazzoller, `sameAs`: Instagram) + `Organization` (ESCUDO Concursos, razão social, CNPJ, endereço, `sameAs`: Instagram).
 - Mateus decidiu (07/11): sem frase sobre uso de IA (ele responde pessoalmente se perguntarem) e sem link da página de autor da Amazon.
-- "Mais de 25 livros" vem do CONTEXTO-PROJETO.md de 28/10 (26 títulos). Ajustar o número na hora de publicar.
+- Bio aprovada pelo Mateus 07/11 21h22 Brasília: desde 2012, Direito 2018, editor dos livros AlfaCon (429 ISBNs 2014-2026, lista em planejamento/ISBNS-ALFACON.md), 308 mil aprovados = número do site alfaconcursos.com.br (07/11/2026). Sem menção à Amazon.
 - O e-mail não vai escrito na página para evitar spam; o rodapé do site já tem o contato.
