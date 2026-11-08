@@ -727,6 +727,28 @@
       "inscricoes_ate": "2026-12-14"
     },
     {
+      "id": "gm-joinville-2026",
+      "atalho": "joinville",
+      "carreira": "policial",
+      "tema": "tema-cobre",
+      "tag": "GM Joinville 2026 · AOCP",
+      "titulo": "Guarda Municipal de Joinville",
+      "itens": [
+        "115 capítulos e 570 questões comentadas",
+        "2 simulados de 35 questões"
+      ],
+      "imagem": "assets/img/produto-gm-joinville-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de Joinville, GM Joinville 2026, 115 capítulos e 570 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "JOINVILLE37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "link": "gm-joinville-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "recenseador-ibge-2026",
       "atalho": "ibge",
       "carreira": "administrativo",
