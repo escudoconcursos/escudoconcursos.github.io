@@ -403,12 +403,22 @@ def liga_llms(posts):
     llms.write_text(s, encoding="utf-8")
 
 
+MENU_CSS = ("<style>.topo-menu{display:flex;gap:18px;margin-left:auto;margin-right:8px}"
+            ".topo-menu a{font-family:var(--ff-t);font-weight:700;text-transform:uppercase;letter-spacing:.06em;"
+            "font-size:.85rem;color:var(--cream,#F6F1E6);text-decoration:none;padding:10px 2px}"
+            ".topo-menu a:hover,.topo-menu a[aria-current]{color:var(--goldb,#E0BD6A)}"
+            "@media(max-width:700px){.topo .wrap{flex-wrap:wrap;row-gap:0}.topo-menu{order:3;width:100%;margin:0;"
+            "justify-content:space-between;gap:8px;border-top:1px solid rgba(201,162,75,.18);padding:2px 0}"
+            ".topo-menu a{font-size:.78rem;padding:9px 0}}</style>")
+
+
 def menu_noticias():
-    """Link "Notícias" no topo de todas as páginas do site (marcador menu-noticias), antes do botão do topo. 08/11/2026."""
+    """Menu do topo em todas as páginas (marcador menu-noticias), antes do botão do topo: Notícias, Como é feito,
+    Quem faz. 08/11/2026. Reaplicado no fim do aplicar.py porque outros scripts regeram páginas inteiras."""
     n = 0
     for pag in [RAIZ / "index.html", RAIZ / "404.html"] + sorted(RAIZ.glob("*/index.html")) + sorted(RAIZ.glob("*/*/index.html")):
         rel = pag.relative_to(RAIZ).as_posix()
-        if rel.startswith(("noticias/", "_config/", "assets/")) or not pag.exists():
+        if rel.startswith(("_config/", "assets/")) or not pag.exists():
             continue
         s = pag.read_text(encoding="utf-8")
         i = s.find('<header class="topo">')
@@ -416,19 +426,23 @@ def menu_noticias():
             continue
         fim = s.find("</header>", i)
         pre = "/" if rel == "404.html" else "../" * rel.count("/")
-        link = '<a class="topo-link topo-noticias" href="%snoticias/" style="margin-left:auto">Notícias</a>' % pre
+        itens = [("noticias/", "Notícias", rel.startswith("noticias/")),
+                 ("#t-como" if rel == "index.html" else pre + "#t-como", "Como é feito", False),
+                 ("quem-faz/", "Quem faz", rel.startswith("quem-faz/"))]
+        links = "".join('<a href="%s"%s>%s</a>' % (
+            h if h.startswith("#") or h.startswith(pre + "#") else pre + h,
+            ' aria-current="page"' if atual else "", txt) for h, txt, atual in itens)
+        bloco = '<!-- menu-noticias:inicio -->%s<nav class="topo-menu" aria-label="Menu">%s</nav><!-- menu-noticias:fim -->' % (MENU_CSS, links)
         cab = s[i:fim]
         if "<!-- menu-noticias:inicio -->" in cab:
-            novo = re.sub(r"<!-- menu-noticias:inicio -->.*?<!-- menu-noticias:fim -->",
-                          lambda _: "<!-- menu-noticias:inicio -->%s<!-- menu-noticias:fim -->" % link, cab, flags=re.S)
+            novo = re.sub(r"<!-- menu-noticias:inicio -->.*?<!-- menu-noticias:fim -->", lambda _: bloco, cab, flags=re.S)
         else:
             j = cab.find('<a class="topo-link"')
-            bloco = "<!-- menu-noticias:inicio -->%s<!-- menu-noticias:fim -->\n    " % link
-            novo = cab[:j] + bloco + cab[j:] if j >= 0 else cab.replace("  </div>", "    " + bloco.strip() + "\n  </div>", 1)
+            novo = cab[:j] + bloco + "\n    " + cab[j:] if j >= 0 else cab.replace("  </div>", "    " + bloco + "\n  </div>", 1)
         if novo != cab:
             pag.write_text(s[:i] + novo + s[fim:], encoding="utf-8")
             n += 1
-    print("ok menu Notícias em %d páginas" % n)
+    print("ok menu do topo em %d páginas" % n)
 
 
 def main():
