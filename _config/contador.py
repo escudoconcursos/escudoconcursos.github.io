@@ -26,7 +26,7 @@ def main():
             continue
         txt = p.read_text(encoding="utf-8")
         orig = txt
-        txt = re.sub(r"\n?" + re.escape(INI) + r".*?" + re.escape(FIM), "", txt, flags=re.S)
+        txt = re.sub(re.escape(INI) + r".*?" + re.escape(FIM) + r"\n?", "", txt, flags=re.S)  # tira o bloco e a quebra que ele mesmo pôs (idempotente também nos atalhos)
         if "</body>" not in txt:
             continue
         txt = txt.replace("</body>", BLOCO + "\n</body>", 1)
