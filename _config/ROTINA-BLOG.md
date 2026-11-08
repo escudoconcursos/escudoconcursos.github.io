@@ -22,7 +22,7 @@ Responder e escrever sempre em português do Brasil, sem travessão. Horários s
 
 1. Clonar os dois repositórios (o site com `--depth 1`; `git fetch origin main` antes de empurrar). Instalar `pip install markdown pillow fonttools brotli`.
 2. Ler `_config/blog-config.json`. Se `publicar_direto` for `false`, trabalhar no ramo `blog` (rebase em `origin/main`) em vez do `main`.
-3. **Pautas do dia**, nesta ordem:
+3. **Pautas do dia**: primeiro ler a pauta prévia da semana em `escudo-dados/fila/PAUTA-SEMANA-<segunda AAAA-MM-DD>.md` (combinada com o Mateus) e seguir a linha do dia; novidade oficial passa na frente. Sem pauta da semana, nesta ordem:
    - Mudanças oficiais nos concursos com curso à venda: retificação, prorrogação, locais de prova, gabarito, resultado. Ver a página do concurso na banca (Cebraspe, FCC, FGV, Cesgranrio, AOCP, IBFC, Idecan, Consulplan, IBGP) e o Diário Oficial correspondente.
    - Edital novo de concurso do radar (prefeituras: API do Querido Diário, `https://api.queridodiario.org.br/gazettes?querystring=...`).
    - Datas que vencem nos próximos 3 dias (fim de inscrição, isenção, pagamento, prova) tiradas dos guias em `_config/guias/`: vira lembrete curto.
