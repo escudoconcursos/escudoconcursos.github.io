@@ -403,6 +403,34 @@ def liga_llms(posts):
     llms.write_text(s, encoding="utf-8")
 
 
+def menu_noticias():
+    """Link "Notícias" no topo de todas as páginas do site (marcador menu-noticias), antes do botão do topo. 08/11/2026."""
+    n = 0
+    for pag in [RAIZ / "index.html", RAIZ / "404.html"] + sorted(RAIZ.glob("*/index.html")) + sorted(RAIZ.glob("*/*/index.html")):
+        rel = pag.relative_to(RAIZ).as_posix()
+        if rel.startswith(("noticias/", "_config/", "assets/")) or not pag.exists():
+            continue
+        s = pag.read_text(encoding="utf-8")
+        i = s.find('<header class="topo">')
+        if i < 0:
+            continue
+        fim = s.find("</header>", i)
+        pre = "/" if rel == "404.html" else "../" * rel.count("/")
+        link = '<a class="topo-link topo-noticias" href="%snoticias/" style="margin-left:auto">Notícias</a>' % pre
+        cab = s[i:fim]
+        if "<!-- menu-noticias:inicio -->" in cab:
+            novo = re.sub(r"<!-- menu-noticias:inicio -->.*?<!-- menu-noticias:fim -->",
+                          lambda _: "<!-- menu-noticias:inicio -->%s<!-- menu-noticias:fim -->" % link, cab, flags=re.S)
+        else:
+            j = cab.find('<a class="topo-link"')
+            bloco = "<!-- menu-noticias:inicio -->%s<!-- menu-noticias:fim -->\n    " % link
+            novo = cab[:j] + bloco + cab[j:] if j >= 0 else cab.replace("  </div>", "    " + bloco.strip() + "\n  </div>", 1)
+        if novo != cab:
+            pag.write_text(s[:i] + novo + s[fim:], encoding="utf-8")
+            n += 1
+    print("ok menu Notícias em %d páginas" % n)
+
+
 def main():
     posts, slugs, corpos = [], set(), {}
     reservadas = {c[0] for c in CATEGORIAS.values()}
@@ -449,3 +477,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    menu_noticias()

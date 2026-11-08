@@ -95,3 +95,13 @@ if pendentes:
     print("Ainda faltam:", ", ".join(sorted(pendentes)))
 if not base:
     print("Aviso: url_base vazia; og:image e og:url continuam relativos (o WhatsApp precisa do endereço absoluto).")
+
+# link "Notícias" no topo de todas as páginas (blog.py, 08/11/2026): reaplica aqui porque scripts que rodam
+# depois do blog.py (afiliados.py) regeram páginas inteiras
+try:
+    sys.path.insert(0, str(RAIZ / "_config"))
+    from blog import menu_noticias
+    if (RAIZ / "noticias" / "index.html").exists():
+        menu_noticias()
+except Exception as e:  # nunca travar o aplicar por causa do blog
+    print("aviso: menu Notícias não aplicado:", e)
