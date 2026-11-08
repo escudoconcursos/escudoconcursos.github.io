@@ -9,6 +9,7 @@ atualizado_em: 2026-11-08
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
 capa_titulo: "PM-SP Soldado: inscrições abrem 09/11"
+fotos: [{"arquivo": "pmesp-formatura-soldados-2014.jpg", "credito": "Diogo Moreira/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Policiais_Militares_SP.jpg", "alt": "Soldados da PM-SP em formatura no Anhembi, em São Paulo", "legenda": "Formatura de soldados da PM-SP no Anhembi, em São Paulo"}, {"arquivo": "pmesp-formatura-soldados-2015.jpg", "credito": "Du Amorim/A2 Fotografia/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Mulheres_da_PMESP.jpg", "alt": "Soldadas e soldados da PM-SP em formatura no Sambódromo do Anhembi", "legenda": "Soldadas e soldados da PM-SP na formatura no Sambódromo do Anhembi"}]
 capa_destaque: "09/11"
 valido_ate: 2026-12-22
 resumo: [["Cargo", "Aluno-Soldado PM (Quadro de Praças)"], ["Vagas", "2.000"], ["Salário inicial", "R$ 5.482,51"], ["Banca", "Fundação VUNESP"], ["Escolaridade", "Ensino médio (exigido na posse)"], ["Inscrições", "09/11 a 22/12/2026, em www.vunesp.com.br"], ["Isenção ou redução da taxa", "09/11 a 11/11/2026"], ["Taxa", "R$ 110,00"], ["Prova (prevista)", "28/02/2027, à tarde"]]

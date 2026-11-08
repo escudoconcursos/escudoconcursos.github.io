@@ -41,21 +41,48 @@ def quebra(draw, texto, f, largura):
     return linhas
 
 
-def gera(destino, titulo, selo, produto_img=None, destaque=None):
+def fundo_foto(im, foto):
+    """Foto ocupando o lado direito, com degradê navy da esquerda para o texto ficar legível."""
+    f = Image.open(foto).convert("RGB")
+    alvo_w, alvo_h = 700, 630
+    esc = max(alvo_w / f.width, alvo_h / f.height)
+    f = f.resize((int(f.width * esc) + 1, int(f.height * esc) + 1), Image.LANCZOS)
+    x0 = (f.width - alvo_w) // 2
+    f = f.crop((x0, 0, x0 + alvo_w, alvo_h))
+    im.paste(f, (1200 - alvo_w, 0))
+    veu = Image.new("RGBA", (1200, 630))
+    dv = ImageDraw.Draw(veu)
+    for x in range(1200):
+        if x < 560:
+            a = 255
+        elif x < 820:
+            a = int(255 - (x - 560) / 260 * 215)
+        else:
+            a = 40
+        dv.line([(x, 0), (x, 630)], fill=NAVY + (min(a, 255),))
+    im.paste(veu, (0, 0), veu)
+
+
+def gera(destino, titulo, selo, produto_img=None, destaque=None, foto=None):
     im = Image.new("RGB", (1200, 630), NAVY)
     d = ImageDraw.Draw(im)
-    # fundo com leve degradê e grade
-    for y in range(630):
+    if foto and pathlib.Path(foto).exists():
+        fundo_foto(im, foto)
+        d = ImageDraw.Draw(im)
+        produto_img = None
+    largura_foto = 640 if foto and pathlib.Path(foto).exists() else None
+    # fundo com leve degradê e grade (só sem foto)
+    for y in (range(630) if not foto else []):
         t = y / 630
         d.line([(0, y), (1200, y)], fill=tuple(int(NAVY[i] + (NAVY2[i] - NAVY[i]) * t) for i in range(3)))
-    for x in range(0, 1200, 60):
+    for x in (range(0, 1200, 60) if not foto else []):
         d.line([(x, 0), (x, 630)], fill=(18, 30, 52))
-    for y in range(0, 630, 60):
+    for y in (range(0, 630, 60) if not foto else []):
         d.line([(0, y), (1200, y)], fill=(18, 30, 52))
     d.rectangle([0, 0, 1200, 8], fill=OURO)
     logo = Image.open(RAIZ / "_config" / "blog-logo.png").convert("RGB")
     im.paste(logo, (66, 36))
-    largura = 1068
+    largura = largura_foto or 1068
     if produto_img and pathlib.Path(produto_img).exists():
         p = Image.open(produto_img).convert("RGBA")
         p.thumbnail((330, 440))
@@ -75,11 +102,14 @@ def gera(destino, titulo, selo, produto_img=None, destaque=None):
             break
     y = 212
     for i, l in enumerate(linhas):
-        cor = ROSA if destaque and destaque.upper() in l else CREME
-        d.text((66, y), l, font=ft, fill=cor)
+        x = 66
+        marcadas = set(destaque.upper().split()) if destaque else set()
+        for pal in l.split():
+            d.text((x, y), pal, font=ft, fill=ROSA if pal.strip(":,.") in marcadas else CREME)
+            x += d.textlength(pal + " ", font=ft)
         y += int(tam * 1.02)
-    d.rectangle([66, y + 14, 156, y + 20], fill=ROSA)
-    d.rectangle([168, y + 14, 214, y + 20], fill=OURO)
+    d.rectangle([66, y + 26, 156, y + 32], fill=ROSA)
+    d.rectangle([168, y + 26, 214, y + 32], fill=OURO)
     fr = fonte("Archivo-SemiBold", 24)
     d.text((66, 572), "escudoconcursos.com.br/noticias  ·  por Mateus Vazzoller", font=fr, fill=CINZA)
     destino = pathlib.Path(destino)

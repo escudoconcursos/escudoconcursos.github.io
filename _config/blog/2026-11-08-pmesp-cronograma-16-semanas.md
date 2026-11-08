@@ -9,6 +9,7 @@ atualizado_em: 2026-11-08
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
 capa_titulo: "PM-SP Soldado: cronograma de 16 semanas"
+fotos: [{"arquivo": "pmesp-formatura-soldados-2015.jpg", "credito": "Du Amorim/A2 Fotografia/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Mulheres_da_PMESP.jpg", "alt": "Soldadas e soldados da PM-SP em formatura no Sambódromo do Anhembi", "legenda": "Soldadas e soldados da PM-SP na formatura no Sambódromo do Anhembi"}, {"arquivo": "pmesp-formatura-soldados-2014.jpg", "credito": "Diogo Moreira/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Policiais_Militares_SP.jpg", "alt": "Soldados da PM-SP em formatura no Anhembi, em São Paulo", "legenda": "Formatura de soldados da PM-SP no Anhembi, em São Paulo"}]
 capa_destaque: "16 semanas"
 valido_ate: 2027-02-28
 resumo: [["Prova (prevista)", "28/02/2027, à tarde, 5 horas"], ["Tempo até a prova", "16 semanas a partir de 09/11/2026"], ["Carga sugerida", "15 horas por semana"], ["Fases", "Base (semanas 1 a 8), questões (9 a 13), simulados (14 a 16)"], ["Prova objetiva", "60 questões, mínimo de 30 pontos"], ["Redação", "Até 30 linhas, 40 pontos, mínimo de 20"]]

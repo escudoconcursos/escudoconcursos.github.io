@@ -160,6 +160,19 @@ def caixa_curso(p, slug):
         html.escape(p.get("titulo", "")), html.escape(itens), html.escape(oferta), p.get("link", p["id"] + "/"), slug)
 
 
+def credito_html(f, adaptada):
+    """Crédito exigido pela licença livre (CC BY): autor, licença, link e aviso de adaptação."""
+    txt = "Foto: %s" % html.escape(f.get("credito", ""))
+    if f.get("url"):
+        txt += ' (<a href="%s" rel="nofollow noopener" target="_blank">%s, via Wikimedia Commons</a>)' % (
+            html.escape(f["url"], quote=True), html.escape(f.get("licenca", "licença livre")))
+    if f.get("legenda"):
+        txt = html.escape(f["legenda"]) + ". " + txt
+    if adaptada:
+        txt += ". Imagem recortada e com texto sobreposto."
+    return "<figcaption>%s</figcaption>" % txt
+
+
 def fontes_html(fontes):
     if not fontes:
         return ""
@@ -199,9 +212,27 @@ def monta_post(meta, corpo):
     # capa
     from blog_capa import gera
     img_prod = (RAIZ / p["imagem"]) if p and p.get("imagem") else None
-    gera(SAIDA / slug / "capa.jpg", meta.get("capa_titulo") or h1, selo, img_prod, meta.get("capa_destaque"))
+    fotos = meta.get("fotos") or []
+    foto_capa = (RAIZ / "_config" / "blog" / "fotos" / fotos[0]["arquivo"]) if fotos else None
+    gera(SAIDA / slug / "capa.jpg", meta.get("capa_titulo") or h1, selo, img_prod, meta.get("capa_destaque"), foto_capa)
     capa_alt = "%s: %s" % (selo, h1)
-    capa = '<figure class="blog-capa"><img src="capa.jpg" alt="%s" width="1200" height="630"></figure>' % html.escape(capa_alt, quote=True)
+    capa = '<figure class="blog-capa"><img src="capa.jpg" alt="%s" width="1200" height="630">%s</figure>' % (
+        html.escape(capa_alt, quote=True), credito_html(fotos[0], True) if fotos else "")
+    # demais fotos: antes do 2º, 3º... H2
+    for n, f in enumerate(fotos[1:], start=2):
+        src = RAIZ / "_config" / "blog" / "fotos" / f["arquivo"]
+        if not src.exists():
+            continue
+        from PIL import Image
+        im = Image.open(src).convert("RGB")
+        im.thumbnail((1200, 1200))
+        nome = "foto-%d.jpg" % n
+        im.save(SAIDA / slug / nome, "JPEG", quality=82, optimize=True, progressive=True)
+        fig = '<figure class="blog-foto"><img src="%s" alt="%s" width="%d" height="%d" loading="lazy">%s</figure>\n' % (
+            nome, html.escape(f.get("alt", ""), quote=True), im.width, im.height, credito_html(f, False))
+        pos = [m.start() for m in re.finditer(r"<h2", artigo)]
+        if len(pos) >= n:
+            artigo = artigo[:pos[n - 1]] + fig + artigo[pos[n - 1]:]
     # aviso de prazo vencido
     aviso = ""
     va = str(meta.get("valido_ate", ""))
