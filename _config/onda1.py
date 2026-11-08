@@ -27,6 +27,8 @@ import importlib.util as _iu
 _spec = _iu.spec_from_file_location("hubs", RAIZ / "_config/hubs.py")
 HUBS = _iu.module_from_spec(_spec)
 _spec.loader.exec_module(HUBS)  # hub_da_carreira() e hub_do_estado(): páginas da onda 2
+_ED = RAIZ / "_config/editais.json"
+EDITAIS = json.loads(_ED.read_text(encoding="utf-8")) if _ED.exists() else {"aberto": {}, "pre": {}}  # selo do edital
 GUIAS = HUBS.guias()  # {curso: {slug do guia, banca, situação}}
 BASE = json.loads((RAIZ / "_config/site.json").read_text(encoding="utf-8"))["url_base"]
 HOJE = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
@@ -231,6 +233,22 @@ def outros(html, pasta, n, p):
     return html
 
 
+def selo_edital(html, pasta):
+    """Selo logo acima do preço do topo: "De acordo com o Edital nº X · banca" ou, no pré-edital, a base usada."""
+    a, pre = EDITAIS["aberto"].get(pasta), EDITAIS["pre"].get(pasta)
+    if a:
+        txt = f'De acordo com o <b>{e(a["edital"])}</b> · {e(a["banca"])}'
+        cls = "selo-edital"
+    elif pre is not None:
+        base = f"o último edital (<b>{e(pre)}</b>)" if pre else "o último edital do cargo"
+        txt = f"Pré-edital: baseado n{base}. Atualizado quando sair o novo"
+        cls = "selo-edital selo-pre"
+    else:
+        return html, False
+    sel = f'<p class="{cls}"><svg aria-hidden="true"><use href="#i-escudo"/></svg><span>{txt}</span></p>\n      '
+    return bloco(html, "selo-edital", sel, lambda h, t: h.replace('<div class="preco" id="oferta" data-oferta>', t + '<div class="preco" id="oferta" data-oferta>', 1))
+
+
 def main():
     for pasta, n in NOMES.items():
         arq = RAIZ / pasta / "index.html"
@@ -240,6 +258,7 @@ def main():
         html = arq.read_text(encoding="utf-8")
         p = PRODUTOS.get(pasta, {})
         html, ok_h1 = h1_palavra_chave(html, n)
+        html, ok_selo = selo_edital(html, pasta)
         html = off(html)
         html, ok_meio = botao_meio(html)
         html = contador_cliques(html)
@@ -247,7 +266,7 @@ def main():
         html = trilha(html, pasta, n, p)
         html = outros(html, pasta, n, p)
         arq.write_text(html, encoding="utf-8")
-        avisos = [x for x, ok in (("sem H1", ok_h1), ("sem botão do meio", ok_meio), ("sem imagens nos benefícios", ok_img)) if not ok]
+        avisos = [x for x, ok in (("sem H1", ok_h1), ("sem botão do meio", ok_meio), ("sem imagens nos benefícios", ok_img), ("sem selo do edital", ok_selo)) if not ok]
         print("ok", pasta, ("| " + ", ".join(avisos)) if avisos else "")
 
 

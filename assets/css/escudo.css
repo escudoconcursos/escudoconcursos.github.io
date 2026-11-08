@@ -446,3 +446,8 @@ a.chip{text-decoration:none}
 .pedido-isca{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
 .pedido-form .btn:disabled{opacity:.6;cursor:wait}
 @media (min-width:900px){.pedido-form{grid-template-columns:1fr 1fr 1fr auto}}
+/* selo do edital acima do preço do topo (onda1.py + editais.json) */
+.selo-edital{display:flex;gap:.5rem;align-items:flex-start;margin:0 0 .9rem;padding:.55rem .8rem;border:1px solid var(--cb);border-radius:10px;background:rgba(231,200,115,.08);font-size:.92rem;line-height:1.35;color:inherit;max-width:34rem}
+.selo-edital svg{flex:0 0 1.1rem;width:1.1rem;height:1.1rem;margin-top:.1rem;fill:none;color:var(--cb)}
+.selo-edital b{font-weight:700}
+.selo-pre{border-style:dashed}

@@ -1,0 +1,110 @@
+{
+ "_leia": "Selo do edital nas páginas de curso (onda1.py). 'aberto': edital publicado (texto do edital e banca). 'pre': pré-edital, com o último edital usado como base (vazio = sem número). Ao sair edital novo ou retificação que mude o número, atualizar aqui e rodar onda1.py.",
+ "aberto": {
+  "pmpe-soldado-2026": {
+   "edital": "Edital de Abertura nº 001/2026",
+   "banca": "Instituto AOCP"
+  },
+  "gm-sao-goncalo-2026": {
+   "edital": "Edital nº 001/PMSG/2026",
+   "banca": "Instituto SELECON"
+  },
+  "ufba-assistente-2026": {
+   "edital": "Edital de Abertura nº 007/2026",
+   "banca": "Instituto Avalia"
+  },
+  "pmal-soldado-2026": {
+   "edital": "Edital nº 1 PMAL, de 19/03/2026",
+   "banca": "Cebraspe"
+  },
+  "cbmpe-soldado-2026": {
+   "edital": "Edital de Abertura nº 002/2026",
+   "banca": "Instituto AOCP"
+  },
+  "pcpe-agente-2026": {
+   "edital": "Edital nº 1 PCPE, de 02/10/2026",
+   "banca": "Cebraspe"
+  },
+  "agente-educativo-aparecida-2026": {
+   "edital": "Edital de Abertura nº 01/2026",
+   "banca": "Instituto Verbena/UFG"
+  },
+  "pedagogia-aparecida-2026": {
+   "edital": "Edital de Abertura nº 01/2026",
+   "banca": "Instituto Verbena/UFG"
+  },
+  "gcm-santana-2026": {
+   "edital": "Concurso Público nº 001/2026",
+   "banca": "IDCAP"
+  },
+  "gcm-salvador-2026": {
+   "edital": "Edital nº 002/2026",
+   "banca": "FGV"
+  },
+  "assistente-semusa-porto-velho-2026": {
+   "edital": "Edital nº 25/2026",
+   "banca": "IBGP"
+  },
+  "tecnico-enfermagem-porto-velho-2026": {
+   "edital": "Edital nº 25/2026",
+   "banca": "IBGP"
+  },
+  "professor-semed-porto-velho-2026": {
+   "edital": "Edital nº 24/2026",
+   "banca": "IBGP"
+  },
+  "soldado-pmsc-2026": {
+   "edital": "Edital de Abertura nº 002/CCP/2026",
+   "banca": "Instituto AOCP"
+  },
+  "escrevente-tjsp-2026": {
+   "edital": "Edital de Abertura nº 02/2026",
+   "banca": "Vunesp"
+  },
+  "assistente-administrativo-contagem-2026": {
+   "edital": "Edital nº 01/2026",
+   "banca": "IBGP"
+  },
+  "tecnico-bancario-banestes-2026": {
+   "edital": "Edital nº 01/2026",
+   "banca": "FCC"
+  },
+  "tecnico-defensoria-dpe-pb-2026": {
+   "edital": "Edital nº 01/2026",
+   "banca": "FCC"
+  },
+  "policial-penal-pe-2026": {
+   "edital": "Edital nº 1 SAD-SEAP/PE, de 03/11/2026",
+   "banca": "Cebraspe"
+  },
+  "agente-administrativo-curitiba-2026": {
+   "edital": "Edital Normativo nº 4/2026",
+   "banca": "Fundação FAFIPA"
+  },
+  "cbm-al-soldado-2026": {
+   "edital": "Edital nº 1 CBM/AL, de 21/05/2026",
+   "banca": "Cebraspe"
+  },
+  "pmesp-soldado-2026": {
+   "edital": "Edital nº DP-4/321/26",
+   "banca": "Vunesp"
+  },
+  "pcac-oficial-investigador-2026": {
+   "edital": "Edital nº 001 SEAD/PCAC, de 05/11/2026",
+   "banca": "IDECAN"
+  },
+  "recenseador-ibge-2026": {
+   "edital": "Edital nº 03/2026",
+   "banca": "Cesgranrio"
+  }
+ },
+ "pre": {
+  "soldado-pmpr-2026": "nº 01/2025, IBFC",
+  "investigador-policia-civil-mg-pcmg-2026": "nº 04/2024, FGV",
+  "pmba-soldado-2026": "SAEB nº 05/2022, FCC",
+  "gm-recife-2026": "",
+  "pmerj-soldado-2026": "",
+  "pmpa-soldado-2026": "",
+  "policial-penal-pr-2026": ""
+ }
+}
