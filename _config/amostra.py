@@ -132,7 +132,7 @@ def monta(arq):
     s = re.sub(r'(href|src)="\.\./(?!\.\./)', r'\1="../../', s)
     s = s.replace('href="../../#oferta"', 'href="../#oferta"').replace('<a href="../../">%s</a>' % e(nome), '<a href="../">%s</a>' % e(nome))
     s = s.replace("</main>", "</main>" + fim, 1)
-    s = s.replace("</body>", '<script src="../../assets/js/site.js?v=7" defer></script>\n</body>', 1)
+    s = s.replace("</body>", '<script src="../../assets/js/site.js?v=8" defer></script>\n</body>', 1)
     destino = RAIZ / curso / "amostra" / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")

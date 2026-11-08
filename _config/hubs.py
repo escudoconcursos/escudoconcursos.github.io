@@ -128,10 +128,11 @@ def monta(h, prods, ativos_por_hub, G, V, modelo):
               '      <h2 id="t-hub-cursos">Cursos em PDF <em>(%d)</em></h2>\n'
               '      <p class="vitrine-info">Ordenados pelo prazo mais próximo: cupom, inscrições ou prova.</p>\n'
               '      <ul class="produtos" data-vitrine>\n%s\n      </ul>\n'
+              '      %s\n'
               '      <nav class="hub-outros" aria-label="Outras páginas de concursos">\n'
               '        <p><b>Por carreira:</b> %s</p>\n        <p><b>Por estado:</b> %s</p>\n'
               '        <p><a href="../#cursos">Ver todos os cursos abertos</a></p>\n      </nav>\n    </section>\n'
-              % (len(prods), cards, outros("carreira"), outros("estado")))
+              % (len(prods), cards, V["pedido_html"](), outros("carreira"), outros("estado")))
     itens = [{"@type": "ListItem", "position": i + 1, "name": nome_curso(p),
               "url": p["link"] if p["link"].startswith("http") else BASE + p["link"]} for i, p in enumerate(prods)]
     blocos = [
@@ -159,7 +160,7 @@ def monta(h, prods, ativos_por_hub, G, V, modelo):
         s = s.replace(k, v)
     s = s.replace(" · por Mateus Vazzoller, ESCUDO Concursos", "")
     s = s.replace("    </article>\n  </div>\n</main>", "    </article>" + cursos + "  </div>\n</main>", 1)
-    s = s.replace("</body>", '<script src="../assets/js/site.js?v=7" defer></script>\n</body>', 1)
+    s = s.replace("</body>", '<script src="../assets/js/site.js?v=8" defer></script>\n</body>', 1)
     destino = RAIZ / slug / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")

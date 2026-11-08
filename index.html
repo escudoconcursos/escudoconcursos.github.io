@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="ESCUDO Concursos: material para o SEU edital">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/SairaCondensed-Black.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/escudo.css?v=18">
+<link rel="stylesheet" href="assets/css/escudo.css?v=19">
 <!-- Nome do site no Google (developers.google.com/search/docs/appearance/site-names): só na home -->
 <script type="application/ld+json">
 {
@@ -495,8 +495,20 @@
         </div>
       </li>
     </ul>
-    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#por-carreira">veja por carreira e estado</a>.</p>
+    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#pedir" data-pedir-busca>peça este curso para a ESCUDO</a>.</p>
     <p class="vitrine-vazia" data-vazia hidden>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
+    <aside class="pedido" id="pedir" aria-labelledby="t-pedido" data-pedido data-email="ruhmke.mateus@gmail.com" data-endpoint="https://script.google.com/macros/s/AKfycbwpDWQd8S84XwVnkKAyvUsAR7AEY5hEy4wNgUudEW3q-HXJT_EPOcro5zbZQGiCiX_n/exec">
+      <h3 id="t-pedido">Não achou a sua apostila?</h3>
+      <p>Peça para a ESCUDO. Diga o concurso e o cargo: se tiver edital publicado ou previsto, a gente avalia montar o curso e te avisa quando sair.</p>
+      <form class="pedido-form" data-pedido-form>
+        <label>Concurso <input name="concurso" required maxlength="80" placeholder="Ex.: PM-MG, Prefeitura de Campinas" autocomplete="off" data-pedido-concurso></label>
+        <label>Cargo <input name="cargo" maxlength="80" placeholder="Ex.: Soldado, Agente Administrativo" autocomplete="off"></label>
+        <label>Seu e-mail ou WhatsApp, para avisarmos <input name="contato" maxlength="120" placeholder="Opcional" autocomplete="email"></label>
+        <label class="pedido-isca" aria-hidden="true">Não preencha <input name="site_url" tabindex="-1" autocomplete="off"></label>
+        <button class="btn" type="submit">Pedir a minha apostila</button>
+      </form>
+      <p class="pedido-alt">Se preferir, mande no Instagram <a href="https://ig.me/m/escudoconcursos" data-goatcounter-click="pedido-instagram" data-goatcounter-title="pedido-instagram">@escudoconcursos</a>.</p>
+    </aside>
     <!-- vitrine:fim -->
   </div>
 </section>
@@ -572,7 +584,7 @@
     <small>© 2026 ESCUDO Concursos. Todos os direitos reservados.</small>
   </div>
 </footer>
-<script src="assets/js/site.js?v=7" defer></script>
+<script src="assets/js/site.js?v=8" defer></script>
 <!-- contador:inicio -->
 <script data-goatcounter="https://escudoconcursos.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <!-- contador:fim -->

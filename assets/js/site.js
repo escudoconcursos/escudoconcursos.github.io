@@ -70,7 +70,18 @@
         li.hidden = !ok; if (ok) n++;
       });
       if (semRes) semRes.hidden = n > 0 || !abertos.length;
+      /* busca sem resultado: conta no GoatCounter o que a pessoa procurou (mostra demanda de apostila nova) */
+      clearTimeout(aplica.t);
+      var q = campo ? campo.value.trim() : "";
+      if (!n && q.length >= 3) aplica.t = setTimeout(function () {
+        if (window.goatcounter && goatcounter.count) goatcounter.count({ path: "busca-sem-resultado/" + limpa(q).replace(/ /g, "-").slice(0, 60), title: q.slice(0, 80), event: true });
+      }, 1500);
     };
+    var pedirBusca = document.querySelector("[data-pedir-busca]");
+    if (pedirBusca) pedirBusca.addEventListener("click", function () {
+      var c = document.querySelector("[data-pedido-concurso]");
+      if (c && campo) { c.value = campo.value.trim(); setTimeout(function () { c.focus(); }, 300); }
+    });
     var filtra = function (k, rolar) {
       if (!chips.some(function (b) { return !b.hidden && b.getAttribute("data-filtro") === k; })) k = "";
       chips.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-filtro") === k)); });
@@ -168,5 +179,37 @@
     var u = new URL(a.href);
     Object.keys(guardado).forEach(function (k) { u.searchParams.set(k, guardado[k]); });
     a.href = u.toString();
+  });
+})();
+
+/* 7. Pedido de apostila que não está no site (07/11/2026): envia direto para o Apps Script do Mateus
+      (planilha + e-mail) quando o bloco tem data-endpoint; senão abre um e-mail pronto. Conta no GoatCounter. */
+(function () {
+  document.querySelectorAll("[data-pedido-form]").forEach(function (f) {
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var caixa = f.closest("[data-pedido]"), email = caixa.getAttribute("data-email"), url = caixa.getAttribute("data-endpoint");
+      var concurso = (f.elements.concurso.value || "").trim(), cargo = (f.elements.cargo.value || "").trim();
+      var contato = (f.elements.contato.value || "").trim();
+      if (!concurso) { f.elements.concurso.focus(); return; }
+      if (window.goatcounter && goatcounter.count) goatcounter.count({ path: "pedido-apostila", title: (concurso + (cargo ? " / " + cargo : "")).slice(0, 100), event: true });
+      var ok = caixa.querySelector(".pedido-ok");
+      if (!ok) { ok = document.createElement("p"); ok.className = "pedido-ok"; ok.setAttribute("role", "status"); caixa.appendChild(ok); }
+      var porEmail = function () {
+        var corpo = "Olá, ESCUDO! Não encontrei no site a apostila que procuro.\n\nConcurso: " + concurso + "\nCargo: " + (cargo || "(não sei ainda)") + "\n\nPode me avisar se vocês fizerem?\n";
+        location.href = "mailto:" + email + "?subject=" + encodeURIComponent("Pedido de apostila: " + concurso + (cargo ? " - " + cargo : "")) + "&body=" + encodeURIComponent(corpo);
+        ok.textContent = "Abrimos o seu e-mail com o pedido pronto. É só enviar.";
+      };
+      if (!url) { porEmail(); return; }
+      var dados = new URLSearchParams({ concurso: concurso, cargo: cargo, pagina: location.pathname,
+        origem: (function () { try { return (JSON.parse(sessionStorage.getItem("escudo-origem") || "{}").src) || ""; } catch (e) { return ""; } })(),
+        site_url: f.elements.site_url.value });
+      if (/@/.test(contato)) dados.set("email", contato); else dados.set("whatsapp", contato);
+      var botao = f.querySelector("button"); botao.disabled = true; ok.textContent = "Enviando...";
+      fetch(url, { method: "POST", mode: "no-cors", body: dados }).then(function () {
+        ok.textContent = "Pedido enviado! Obrigado. " + (contato ? "Vamos te avisar quando o curso sair." : "Acompanhe as novidades no Instagram @escudoconcursos.");
+        f.reset();
+      }).catch(porEmail).then(function () { botao.disabled = false; });
+    });
   });
 })();

@@ -30,6 +30,27 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "tecnico-defensoria-dpe-pb-2026": "DPEPB Defensoria Pública", "tecnico-bancario-banestes-2026": "Banco Banestes ES",
     "recenseador-ibge-2026": "Censo Recenseador", "ufba-assistente-2026": "UFBA Universidade Federal da Bahia",
 }
+SITE = json.loads((RAIZ / "_config" / "site.json").read_text(encoding="utf-8"))
+
+
+def pedido_html():
+    """Bloco "Não achou a sua apostila? Peça para a ESCUDO" (home e páginas de carreira e estado).
+    Com "pedido_url" no site.json (App da Web do Apps Script "Pedidos de apostila ESCUDO"), o site envia direto:
+    o pedido vai para a planilha e para o e-mail do Mateus. Sem ele, o site.js abre um e-mail pronto."""
+    return f"""<aside class="pedido" id="pedir" aria-labelledby="t-pedido" data-pedido data-email="{e(SITE.get('email', ''))}" data-endpoint="{e(SITE.get('pedido_url', ''))}">
+      <h3 id="t-pedido">Não achou a sua apostila?</h3>
+      <p>Peça para a ESCUDO. Diga o concurso e o cargo: se tiver edital publicado ou previsto, a gente avalia montar o curso e te avisa quando sair.</p>
+      <form class="pedido-form" data-pedido-form>
+        <label>Concurso <input name="concurso" required maxlength="80" placeholder="Ex.: PM-MG, Prefeitura de Campinas" autocomplete="off" data-pedido-concurso></label>
+        <label>Cargo <input name="cargo" maxlength="80" placeholder="Ex.: Soldado, Agente Administrativo" autocomplete="off"></label>
+        <label>Seu e-mail ou WhatsApp, para avisarmos <input name="contato" maxlength="120" placeholder="Opcional" autocomplete="email"></label>
+        <label class="pedido-isca" aria-hidden="true">Não preencha <input name="site_url" tabindex="-1" autocomplete="off"></label>
+        <button class="btn" type="submit">Pedir a minha apostila</button>
+      </form>
+      <p class="pedido-alt">Se preferir, mande no Instagram <a href="https://ig.me/m/escudoconcursos" data-goatcounter-click="pedido-instagram" data-goatcounter-title="pedido-instagram">@escudoconcursos</a>.</p>
+    </aside>"""
+
+
 UF_NOME = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "BA": "Bahia", "ES": "Espírito Santo", "GO": "Goiás",
            "MG": "Minas Gerais", "PA": "Pará", "PB": "Paraíba", "PE": "Pernambuco", "PR": "Paraná", "RJ": "Rio de Janeiro",
            "RO": "Rondônia", "SC": "Santa Catarina", "SP": "São Paulo", "BR": "Brasil nacional"}
@@ -131,9 +152,10 @@ bloco = """<!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produt
     <ul class="produtos" data-vitrine>
 %s
     </ul>
-    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#por-carreira">veja por carreira e estado</a>.</p>
+    <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#pedir" data-pedir-busca>peça este curso para a ESCUDO</a>.</p>
     <p class="vitrine-vazia" data-vazia%s>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
-    <!-- vitrine:fim -->""" % ("\n      ".join(botoes), "\n".join(t[0] for t in cartoes), "" if not abertos else " hidden")
+    %s
+    <!-- vitrine:fim -->""" % ("\n      ".join(botoes), "\n".join(t[0] for t in cartoes), "" if not abertos else " hidden", pedido_html())
 
 idx = RAIZ / "index.html"
 s = idx.read_text(encoding="utf-8")

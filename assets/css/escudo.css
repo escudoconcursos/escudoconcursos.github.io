@@ -430,3 +430,19 @@ a.chip{text-decoration:none}
   .filtros{gap:6px}
   .chip{min-height:40px;padding:6px 12px;font-size:.85rem}
 }
+
+/* ---------- pedido de apostila que não está no site (07/11/2026) ---------- */
+.pedido{margin:30px 0 0;padding:20px 18px;background:var(--navy);color:var(--cream);border-radius:var(--r,14px);border:1px solid rgba(201,162,75,.4)}
+.pedido h3{font-family:var(--ff-t);font-weight:900;text-transform:uppercase;font-size:1.5rem;line-height:1.1;color:var(--goldb);margin:0 0 8px}
+.pedido p{margin:0 0 14px;color:var(--cream)}
+.pedido-form{display:grid;gap:10px}
+.pedido-form label{display:block;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:.85rem;color:var(--muted)}
+.pedido-form input{display:block;width:100%;margin-top:4px;min-height:48px;padding:10px 14px;border:2px solid rgba(201,162,75,.5);border-radius:10px;background:#fff;color:var(--ink);font-family:var(--ff);font-weight:400;font-size:1rem;text-transform:none;letter-spacing:0}
+.pedido-form input:focus{outline:3px solid var(--gold);outline-offset:1px}
+.pedido .pedido-alt{margin:12px 0 0;font-size:.92rem;color:var(--muted)}
+.pedido a{color:var(--goldb);font-weight:700}
+.pedido-ok{margin:12px 0 0!important;padding:10px 12px;border-radius:10px;background:rgba(231,200,115,.15);color:var(--goldb)!important;font-weight:600}
+@media (min-width:900px){.pedido{padding:26px 28px}.pedido-form{grid-template-columns:1fr 1fr auto;align-items:end}.pedido-form .btn{width:auto}}
+.pedido-isca{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.pedido-form .btn:disabled{opacity:.6;cursor:wait}
+@media (min-width:900px){.pedido-form{grid-template-columns:1fr 1fr 1fr auto}}
