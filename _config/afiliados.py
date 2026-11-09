@@ -50,6 +50,7 @@ RECRUTAMENTO = {
     "pmesp-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2366P108363041",
     "pcac-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0008P108376060",
     "recenseador-ibge-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1017R108378254",
+    "gm-joinville-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7895G108400713",
 }
 
 
