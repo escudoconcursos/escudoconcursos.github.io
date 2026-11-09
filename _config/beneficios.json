@@ -873,5 +873,22 @@
    "img": "assets/img/ibge-recenseador/b-simulado",
    "alt": "Primeira página do Simulado 1"
   }
+ ],
+ "gm-joinville-2026": [
+  {
+   "item": "115 capítulos pelo programa do último",
+   "img": "assets/img/joinville/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "Conhecimentos Específicos, que valem 4",
+   "img": "assets/img/joinville/b-servidores",
+   "alt": "Abertura da disciplina Estatuto dos Servidores de Joinville, LC 266/2008"
+  },
+  {
+   "item": "2 simulados inéditos de 35 questões",
+   "img": "assets/img/joinville/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
  ]
 }
