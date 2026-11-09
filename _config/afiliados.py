@@ -52,6 +52,7 @@ RECRUTAMENTO = {
     "recenseador-ibge-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1017R108378254",
     "gm-joinville-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7895G108400713",
     "pmmg-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4279P108409894",
+    "pmmg-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/4428C108410330",
 }
 
 
