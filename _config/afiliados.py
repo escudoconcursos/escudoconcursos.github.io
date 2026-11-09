@@ -51,6 +51,7 @@ RECRUTAMENTO = {
     "pcac-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0008P108376060",
     "recenseador-ibge-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1017R108378254",
     "gm-joinville-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7895G108400713",
+    "pmmg-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4279P108409894",
 }
 
 
@@ -79,6 +80,12 @@ def main():
             "inscricoes": br(p["inscricoes_ate"]) if p.get("inscricoes_ate") else "",
             "prova": br(p["prova"]) if p.get("prova") else "",
             "recrutar": RECRUTAMENTO[p["id"]],
+            # textos prontos: pré-edital (sem inscrição e prova 2099-12-31) não mostra data
+            "datas": ("Inscrições até %s, prova em %s." % (br(p["inscricoes_ate"]), br(p["prova"]))
+                      if p.get("inscricoes_ate") and p.get("prova", "2099") < "2099"
+                      else "Prova em %s." % br(p["prova"]) if p.get("prova", "2099") < "2099"
+                      else "Pré-edital: o edital novo ainda não foi publicado."),
+            "prova_txt": "Prova em %s. " % br(p["prova"]) if p.get("prova", "2099") < "2099" else "",
             "pagina": p["link"] if p["link"].startswith("http") else "../" + p["link"],
             "og": f"../assets/img/og-{p['id']}.jpg" if (RAIZ / f"assets/img/og-{p['id']}.jpg").exists() else "",
             "quadrada": "../" + p["imagem"],
@@ -100,10 +107,16 @@ def main():
             if c["amostra"]:
                 partes.append(f'Amostra grátis: <a href="{e["amostra"]}">{e["amostra"]}</a>')
             guia = '\n        <p class="af-guia">' + "<br>".join(partes) + "</p>"
+        datas = []  # pré-edital: sem inscrição e prova 2099-12-31 (data-fantasma da vitrine)
+        if c["inscricoes"]:
+            datas.append(f'Inscrições até {e["inscricoes"]}')
+        if c["prova"] and not c["prova"].endswith("/2099"):
+            datas.append(f'prova em {e["prova"]}')
+        datas = " · ".join(datas) or "Pré-edital: o edital novo ainda não foi publicado"
         cards.append(f"""      <li class="af-card">
         <p class="af-tag">{e["concurso"]} · {e["banca"]}</p>
         <h3>{e["titulo"]}</h3>
-        <p class="af-datas">Inscrições até {e["inscricoes"]} · prova em {e["prova"]}</p>
+        <p class="af-datas">{datas}</p>
         <a class="btn" href="{e["recrutar"]}" rel="noopener">Quero me afiliar</a>
         <p class="af-links"><a href="{e["pagina"]}">Ver a página do curso</a> · {artes}</p>{guia}
       </li>""")

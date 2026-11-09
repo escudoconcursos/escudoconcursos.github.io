@@ -183,16 +183,16 @@
     var cupom = c.cupom ? "R$ 47, ou R$ 37 com o cupom " + c.cupom + (c.cupom_ate ? " até " + c.cupom_ate : "") + "." : "R$ 47.";
     zap.value = "Vai fazer o concurso de " + c.titulo + " (" + c.concurso + ")?\n\n" +
       "Tem curso em PDF feito pelo edital, item por item, com " + c.itens + ". Questões no estilo da banca (" + c.banca + "), todas com gabarito comentado.\n\n" +
-      "Inscrições até " + c.inscricoes + ", prova em " + c.prova + ".\n" + cupom + "\n\n" +
+      c.datas + "\n" + cupom + "\n\n" +
       "Acesse: [SEU LINK]" + (c.guia ? "\n\nTudo sobre o concurso (vagas, datas e conteúdo): " + c.guia : "");
     insta.value = "Material para o SEU edital: " + c.titulo + " (" + c.concurso + ").\n\n" +
       "Curso em PDF montado pelo edital, item por item, com " + c.itens + ". Questões no estilo da banca com gabarito comentado.\n\n" +
-      "Prova em " + c.prova + ". " + cupom + "\n\nLink na bio.\n\n" +
+      c.prova_txt + cupom + "\n\nLink na bio.\n\n" +
       [tag("concursos"), tag("concursopublico"), tag(c.concurso), tag(c.banca.split("/")[0]), tag("apostila")].join(" ");
     blog.value = "Concurso " + c.concurso + ": " + c.titulo + ".\n\n" +
       (c.guia ? "Guia completo do concurso, com vagas, datas, banca e conteúdo: " + c.guia + "\n" : "") +
       (c.amostra ? "Amostra grátis da apostila (apresentação e 10 questões comentadas): " + c.amostra + "\n" : "") +
-      "\nCurso em PDF feito pelo edital, com " + c.itens + ". Prova em " + c.prova + ". " + cupom + "\n" +
+      "\nCurso em PDF feito pelo edital, com " + c.itens + ". " + c.prova_txt + cupom + "\n" +
       "Garanta o seu: [SEU LINK]";
   }
   sel.addEventListener("change", preenche);
