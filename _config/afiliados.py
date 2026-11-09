@@ -53,6 +53,7 @@ RECRUTAMENTO = {
     "gm-joinville-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7895G108400713",
     "pmmg-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4279P108409894",
     "pmmg-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/4428C108410330",
+    "policial-penal-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5993P108415280",
 }
 
 
