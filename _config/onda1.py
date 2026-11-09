@@ -50,7 +50,7 @@ def bloco(html, nome, conteudo, onde):
 
 
 def h1_palavra_chave(html, n):
-    kw = f"Apostila {n['sigla']} {ANO} em PDF"
+    kw = f"Apostila {n['sigla']} {n.get('ano', ANO)} em PDF"
     m = re.search(r'<h1 id="titulo">(.*?)</h1>', html, flags=re.S)
     if not m:
         return html, False
@@ -179,7 +179,7 @@ def trilha(html, pasta, n, p):
     destino = f"../{hub['slug']}/" if hub and (RAIZ / hub["slug"] / "index.html").exists() else f"../#{car}"
     if hub:
         rotulo = hub["nome"]
-    atual = f"{n['sigla']} {ANO}: {n['cargo']}"
+    atual = f"{n['sigla']} {n.get('ano', ANO)}: {n['cargo']}"
     nav = (f'<nav class="trilha" aria-label="Você está em"><div class="wrap"><a href="../">Início</a>'
            f'<span aria-hidden="true">›</span><a href="{e(destino)}">{e(rotulo)}</a>'
            f'<span aria-hidden="true">›</span><span aria-current="page">{e(atual)}</span></div></nav>\n')

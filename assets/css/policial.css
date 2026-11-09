@@ -56,6 +56,8 @@
 .tema-aco .etq span{background:rgba(124,141,166,.14)}
 .tema-turquesa .etq span{background:rgba(20,184,166,.14)}
 .tema-cobre .etq span{background:rgba(184,105,63,.14)}
+.tema-amarelo .etq span{background:rgba(234,179,8,.14)}
+.tema-ouro .etq span{background:rgba(201,162,75,.14)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}
 .cta-final .etq{justify-content:center}
 .cta-final .etq::after{display:none}

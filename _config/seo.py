@@ -21,7 +21,7 @@ LIMITE_TITULO, LIMITE_DESC = 60, 155
 
 
 def titulo_de(n):
-    t = f"Apostila {n['sigla']} {ANO} em PDF: {n['cargo']} | ESCUDO"
+    t = f"Apostila {n['sigla']} {n.get('ano', ANO)} em PDF: {n['cargo']} | ESCUDO"
     return t if len(t) <= LIMITE_TITULO else t.rsplit(" | ", 1)[0]
 
 
@@ -40,7 +40,7 @@ def descricao_de(html, n, p):
     if q:
         partes.append(f"{q} questões comentadas")
     corpo = " e ".join(partes)
-    d = f"Apostila {n['sigla']} {ANO} em PDF para {n['cargo']}" + (f": {corpo}, {edital}." if corpo else f", {edital}.")
+    d = f"Apostila {n['sigla']} {n.get('ano', ANO)} em PDF para {n['cargo']}" + (f": {corpo}, {edital}." if corpo else f", {edital}.")
     if len(d + " Garantia de 7 dias.") <= LIMITE_DESC:
         d += " Garantia de 7 dias."
     return d if len(d) <= LIMITE_DESC else ""
@@ -108,7 +108,7 @@ def main():
         ld = {
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": f"Apostila {n['sigla']} {ANO} em PDF: {n['cargo']}",
+            "name": f"Apostila {n['sigla']} {n.get('ano', ANO)} em PDF: {n['cargo']}",
             "description": meta(html, "name", "description"),
             "image": meta(html, "property", "og:image"),
             "brand": {"@type": "Brand", "name": "ESCUDO Concursos"},

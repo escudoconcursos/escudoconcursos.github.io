@@ -26,11 +26,13 @@
     "policial-penal-pr-2026": {"sigla": "Polícia Penal PR", "cargo": "Policial Penal", "uf": "PR"},
     "policial-penal-pe-2026": {"sigla": "Polícia Penal PE", "cargo": "Policial Penal", "uf": "PE"},
     "pmerj-soldado-2026": {"sigla": "PMERJ", "cargo": "Soldado PM", "uf": "RJ"},
+    "pmmg-soldado-2026": {"sigla": "PMMG", "cargo": "Soldado PM", "uf": "MG"},
     "pmpa-soldado-2026": {"sigla": "PM-PA", "cargo": "Soldado PM", "uf": "PA"},
     "cbm-al-soldado-2026": {"sigla": "CBM-AL", "cargo": "Soldado Bombeiro", "uf": "AL"},
     "pmba-soldado-2026": {"sigla": "PM-BA", "cargo": "Soldado PM", "uf": "BA"},
     "pmesp-soldado-2026": {"sigla": "PM-SP", "cargo": "Soldado PM", "uf": "SP"},
     "pcac-oficial-investigador-2026": {"sigla": "PC-AC", "cargo": "Oficial Investigador", "uf": "AC"},
+    "pmmg-cfo-2027": {"sigla": "CFO PM/MG", "cargo": "Cadete", "uf": "MG", "ano": "2027"},
     "recenseador-ibge-2026": {"sigla": "IBGE", "cargo": "Recenseador", "uf": "BR"}
   }
 }

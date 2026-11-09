@@ -83,11 +83,11 @@ def monta(arq):
     curso_html = (RAIZ / curso / "index.html").read_text(encoding="utf-8")
     slug = curso + "/amostra"
     url = BASE + slug + "/"
-    nome = "%s %s: %s" % (n["sigla"], ANO, n["cargo"])
-    titulo = "Amostra grátis da apostila %s %s em PDF" % (n["sigla"], ANO)
-    h1 = "Amostra grátis da apostila %s %s: %s" % (n["sigla"], ANO, n["cargo"])
+    nome = "%s %s: %s" % (n["sigla"], n.get("ano", ANO), n["cargo"])
+    titulo = "Amostra grátis da apostila %s %s em PDF" % (n["sigla"], n.get("ano", ANO))
+    h1 = "Amostra grátis da apostila %s %s: %s" % (n["sigla"], n.get("ano", ANO), n["cargo"])
     desc = ("Leia grátis a apresentação da apostila %s %s para %s e 10 questões comentadas no formato da banca. "
-            "Baixe também em PDF." % (n["sigla"], ANO, n["cargo"]))[:155]
+            "Baixe também em PDF." % (n["sigla"], n.get("ano", ANO), n["cargo"]))[:155]
     pdf = meta.get("pdf", "")
     tem_pdf = pdf and (RAIZ / pdf).exists()
     topo = ('<div class="am-topo"><p>Esta é uma amostra do curso em PDF <a href="../">%s</a>: a apresentação da apostila, '

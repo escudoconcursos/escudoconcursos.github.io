@@ -890,5 +890,39 @@
    "img": "assets/img/joinville/b-simulado",
    "alt": "Primeira página do Simulado 1"
   }
+ ],
+ "pmmg-cfo-2027": [
+  {
+   "item": "Redação em 6 capítulos",
+   "img": "assets/img/pmmg-cfo/b-redacao",
+   "alt": "Sumário da disciplina Redação, com os critérios do edital e as propostas comentadas"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmmg-cfo/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/pmmg-cfo/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pmmg-soldado-2026": [
+  {
+   "item": "Literatura e Língua Inglesa, que valem 10",
+   "img": "assets/img/pmmg/b-literatura",
+   "alt": "Sumário da disciplina Literatura, com Vidas Secas e Campo Geral"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmmg/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/pmmg/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
  ]
 }

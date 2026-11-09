@@ -749,6 +749,53 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmmg-soldado-2026",
+      "atalho": "pmmg",
+      "carreira": "policial",
+      "tema": "tema-amarelo",
+      "tag": "PM/MG 2026 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar de Minas Gerais",
+      "itens": [
+        "110 capítulos e 545 questões comentadas",
+        "Literatura, Inglês e 2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-pmmg-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Minas Gerais, PM/MG 2026, 110 capítulos e 545 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMMG37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmmg-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "pmmg-cfo-2027",
+      "atalho": "cfo",
+      "carreira": "policial",
+      "tema": "tema-ouro",
+      "tag": "CFO PM/MG 2027 · Edital aberto · CRS/PMMG",
+      "titulo": "Cadete do CFO da Polícia Militar de Minas Gerais",
+      "itens": [
+        "191 capítulos e 920 questões, de acordo com o edital aberto",
+        "Redação e 2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-pmmg-cfo-2027.webp",
+      "alt": "Curso em PDF ESCUDO: Cadete do CFO da Polícia Militar de Minas Gerais, CFO PM/MG 2027, edital aberto, 191 capítulos e 920 questões",
+      "preco": 59.9,
+      "cupom": {
+        "codigo": "CFO47",
+        "preco": 46.99,
+        "ate": "2026-12-10"
+      },
+      "link": "pmmg-cfo-2027/",
+      "botao": "Ver o curso",
+      "prova": "2027-01-10",
+      "inscricoes_ate": "2026-12-10"
+    },
+    {
       "id": "recenseador-ibge-2026",
       "atalho": "ibge",
       "carreira": "administrativo",

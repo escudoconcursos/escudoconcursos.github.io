@@ -93,6 +93,10 @@
    "edital": "Edital nº 001 SEAD/PCAC, de 05/11/2026",
    "banca": "IDECAN"
   },
+  "pmmg-cfo-2027": {
+   "edital": "Edital DRH/CRS nº 11/2026",
+   "banca": "CRS/PMMG"
+  },
   "recenseador-ibge-2026": {
    "edital": "Edital nº 03/2026",
    "banca": "Cesgranrio"
@@ -105,6 +109,7 @@
   "gm-recife-2026": "",
   "gm-joinville-2026": "nº 004/2019-SGP",
   "pmerj-soldado-2026": "",
+  "pmmg-soldado-2026": "DRH/CRS nº 10/2024",
   "pmpa-soldado-2026": "",
   "policial-penal-pr-2026": ""
  }

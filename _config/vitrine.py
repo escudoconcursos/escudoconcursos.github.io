@@ -19,7 +19,9 @@ NOMES = json.loads(_NOMES.read_text(encoding="utf-8"))["cursos"] if _NOMES.exist
 APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "pmesp-soldado-2026": "PMESP PMSP PM SP Polícia Militar", "pmpe-soldado-2026": "PMPE PM PE Polícia Militar",
     "pmal-soldado-2026": "PMAL PM AL Polícia Militar", "pmba-soldado-2026": "PMBA PM BA Polícia Militar",
-    "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
+    "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmmg-soldado-2026": "PMMG PM MG Polícia Militar Minas Gerais CRS",
+    "pmmg-cfo-2027": "CFO PMMG CFO PM MG Cadete Oficial Polícia Militar Minas Gerais CRS",
+    "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
     "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",
     "cbmpe-soldado-2026": "CBMPE CBM PE Bombeiros Bombeiro Militar", "cbm-al-soldado-2026": "CBMAL CBM AL Bombeiros Bombeiro Militar",
     "pcpe-agente-2026": "PCPE PC PE Polícia Civil", "pcac-oficial-investigador-2026": "PCAC PC AC Polícia Civil",
@@ -103,6 +105,11 @@ def selo(p):
     return x["data"], txt, faltam <= 7
 
 
+def brl(v):
+    """Preço em reais: inteiro sem centavos (47), com centavos em vírgula (59,90)."""
+    return v if isinstance(v, int) else ("%.2f" % v).replace(".", ",")
+
+
 def cartao(p):
     chave, txt, urgente = selo(p)
     c = p.get("cupom")
@@ -112,7 +119,7 @@ def cartao(p):
     itens = "".join("<li>%s</li>" % e(i) for i in p["itens"]) + "<li>%s</li>" % prova
     if c and d(c["ate"]) >= HOJE:
         valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s com o cupom %s</p>\n'
-                 '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], p["preco"], c["preco"], e(c["codigo"]), p["preco"]))
+                 '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], brl(p["preco"]), brl(c["preco"]), e(c["codigo"]), brl(p["preco"])))
     else:
         valor = '<p class="valor">R$ %s</p>' % (p['preco'] if isinstance(p['preco'], int) else ('%.2f' % p['preco']).replace('.', ','))
     externo = p["link"].startswith("http")

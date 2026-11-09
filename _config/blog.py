@@ -142,6 +142,11 @@ def rodape_trocas():
             "{{endereco}}": html.escape(CFG.get("endereco", "")), "{{email}}": CFG.get("email", "")}
 
 
+def brl(v):
+    """Preço em reais: inteiro sem centavos, com centavos em vírgula (59,90)."""
+    return v if isinstance(v, int) else ("%.2f" % v).replace(".", ",")
+
+
 def caixa_curso(p, slug):
     preco = p.get("preco")
     cupom = p.get("cupom") or {}
@@ -149,9 +154,9 @@ def caixa_curso(p, slug):
     oferta = ""
     if cupom.get("codigo") and cupom.get("preco") and (cupom.get("ate") or "9999") >= hoje:
         oferta = " De R$ %s por R$ %s com o cupom %s até %s." % (
-            preco, cupom["preco"], cupom["codigo"], "/".join(reversed(cupom["ate"].split("-"))))
+            brl(preco), brl(cupom["preco"]), cupom["codigo"], "/".join(reversed(cupom["ate"].split("-"))))
     elif preco:
-        oferta = " R$ %s." % preco
+        oferta = " R$ %s." % brl(preco)
     itens = ", ".join(p.get("itens") or [])
     if "edital" not in itens:
         itens += ", de acordo com o edital"
