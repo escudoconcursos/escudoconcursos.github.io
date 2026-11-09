@@ -908,6 +908,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "policial-penal-pb-2026": [
+  {
+   "item": "Legislação Específica da Paraíba em 11 capítulos",
+   "img": "assets/img/pppb/b-pb",
+   "alt": "Sumário da disciplina Legislação Específica da Paraíba"
+  },
+  {
+   "item": "Legislação Extravagante e Execução Penal em 22 capítulos",
+   "img": "assets/img/pppb/b-extravagante",
+   "alt": "Sumário da disciplina Legislação Extravagante e Execução Penal"
+  },
+  {
+   "item": "Casos práticos na rotina do sistema prisional",
+   "img": "assets/img/pppb/caso",
+   "alt": "Quadro Na prática do sistema prisional"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pppb/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 90 questões",
+   "img": "assets/img/pppb/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmmg-soldado-2026": [
   {
    "item": "Literatura e Língua Inglesa, que valem 10",

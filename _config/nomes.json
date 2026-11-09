@@ -27,6 +27,7 @@
     "policial-penal-pe-2026": {"sigla": "Polícia Penal PE", "cargo": "Policial Penal", "uf": "PE"},
     "pmerj-soldado-2026": {"sigla": "PMERJ", "cargo": "Soldado PM", "uf": "RJ"},
     "pmmg-soldado-2026": {"sigla": "PMMG", "cargo": "Soldado PM", "uf": "MG"},
+    "policial-penal-pb-2026": {"sigla": "Polícia Penal PB", "cargo": "Policial Penal", "uf": "PB"},
     "pmpa-soldado-2026": {"sigla": "PM-PA", "cargo": "Soldado PM", "uf": "PA"},
     "cbm-al-soldado-2026": {"sigla": "CBM-AL", "cargo": "Soldado Bombeiro", "uf": "AL"},
     "pmba-soldado-2026": {"sigla": "PM-BA", "cargo": "Soldado PM", "uf": "BA"},

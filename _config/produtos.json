@@ -749,6 +749,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "policial-penal-pb-2026",
+      "atalho": "pppb",
+      "carreira": "policial",
+      "tema": "tema-cobre",
+      "tag": "Polícia Penal/PB 2026 · Pré-edital",
+      "titulo": "Policial Penal da Paraíba",
+      "itens": [
+        "133 capítulos e 645 questões comentadas",
+        "Legislação da Paraíba e 2 simulados de 90 questões"
+      ],
+      "imagem": "assets/img/produto-policial-penal-pb-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal da Paraíba, Polícia Penal/PB 2026, 133 capítulos e 645 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PPPB37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "policial-penal-pb-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pmmg-soldado-2026",
       "atalho": "pmmg",
       "carreira": "policial",

@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-CSS_VERSAO = "13"  # versão de assets/css/escudo.css que tem o estilo .liberacao
+CSS_VERSAO = "21"  # versão de assets/css/escudo.css que tem o estilo .liberacao
 
 SIMULADO1_PADRAO = "30 dias após a compra, para medir onde você está no meio da preparação."
 SIMULADO1 = {  # exceções por página: "slug": "texto"
@@ -55,6 +55,7 @@ SIMULADO2 = {
     "gm-joinville-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmmg-cfo-2027": "em 03/01/2027, 7 dias antes da prova, para o último teste.",
     "pmmg-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "policial-penal-pb-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "recenseador-ibge-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
 }
 
