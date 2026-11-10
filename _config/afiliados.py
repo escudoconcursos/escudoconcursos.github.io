@@ -55,6 +55,7 @@ RECRUTAMENTO = {
     "pmmg-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/4428C108410330",
     "policial-penal-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5993P108415280",
     "pmrr-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/8322P108421730",
+    "pmac-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3976P108431846",
 }
 
 
