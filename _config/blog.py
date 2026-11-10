@@ -220,6 +220,8 @@ def monta_post(meta, corpo):
     fotos = meta.get("fotos") or []
     foto_capa = (RAIZ / "_config" / "blog" / "fotos" / fotos[0]["arquivo"]) if fotos else None
     gera(SAIDA / slug / "capa.jpg", meta.get("capa_titulo") or h1, selo, img_prod, meta.get("capa_destaque"), foto_capa)
+    from blog_capa import gera_story  # arte de story para o Instagram (10/11/2026)
+    gera_story(SAIDA / slug / "story.jpg", meta.get("capa_titulo") or h1, selo, meta.get("capa_destaque"), foto_capa)
     capa_alt = "%s: %s" % (selo, h1)
     capa = '<figure class="blog-capa"><img src="capa.jpg" alt="%s" width="1200" height="630">%s</figure>' % (
         html.escape(capa_alt, quote=True), credito_html(fotos[0], True) if fotos else "")
