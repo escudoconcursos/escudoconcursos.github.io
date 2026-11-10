@@ -19,7 +19,7 @@ NOMES = json.loads(_NOMES.read_text(encoding="utf-8"))["cursos"] if _NOMES.exist
 APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "pmesp-soldado-2026": "PMESP PMSP PM SP Polícia Militar", "pmpe-soldado-2026": "PMPE PM PE Polícia Militar",
     "pmal-soldado-2026": "PMAL PM AL Polícia Militar", "pmba-soldado-2026": "PMBA PM BA Polícia Militar",
-    "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmmg-soldado-2026": "PMMG PM MG Polícia Militar Minas Gerais CRS", "policial-penal-pb-2026": "PPPB Polícia Penal Paraíba SEAP Idecan", "pmrr-soldado-2026": "PMRR PM RR Polícia Militar Roraima Boa Vista UERR",
+    "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmmg-soldado-2026": "PMMG PM MG Polícia Militar Minas Gerais CRS", "policial-penal-pb-2026": "PPPB Polícia Penal Paraíba SEAP Idecan", "pmac-soldado-2026": "PMAC PM AC Polícia Militar Acre Rio Branco IBADE", "pmrr-soldado-2026": "PMRR PM RR Polícia Militar Roraima Boa Vista UERR",
     "pmmg-cfo-2027": "CFO PMMG CFO PM MG Cadete Oficial Polícia Militar Minas Gerais CRS",
     "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
     "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",

@@ -159,6 +159,22 @@
    "em": "em Roraima"
   },
   {
+   "slug": "concursos-acre",
+   "tipo": "estado",
+   "nome": "Acre",
+   "filtro": {
+    "uf": "AC"
+   },
+   "titulo": "Concursos no Acre 2026: apostilas em PDF",
+   "descricao": "Concursos no Acre 2026 com apostila em PDF: Oficial Investigador da Polícia Civil (PC-AC) e Soldado da Polícia Militar (PMAC), com a legislação do estado.",
+   "h1": "Concursos no Acre 2026: Polícia Civil e Polícia Militar",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado do Acre: Oficial Investigador da Polícia Civil, com edital publicado, e Soldado da Polícia Militar, concurso anunciado e edital ainda não publicado.",
+    "Os concursos estaduais do Acre cobram a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
+   ],
+   "em": "no Acre"
+  },
+  {
    "slug": "concursos-rondonia",
    "tipo": "estado",
    "nome": "Rondônia",

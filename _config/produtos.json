@@ -772,6 +772,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmac-soldado-2026",
+      "atalho": "pmac",
+      "carreira": "policial",
+      "tema": "tema-lima",
+      "tag": "PM/AC 2026 · Pré-edital",
+      "titulo": "Soldado da PM do Acre",
+      "itens": [
+        "95 capítulos e 470 questões comentadas",
+        "Estatuto dos Militares do Acre e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pmac-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Acre, PM/AC 2026, 95 capítulos e 470 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMAC37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmac-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "policial-penal-pb-2026",
       "atalho": "pppb",
       "carreira": "policial",

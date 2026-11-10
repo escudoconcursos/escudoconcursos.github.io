@@ -935,6 +935,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pmac-soldado-2026": [
+  {
+   "item": "Estatuto dos Militares do Acre em 15 capítulos",
+   "img": "assets/img/pmac/b-estatuto",
+   "alt": "Sumário da disciplina Estatuto dos Militares do Estado do Acre"
+  },
+  {
+   "item": "História e Geografia do Acre em 17 capítulos",
+   "img": "assets/img/pmac/b-hg",
+   "alt": "Sumário da disciplina História e Geografia do Acre"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/pmac/caso",
+   "alt": "Quadro de pegadinha em um capítulo do curso"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmac/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pmac/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "policial-penal-pb-2026": [
   {
    "item": "Legislação Específica da Paraíba em 11 capítulos",
