@@ -143,6 +143,22 @@
    "em": "na Paraíba"
   },
   {
+   "slug": "concursos-roraima",
+   "tipo": "estado",
+   "nome": "Roraima",
+   "filtro": {
+    "uf": "RR"
+   },
+   "titulo": "Concursos em Roraima 2026: apostilas em PDF",
+   "descricao": "Concursos em Roraima 2026 com apostila em PDF: Soldado da Polícia Militar (PMRR), com a legislação do estado.",
+   "h1": "Concursos em Roraima 2026: Polícia Militar",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado de Roraima: Soldado da Polícia Militar (PMRR), com estudos autorizados e edital ainda não publicado.",
+    "Os concursos estaduais de Roraima cobram a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
+   ],
+   "em": "em Roraima"
+  },
+  {
    "slug": "concursos-rondonia",
    "tipo": "estado",
    "nome": "Rondônia",

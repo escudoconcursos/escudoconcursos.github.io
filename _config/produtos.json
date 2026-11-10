@@ -749,6 +749,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmrr-soldado-2026",
+      "atalho": "pmrr",
+      "carreira": "policial",
+      "tema": "tema-azul",
+      "tag": "PM/RR 2026 · Pré-edital",
+      "titulo": "Soldado da PM de Roraima",
+      "itens": [
+        "151 capítulos e 750 questões comentadas",
+        "Legislação da PMRR e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pmrr-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Roraima, PM/RR 2026, 151 capítulos e 750 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMRR37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmrr-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "policial-penal-pb-2026",
       "atalho": "pppb",
       "carreira": "policial",

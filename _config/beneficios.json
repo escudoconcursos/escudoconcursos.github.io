@@ -908,6 +908,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pmrr-soldado-2026": [
+  {
+   "item": "Legislação da PMRR e Lei Orgânica Nacional em 17 capítulos",
+   "img": "assets/img/pmrr/b-pmrr",
+   "alt": "Sumário da disciplina Legislação da PMRR e Lei Orgânica Nacional"
+  },
+  {
+   "item": "Legislação Extravagante em 13 capítulos",
+   "img": "assets/img/pmrr/b-extravagante",
+   "alt": "Sumário da disciplina Legislação Extravagante"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/pmrr/caso",
+   "alt": "Quadro de pegadinha em um capítulo do curso"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmrr/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pmrr/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "policial-penal-pb-2026": [
   {
    "item": "Legislação Específica da Paraíba em 11 capítulos",
