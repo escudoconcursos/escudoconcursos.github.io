@@ -57,6 +57,7 @@ RECRUTAMENTO = {
     "pmrr-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/8322P108421730",
     "pmac-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3976P108431846",
     "pcto-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6068P108438207",
+    "gm-campinas-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3315G108452403",
 }
 
 
