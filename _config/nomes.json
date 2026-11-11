@@ -10,6 +10,7 @@
     "gcm-salvador-2026": {"sigla": "GCM Salvador", "cargo": "Guarda Civil Municipal", "uf": "BA"},
     "gm-recife-2026": {"sigla": "GM Recife", "cargo": "Guarda Municipal", "uf": "PE"},
     "gm-joinville-2026": {"sigla": "GM Joinville", "cargo": "Guarda Municipal", "uf": "SC"},
+    "gm-campinas-2026": {"sigla": "GM Campinas", "cargo": "Guarda Municipal", "uf": "SP"},
     "assistente-semusa-porto-velho-2026": {"sigla": "Porto Velho", "cargo": "Assistente Administrativo", "uf": "RO"},
     "tecnico-enfermagem-porto-velho-2026": {"sigla": "Porto Velho", "cargo": "Técnico em Enfermagem", "uf": "RO"},
     "professor-semed-porto-velho-2026": {"sigla": "Porto Velho", "cargo": "Professor", "uf": "RO"},

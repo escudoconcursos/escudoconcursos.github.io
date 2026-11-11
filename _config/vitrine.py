@@ -28,7 +28,7 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "investigador-policia-civil-mg-pcmg-2026": "PCMG PC MG Polícia Civil", "policial-penal-pe-2026": "PPPE Polícia Penal SERES",
     "policial-penal-pr-2026": "PPPR Polícia Penal DEPPEN", "gm-recife-2026": "GCM Recife Guarda Municipal", "gm-joinville-2026": "GCM Joinville Guarda Municipal SC",
     "gcm-salvador-2026": "GM Salvador Guarda Municipal", "gm-sao-goncalo-2026": "GCM São Gonçalo Guarda Municipal",
-    "gcm-santana-2026": "GM Santana Guarda Municipal", "escrevente-tjsp-2026": "TJ SP Tribunal de Justiça",
+    "gcm-santana-2026": "GM Santana Guarda Municipal", "gm-campinas-2026": "GCM Campinas Guarda Civil Municipal Campinas SP Vunesp", "escrevente-tjsp-2026": "TJ SP Tribunal de Justiça",
     "tecnico-defensoria-dpe-pb-2026": "DPEPB Defensoria Pública", "tecnico-bancario-banestes-2026": "Banco Banestes ES",
     "recenseador-ibge-2026": "Censo Recenseador", "ufba-assistente-2026": "UFBA Universidade Federal da Bahia",
 }

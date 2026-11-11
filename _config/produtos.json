@@ -703,6 +703,31 @@
       "inscricoes_ate": "2026-12-22"
     },
     {
+      "id": "gm-campinas-2026",
+      "atalho": "campinas",
+      "carreira": "policial",
+      "tema": "tema-ciano",
+      "tag": "GM Campinas 2026 · Edital aberto · Vunesp",
+      "brasao": "assets/img/gmcampinas/brasao-gmcampinas-p.webp",
+      "titulo": "Guarda Municipal de Campinas",
+      "itens": [
+        "59 capítulos e 290 questões, de acordo com o edital aberto",
+        "2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-gm-campinas-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de Campinas, GM Campinas 2026, edital aberto, 59 capítulos e 290 questões",
+      "preco": 47,
+      "cupom": {
+        "codigo": "GMC37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "link": "gm-campinas-2026/",
+      "botao": "Ver o curso",
+      "prova": "2027-03-21",
+      "inscricoes_ate": "2027-01-08"
+    },
+    {
       "id": "pcac-oficial-investigador-2026",
       "atalho": "pcac",
       "carreira": "policial",

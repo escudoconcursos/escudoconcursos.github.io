@@ -798,6 +798,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "gm-campinas-2026": [
+  {
+   "item": "Geografia de Campinas em 4 capítulos:",
+   "img": "assets/img/gmcampinas/b-geografia",
+   "alt": "Sumário da disciplina Aspectos Geográficos e Urbanos de Campinas"
+  },
+  {
+   "item": "Legislação Municipal em 2 capítulos:",
+   "img": "assets/img/gmcampinas/b-municipal",
+   "alt": "Sumário da disciplina Legislação Municipal de Campinas"
+  },
+  {
+   "item": "A legislação do cargo em 32 capítulos,",
+   "img": "assets/img/gmcampinas/b-transito",
+   "alt": "Sumário da disciplina Código de Trânsito Brasileiro"
+  },
+  {
+   "item": "Navegação clicável:",
+   "img": "assets/img/gmcampinas/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/gmcampinas/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmesp-soldado-2026": [
   {
    "item": "Administração Pública em 15 capítulos: Constituição",

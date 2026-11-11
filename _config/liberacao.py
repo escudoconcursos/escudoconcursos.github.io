@@ -20,6 +20,7 @@ SIMULADO1_PADRAO = "30 dias após a compra, para medir onde você está no meio 
 SIMULADO1 = {  # exceções por página: "slug": "texto"
     "policial-penal-pe-2026": "na compra, para medir onde você está logo no início do estudo.",
     "pmesp-soldado-2026": "na compra, para medir onde você está logo no início do estudo.",
+    "gm-campinas-2026": "na compra, para medir onde você está logo no início do estudo.",
     "pmmg-cfo-2027": "8 dias após a compra, porque a prova está a poucas semanas.",
     "agente-administrativo-curitiba-2026": "na compra, porque faltam poucas semanas para a prova e você já pode medir onde está.",
 }
@@ -51,6 +52,7 @@ SIMULADO2 = {
     "cbm-al-soldado-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "pmba-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmesp-soldado-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
+    "gm-campinas-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",
     "pcac-oficial-investigador-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "gm-joinville-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmmg-cfo-2027": "em 03/01/2027, 7 dias antes da prova, para o último teste.",
