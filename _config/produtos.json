@@ -772,6 +772,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pcto-oficial-investigador-2026",
+      "atalho": "pcto",
+      "carreira": "policial",
+      "tema": "tema-bordo",
+      "tag": "PC/TO 2026 · Pré-edital",
+      "titulo": "Oficial Investigador da PC do Tocantins",
+      "itens": [
+        "160 capítulos e 780 questões comentadas",
+        "Estatuto da Polícia Civil do Tocantins e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pcto-oficial-investigador-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Oficial Investigador da Polícia Civil do Tocantins, PC/TO 2026, 160 capítulos e 780 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCTO37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pcto-oficial-investigador-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pmac-soldado-2026",
       "atalho": "pmac",
       "carreira": "policial",

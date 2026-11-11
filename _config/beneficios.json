@@ -935,6 +935,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pcto-oficial-investigador-2026": [
+  {
+   "item": "Legislação Institucional em 17 capítulos",
+   "img": "assets/img/pcto/b-estatuto",
+   "alt": "Sumário da disciplina Legislação Institucional, com a LONPC, o Estatuto da Polícia Civil do Tocantins e a Constituição do Tocantins"
+  },
+  {
+   "item": "História e Geografia do Tocantins em 15 capítulos",
+   "img": "assets/img/pcto/b-hg",
+   "alt": "Sumário da disciplina História e Geografia do Tocantins"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/pcto/caso",
+   "alt": "Quadro de pegadinha em um capítulo do curso"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pcto/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pcto/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmac-soldado-2026": [
   {
    "item": "Estatuto dos Militares do Acre em 15 capítulos",

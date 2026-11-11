@@ -175,6 +175,22 @@
    "em": "no Acre"
   },
   {
+   "slug": "concursos-tocantins",
+   "tipo": "estado",
+   "nome": "Tocantins",
+   "filtro": {
+    "uf": "TO"
+   },
+   "titulo": "Concursos no Tocantins 2026: apostilas em PDF",
+   "descricao": "Concursos no Tocantins 2026 com apostila em PDF: Oficial Investigador da Polícia Civil (PC/TO), com a legislação do estado e do cargo.",
+   "h1": "Concursos no Tocantins 2026: Polícia Civil",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado do Tocantins: Oficial Investigador da Polícia Civil, concurso autorizado, com 323 vagas, e edital ainda não publicado.",
+    "Os concursos estaduais do Tocantins cobram a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
+   ],
+   "em": "no Tocantins"
+  },
+  {
    "slug": "concursos-rondonia",
    "tipo": "estado",
    "nome": "Rondônia",
