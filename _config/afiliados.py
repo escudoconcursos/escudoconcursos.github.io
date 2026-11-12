@@ -58,6 +58,7 @@ RECRUTAMENTO = {
     "pmac-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3976P108431846",
     "seedf-professor-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0266S108464809",
     "seedf-pedagogia-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1217S108467831",
+    "cbmes-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2081C108470268",
     "pcto-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6068P108438207",
     "gm-campinas-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3315G108452403",
 }
