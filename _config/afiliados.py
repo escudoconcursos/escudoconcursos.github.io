@@ -56,8 +56,8 @@ RECRUTAMENTO = {
     "policial-penal-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5993P108415280",
     "pmrr-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/8322P108421730",
     "pmac-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3976P108431846",
-    # "seedf-professor-2026": "HOTMART_RECRUTAMENTO_PROFESSOR",  # descomentar com o link da Página de Recrutamento (Links de divulgação, não "Acessar página")
-    # "seedf-pedagogia-2026": "HOTMART_RECRUTAMENTO_PEDAGOGIA",  # descomentar com o link da Página de Recrutamento (Links de divulgação, não "Acessar página")
+    "seedf-professor-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0266S108464809",
+    "seedf-pedagogia-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1217S108467831",
     "pcto-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6068P108438207",
     "gm-campinas-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3315G108452403",
 }
