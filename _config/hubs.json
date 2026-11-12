@@ -60,7 +60,7 @@
    "descricao": "Concursos de educação 2026 com apostila em PDF: professor e agente educativo em Porto Velho e Aparecida de Goiânia, com banca e data da prova.",
    "h1": "Concursos de educação 2026: professor e agente educativo",
    "intro": [
-    "Esta página reúne os concursos da área de educação com curso ESCUDO: professor das séries iniciais, professor pedagogo e agente educativo em redes municipais.",
+    "Esta página reúne os concursos da área de educação com curso ESCUDO: professor das séries iniciais, professor pedagogo e agente educativo em redes municipais, e o Professor da rede do Distrito Federal (SEEDF).",
     "Nas provas de educação, os conhecimentos pedagógicos e a legislação educacional, como LDB, BNCC, ECA e as normas da rede municipal, costumam valer mais que as matérias básicas. Cada curso segue o programa do seu edital, com a legislação conferida na fonte oficial, casos práticos da rotina da escola e questões inéditas no formato da banca."
    ]
   },
@@ -189,6 +189,22 @@
     "Os concursos estaduais do Tocantins cobram a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
    ],
    "em": "no Tocantins"
+  },
+  {
+   "slug": "concursos-distrito-federal",
+   "tipo": "estado",
+   "nome": "Distrito Federal",
+   "filtro": {
+    "uf": "DF"
+   },
+   "titulo": "Concursos no Distrito Federal 2026: SEEDF em PDF",
+   "descricao": "Concursos no Distrito Federal 2026 com apostila em PDF: Professor da Secretaria de Educação (SEEDF), Básicos e Complementares e Pedagogia.",
+   "h1": "Concursos no Distrito Federal 2026: Professor da SEEDF",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para o concurso de Professor de Educação Básica da Secretaria de Educação do Distrito Federal (SEEDF): 1.879 vagas imediatas e 5.638 de cadastro de reserva, com banca Instituto Quadrix e edital previsto para dezembro de 2026.",
+    "O edital ainda não saiu, então os cursos seguem o Termo de Referência 3/2026 e o último edital do cargo (nº 31/2022). Um curso cobre os Básicos e os Complementares, comuns a todas as áreas, e outro os Específicos de Pedagogia, a maior área, com 624 vagas imediatas e 3.716 de cadastro de reserva. Os dois trazem itens Certo ou Errado no estilo da Quadrix, com gabarito comentado."
+   ],
+   "em": "no Distrito Federal"
   },
   {
    "slug": "concursos-rondonia",

@@ -16,6 +16,8 @@
     "professor-semed-porto-velho-2026": {"sigla": "Porto Velho", "cargo": "Professor", "uf": "RO"},
     "agente-educativo-aparecida-2026": {"sigla": "Aparecida de Goiânia", "cargo": "Agente Educativo", "uf": "GO"},
     "pedagogia-aparecida-2026": {"sigla": "Aparecida de Goiânia", "cargo": "Pedagogia", "uf": "GO"},
+    "seedf-pedagogia-2026": {"sigla": "SEEDF", "cargo": "Professor Pedagogia", "uf": "DF"},
+    "seedf-professor-2026": {"sigla": "SEEDF", "cargo": "Professor", "uf": "DF"},
     "soldado-pmsc-2026": {"sigla": "PMSC", "cargo": "Soldado PM", "uf": "SC"},
     "investigador-policia-civil-mg-pcmg-2026": {"sigla": "PCMG", "cargo": "Investigador de Polícia", "uf": "MG"},
     "soldado-pmpr-2026": {"sigla": "PMPR", "cargo": "Soldado PM", "uf": "PR"},

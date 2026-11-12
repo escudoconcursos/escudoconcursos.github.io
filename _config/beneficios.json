@@ -390,6 +390,55 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "seedf-professor-2026": [
+  {
+   "item": "Legislação Educacional em 29 capítulos",
+   "img": "assets/img/seedf-professor/b-legislacao",
+   "alt": "Sumário da disciplina Legislação Educacional: CF, LDB, ECA e LBI"
+  },
+  {
+   "item": "Lei Complementar 840/2011 em 4 capítulos",
+   "img": "assets/img/seedf-professor/b-lc840",
+   "alt": "Sumário da disciplina Lei Complementar 840/2011"
+  },
+  {
+   "item": "Conhecimentos Pedagógicos em 22 capítulos",
+   "img": "assets/img/seedf-professor/b-pedagogicos",
+   "alt": "Sumário da disciplina Conhecimentos Pedagógicos"
+  },
+  {
+   "item": "Prova discursiva e Estudo de Caso em 3 capítulos",
+   "img": "assets/img/seedf-professor/b-discursiva",
+   "alt": "Sumário da disciplina Discursiva e Estudo de Caso"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/seedf-professor/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  }
+ ],
+ "seedf-pedagogia-2026": [
+  {
+   "item": "Educação, sociedade e concepções pedagógicas",
+   "img": "assets/img/seedf-pedagogia/b-educacao",
+   "alt": "Sumário da disciplina Educação, sociedade e concepções pedagógicas"
+  },
+  {
+   "item": "EJA e andragogia em 3 capítulos",
+   "img": "assets/img/seedf-pedagogia/b-eja",
+   "alt": "Sumário da disciplina Educação de Jovens e Adultos e andragogia"
+  },
+  {
+   "item": "BNCC em 2 capítulos",
+   "img": "assets/img/seedf-pedagogia/b-bncc",
+   "alt": "Sumário da disciplina BNCC: competências e habilidades"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/seedf-pedagogia/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  }
+ ],
  "soldado-pmsc-2026": [
   {
    "item": "Legislação Institucional em 15 capítulos ,",

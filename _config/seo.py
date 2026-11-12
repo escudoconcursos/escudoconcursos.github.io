@@ -32,13 +32,16 @@ def numero(html, rotulo):
 
 def descricao_de(html, n, p):
     cap, q = numero(html, "capítulos"), numero(html, "questões")
+    rot_q = "questões comentadas"
+    if not q:
+        q, rot_q = numero(html, "itens"), "itens comentados"
     pre = "Pré-edital" in p.get("tag", "") or p.get("prova") in (None, "2099-12-31")
     edital = "pronta para o próximo edital" if pre else "de acordo com o edital"
     partes = []
     if cap:
         partes.append(f"{cap} capítulos")
     if q:
-        partes.append(f"{q} questões comentadas")
+        partes.append(f"{q} {rot_q}")
     corpo = " e ".join(partes)
     d = f"Apostila {n['sigla']} {n.get('ano', ANO)} em PDF para {n['cargo']}" + (f": {corpo}, {edital}." if corpo else f", {edital}.")
     if len(d + " Garantia de 7 dias.") <= LIMITE_DESC:

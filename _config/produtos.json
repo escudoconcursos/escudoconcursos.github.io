@@ -184,6 +184,52 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "seedf-professor-2026",
+      "atalho": "seedf-professor",
+      "carreira": "educacao",
+      "tema": "tema-turquesa",
+      "tag": "SEEDF 2026 · Pré-edital",
+      "titulo": "Professor da SEEDF: Básicos e Complementares",
+      "itens": [
+        "110 capítulos e 1.060 itens comentados",
+        "Todas as áreas, no estilo Certo ou Errado da Quadrix"
+      ],
+      "imagem": "assets/img/produto-seedf-professor-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor da SEEDF, Básicos e Complementares, SEEDF 2026, 110 capítulos e 1.060 itens comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SEEDF37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "seedf-professor-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "seedf-pedagogia-2026",
+      "atalho": "seedf-pedagogia",
+      "carreira": "educacao",
+      "tema": "tema-turquesa",
+      "tag": "SEEDF 2026 · Pré-edital",
+      "titulo": "Professor Pedagogia da SEEDF: Específicos",
+      "itens": [
+        "30 capítulos e 290 itens comentados",
+        "BNCC, EJA, currículo e bases psicológicas da aprendizagem"
+      ],
+      "imagem": "assets/img/produto-seedf-pedagogia-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor Pedagogia da SEEDF, Conhecimentos Específicos, SEEDF 2026, 30 capítulos e 290 itens comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PEDSEEDF37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "seedf-pedagogia-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pedagogia-aparecida-2026",
       "atalho": "pedagogia",
       "carreira": "educacao",

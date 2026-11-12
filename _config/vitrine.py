@@ -20,6 +20,8 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "pmesp-soldado-2026": "PMESP PMSP PM SP Polícia Militar", "pmpe-soldado-2026": "PMPE PM PE Polícia Militar",
     "pmal-soldado-2026": "PMAL PM AL Polícia Militar", "pmba-soldado-2026": "PMBA PM BA Polícia Militar",
     "pmerj-soldado-2026": "PMERJ PMRJ PM RJ Polícia Militar", "pmmg-soldado-2026": "PMMG PM MG Polícia Militar Minas Gerais CRS", "policial-penal-pb-2026": "PPPB Polícia Penal Paraíba SEAP Idecan", "pmac-soldado-2026": "PMAC PM AC Polícia Militar Acre Rio Branco IBADE", "pcto-oficial-investigador-2026": "PCTO PC TO Polícia Civil Tocantins Palmas Oficial Investigador Agente Escrivão Aroeira", "pmrr-soldado-2026": "PMRR PM RR Polícia Militar Roraima Boa Vista UERR",
+    "seedf-professor-2026": "SEEDF SEE DF Secretaria de Educação do Distrito Federal Brasília Professor Magistério Quadrix",
+    "seedf-pedagogia-2026": "SEEDF SEE DF Secretaria de Educação do Distrito Federal Brasília Professor Pedagogia Magistério Quadrix",
     "pmmg-cfo-2027": "CFO PMMG CFO PM MG Cadete Oficial Polícia Militar Minas Gerais CRS",
     "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
     "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",
@@ -53,7 +55,7 @@ def pedido_html():
     </aside>"""
 
 
-UF_NOME = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "BA": "Bahia", "ES": "Espírito Santo", "GO": "Goiás",
+UF_NOME = {"AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "BA": "Bahia", "DF": "Distrito Federal", "ES": "Espírito Santo", "GO": "Goiás",
            "MG": "Minas Gerais", "PA": "Pará", "PB": "Paraíba", "PE": "Pernambuco", "PR": "Paraná", "RJ": "Rio de Janeiro",
            "RO": "Rondônia", "SC": "Santa Catarina", "SP": "São Paulo", "BR": "Brasil nacional"}
 FUSO = dt.timezone(dt.timedelta(hours=-3))
