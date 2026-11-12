@@ -159,6 +159,22 @@
    "em": "em Roraima"
   },
   {
+   "slug": "concursos-espirito-santo",
+   "tipo": "estado",
+   "nome": "Espírito Santo",
+   "filtro": {
+    "uf": "ES"
+   },
+   "titulo": "Concursos no Espírito Santo 2026: apostilas em PDF",
+   "descricao": "Concursos no Espírito Santo 2026 com apostila em PDF: Técnico Bancário do Banestes, com edital aberto, e Soldado Combatente do Corpo de Bombeiros Militar (CBMES), com História e Geografia do estado.",
+   "h1": "Concursos no Espírito Santo 2026: Banestes e Corpo de Bombeiros",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado do Espírito Santo: Técnico Bancário do Banestes, com edital publicado, e Soldado Combatente do Corpo de Bombeiros Militar, concurso autorizado e edital ainda não publicado.",
+    "Cada curso segue o programa do edital, item por item, com questões inéditas no formato da banca e gabarito comentado. O dos Bombeiros traz ainda História e Geografia do Espírito Santo a partir de fontes oficiais."
+   ],
+   "em": "no Espírito Santo"
+  },
+  {
    "slug": "concursos-acre",
    "tipo": "estado",
    "nome": "Acre",

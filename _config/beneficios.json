@@ -1038,6 +1038,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "cbmes-soldado-2026": [
+  {
+   "item": "História do Brasil e do Espírito Santo em 18 capítulos",
+   "img": "assets/img/cbmes/b-historia",
+   "alt": "Sumário da disciplina História do Brasil e do Espírito Santo"
+  },
+  {
+   "item": "Química em 20 capítulos, Física em 25 e Biologia em 21",
+   "img": "assets/img/cbmes/b-ciencias",
+   "alt": "Sumário da disciplina Física"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/cbmes/caso",
+   "alt": "Quadro de pegadinha em um capítulo do curso"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/cbmes/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 120 questões",
+   "img": "assets/img/cbmes/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmac-soldado-2026": [
   {
    "item": "Estatuto dos Militares do Acre em 15 capítulos",

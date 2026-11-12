@@ -59,6 +59,7 @@ SIMULADO2 = {
     "pmmg-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "policial-penal-pb-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmac-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "cbmes-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pcto-oficial-investigador-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmrr-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "recenseador-ibge-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",

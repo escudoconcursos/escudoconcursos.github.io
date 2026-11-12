@@ -866,6 +866,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "cbmes-soldado-2026",
+      "atalho": "cbmes",
+      "carreira": "policial",
+      "tema": "tema-fogo",
+      "tag": "CBMES 2026 · Pré-edital",
+      "titulo": "Soldado dos Bombeiros do ES",
+      "itens": [
+        "142 capítulos e 705 questões comentadas",
+        "Química, Física e Biologia e 2 simulados de 120 questões"
+      ],
+      "imagem": "assets/img/produto-cbmes-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado Combatente do Corpo de Bombeiros Militar do Espírito Santo, CBMES 2026, 142 capítulos e 705 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CBMES37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "cbmes-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pmac-soldado-2026",
       "atalho": "pmac",
       "carreira": "policial",
