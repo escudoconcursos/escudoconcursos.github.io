@@ -61,6 +61,7 @@ RECRUTAMENTO = {
     "cbmes-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2081C108470268",
     "pcto-oficial-investigador-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6068P108438207",
     "gm-campinas-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3315G108452403",
+    "gm-balneario-camboriu-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4103G108475311",
 }
 
 
