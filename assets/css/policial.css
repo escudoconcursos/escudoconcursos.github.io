@@ -59,6 +59,7 @@
 .tema-fogo .etq span{background:rgba(232,80,28,.14)}
 .tema-folha .etq span{background:rgba(72,174,62,.14)}
 .tema-ameixa .etq span{background:rgba(196,71,165,.14)}
+.tema-salmao .etq span{background:rgba(242,139,124,.14)}
 .tema-amarelo .etq span{background:rgba(234,179,8,.14)}
 .tema-ouro .etq span{background:rgba(201,162,75,.14)}
 .etq::after{content:"";flex:1;max-width:280px;height:2px;background:linear-gradient(90deg,rgba(201,162,75,.6),transparent)}

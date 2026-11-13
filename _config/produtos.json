@@ -865,6 +865,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "detranpr-agente-2026",
+      "atalho": "detranpr",
+      "carreira": "policial",
+      "tema": "tema-salmao",
+      "tag": "DETRAN/PR 2026 · Pré-edital",
+      "titulo": "Agente de Trânsito do DETRAN-PR",
+      "itens": [
+        "138 capítulos e 685 questões comentadas",
+        "CTB, 20 Resoluções do CONTRAN e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-detranpr-agente-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente de Trânsito do DETRAN-PR, DETRAN/PR 2026, 138 capítulos e 685 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "DETRANPR37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "detranpr-agente-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pcpa-escrivao-2026",
       "atalho": "pcpa",
       "carreira": "policial",

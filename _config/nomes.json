@@ -37,6 +37,7 @@
     "pcto-oficial-investigador-2026": {"sigla": "PC/TO", "cargo": "Oficial Investigador", "uf": "TO"},
     "pcpa-investigador-2026": {"sigla": "PC/PA", "cargo": "Investigador", "uf": "PA"},
     "pcpa-escrivao-2026": {"sigla": "PC/PA", "cargo": "Escrivão", "uf": "PA"},
+    "detranpr-agente-2026": {"sigla": "DETRAN/PR", "cargo": "Agente de Trânsito", "uf": "PR"},
     "pmrr-soldado-2026": {"sigla": "PMRR", "cargo": "Soldado PM", "uf": "RR"},
     "pmpa-soldado-2026": {"sigla": "PM-PA", "cargo": "Soldado PM", "uf": "PA"},
     "cbm-al-soldado-2026": {"sigla": "CBM-AL", "cargo": "Soldado Bombeiro", "uf": "AL"},
