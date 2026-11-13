@@ -127,6 +127,22 @@
    "em": "no Paraná"
   },
   {
+   "slug": "concursos-para",
+   "tipo": "estado",
+   "nome": "Pará",
+   "filtro": {
+    "uf": "PA"
+   },
+   "titulo": "Concursos no Pará 2026: apostilas em PDF",
+   "descricao": "Concursos no Pará 2026 com apostila em PDF: Soldado da PM/PA e Escrivão e Investigador da Polícia Civil do Pará.",
+   "h1": "Concursos no Pará 2026: PM e Polícia Civil",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos no estado do Pará: Soldado da Polícia Militar e Escrivão e Investigador da Polícia Civil, com comissão organizadora formada em agosto de 2026 e edital ainda não publicado.",
+    "Os concursos estaduais do Pará cobram Conhecimentos sobre o Estado e a legislação do próprio estado. Cada curso traz esse conteúdo a partir da fonte oficial e questões inéditas de cinco alternativas, com gabarito comentado."
+   ],
+   "em": "no Pará"
+  },
+  {
    "slug": "concursos-paraiba",
    "tipo": "estado",
    "nome": "Paraíba",

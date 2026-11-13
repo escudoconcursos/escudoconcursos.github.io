@@ -39,6 +39,10 @@
 .tema-cobre{--c:#B8693F; --cb:#EBB08A; --cd:#7E4222; --cbtn1:#B8693F; --cbtn2:#7E4222; --cbtn-txt:#fff}
 /* fogo, Soldado CBMES 2026 (12/11/2026): botão com texto branco (4,4:1 sobre #E8501C) */
 .tema-fogo{--c:#E8501C; --cb:#FF9A6B; --cd:#B03A10; --cbtn1:#E8501C; --cbtn2:#B03A10; --cbtn-txt:#fff}
+/* folha, PC-PA Escrivão 2026 (12/11/2026): botão claro com texto navy (11,1:1 sobre #9BE08F e 6,1:1 sobre #48AE3E; branco daria só 2,8:1) */
+.tema-folha{--c:#48AE3E; --cb:#9BE08F; --cd:#2B7A24; --cbtn1:#9BE08F; --cbtn2:#48AE3E; --cbtn-txt:#0B1A33}
+/* ameixa, PC-PA Investigador 2026 (12/11/2026): botão ameixa com texto branco (4,4:1 sobre #C447A5); a clara #F0A0DA dá 8,9:1 sobre o navy */
+.tema-ameixa{--c:#C447A5; --cb:#F0A0DA; --cd:#8A2070; --cbtn1:#C447A5; --cbtn2:#8A2070; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}

@@ -865,6 +865,52 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pcpa-escrivao-2026",
+      "atalho": "pcpa",
+      "carreira": "policial",
+      "tema": "tema-folha",
+      "tag": "PC/PA 2026 · Pré-edital",
+      "titulo": "Escrivão da Polícia Civil do Pará",
+      "itens": [
+        "132 capítulos e 640 questões comentadas",
+        "Lei Orgânica da PC/PA, Arquivologia e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pcpa-escrivao-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Escrivão da Polícia Civil do Pará, PC/PA 2026, 132 capítulos e 640 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCPAESC37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pcpa-escrivao-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "pcpa-investigador-2026",
+      "atalho": "investigador-pcpa",
+      "carreira": "policial",
+      "tema": "tema-ameixa",
+      "tag": "PC/PA 2026 · Pré-edital",
+      "titulo": "Investigador da Polícia Civil do Pará",
+      "itens": [
+        "132 capítulos e 640 questões comentadas",
+        "Lei Orgânica da PC/PA, Contabilidade e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pcpa-investigador-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Investigador da Polícia Civil do Pará, PC/PA 2026, 132 capítulos e 640 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCPAINV37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pcpa-investigador-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pcto-oficial-investigador-2026",
       "atalho": "pcto",
       "carreira": "policial",

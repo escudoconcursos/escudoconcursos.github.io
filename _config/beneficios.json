@@ -1038,6 +1038,60 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pcpa-escrivao-2026": [
+  {
+   "item": "Estado do Pará em 7 capítulos",
+   "img": "assets/img/pcpa-escrivao/b-para",
+   "alt": "Sumário da disciplina Conhecimentos sobre o Estado do Pará"
+  },
+  {
+   "item": "Arquivologia em 9 capítulos",
+   "img": "assets/img/pcpa-escrivao/b-especifica",
+   "alt": "Sumário da disciplina Arquivologia"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/pcpa-escrivao/caso",
+   "alt": "Pegadinha e quadro no capítulo da Lei Orgânica da Polícia Civil do Pará"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pcpa-escrivao/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pcpa-escrivao/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
+ "pcpa-investigador-2026": [
+  {
+   "item": "Estado do Pará em 7 capítulos",
+   "img": "assets/img/pcpa-investigador/b-para",
+   "alt": "Sumário da disciplina Conhecimentos sobre o Estado do Pará"
+  },
+  {
+   "item": "Contabilidade em 9 capítulos",
+   "img": "assets/img/pcpa-investigador/b-especifica",
+   "alt": "Sumário da disciplina Contabilidade"
+  },
+  {
+   "item": "Pegadinhas e quadros",
+   "img": "assets/img/pcpa-investigador/caso",
+   "alt": "Pegadinha e quadro no capítulo da Lei Orgânica da Polícia Civil do Pará"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pcpa-investigador/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 60 questões",
+   "img": "assets/img/pcpa-investigador/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pcto-oficial-investigador-2026": [
   {
    "item": "Legislação Institucional em 17 capítulos",
