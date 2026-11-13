@@ -53,32 +53,6 @@
 - [Cronograma de estudos para PM-SP Soldado: 16 semanas até a prova de 28/02/2027](https://escudoconcursos.com.br/noticias/pm-sp-soldado-cronograma-de-estudos-16-semanas/)
 <!-- blog:fim -->
 
-<!-- hubs:inicio -->
-## Concursos por carreira e por estado
-
-- [Concursos policiais 2026: PM, Bombeiros, Polícia Civil e Penal](https://escudoconcursos.com.br/concursos-policiais/)
-- [Concurso Guarda Municipal 2026: apostilas por cidade](https://escudoconcursos.com.br/guarda-municipal/)
-- [Concursos administrativos 2026: prefeituras, UFBA e IBGE](https://escudoconcursos.com.br/concursos-administrativos/)
-- [Concursos de educação 2026: professor e agente educativo](https://escudoconcursos.com.br/concursos-educacao/)
-- [Concursos de tribunais e Defensoria 2026](https://escudoconcursos.com.br/concursos-tribunais/)
-- [Concursos bancários 2026: apostila em PDF](https://escudoconcursos.com.br/concursos-bancarios/)
-- [Concursos em Pernambuco 2026: PM, Bombeiros, Polícia Civil, Penal e Guarda](https://escudoconcursos.com.br/concursos-pernambuco/)
-- [Concursos no Paraná 2026: PMPR, Polícia Penal e Curitiba](https://escudoconcursos.com.br/concursos-parana/)
-- [Concursos na Paraíba 2026: Polícia Penal e Defensoria](https://escudoconcursos.com.br/concursos-paraiba/)
-- [Concursos em Roraima 2026: Polícia Militar](https://escudoconcursos.com.br/concursos-roraima/)
-- [Concursos no Espírito Santo 2026: Banestes e Corpo de Bombeiros](https://escudoconcursos.com.br/concursos-espirito-santo/)
-- [Concursos no Acre 2026: Polícia Civil e Polícia Militar](https://escudoconcursos.com.br/concursos-acre/)
-- [Concursos no Tocantins 2026: Polícia Civil](https://escudoconcursos.com.br/concursos-tocantins/)
-- [Concursos no Distrito Federal 2026: Professor da SEEDF](https://escudoconcursos.com.br/concursos-distrito-federal/)
-- [Concursos em Rondônia 2026: Prefeitura de Porto Velho](https://escudoconcursos.com.br/concursos-rondonia/)
-- [Concursos em Alagoas 2026: PM-AL e CBM-AL](https://escudoconcursos.com.br/concursos-alagoas/)
-- [Concursos na Bahia 2026: PM-BA, GCM Salvador e UFBA](https://escudoconcursos.com.br/concursos-bahia/)
-- [Concursos em Goiás 2026: Educação de Aparecida de Goiânia](https://escudoconcursos.com.br/concursos-goias/)
-- [Concursos em Minas Gerais 2026: PMMG, PCMG e Contagem](https://escudoconcursos.com.br/concursos-minas-gerais/)
-- [Concursos no Rio de Janeiro 2026: PMERJ e GM São Gonçalo](https://escudoconcursos.com.br/concursos-rio-de-janeiro/)
-- [Concursos em São Paulo 2026: PM-SP e TJSP](https://escudoconcursos.com.br/concursos-sao-paulo/)
-<!-- hubs:fim -->
-
 <!-- amostras:inicio -->
 ## Amostras grátis
 
@@ -115,6 +89,33 @@
 - [Amostra grátis da apostila DPE-PB 2026: Técnico da Defensoria](https://escudoconcursos.com.br/tecnico-defensoria-dpe-pb-2026/amostra/)
 - [Amostra grátis da apostila Porto Velho 2026: Técnico em Enfermagem](https://escudoconcursos.com.br/tecnico-enfermagem-porto-velho-2026/amostra/)
 <!-- amostras:fim -->
+
+<!-- hubs:inicio -->
+## Concursos por carreira e por estado
+
+- [Concursos policiais 2026: PM, Bombeiros, Polícia Civil e Penal](https://escudoconcursos.com.br/concursos-policiais/)
+- [Concurso Guarda Municipal 2026: apostilas por cidade](https://escudoconcursos.com.br/guarda-municipal/)
+- [Concursos administrativos 2026: prefeituras, UFBA e IBGE](https://escudoconcursos.com.br/concursos-administrativos/)
+- [Concursos de educação 2026: professor e agente educativo](https://escudoconcursos.com.br/concursos-educacao/)
+- [Concursos de tribunais e Defensoria 2026](https://escudoconcursos.com.br/concursos-tribunais/)
+- [Concursos bancários 2026: apostila em PDF](https://escudoconcursos.com.br/concursos-bancarios/)
+- [Concursos em Pernambuco 2026: PM, Bombeiros, Polícia Civil, Penal e Guarda](https://escudoconcursos.com.br/concursos-pernambuco/)
+- [Concursos no Paraná 2026: PMPR, Polícia Penal e Curitiba](https://escudoconcursos.com.br/concursos-parana/)
+- [Concursos na Paraíba 2026: Polícia Penal e Defensoria](https://escudoconcursos.com.br/concursos-paraiba/)
+- [Concursos em Roraima 2026: Polícia Militar](https://escudoconcursos.com.br/concursos-roraima/)
+- [Concursos em Santa Catarina 2026: PM e Guardas Municipais](https://escudoconcursos.com.br/concursos-santa-catarina/)
+- [Concursos no Espírito Santo 2026: Banestes e Corpo de Bombeiros](https://escudoconcursos.com.br/concursos-espirito-santo/)
+- [Concursos no Acre 2026: Polícia Civil e Polícia Militar](https://escudoconcursos.com.br/concursos-acre/)
+- [Concursos no Tocantins 2026: Polícia Civil](https://escudoconcursos.com.br/concursos-tocantins/)
+- [Concursos no Distrito Federal 2026: Professor da SEEDF](https://escudoconcursos.com.br/concursos-distrito-federal/)
+- [Concursos em Rondônia 2026: Prefeitura de Porto Velho](https://escudoconcursos.com.br/concursos-rondonia/)
+- [Concursos em Alagoas 2026: PM-AL e CBM-AL](https://escudoconcursos.com.br/concursos-alagoas/)
+- [Concursos na Bahia 2026: PM-BA, GCM Salvador e UFBA](https://escudoconcursos.com.br/concursos-bahia/)
+- [Concursos em Goiás 2026: Educação de Aparecida de Goiânia](https://escudoconcursos.com.br/concursos-goias/)
+- [Concursos em Minas Gerais 2026: PMMG, PCMG e Contagem](https://escudoconcursos.com.br/concursos-minas-gerais/)
+- [Concursos no Rio de Janeiro 2026: PMERJ e GM São Gonçalo](https://escudoconcursos.com.br/concursos-rio-de-janeiro/)
+- [Concursos em São Paulo 2026: PM-SP e TJSP](https://escudoconcursos.com.br/concursos-sao-paulo/)
+<!-- hubs:fim -->
 
 <!-- guias:inicio -->
 ## Guias de concurso

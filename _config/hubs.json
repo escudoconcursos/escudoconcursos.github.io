@@ -159,6 +159,22 @@
    "em": "em Roraima"
   },
   {
+   "slug": "concursos-santa-catarina",
+   "tipo": "estado",
+   "nome": "Santa Catarina",
+   "filtro": {
+    "uf": "SC"
+   },
+   "titulo": "Concursos em Santa Catarina 2026: apostilas em PDF",
+   "descricao": "Concursos em Santa Catarina 2026 com apostila em PDF: Soldado da PM/SC e Guarda Municipal de Joinville e de Balneário Camboriú.",
+   "h1": "Concursos em Santa Catarina 2026: PM e Guardas Municipais",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos em Santa Catarina: Soldado da Polícia Militar e Guarda Municipal de Joinville e de Balneário Camboriú.",
+    "Os concursos de Guarda Municipal costumam cobrar a lei da própria cidade. Cada curso traz essa legislação a partir do texto oficial e questões inéditas de cinco alternativas, com gabarito comentado."
+   ],
+   "em": "em Santa Catarina"
+  },
+  {
    "slug": "concursos-espirito-santo",
    "tipo": "estado",
    "nome": "Espírito Santo",

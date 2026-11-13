@@ -950,6 +950,33 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "gm-balneario-camboriu-2026": [
+  {
+   "item": "91 capítulos",
+   "img": "assets/img/balneario/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "Legislação de Balneário Camboriú em 9 capítulos",
+   "img": "assets/img/balneario/abertura-bc",
+   "alt": "Abertura da disciplina Legislação Municipal de Balneário Camboriú"
+  },
+  {
+   "item": "Noções de Direito, que valem 20 questões",
+   "img": "assets/img/balneario/b-direito",
+   "alt": "Abertura da disciplina Noções de Direito Constitucional"
+  },
+  {
+   "item": "Teoria com recursos para memorizar",
+   "img": "assets/img/balneario/mapa",
+   "alt": "Mapa do capítulo 44, Estatuto da Guarda Municipal de Balneário Camboriú II"
+  },
+  {
+   "item": "2 simulados inéditos de 50 questões",
+   "img": "assets/img/balneario/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "gm-joinville-2026": [
   {
    "item": "115 capítulos pelo programa do último",

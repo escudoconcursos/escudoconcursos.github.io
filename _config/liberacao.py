@@ -55,6 +55,7 @@ SIMULADO2 = {
     "gm-campinas-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",
     "pcac-oficial-investigador-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "gm-joinville-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "gm-balneario-camboriu-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmmg-cfo-2027": "em 03/01/2027, 7 dias antes da prova, para o último teste.",
     "pmmg-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "policial-penal-pb-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",

@@ -798,6 +798,28 @@
       "inscricoes_ate": "2026-12-14"
     },
     {
+      "id": "gm-balneario-camboriu-2026",
+      "atalho": "balneario",
+      "carreira": "policial",
+      "tema": "tema-laranja",
+      "tag": "GM Balneário Camboriú 2026 · Pré-edital",
+      "titulo": "Guarda Municipal de Balneário Camboriú",
+      "itens": [
+        "91 capítulos e 450 questões comentadas",
+        "2 simulados de 50 questões no molde da FURB"
+      ],
+      "imagem": "assets/img/produto-gm-balneario-camboriu-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de Balneário Camboriú/SC, GM Balneário Camboriú 2026, 91 capítulos e 450 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "GMBC37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "link": "gm-balneario-camboriu-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gm-joinville-2026",
       "atalho": "joinville",
       "carreira": "policial",
