@@ -492,6 +492,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "trt4-tecnico-administrativo-2026",
+      "atalho": "trt4",
+      "carreira": "tribunais",
+      "tema": "tema-violeta",
+      "tag": "TRT-4/RS 2026 · FCC",
+      "titulo": "Técnico Judiciário do TRT-4, Área Administrativa",
+      "itens": [
+        "194 capítulos e 955 questões comentadas",
+        "2 simulados de 60 questões com redação"
+      ],
+      "imagem": "assets/img/produto-trt4-tecnico-administrativo-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Técnico Judiciário, Área Administrativa, TRT-4/RS 2026, 194 capítulos e 955 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "TRT437",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "inscricoes_ate": "2026-11-25",
+      "prova": "2027-01-31",
+      "link": "trt4-tecnico-administrativo-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "tecnico-defensoria-dpe-pb-2026",
       "atalho": "dpepb",
       "carreira": "tribunais",

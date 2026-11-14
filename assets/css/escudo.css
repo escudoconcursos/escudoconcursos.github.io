@@ -45,6 +45,8 @@
 .tema-ameixa{--c:#C447A5; --cb:#F0A0DA; --cd:#8A2070; --cbtn1:#C447A5; --cbtn2:#8A2070; --cbtn-txt:#fff}
 /* salmão, DETRAN-PR Agente de Trânsito 2026 (13/11/2026): botão claro com texto navy */
 .tema-salmao{--c:#F28B7C; --cb:#FFB8AD; --cd:#B8473A; --cbtn1:#FFB8AD; --cbtn2:#F28B7C; --cbtn-txt:#0B1A33}
+/* violeta, TRT-4 Técnico Administrativo 2026 (13/11/2026): botão violeta com texto branco (4,7:1 sobre #A042EC); a clara #D0A0FF dá 8,4:1 sobre o navy */
+.tema-violeta{--c:#A042EC; --cb:#D0A0FF; --cd:#6E1FB3; --cbtn1:#A042EC; --cbtn2:#6E1FB3; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}

@@ -27,6 +27,7 @@
     "agente-administrativo-curitiba-2026": {"sigla": "Curitiba", "cargo": "Agente Administrativo", "uf": "PR"},
     "tecnico-bancario-banestes-2026": {"sigla": "Banestes", "cargo": "Técnico Bancário", "uf": "ES"},
     "tecnico-defensoria-dpe-pb-2026": {"sigla": "DPE-PB", "cargo": "Técnico da Defensoria", "uf": "PB"},
+    "trt4-tecnico-administrativo-2026": {"sigla": "TRT-4", "cargo": "Técnico Judiciário Área Administrativa", "uf": "RS"},
     "policial-penal-pr-2026": {"sigla": "Polícia Penal PR", "cargo": "Policial Penal", "uf": "PR"},
     "policial-penal-pe-2026": {"sigla": "Polícia Penal PE", "cargo": "Policial Penal", "uf": "PE"},
     "pmerj-soldado-2026": {"sigla": "PMERJ", "cargo": "Soldado PM", "uf": "RJ"},

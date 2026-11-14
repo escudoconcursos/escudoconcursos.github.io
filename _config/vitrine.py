@@ -31,7 +31,7 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "policial-penal-pr-2026": "PPPR Polícia Penal DEPPEN", "gm-recife-2026": "GCM Recife Guarda Municipal", "gm-joinville-2026": "GCM Joinville Guarda Municipal SC", "gm-balneario-camboriu-2026": "GCM GM BC Balneário Camboriú Balneario Guarda Municipal SC Santa Catarina FURB Itapema",
     "gcm-salvador-2026": "GM Salvador Guarda Municipal", "gm-sao-goncalo-2026": "GCM São Gonçalo Guarda Municipal",
     "gcm-santana-2026": "GM Santana Guarda Municipal", "gm-campinas-2026": "GCM Campinas Guarda Civil Municipal Campinas SP Vunesp", "escrevente-tjsp-2026": "TJ SP Tribunal de Justiça",
-    "tecnico-defensoria-dpe-pb-2026": "DPEPB Defensoria Pública", "tecnico-bancario-banestes-2026": "Banco Banestes ES",
+    "tecnico-defensoria-dpe-pb-2026": "DPEPB Defensoria Pública", "trt4-tecnico-administrativo-2026": "TRT TRT4 TRT-4 Tribunal Regional do Trabalho 4ª Região Rio Grande do Sul Porto Alegre Técnico Judiciário Administrativo FCC", "tecnico-bancario-banestes-2026": "Banco Banestes ES",
     "recenseador-ibge-2026": "Censo Recenseador", "ufba-assistente-2026": "UFBA Universidade Federal da Bahia",
 }
 SITE = json.loads((RAIZ / "_config" / "site.json").read_text(encoding="utf-8"))

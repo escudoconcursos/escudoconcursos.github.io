@@ -653,6 +653,13 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "trt4-tecnico-administrativo-2026": [
+  {"item": "Noções de Legislação em 9 capítulos:", "img": "assets/img/trt4-tecnico/b-legislacao", "alt": "Sumário de Noções de Legislação (TRT-4, CNJ e CSJT)"},
+  {"item": "Os Conhecimentos Específicos, que pesam o", "img": "assets/img/trt4-tecnico/b-especificos", "alt": "Sumário de Direito Constitucional, que abre os Conhecimentos Específicos"},
+  {"item": "A Redação do TRT-4:", "img": "assets/img/trt4-tecnico/b-redacao", "alt": "Capítulo 029, a Redação do TRT-4"},
+  {"item": "Navegação clicável: do sumário você vai", "img": "assets/img/trt4-tecnico/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos no formato da", "img": "assets/img/trt4-tecnico/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "tecnico-defensoria-dpe-pb-2026": [
   {
    "item": "Legislação da Defensoria: Constituição Federal (arts.",
