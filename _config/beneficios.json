@@ -1045,6 +1045,13 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "ppsc-policial-penal-2026": [
+  {"item": "Legislação Estadual de Santa Catarina em 8 capítulos", "img": "assets/img/ppsc/b-sc", "alt": "Sumário da disciplina Legislação Estadual de Santa Catarina"},
+  {"item": "Lei de Execução Penal em 5 capítulos", "img": "assets/img/ppsc/b-lep", "alt": "Sumário da disciplina Lei de Execução Penal"},
+  {"item": "Pegadinhas e quadros", "img": "assets/img/ppsc/caso", "alt": "Pegadinha no capítulo do Estatuto da Polícia Penal de Santa Catarina"},
+  {"item": "Navegação clicável", "img": "assets/img/ppsc/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos de 100 questões", "img": "assets/img/ppsc/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "detranpr-agente-2026": [
   {"item": "CTB em 11 capítulos", "img": "assets/img/detranpr/b-ctb", "alt": "Sumário da disciplina Código de Trânsito Brasileiro"},
   {"item": "Resoluções do CONTRAN em 21 capítulos", "img": "assets/img/detranpr/b-contran", "alt": "Sumário da disciplina Resoluções do CONTRAN"},

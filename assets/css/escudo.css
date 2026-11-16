@@ -47,6 +47,8 @@
 .tema-salmao{--c:#F28B7C; --cb:#FFB8AD; --cd:#B8473A; --cbtn1:#FFB8AD; --cbtn2:#F28B7C; --cbtn-txt:#0B1A33}
 /* violeta, TRT-4 Técnico Administrativo 2026 (13/11/2026): botão violeta com texto branco (4,7:1 sobre #A042EC); a clara #D0A0FF dá 8,4:1 sobre o navy */
 .tema-violeta{--c:#A042EC; --cb:#D0A0FF; --cd:#6E1FB3; --cbtn1:#A042EC; --cbtn2:#6E1FB3; --cbtn-txt:#fff}
+/* vinho, Policial Penal de Santa Catarina 2026 (16/11/2026): botão vinho com texto branco (5,8:1 sobre #9B4B70); a clara #D690B5 dá 7,0:1 sobre o navy */
+.tema-vinho{--c:#9B4B70; --cb:#D690B5; --cd:#6B2F4E; --cbtn1:#9B4B70; --cbtn2:#6B2F4E; --cbtn-txt:#fff}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}

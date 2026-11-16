@@ -889,6 +889,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "ppsc-policial-penal-2026",
+      "atalho": "ppsc",
+      "carreira": "policial",
+      "tema": "tema-vinho",
+      "tag": "Polícia Penal/SC 2026 · Pré-edital",
+      "titulo": "Policial Penal de Santa Catarina",
+      "itens": [
+        "81 capítulos e 400 questões comentadas",
+        "Legislação de Santa Catarina e 2 simulados de 100 questões"
+      ],
+      "imagem": "assets/img/produto-ppsc-policial-penal-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal de Santa Catarina, Polícia Penal/SC 2026, 81 capítulos e 400 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PPSC37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "ppsc-policial-penal-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "detranpr-agente-2026",
       "atalho": "detranpr",
       "carreira": "policial",
