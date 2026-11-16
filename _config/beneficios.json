@@ -1045,6 +1045,14 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pjcmt-investigador-escrivao-2026": [
+  {"item": "Organização e Estatuto da PJC-MT (LC 407/2010) em 4 capítulos", "img": "assets/img/pjcmt/b-lc407", "alt": "Sumário da disciplina Organização e Estatuto da PJC-MT (LC 407/2010)"},
+  {"item": "Redação em 3 capítulos", "img": "assets/img/pjcmt/b-redacao", "alt": "Sumário da disciplina Redação"},
+  {"item": "Pegadinhas e quadros", "img": "assets/img/pjcmt/caso", "alt": "Quadro Não confunda no capítulo do regime disciplinar da LC 407/2010"},
+  {"item": "Navegação clicável", "img": "assets/img/pjcmt/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos de 60 questões", "img": "assets/img/pjcmt/b-simulado", "alt": "Instruções e quadro de questões do Simulado 1"},
+  {"item": "Uma redação em cada simulado", "img": "assets/img/pjcmt/b-redacao-sim", "alt": "Proposta de redação do Simulado 1"}
+ ],
  "ppsc-policial-penal-2026": [
   {"item": "Legislação Estadual de Santa Catarina em 8 capítulos", "img": "assets/img/ppsc/b-sc", "alt": "Sumário da disciplina Legislação Estadual de Santa Catarina"},
   {"item": "Lei de Execução Penal em 5 capítulos", "img": "assets/img/ppsc/b-lep", "alt": "Sumário da disciplina Lei de Execução Penal"},

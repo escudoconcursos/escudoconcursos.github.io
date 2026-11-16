@@ -889,6 +889,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pjcmt-investigador-escrivao-2026",
+      "atalho": "pjcmt",
+      "carreira": "policial",
+      "tema": "tema-areia",
+      "tag": "PC/MT 2026 · Pré-edital",
+      "titulo": "Investigador e Escrivão da PC de Mato Grosso",
+      "itens": [
+        "138 capítulos e 670 questões comentadas",
+        "Estatuto da PJC-MT, Redação e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pjcmt-investigador-escrivao-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Investigador e Escrivão da Polícia Civil de Mato Grosso, PC/MT 2026, 138 capítulos e 670 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PJCMT37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pjcmt-investigador-escrivao-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppsc-policial-penal-2026",
       "atalho": "ppsc",
       "carreira": "policial",

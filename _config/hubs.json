@@ -239,6 +239,22 @@
    "em": "no Tocantins"
   },
   {
+   "slug": "concursos-mato-grosso",
+   "tipo": "estado",
+   "nome": "Mato Grosso",
+   "filtro": {
+    "uf": "MT"
+   },
+   "titulo": "Concursos em Mato Grosso 2026: apostilas em PDF",
+   "descricao": "Concursos em Mato Grosso 2026 com apostila em PDF: Investigador e Escrivão da Polícia Civil (PJC-MT), com a legislação do estado e do cargo.",
+   "h1": "Concursos em Mato Grosso 2026: Polícia Civil",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos em Mato Grosso: Investigador e Escrivão da Polícia Judiciária Civil (PJC-MT), com a última prova de 2022 como molde e edital novo ainda não publicado.",
+    "Os concursos estaduais de Mato Grosso cobrem a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
+   ],
+   "em": "em Mato Grosso"
+  },
+  {
    "slug": "concursos-distrito-federal",
    "tipo": "estado",
    "nome": "Distrito Federal",
