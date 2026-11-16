@@ -6,6 +6,7 @@
     "pmal-soldado-2026": {"sigla": "PM-AL", "cargo": "Soldado PM", "uf": "AL"},
     "cbmpe-soldado-2026": {"sigla": "CBMPE", "cargo": "Soldado Bombeiro", "uf": "PE"},
     "pcpe-agente-2026": {"sigla": "PC-PE", "cargo": "Agente de Polícia", "uf": "PE"},
+    "pcpe-escrivao-2026": {"sigla": "PC-PE", "cargo": "Escrivão de Polícia", "uf": "PE"},
     "gcm-santana-2026": {"sigla": "GCM Santana", "cargo": "Guarda Civil Municipal", "uf": "AP"},
     "gcm-salvador-2026": {"sigla": "GCM Salvador", "cargo": "Guarda Civil Municipal", "uf": "BA"},
     "gm-recife-2026": {"sigla": "GM Recife", "cargo": "Guarda Municipal", "uf": "PE"},

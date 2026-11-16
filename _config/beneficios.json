@@ -117,6 +117,15 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pcpe-escrivao-2026": [
+  {"item": "Questões reais da prova de Escrivão", "img": "assets/img/pcpe-escrivao/b-prova-real", "alt": "Questão da prova de Escrivão da PC-PE 2023 comentada na teoria"},
+  {"item": "Legislação Estadual de Pernambuco em 10", "img": "assets/img/pcpe-escrivao/b-legislacao-pe", "alt": "Sumário da Legislação Estadual de Pernambuco"},
+  {"item": "Noções de Direito em 73 capítulos", "img": "assets/img/pcpe-escrivao/b-penal-especial", "alt": "Sumário de Legislação Penal Especial"},
+  {"item": "Noções de Arquivologia (15 capítulos) e Estatística", "img": "assets/img/pcpe-escrivao/b-arquivologia", "alt": "Sumário de Noções de Arquivologia"},
+  {"item": "Bloco da discursiva em 5 capítulos:", "img": "assets/img/pcpe-escrivao/b-discursiva", "alt": "Sumário do bloco da Discursiva"},
+  {"item": "Navegação clicável: do sumário você vai", "img": "assets/img/pcpe-escrivao/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos no formato exato", "img": "assets/img/pcpe-escrivao/b-simulado", "alt": "Instruções e quadro de questões do Simulado 1"}
+ ],
  "pcpe-agente-2026": [
   {
    "item": "Questões reais da prova de Agente",

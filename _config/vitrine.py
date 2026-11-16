@@ -26,7 +26,7 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
     "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",
     "cbmpe-soldado-2026": "CBMPE CBM PE Bombeiros Bombeiro Militar", "cbm-al-soldado-2026": "CBMAL CBM AL Bombeiros Bombeiro Militar",
-    "pcpe-agente-2026": "PCPE PC PE Polícia Civil", "pcac-oficial-investigador-2026": "PCAC PC AC Polícia Civil",
+    "pcpe-agente-2026": "PCPE PC PE Polícia Civil", "pcpe-escrivao-2026": "PCPE PC PE Polícia Civil Pernambuco Escrivão Arquivologia Cebraspe", "pcac-oficial-investigador-2026": "PCAC PC AC Polícia Civil",
     "investigador-policia-civil-mg-pcmg-2026": "PCMG PC MG Polícia Civil", "policial-penal-pe-2026": "PPPE Polícia Penal SERES",
     "policial-penal-pr-2026": "PPPR Polícia Penal DEPPEN", "gm-recife-2026": "GCM Recife Guarda Municipal", "gm-joinville-2026": "GCM Joinville Guarda Municipal SC", "gm-balneario-camboriu-2026": "GCM GM BC Balneário Camboriú Balneario Guarda Municipal SC Santa Catarina FURB Itapema",
     "gcm-salvador-2026": "GM Salvador Guarda Municipal", "gm-sao-goncalo-2026": "GCM São Gonçalo Guarda Municipal",

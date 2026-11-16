@@ -31,6 +31,7 @@ SIMULADO2 = {
     "pmal-soldado-2026": "em 10/01/2027, 7 dias antes da prova, para o último teste.",
     "cbmpe-soldado-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
     "pcpe-agente-2026": "em 28/02/2027, 7 dias antes da prova, para o último teste.",
+    "pcpe-escrivao-2026": "em 28/02/2027, 7 dias antes da prova, para o último teste.",
     "agente-educativo-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "pedagogia-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "gcm-santana-2026": "em 10/01/2027, 7 dias antes da prova, para o último teste.",

@@ -23,6 +23,8 @@
 .tema-verde{--c:#2FA36B; --cb:#6FD6A1; --cd:#1B7447; --cbtn1:#2FA36B; --cbtn2:#1B7447; --cbtn-txt:#fff}
 .tema-laranja{--c:#F28C28; --cb:#FFB561; --cd:#A65508; --cbtn1:#F28C28; --cbtn2:#B8600B; --cbtn-txt:#0B1A33}
 .tema-ciano{--c:#0E9FC0; --cb:#67D5EE; --cd:#0A6A85; --cbtn1:#0E9FC0; --cbtn2:#0A6A85; --cbtn-txt:#0B1A33}
+/* citrino, PC-PE Escrivão 2026 (16/11/2026): botão citrino com texto navy (#D5DB57 e #8A8F1C; #D5DB57 sobre navy passa de 9:1) */
+.tema-citrino{--c:#D5DB57; --cb:#EAEE9A; --cd:#8A8F1C; --cbtn1:#EAEE9A; --cbtn2:#D5DB57; --cbtn-txt:#0B1A33}
 .tema-roxo{--c:#8B5CF6; --cb:#B99BFF; --cd:#6334D1}
 .tema-turquesa{--c:#14B8A6; --cb:#5EEAD4; --cd:#0B7C70; --cbtn1:#14B8A6; --cbtn2:#0B7C70; --cbtn-txt:#0B1A33}
 .tema-rosa{--c:#E0457B; --cb:#FF8FB3; --cd:#A82356; --cbtn1:#E0457B; --cbtn2:#A82356; --cbtn-txt:#fff}

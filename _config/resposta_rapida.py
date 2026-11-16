@@ -47,6 +47,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, sem desconto por resposta errada, e há uma redação de 30 pontos.",
         "curso": "139 capítulos, 665 questões comentadas, 2 simulados e redação",
     },
+    "pcpe-escrivao-2026": {
+        "nome": "PC-PE Escrivão de Polícia Civil",
+        "quando": "As provas objetivas e a redação do concurso de Escrivão de Polícia da PC-PE são em 07/03/2027, de manhã, aplicadas pelo Cebraspe (Edital nº 1 PCPE, de 2 de outubro de 2026).",
+        "vagas": "São 70 vagas para Escrivão de Polícia, com remuneração de R$ 5.667,92.",
+        "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, sem desconto por resposta errada, e há uma redação de 30 pontos. Só o Escrivão tem ainda a prova prática de digitação, depois da investigação social.",
+        "curso": "145 capítulos, 695 questões comentadas, 2 simulados e redação",
+    },
     "agente-educativo-aparecida-2026": {
         "nome": "Aparecida de Goiânia Agente Educativo",
         "quando": "A prova objetiva do concurso de Agente Educativo de Aparecida de Goiânia é em 31/01/2027, de manhã (Edital de Abertura nº 01/2026).",

@@ -160,6 +160,31 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pcpe-escrivao-2026",
+      "atalho": "pcpeesc",
+      "carreira": "policial",
+      "tema": "tema-citrino",
+      "tag": "PC-PE 2026 · Cebraspe",
+      "brasao": "assets/img/pcpe/brasao-pcpe-p.webp",
+      "titulo": "Escrivão de Polícia Civil de Pernambuco",
+      "itens": [
+        "145 capítulos e 695 questões comentadas",
+        "Arquivologia, discursiva e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-pcpe-escrivao-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Escrivão de Polícia Civil de Pernambuco, PC-PE 2026, 145 capítulos e 695 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCPEESC37",
+        "preco": 37,
+        "ate": "2026-12-16"
+      },
+      "inscricoes_ate": "2026-12-16",
+      "prova": "2027-03-07",
+      "link": "pcpe-escrivao-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "agente-educativo-aparecida-2026",
       "atalho": "apg-agente",
       "carreira": "educacao",
