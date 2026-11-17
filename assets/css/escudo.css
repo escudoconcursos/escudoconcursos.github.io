@@ -25,6 +25,8 @@
 .tema-ciano{--c:#0E9FC0; --cb:#67D5EE; --cd:#0A6A85; --cbtn1:#0E9FC0; --cbtn2:#0A6A85; --cbtn-txt:#0B1A33}
 /* citrino, PC-PE Escrivão 2026 (16/11/2026): botão citrino com texto navy (#D5DB57 e #8A8F1C; #D5DB57 sobre navy passa de 9:1) */
 .tema-citrino{--c:#D5DB57; --cb:#EAEE9A; --cd:#8A8F1C; --cbtn1:#EAEE9A; --cbtn2:#D5DB57; --cbtn-txt:#0B1A33}
+/* celeste, GCM Marabá 2026 (16/11/2026): botão celeste com texto navy (#4DB6F2 e #1F78B4; #4DB6F2 sobre navy passa de 7:1) */
+.tema-celeste{--c:#4DB6F2; --cb:#9DD6FA; --cd:#1F78B4; --cbtn1:#9DD6FA; --cbtn2:#4DB6F2; --cbtn-txt:#0B1A33}
 .tema-roxo{--c:#8B5CF6; --cb:#B99BFF; --cd:#6334D1}
 .tema-turquesa{--c:#14B8A6; --cb:#5EEAD4; --cd:#0B7C70; --cbtn1:#14B8A6; --cbtn2:#0B7C70; --cbtn-txt:#0B1A33}
 .tema-rosa{--c:#E0457B; --cb:#FF8FB3; --cd:#A82356; --cbtn1:#E0457B; --cbtn2:#A82356; --cbtn-txt:#fff}

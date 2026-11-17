@@ -54,6 +54,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, sem desconto por resposta errada, e há uma redação de 30 pontos. Só o Escrivão tem ainda a prova prática de digitação, depois da investigação social.",
         "curso": "145 capítulos, 695 questões comentadas, 2 simulados e redação",
     },
+    "gm-maraba-2026": {
+        "nome": "GCM Marabá Guarda Municipal",
+        "quando": "A prova objetiva do concurso da Guarda Municipal de Marabá é em 24/01/2027, de manhã, aplicada pela Fadesp (Edital nº 01/2026 GMM, de 11 de novembro de 2026). As inscrições vão de 17/11 a 28/12/2026.",
+        "vagas": "São 127 vagas: 60 imediatas e 67 de cadastro reserva, com salário-base de R$ 2.076,40 mais vantagens, nível médio e CNH categoria AB.",
+        "prova": "A prova objetiva tem 40 questões de múltipla escolha com cinco alternativas, de A a E, com peso: Conhecimentos Específicos valem 60 dos 100 pontos e Conhecimentos do Município de Marabá, 20. É preciso fazer pelo menos 60 pontos.",
+        "curso": "101 capítulos, 500 questões comentadas e 2 simulados de 40 questões",
+    },
     "agente-educativo-aparecida-2026": {
         "nome": "Aparecida de Goiânia Agente Educativo",
         "quando": "A prova objetiva do concurso de Agente Educativo de Aparecida de Goiânia é em 31/01/2027, de manhã (Edital de Abertura nº 01/2026).",

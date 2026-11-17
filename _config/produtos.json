@@ -869,6 +869,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gm-maraba-2026",
+      "atalho": "maraba",
+      "carreira": "policial",
+      "tema": "tema-celeste",
+      "tag": "GCM Marabá 2026 · Fadesp",
+      "titulo": "Guarda Municipal de Marabá/PA",
+      "itens": [
+        "101 capítulos e 500 questões comentadas",
+        "Município de Marabá, leis da Guarda e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-gm-maraba-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de Marabá/PA, GCM Marabá 2026, 101 capítulos e 500 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "MARABA37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "inscricoes_ate": "2026-12-28",
+      "prova": "2027-01-24",
+      "link": "gm-maraba-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gm-joinville-2026",
       "atalho": "joinville",
       "carreira": "policial",

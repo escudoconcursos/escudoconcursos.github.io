@@ -117,6 +117,12 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "gm-maraba-2026": [
+  {"item": "101 capítulos", "img": "assets/img/maraba/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Conhecimentos do Município de Marabá em 10", "img": "assets/img/maraba/abertura-maraba", "alt": "Abertura da disciplina Conhecimentos do Município de Marabá"},
+  {"item": "As leis da Guarda de Marabá em 8", "img": "assets/img/maraba/b-leis-guarda", "alt": "Sumário da disciplina Legislação Extravagante: Leis de Marabá"},
+  {"item": "2 simulados inéditos de 40", "img": "assets/img/maraba/b-simulado", "alt": "Instruções e quadro de questões do Simulado 1"}
+ ],
  "pcpe-escrivao-2026": [
   {"item": "Questões reais da prova de Escrivão", "img": "assets/img/pcpe-escrivao/b-prova-real", "alt": "Questão da prova de Escrivão da PC-PE 2023 comentada na teoria"},
   {"item": "Legislação Estadual de Pernambuco em 10", "img": "assets/img/pcpe-escrivao/b-legislacao-pe", "alt": "Sumário da Legislação Estadual de Pernambuco"},
