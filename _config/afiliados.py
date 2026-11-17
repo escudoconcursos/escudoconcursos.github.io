@@ -69,6 +69,7 @@ RECRUTAMENTO = {
     "ppsc-policial-penal-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4968P108523597",
     "pjcmt-investigador-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5356P108524741",
     "pcpe-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6598P108528694",
+    "gm-maraba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7515G108531301",
 }
 
 
