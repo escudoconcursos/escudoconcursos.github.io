@@ -704,6 +704,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmerj-cfo-2027",
+      "atalho": "cfo-pmerj",
+      "carreira": "policial",
+      "tema": "tema-lilas",
+      "tag": "CFO PM/RJ 2027 · Pré-edital · Cesgranrio",
+      "titulo": "Oficial da Polícia Militar do Rio de Janeiro (CFO)",
+      "itens": [
+        "184 capítulos e 900 questões comentadas",
+        "Prova discursiva e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pmerj-cfo-2027.webp",
+      "alt": "Curso em PDF ESCUDO: Oficial da Polícia Militar do Rio de Janeiro, CFO PM/RJ 2027, pré-edital, 184 capítulos e 900 questões comentadas",
+      "preco": 79.9,
+      "cupom": {
+        "codigo": "PMERJCFO",
+        "preco": 59.9,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmerj-cfo-2027/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pmpa-soldado-2026",
       "atalho": "pmpa",
       "carreira": "policial",

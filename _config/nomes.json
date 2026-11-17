@@ -50,6 +50,7 @@
     "pmesp-soldado-2026": {"sigla": "PM-SP", "cargo": "Soldado PM", "uf": "SP"},
     "pcac-oficial-investigador-2026": {"sigla": "PC-AC", "cargo": "Oficial Investigador", "uf": "AC"},
     "pmmg-cfo-2027": {"sigla": "CFO PM/MG", "cargo": "Cadete", "uf": "MG", "ano": "2027"},
+    "pmerj-cfo-2027": {"sigla": "CFO PM/RJ", "cargo": "Oficial", "uf": "RJ", "ano": "2027"},
     "recenseador-ibge-2026": {"sigla": "IBGE", "cargo": "Recenseador", "uf": "BR"}
   }
 }

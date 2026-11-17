@@ -1033,6 +1033,23 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "pmerj-cfo-2027": [
+  {
+   "item": "Prova discursiva em 3 capítulos",
+   "img": "assets/img/pmerj-cfo/b-discursiva",
+   "alt": "Sumário da disciplina Prova Discursiva, com as discursivas de 2024 comentadas e as propostas"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmerj-cfo/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pmerj-cfo/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmrr-soldado-2026": [
   {
    "item": "Legislação da PMRR e Lei Orgânica Nacional em 17 capítulos",

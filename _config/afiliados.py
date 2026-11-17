@@ -70,6 +70,7 @@ RECRUTAMENTO = {
     "pjcmt-investigador-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5356P108524741",
     "pcpe-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6598P108528694",
     "gm-maraba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7515G108531301",
+    # "pmerj-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/PENDENTE-RECRUTAMENTO-PMERJCFO",  # falta o link de recrutamento (criar o checkout antes)
 }
 
 
