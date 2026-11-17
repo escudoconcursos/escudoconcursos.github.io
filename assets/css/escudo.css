@@ -473,3 +473,5 @@ a.chip{text-decoration:none}
 .selo-edital svg{flex:0 0 1.1rem;width:1.1rem;height:1.1rem;margin-top:.1rem;fill:none;color:var(--cb)}
 .selo-edital b{font-weight:700}
 .selo-pre{border-style:dashed}
+/* chocolate, GM Pedra Branca do Amapari 2026 (17/11/2026): botão chocolate claro (#C9A08A e #E4C7B3) com texto navy */
+.tema-chocolate{--c:#8D6048; --cb:#C9A08A; --cbtn1:#E4C7B3; --cbtn2:#C9A08A; --cd:#5C3B2A; --cbtn-txt:#0B1A33}
