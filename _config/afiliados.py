@@ -68,6 +68,7 @@ RECRUTAMENTO = {
     "detranpr-agente-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/9703D108484578",
     "ppsc-policial-penal-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4968P108523597",
     "pjcmt-investigador-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5356P108524741",
+    "pcpe-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6598P108528694",
 }
 
 
