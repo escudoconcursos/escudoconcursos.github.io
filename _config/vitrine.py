@@ -24,6 +24,7 @@ APELIDOS = {  # outros nomes que o aluno digita na busca da home (07/11/2026)
     "seedf-pedagogia-2026": "SEEDF SEE DF Secretaria de Educação do Distrito Federal Brasília Professor Pedagogia Magistério Quadrix",
     "pmmg-cfo-2027": "CFO PMMG CFO PM MG Cadete Oficial Polícia Militar Minas Gerais CRS",
     "pmerj-cfo-2027": "CFO PMERJ CFO PM RJ PMRJ Oficial Polícia Militar Rio de Janeiro Cesgranrio concurso cfo pmerj 2027",
+    "cbmerj-cadete-2027": "CBMERJ CBM RJ CFO CBMERJ Cadete Bombeiros Bombeiro Militar Rio de Janeiro UERJ DSEA concurso cbmerj cadete 2027 cfo bombeiro rj",
     "pmpa-soldado-2026": "PMPA PM PA Polícia Militar",
     "soldado-pmpr-2026": "PMPR PM PR Polícia Militar", "soldado-pmsc-2026": "PMSC PM SC Polícia Militar",
     "cbmpe-soldado-2026": "CBMPE CBM PE Bombeiros Bombeiro Militar", "cbm-al-soldado-2026": "CBMAL CBM AL Bombeiros Bombeiro Militar",

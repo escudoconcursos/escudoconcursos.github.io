@@ -1050,6 +1050,18 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "cbmerj-cadete-2027": [
+  {
+   "item": "Redação em 4 capítulos",
+   "img": "assets/img/cbmerj/b-redacao",
+   "alt": "Sumário da disciplina Redação, com o texto dissertativo-argumentativo de 20 a 30 linhas e as redações comentadas"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/cbmerj/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  }
+ ],
  "pmrr-soldado-2026": [
   {
    "item": "Legislação da PMRR e Lei Orgânica Nacional em 17 capítulos",

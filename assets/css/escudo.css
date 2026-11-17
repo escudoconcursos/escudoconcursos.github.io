@@ -57,6 +57,8 @@
 .tema-areia{--c:#CDB88A; --cb:#E6D8B2; --cd:#8F7A4A; --cbtn1:#E6D8B2; --cbtn2:#CDB88A; --cbtn-txt:#0B1A33}
 /* lilás, CFO PM/RJ Oficial 2027 (17/11/2026): botão claro com texto navy (#0B1A33 dá 10:1 sobre #E2C8F5 e 8:1 sobre #C9A0E8) */
 .tema-lilas{--c:#C9A0E8; --cb:#E2C8F5; --cd:#7E4DA8; --cbtn1:#E2C8F5; --cbtn2:#C9A0E8; --cbtn-txt:#0B1A33}
+/* sálvia, Cadete CBM/RJ 2027 (17/11/2026): botão claro com texto navy (#0B1A33 sobre #C8E2B4 e #9FC782 passa de 8:1) */
+.tema-salvia{--c:#9FC782; --cb:#C8E2B4; --cd:#5E8A45; --cbtn1:#C8E2B4; --cbtn2:#9FC782; --cbtn-txt:#0B1A33}
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
