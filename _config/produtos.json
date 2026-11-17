@@ -915,6 +915,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gm-pedra-branca-do-amapari-2026",
+      "atalho": "pedra-branca",
+      "carreira": "policial",
+      "tema": "tema-chocolate",
+      "tag": "GM Pedra Branca 2026 · Instituto Nazaré",
+      "titulo": "Guarda Municipal de Pedra Branca do Amapari/AP",
+      "itens": [
+        "123 capítulos e 610 questões comentadas",
+        "Lei Orgânica, Regime Jurídico e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-gm-pedra-branca-do-amapari-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Municipal de Pedra Branca do Amapari/AP, GM Pedra Branca 2026, 123 capítulos e 610 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PEDRABRANCA37",
+        "preco": 37,
+        "ate": "2026-12-23"
+      },
+      "inscricoes_ate": "2026-12-23",
+      "prova": "2027-01-31",
+      "link": "gm-pedra-branca-do-amapari-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gm-maraba-2026",
       "atalho": "maraba",
       "carreira": "policial",

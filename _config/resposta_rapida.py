@@ -54,6 +54,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, sem desconto por resposta errada, e há uma redação de 30 pontos. Só o Escrivão tem ainda a prova prática de digitação, depois da investigação social.",
         "curso": "145 capítulos, 695 questões comentadas, 2 simulados e redação",
     },
+    "gm-pedra-branca-do-amapari-2026": {
+        "nome": "GM Pedra Branca do Amapari Guarda Municipal",
+        "quando": "A prova objetiva do concurso da Guarda Municipal de Pedra Branca do Amapari é em 31/01/2027, à tarde, aplicada pelo Instituto Nazaré (Edital nº 01/2026, de 5 de novembro de 2026). As inscrições vão até 23/12/2026.",
+        "vagas": "São 45 vagas: 28 de ampla concorrência, 2 para pessoas com deficiência e 15 de cadastro de reserva, com vencimento-base de R$ 1.972,19, nível médio e jornada de 40 horas semanais.",
+        "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, com peso: Conhecimentos Específicos e Legislação valem 60 dos 100 pontos. É preciso fazer o mínimo em cada disciplina e pelo menos 50 pontos no total.",
+        "curso": "123 capítulos, 610 questões comentadas e 2 simulados de 60 questões",
+    },
     "gm-maraba-2026": {
         "nome": "GCM Marabá Guarda Municipal",
         "quando": "A prova objetiva do concurso da Guarda Municipal de Marabá é em 24/01/2027, de manhã, aplicada pela Fadesp (Edital nº 01/2026 GMM, de 11 de novembro de 2026). As inscrições vão de 17/11 a 28/12/2026.",

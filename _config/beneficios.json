@@ -117,6 +117,12 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "gm-pedra-branca-do-amapari-2026": [
+  {"item": "123 capítulos", "img": "assets/img/pedra-branca/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Pedra Branca do Amapari em 3 capítulos", "img": "assets/img/pedra-branca/abertura-pedra-branca", "alt": "Abertura da disciplina Conhecimentos Gerais, com Pedra Branca do Amapari"},
+  {"item": "Lei Orgânica e Regime Jurídico Único em 6 capítulos", "img": "assets/img/pedra-branca/mapa-lei-organica", "alt": "Primeira página do capítulo sobre a Lei Orgânica de Pedra Branca do Amapari"},
+  {"item": "2 simulados inéditos de 60", "img": "assets/img/pedra-branca/b-leis-guarda", "alt": "Sumário da disciplina Legislação"}
+ ],
  "gm-maraba-2026": [
   {"item": "101 capítulos", "img": "assets/img/maraba/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Conhecimentos do Município de Marabá em 10", "img": "assets/img/maraba/abertura-maraba", "alt": "Abertura da disciplina Conhecimentos do Município de Marabá"},
