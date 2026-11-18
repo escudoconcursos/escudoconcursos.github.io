@@ -61,6 +61,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, com peso: Conhecimentos Específicos e Legislação valem 60 dos 100 pontos. É preciso fazer o mínimo em cada disciplina e pelo menos 50 pontos no total.",
         "curso": "123 capítulos, 610 questões comentadas e 2 simulados de 60 questões",
     },
+    "gcm-angra-dos-reis-2026": {
+        "nome": "GCM Angra dos Reis Guarda Civil Municipal",
+        "quando": "A prova objetiva e a redação do concurso da Guarda Civil Municipal de Angra dos Reis são em 24/01/2027, à tarde, aplicadas pelo IDIB (Edital nº 01/2026, de 18 de novembro de 2026). As inscrições vão até 21/12/2026.",
+        "vagas": "São 200 vagas e 250 de cadastro de reserva, com vencimento de R$ 3.872,27 mais 30% de adicional de periculosidade, nível médio com CNH categoria AB e jornada de 40 horas semanais no edital.",
+        "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, e vale 80 pontos, com peso 2 nos Conhecimentos Específicos. É preciso fazer 50% dos pontos, 1 ponto em cada disciplina dos Conhecimentos Gerais e 2 nos Específicos. A redação vale de 0 a 30 pontos.",
+        "curso": "102 capítulos, 490 questões comentadas, redação e 2 simulados de 60 questões",
+    },
     "gm-maraba-2026": {
         "nome": "GCM Marabá Guarda Municipal",
         "quando": "A prova objetiva do concurso da Guarda Municipal de Marabá é em 24/01/2027, de manhã, aplicada pela Fadesp (Edital nº 01/2026 GMM, de 11 de novembro de 2026). As inscrições vão de 17/11 a 28/12/2026.",

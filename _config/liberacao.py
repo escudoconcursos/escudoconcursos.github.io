@@ -34,6 +34,7 @@ SIMULADO2 = {
     "pcpe-escrivao-2026": "em 28/02/2027, 7 dias antes da prova, para o último teste.",
     "gm-maraba-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "gm-pedra-branca-do-amapari-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
+    "gcm-angra-dos-reis-2026": "60 dias após a compra, a tempo do último teste antes da prova de 24/01/2027.",
     "agente-educativo-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "pedagogia-aparecida-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "gcm-santana-2026": "em 10/01/2027, 7 dias antes da prova, para o último teste.",

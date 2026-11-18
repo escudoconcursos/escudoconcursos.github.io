@@ -475,3 +475,5 @@ a.chip{text-decoration:none}
 .selo-pre{border-style:dashed}
 /* chocolate, GM Pedra Branca do Amapari 2026 (17/11/2026): botão chocolate claro (#C9A08A e #E4C7B3) com texto navy */
 .tema-chocolate{--c:#8D6048; --cb:#C9A08A; --cbtn1:#E4C7B3; --cbtn2:#C9A08A; --cd:#5C3B2A; --cbtn-txt:#0B1A33}
+/* pêssego, GCM Angra dos Reis 2026 (18/11/2026): botão pêssego claro (#FFCBA4 e #FFD9BC) com texto navy */
+.tema-pessego{--c:#F6A26B; --cb:#FFCBA4; --cbtn1:#FFD9BC; --cbtn2:#F6A26B; --cd:#A8582A; --cbtn-txt:#0B1A33}

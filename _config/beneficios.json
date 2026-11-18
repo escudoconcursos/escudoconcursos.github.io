@@ -123,6 +123,12 @@
   {"item": "Lei Orgânica e Regime Jurídico Único em 6 capítulos", "img": "assets/img/pedra-branca/mapa-lei-organica", "alt": "Primeira página do capítulo sobre a Lei Orgânica de Pedra Branca do Amapari"},
   {"item": "2 simulados inéditos de 60", "img": "assets/img/pedra-branca/b-leis-guarda", "alt": "Sumário da disciplina Legislação"}
  ],
+ "gcm-angra-dos-reis-2026": [
+  {"item": "102 capítulos", "img": "assets/img/angra/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "A lei da guarda e o RJU de Angra dos Reis", "img": "assets/img/angra/mapa-lei-guarda", "alt": "Primeira página do capítulo sobre a Lei 2.872/2012, a Guarda Civil Municipal de Angra dos Reis"},
+  {"item": "Setor nuclear, Livro Azul e SUSP", "img": "assets/img/angra/b-nuclear", "alt": "Sumário da disciplina Direito Constitucional, setor nuclear e segurança pública"},
+  {"item": "2 simulados inéditos de 60", "img": "assets/img/angra/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "gm-maraba-2026": [
   {"item": "101 capítulos", "img": "assets/img/maraba/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Conhecimentos do Município de Marabá em 10", "img": "assets/img/maraba/abertura-maraba", "alt": "Abertura da disciplina Conhecimentos do Município de Marabá"},

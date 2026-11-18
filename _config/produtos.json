@@ -939,6 +939,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "gcm-angra-dos-reis-2026",
+      "atalho": "angra",
+      "carreira": "policial",
+      "tema": "tema-pessego",
+      "tag": "GCM Angra dos Reis 2026 · IDIB",
+      "titulo": "Guarda Civil Municipal de Angra dos Reis/RJ",
+      "itens": [
+        "102 capítulos e 490 questões comentadas",
+        "Lei da guarda, setor nuclear, redação e 2 simulados"
+      ],
+      "imagem": "assets/img/produto-gcm-angra-dos-reis-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Guarda Civil Municipal de Angra dos Reis/RJ, GCM Angra dos Reis 2026, 102 capítulos e 490 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "ANGRA37",
+        "preco": 37,
+        "ate": "2026-12-21"
+      },
+      "inscricoes_ate": "2026-12-21",
+      "prova": "2027-01-24",
+      "link": "gcm-angra-dos-reis-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gm-maraba-2026",
       "atalho": "maraba",
       "carreira": "policial",
