@@ -72,6 +72,7 @@ RECRUTAMENTO = {
     "gm-maraba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7515G108531301",
     "pmerj-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/3706C108542344",
     "cbmerj-cadete-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/5044C108546412",
+    "gm-pedra-branca-do-amapari-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5595G108547833",
 }
 
 
