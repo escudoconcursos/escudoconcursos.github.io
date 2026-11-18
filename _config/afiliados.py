@@ -71,7 +71,7 @@ RECRUTAMENTO = {
     "pcpe-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6598P108528694",
     "gm-maraba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7515G108531301",
     "pmerj-cfo-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/3706C108542344",
-    # "cbmerj-cadete-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/PENDENTE-RECRUTAMENTO-CBMERJCFO",  # falta o link de recrutamento (criar o checkout antes)
+    "cbmerj-cadete-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/5044C108546412",
 }
 
 
