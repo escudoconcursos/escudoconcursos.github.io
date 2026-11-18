@@ -59,12 +59,12 @@ O quadro de provas, o número de alternativas e o programa de Português, Racioc
 
 #### O calendário
 
-As inscrições são feitas só pela internet, no site do IBGP, das 9h de **19/10/2026** às 16h de **17/11/2026**. O pedido de isenção vai de 19 a 21 de outubro.
+As inscrições são feitas só pela internet, no site do IBGP, das 9h de **19/10/2026** às 16h de **03/12/2026** (prorrogado pela Retificação nº 03). O pedido de isenção vai de 19 a 21 de outubro.
 
 - **14/08/2026:** Publicação do Edital nº 01/2026 e data de corte da legislação
 - **14/10/2026:** Retificação nº 01
 - **19/10 a 21/10/2026:** Pedido de isenção da taxa
-- **19/10 a 17/11/2026:** Inscrições, até as 16h do último dia
+- **19/10 a 03/12/2026:** Inscrições, até as 16h do último dia
 - **18/11/2026:** Último dia para pagar o boleto
 - **15/01/2027:** Comprovante Definitivo de Inscrição
 - **24/01/2027:** Prova objetiva e gabarito preliminar
@@ -170,7 +170,7 @@ Leia o mapa antes da teoria. Na véspera da prova, releia a revisão relâmpago 
 #### Revisão relâmpago
 
 - Cargo 301: 150 vagas, R$ 2.698,73 mais auxílio-alimentação, 40 horas, ensino médio completo; taxa de R$ 70,00.
-- Inscrições de 19/10 a 17/11/2026, até as 16h do último dia.
+- Inscrições de 19/10 a 03/12/2026, até as 16h do último dia.
 - Prova em **24/01/2027**, das 9h15 às 12h15; os portões fecham às **9h**, horário de Brasília.
 - 45 questões de A a D: Português 10 (peso 2), Raciocínio 5 (peso 2), Informática 5 (peso 1), Conhecimentos Gerais do Município 5 (peso 1) e Específicos 20 (peso 3).
 - Aprova com **60 dos 100 pontos**, sem zerar nenhum conteúdo; zerar um bloco elimina mesmo com mais de 60.

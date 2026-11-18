@@ -12,11 +12,11 @@ atualizado_em: 2026-11-07
 fontes: ["Edital nº 01/2026 (publicado em 14/08/2026), consolidado até a Retificação nº 01 de 14/10/2026"]
 ---
 
-A Prefeitura de Contagem/MG tem 150 vagas para Assistente Administrativo (cargo 301), com vencimento de R$ 2.698,73 mais auxílio-alimentação e exigência de ensino médio completo. A banca é o IBGP, as inscrições vão até 17 de novembro de 2026 e a prova objetiva é no domingo, 24 de janeiro de 2027. Na prova, os Conhecimentos Específicos valem 60 dos 100 pontos, e zerar qualquer bloco elimina.
+A Prefeitura de Contagem/MG tem 150 vagas para Assistente Administrativo (cargo 301), com vencimento de R$ 2.698,73 mais auxílio-alimentação e exigência de ensino médio completo. A banca é o IBGP, as inscrições vão até 3 de dezembro de 2026 (prorrogadas pela Retificação nº 03) e a prova objetiva é no domingo, 24 de janeiro de 2027. Na prova, os Conhecimentos Específicos valem 60 dos 100 pontos, e zerar qualquer bloco elimina.
 
-> **Resposta rápida:** 150 vagas para Assistente Administrativo, R$ 2.698,73 mais auxílio-alimentação, 40 horas semanais, ensino médio completo. Banca IBGP, Edital nº 01/2026. Inscrições de 19/10 a 17/11/2026 (até as 16h), taxa de R$ 70. Prova objetiva em 24/01/2027, das 9h15 às 12h15, com 45 questões de quatro alternativas. Aprova quem faz 60 dos 100 pontos sem zerar nenhum conteúdo.
+> **Resposta rápida:** 150 vagas para Assistente Administrativo, R$ 2.698,73 mais auxílio-alimentação, 40 horas semanais, ensino médio completo. Banca IBGP, Edital nº 01/2026. Inscrições de 19/10 a 03/12/2026 (até as 16h), taxa de R$ 70. Prova objetiva em 24/01/2027, das 9h15 às 12h15, com 45 questões de quatro alternativas. Aprova quem faz 60 dos 100 pontos sem zerar nenhum conteúdo.
 
-**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** 122 capítulos e 605 questões comentadas, de acordo com o Edital nº 01/2026 já retificado. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 17/11/2026, último dia de inscrições. [Ver o curso](/assistente-administrativo-contagem-2026/)
+**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** 122 capítulos e 605 questões comentadas, de acordo com o Edital nº 01/2026 já retificado. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 03/12/2026, último dia de inscrições. [Ver o curso](/assistente-administrativo-contagem-2026/)
 
 ## O que é o concurso de Contagem para Assistente Administrativo?
 
@@ -47,7 +47,7 @@ O vencimento é de R$ 2.698,73 mais auxílio-alimentação, para jornada de 40 h
 
 O requisito de escolaridade é o ensino médio completo. Pelo item 13.6 do edital, na posse o candidato precisa também ter nacionalidade brasileira (ou portuguesa em igualdade de direitos), gozar dos direitos políticos, estar quite com as obrigações eleitorais e, se homem, com as militares, ter no mínimo 18 anos, ser julgado apto em inspeção médica oficial, não ser aposentado por invalidez e não acumular cargos além do permitido pela Constituição.
 
-Pelo edital, as inscrições são feitas só pela internet, no site do IBGP. O período vai das 9h de 19 de outubro até as 16h de 17 de novembro de 2026, com boleto pago até 18 de novembro. O pedido de isenção da taxa tinha janela de 19 a 21 de outubro.
+Pelo edital, as inscrições são feitas só pela internet, no site do IBGP. O período vai das 9h de 19 de outubro até as 16h de 3 de dezembro de 2026, com boleto pago até 4 de dezembro. O prazo original terminava em 17 de novembro e foi prorrogado pela Retificação nº 03, de 17/11/2026. O pedido de isenção da taxa tinha janela de 19 a 21 de outubro.
 
 ## Qual é o cronograma?
 
@@ -58,7 +58,7 @@ O cronograma é preliminar, e o próprio edital avisa que as datas podem mudar.
 | Publicação do Edital nº 01/2026 | 14/08/2026 |
 | Retificação nº 01 | 14/10/2026 |
 | Isenção da taxa | 19 a 21/10/2026 |
-| Inscrições | 19/10 a 17/11/2026, até as 16h |
+| Inscrições | 19/10 a 03/12/2026, até as 16h (Retificação nº 03) |
 | Último dia para pagar o boleto | 18/11/2026 |
 | Comprovante Definitivo de Inscrição | 15/01/2027 |
 | Prova objetiva e gabarito preliminar | 24/01/2027 |
@@ -109,7 +109,7 @@ Chegue com documento oficial original com foto e caneta esferográfica de tinta 
 
 Sobre a legislação, o edital manda considerar o que estava em vigor até a data de publicação, 14 de agosto de 2026.
 
-**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** os Conhecimentos Específicos têm 48 capítulos, com a Lei 14.133 em oito deles. O curso cobre as cinco disciplinas do edital consolidado, com 2 simulados e 7 dias de garantia. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 17/11/2026. [Ver o curso](/assistente-administrativo-contagem-2026/)
+**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** os Conhecimentos Específicos têm 48 capítulos, com a Lei 14.133 em oito deles. O curso cobre as cinco disciplinas do edital consolidado, com 2 simulados e 7 dias de garantia. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 03/12/2026. [Ver o curso](/assistente-administrativo-contagem-2026/)
 
 ## Quais são as outras etapas?
 
@@ -129,12 +129,12 @@ Como os pesos são desiguais e há risco de eliminação por bloco zerado, o pla
 
 Uma conta ajuda: as 3 horas de prova incluem o preenchimento da Folha de Respostas. Reservando 15 minutos para passar o gabarito, sobram cerca de 3 minutos e 40 segundos por questão.
 
-**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** 605 questões inéditas de quatro alternativas, no formato da prova, com gabarito comentado. O Simulado 2 é liberado em 17/01/2027, uma semana antes da prova. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 17/11/2026. [Ver o curso](/assistente-administrativo-contagem-2026/)
+**Curso ESCUDO Contagem Assistente Administrativo 2026 em PDF:** 605 questões inéditas de quatro alternativas, no formato da prova, com gabarito comentado. O Simulado 2 é liberado em 17/01/2027, uma semana antes da prova. De R$ 47 por R$ 37 com o cupom CONTAGEM37 até 03/12/2026. [Ver o curso](/assistente-administrativo-contagem-2026/)
 
 ## Perguntas frequentes
 
 ### Quando termina a inscrição para Assistente Administrativo de Contagem?
-Às 16h de 17 de novembro de 2026. O boleto pode ser pago até 18 de novembro.
+Às 16h de 3 de dezembro de 2026, depois da prorrogação da Retificação nº 03. O boleto pode ser pago até 4 de dezembro.
 
 ### Quanto ganha um Assistente Administrativo da Prefeitura de Contagem?
 O vencimento é de R$ 2.698,73 mais auxílio-alimentação, para 40 horas semanais.
