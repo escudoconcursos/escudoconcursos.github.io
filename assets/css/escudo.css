@@ -481,3 +481,9 @@ a.chip{text-decoration:none}
 .tema-menta{--c:#5FD3A6; --cb:#B5F0D8; --cbtn1:#B5F0D8; --cbtn2:#5FD3A6; --cd:#237A58; --cbtn-txt:#0B1A33}
 /* coral, Assistente Técnico SEAD/MA 2026 (19/11/2026): botão coral claro (#FFC2B0) com texto navy */
 .tema-coral{--c:#FF7A59; --cb:#FFC2B0; --cbtn1:#FFC2B0; --cbtn2:#FF7A59; --cd:#B23A1E; --cbtn-txt:#0B1A33}
+/* acai, Professor de Língua Portuguesa SEDUC/MA 2026 (19/11/2026): botão acai claro (#D9A6E3) com texto navy */
+.tema-acai{--c:#A04CB0; --cb:#D9A6E3; --cbtn1:#D9A6E3; --cbtn2:#A04CB0; --cd:#5E2468; --cbtn-txt:#0B1A33}
+/* pervinca, Professor de Matemática SEDUC/MA 2026 (19/11/2026): botão pervinca claro (#C7C7FF) com texto navy */
+.tema-pervinca{--c:#8C8CFF; --cb:#C7C7FF; --cbtn1:#C7C7FF; --cbtn2:#8C8CFF; --cd:#4A4AB8; --cbtn-txt:#0B1A33}
+/* caramelo, Supervisão Escolar SEDUC/MA 2026 (19/11/2026): botão caramelo claro (#E8C39C) com texto navy */
+.tema-caramelo{--c:#C98B4F; --cb:#E8C39C; --cbtn1:#E8C39C; --cbtn2:#C98B4F; --cd:#7A4F24; --cbtn-txt:#0B1A33}

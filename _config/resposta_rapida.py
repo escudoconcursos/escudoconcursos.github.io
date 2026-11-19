@@ -75,6 +75,27 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 50 questões de múltipla escolha com cinco alternativas, de A a E, e dura 3 horas: 20 de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2). A nota é a média ponderada, de 0 a 10, e é preciso tirar 6,00 ou mais. Não há prova discursiva para o nível médio.",
         "curso": "129 capítulos e 640 questões comentadas",
     },
+    "professor-lingua-portuguesa-seduc-ma-2026": {
+        "nome": "SEDUC/MA Professor de Língua Portuguesa prova completa",
+        "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",
+        "vagas": "São 291 vagas imediatas de Professor de Língua Portuguesa da SEDUC, com vencimento de R$ 3.836,25 e jornada de 40 horas semanais, mais cadastro de reserva. A taxa de inscrição é de R$ 120,00.",
+        "prova": "A prova objetiva tem 20 questões de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2), todas de múltipla escolha com cinco alternativas, de A a E, mais uma redação de 20 a 30 linhas. É preciso nota 6,00 para ser habilitado. O curso cobre a prova inteira do cargo: os Gerais, os Específicos de Língua Portuguesa e a redação.",
+        "curso": "114 capítulos, 555 questões comentadas, redação e 2 simulados da prova inteira (50 questões e proposta de redação)",
+    },
+    "professor-matematica-seduc-ma-2026": {
+        "nome": "SEDUC/MA Professor de Matemática prova completa",
+        "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",
+        "vagas": "São 277 vagas imediatas de Professor de Matemática da SEDUC (cargo 23), com vencimento de R$ 3.836,25 e jornada de 40 horas semanais. A taxa de inscrição é de R$ 120,00.",
+        "prova": "A prova objetiva tem 20 questões de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2), todas de múltipla escolha com cinco alternativas, de A a E, mais uma redação de 20 a 30 linhas. É preciso nota 6,00 para ser habilitado. O Professor de Matemática não faz Matemática e Raciocínio Lógico nos Gerais, porque a Matemática vem nos Específicos. O curso cobre as três partes: Gerais, Específicos e redação.",
+        "curso": "110 capítulos, 535 questões comentadas, redação e 2 simulados de 50 questões",
+    },
+    "supervisao-escolar-seduc-ma-2026": {
+        "nome": "SEDUC/MA Supervisão Escolar prova completa",
+        "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",
+        "vagas": "São 170 vagas imediatas de Especialista em Educação: Supervisão Escolar (cargo 10) na SEDUC, com vencimento de R$ 1.918,12 e jornada de 40 horas semanais. A taxa de inscrição é de R$ 120,00.",
+        "prova": "A prova objetiva tem 20 questões de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2), todas de múltipla escolha com cinco alternativas, de A a E, mais uma redação de 20 a 30 linhas. É preciso nota 6,00 para ser habilitado. O curso cobre a prova inteira, seguindo o programa publicado no edital.",
+        "curso": "121 capítulos, 590 questões comentadas, redação e 2 simulados de 50 questões, com proposta de redação",
+    },
     "gcm-angra-dos-reis-2026": {
         "nome": "GCM Angra dos Reis Guarda Civil Municipal",
         "quando": "A prova objetiva e a redação do concurso da Guarda Civil Municipal de Angra dos Reis são em 24/01/2027, à tarde, aplicadas pelo IDIB (Edital nº 01/2026, de 18 de novembro de 2026). As inscrições vão até 21/12/2026.",

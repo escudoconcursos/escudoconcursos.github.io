@@ -137,6 +137,31 @@
   {"item": "Lei 4.320/1964, LRF e orçamento", "img": "assets/img/seadma/b-orcamento", "alt": "Sumário da disciplina Administração Financeira e Orçamento Público"},
   {"item": "2 simulados inéditos de 50", "img": "assets/img/seadma/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "professor-lingua-portuguesa-seduc-ma-2026": [
+  {"item": "114 capítulos", "img": "assets/img/seducmalp/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Literatura Brasileira em 15 capítulos", "img": "assets/img/seducmalp/mapa-barroco", "alt": "Primeira página do capítulo sobre o Barroco, com o mapa do assunto"},
+  {"item": "Análise Linguística em 24 capítulos, com a crase e a concordância", "img": "assets/img/seducmalp/quadros-crase", "alt": "Página do capítulo sobre crase com o quadro Não confunda"},
+  {"item": "Geografia e História do Maranhão em 18 capítulos", "img": "assets/img/seducmalp/b-maranhao", "alt": "Sumário da disciplina Geografia e História do Maranhão"},
+  {"item": "Redação em 2 capítulos", "img": "assets/img/seducmalp/b-redacao", "alt": "Sumário da disciplina Redação"},
+  {"item": "2 simulados inéditos de 50", "img": "assets/img/seducmalp/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
+ "professor-matematica-seduc-ma-2026": [
+  {"item": "110 capítulos", "img": "assets/img/seducmamat/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Matemática em 36 capítulos, pelo programa do cargo 23", "img": "assets/img/seducmamat/b-especificos", "alt": "Sumário da disciplina Conhecimentos Específicos: Matemática"},
+  {"item": "Cada capítulo abre com o mapa do assunto", "img": "assets/img/seducmamat/mapa-funcao", "alt": "Primeira página do capítulo sobre função quadrática, com o mapa do assunto"},
+  {"item": "Redação em 2 capítulos", "img": "assets/img/seducmamat/b-redacao", "alt": "Abertura da disciplina Redação"},
+  {"item": "Noções de Informática em 20 capítulos", "img": "assets/img/seducmamat/b-informatica", "alt": "Abertura da disciplina Noções de Informática"},
+  {"item": "2 simulados inéditos de 50 questões", "img": "assets/img/seducmamat/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
+ "supervisao-escolar-seduc-ma-2026": [
+  {"item": "121 capítulos", "img": "assets/img/seducmasup/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Específicos em 37 capítulos", "img": "assets/img/seducmasup/b-sinase", "alt": "Sumário da disciplina Atendimento Socioeducativo: SINASE e parâmetros da gestão pedagógica"},
+  {"item": "Língua Portuguesa em 27 capítulos", "img": "assets/img/seducmasup/mapa-pia", "alt": "Primeira página de um capítulo, com o mapa do assunto"},
+  {"item": "Geografia e História do Maranhão em 18 capítulos", "img": "assets/img/seducmasup/b-maranhao", "alt": "Sumário da disciplina Geografia e História do Maranhão"},
+  {"item": "Redação em 2 capítulos", "img": "assets/img/seducmasup/b-redacao", "alt": "Sumário da disciplina Redação"},
+  {"item": "Noções de Informática em 20 capítulos", "img": "assets/img/seducmasup/b-informatica", "alt": "Sumário da disciplina Noções de Informática"},
+  {"item": "2 simulados inéditos de 50", "img": "assets/img/seducmasup/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "gcm-angra-dos-reis-2026": [
   {"item": "102 capítulos", "img": "assets/img/angra/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "A lei da guarda e o RJU de Angra dos Reis", "img": "assets/img/angra/mapa-lei-guarda", "alt": "Primeira página do capítulo sobre a Lei 2.872/2012, a Guarda Civil Municipal de Angra dos Reis"},

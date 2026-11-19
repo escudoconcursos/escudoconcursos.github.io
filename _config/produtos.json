@@ -987,6 +987,78 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-lingua-portuguesa-seduc-ma-2026",
+      "atalho": "seducmalp",
+      "carreira": "educacao",
+      "tema": "tema-acai",
+      "tag": "Professor de Língua Portuguesa SEDUC/MA 2026 · FCC",
+      "titulo": "Professor de Língua Portuguesa da SEDUC/MA: a prova completa",
+      "itens": [
+        "114 capítulos e 555 questões comentadas",
+        "Gerais, Específicos de Língua Portuguesa e Redação: a prova inteira do cargo"
+      ],
+      "imagem": "assets/img/produto-professor-lingua-portuguesa-seduc-ma-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Língua Portuguesa SEDUC/MA 2026, prova completa do Concurso Unificado do Maranhão, 114 capítulos e 555 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFLPMA37",
+        "preco": 37,
+        "ate": "2027-01-29"
+      },
+      "inscricoes_ate": "2027-01-29",
+      "prova": "2027-04-04",
+      "link": "professor-lingua-portuguesa-seduc-ma-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "professor-matematica-seduc-ma-2026",
+      "atalho": "seducmamat",
+      "carreira": "educacao",
+      "tema": "tema-pervinca",
+      "tag": "Professor de Matemática SEDUC/MA 2026 · FCC",
+      "titulo": "Professor de Matemática da SEDUC/MA: prova completa",
+      "itens": [
+        "110 capítulos e 535 questões comentadas",
+        "Gerais, 30 Específicos de Matemática e Redação: a prova inteira do cargo"
+      ],
+      "imagem": "assets/img/produto-professor-matematica-seduc-ma-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Matemática SEDUC/MA 2026, prova completa do Concurso Unificado do Maranhão, 110 capítulos e 535 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFMATMA37",
+        "preco": 37,
+        "ate": "2027-01-29"
+      },
+      "inscricoes_ate": "2027-01-29",
+      "prova": "2027-04-04",
+      "link": "professor-matematica-seduc-ma-2026/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "supervisao-escolar-seduc-ma-2026",
+      "atalho": "seducmasup",
+      "carreira": "educacao",
+      "tema": "tema-caramelo",
+      "tag": "Supervisão Escolar SEDUC/MA 2026 · FCC",
+      "titulo": "Supervisão Escolar da SEDUC/MA: prova completa",
+      "itens": [
+        "121 capítulos e 590 questões comentadas",
+        "Gerais, Específicos e Redação, com 2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-supervisao-escolar-seduc-ma-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Supervisão Escolar SEDUC/MA 2026, prova completa do Concurso Unificado do Maranhão, 121 capítulos e 590 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SUPERVISAOMA37",
+        "preco": 37,
+        "ate": "2027-01-29"
+      },
+      "inscricoes_ate": "2027-01-29",
+      "prova": "2027-04-04",
+      "link": "supervisao-escolar-seduc-ma-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gcm-angra-dos-reis-2026",
       "atalho": "angra",
       "carreira": "policial",
