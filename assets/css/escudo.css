@@ -479,3 +479,5 @@ a.chip{text-decoration:none}
 .tema-pessego{--c:#F6A26B; --cb:#FFCBA4; --cbtn1:#FFD9BC; --cbtn2:#F6A26B; --cd:#A8582A; --cbtn-txt:#0B1A33}
 /* menta, Professor SEDUC/MA 2026 (19/11/2026): botão menta claro (#B5F0D8) com texto navy */
 .tema-menta{--c:#5FD3A6; --cb:#B5F0D8; --cbtn1:#B5F0D8; --cbtn2:#5FD3A6; --cd:#237A58; --cbtn-txt:#0B1A33}
+/* coral, Assistente Técnico SEAD/MA 2026 (19/11/2026): botão coral claro (#FFC2B0) com texto navy */
+.tema-coral{--c:#FF7A59; --cb:#FFC2B0; --cbtn1:#FFC2B0; --cbtn2:#FF7A59; --cd:#B23A1E; --cbtn-txt:#0B1A33}

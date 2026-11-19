@@ -963,6 +963,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "assistente-tecnico-sead-ma-2026",
+      "atalho": "seadma",
+      "carreira": "administrativo",
+      "tema": "tema-coral",
+      "tag": "SEAD/MA 2026 · FCC",
+      "titulo": "Assistente Técnico da SEAD/MA, Administração",
+      "itens": [
+        "129 capítulos e 640 questões comentadas",
+        "2 simulados de 50 questões"
+      ],
+      "imagem": "assets/img/produto-assistente-tecnico-sead-ma-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Assistente Técnico, Assistente de Administração, SEAD/MA 2026, 129 capítulos e 640 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SEADMA37",
+        "preco": 37,
+        "ate": "2027-01-29"
+      },
+      "inscricoes_ate": "2027-01-29",
+      "prova": "2027-04-04",
+      "link": "assistente-tecnico-sead-ma-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gcm-angra-dos-reis-2026",
       "atalho": "angra",
       "carreira": "policial",

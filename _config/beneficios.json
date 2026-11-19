@@ -131,6 +131,12 @@
   {"item": "Noções de Informática em 20 capítulos", "img": "assets/img/seducma/b-informatica", "alt": "Sumário da disciplina Noções de Informática"},
   {"item": "2 simulados inéditos de 40", "img": "assets/img/seducma/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "assistente-tecnico-sead-ma-2026": [
+  {"item": "129 capítulos", "img": "assets/img/seadma/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Lei 14.133/2021 em 10 capítulos", "img": "assets/img/seadma/mapa-lei-14133", "alt": "Primeira página do capítulo 108, Lei 14.133/2021: disposições preliminares, princípios e definições"},
+  {"item": "Lei 4.320/1964, LRF e orçamento", "img": "assets/img/seadma/b-orcamento", "alt": "Sumário da disciplina Administração Financeira e Orçamento Público"},
+  {"item": "2 simulados inéditos de 50", "img": "assets/img/seadma/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "gcm-angra-dos-reis-2026": [
   {"item": "102 capítulos", "img": "assets/img/angra/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "A lei da guarda e o RJU de Angra dos Reis", "img": "assets/img/angra/mapa-lei-guarda", "alt": "Primeira página do capítulo sobre a Lei 2.872/2012, a Guarda Civil Municipal de Angra dos Reis"},

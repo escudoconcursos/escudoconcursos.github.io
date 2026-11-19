@@ -68,6 +68,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 20 questões de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2), todas de múltipla escolha com cinco alternativas, de A a E, mais uma redação de 20 a 30 linhas. É preciso nota 6,00 para ser habilitado. O curso cobre os Conhecimentos Gerais e a redação, mas não os 30 Específicos de cada área.",
         "curso": "84 capítulos, 405 questões comentadas, redação e 2 simulados de 40 questões de Conhecimentos Gerais",
     },
+    "assistente-tecnico-sead-ma-2026": {
+        "nome": "SEAD/MA Assistente Técnico Administração",
+        "quando": "A prova objetiva é em 04/04/2027, aplicada pela FCC (Edital de Abertura nº 01/2026, de 17 de novembro de 2026, publicado em 18/11/2026), em Balsas, Barra do Corda, Caxias, Colinas, Imperatriz, Pinheiro e São Luís. As inscrições vão de 14/12/2026 a 29/01/2027, só pela internet, com taxa de R$ 60,00 (DARE pago até 01/02/2027).",
+        "vagas": "São 91 vagas de Assistente Técnico na SEAD, em oito especialidades, e 30 delas são de Assistente de Administração (mais o cadastro de reserva), com vencimento inicial de R$ 1.631,76 e carga horária de 30 horas. O requisito, segundo o edital, é o certificado de curso técnico de nível médio e a habilitação legal específica (item 2.1.2).",
+        "prova": "A prova objetiva tem 50 questões de múltipla escolha com cinco alternativas, de A a E, e dura 3 horas: 20 de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2). A nota é a média ponderada, de 0 a 10, e é preciso tirar 6,00 ou mais. Não há prova discursiva para o nível médio.",
+        "curso": "129 capítulos e 640 questões comentadas",
+    },
     "gcm-angra-dos-reis-2026": {
         "nome": "GCM Angra dos Reis Guarda Civil Municipal",
         "quando": "A prova objetiva e a redação do concurso da Guarda Civil Municipal de Angra dos Reis são em 24/01/2027, à tarde, aplicadas pelo IDIB (Edital nº 01/2026, de 18 de novembro de 2026). As inscrições vão até 21/12/2026.",
