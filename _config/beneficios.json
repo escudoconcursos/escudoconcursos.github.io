@@ -123,6 +123,14 @@
   {"item": "Lei Orgânica e Regime Jurídico Único em 6 capítulos", "img": "assets/img/pedra-branca/mapa-lei-organica", "alt": "Primeira página do capítulo sobre a Lei Orgânica de Pedra Branca do Amapari"},
   {"item": "2 simulados inéditos de 60", "img": "assets/img/pedra-branca/b-leis-guarda", "alt": "Sumário da disciplina Legislação"}
  ],
+ "professor-seduc-ma-2026": [
+  {"item": "84 capítulos", "img": "assets/img/seducma/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Língua Portuguesa em 27 capítulos", "img": "assets/img/seducma/mapa-balaiada", "alt": "Primeira página de um capítulo, com o mapa do assunto"},
+  {"item": "Geografia e História do Maranhão em 18 capítulos", "img": "assets/img/seducma/b-maranhao", "alt": "Sumário da disciplina Geografia e História do Maranhão"},
+  {"item": "Redação em 2 capítulos", "img": "assets/img/seducma/b-redacao", "alt": "Sumário da disciplina Redação"},
+  {"item": "Noções de Informática em 20 capítulos", "img": "assets/img/seducma/b-informatica", "alt": "Sumário da disciplina Noções de Informática"},
+  {"item": "2 simulados inéditos de 40", "img": "assets/img/seducma/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "gcm-angra-dos-reis-2026": [
   {"item": "102 capítulos", "img": "assets/img/angra/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "A lei da guarda e o RJU de Angra dos Reis", "img": "assets/img/angra/mapa-lei-guarda", "alt": "Primeira página do capítulo sobre a Lei 2.872/2012, a Guarda Civil Municipal de Angra dos Reis"},

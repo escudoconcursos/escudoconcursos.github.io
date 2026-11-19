@@ -939,6 +939,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-seduc-ma-2026",
+      "atalho": "seducma",
+      "carreira": "educacao",
+      "tema": "tema-menta",
+      "tag": "Professor SEDUC/MA 2026 · FCC",
+      "titulo": "Professor da SEDUC/MA: Conhecimentos Gerais e Redação",
+      "itens": [
+        "84 capítulos e 405 questões comentadas",
+        "Só os Gerais e a Redação, para todas as áreas: sem os Específicos"
+      ],
+      "imagem": "assets/img/produto-professor-seduc-ma-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor SEDUC/MA 2026, Conhecimentos Gerais e Redação do Concurso Unificado do Maranhão, 84 capítulos e 405 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SEDUCMA37",
+        "preco": 37,
+        "ate": "2027-01-29"
+      },
+      "inscricoes_ate": "2027-01-29",
+      "prova": "2027-04-04",
+      "link": "professor-seduc-ma-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "gcm-angra-dos-reis-2026",
       "atalho": "angra",
       "carreira": "policial",

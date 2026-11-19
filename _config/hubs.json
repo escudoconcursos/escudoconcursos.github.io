@@ -287,6 +287,22 @@
    "em": "em Rondônia"
   },
   {
+   "slug": "concursos-maranhao",
+   "tipo": "estado",
+   "nome": "Maranhão",
+   "filtro": {
+    "uf": "MA"
+   },
+   "titulo": "Concursos no Maranhão 2026: Concurso Unificado em PDF",
+   "descricao": "Concursos no Maranhão 2026 com apostila em PDF: Concurso Público Unificado do Maranhão (FCC) com o curso de Professor da SEDUC, com banca e data da prova.",
+   "h1": "Concursos no Maranhão 2026: Concurso Unificado (FCC)",
+   "intro": [
+    "O Concurso Público Unificado do Maranhão (Edital nº 01/2026, banca FCC) reúne cinco órgãos do Poder Executivo estadual: SEAD, SEDUC, IMESC, SEPLAN e STC. Esta página reúne os cursos ESCUDO desse concurso.",
+    "Os Conhecimentos Gerais (Língua Portuguesa, Matemática e Raciocínio Lógico, Geografia e História do Maranhão e Informática) são os mesmos para quase todos os cargos, e o edital tem redação de 20 a 30 linhas nos cargos de nível superior. Cada curso traz o programa conferido no edital e questões inéditas no formato da FCC, com gabarito comentado."
+   ],
+   "em": "no Maranhão"
+  },
+  {
    "slug": "concursos-alagoas",
    "tipo": "estado",
    "nome": "Alagoas",

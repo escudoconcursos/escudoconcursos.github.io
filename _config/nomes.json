@@ -14,6 +14,7 @@
     "gm-balneario-camboriu-2026": {"sigla": "GM Balneário Camboriú", "cargo": "Guarda Municipal", "uf": "SC"},
     "gm-maraba-2026": {"sigla": "GCM Marabá", "cargo": "Guarda Municipal", "uf": "PA"},
     "gm-pedra-branca-do-amapari-2026": {"sigla": "GM Pedra Branca", "cargo": "Guarda Municipal", "uf": "AP"},
+    "professor-seduc-ma-2026": {"sigla": "SEDUC/MA", "cargo": "Professor", "uf": "MA"},
     "gcm-angra-dos-reis-2026": {"sigla": "GCM Angra dos Reis", "cargo": "Guarda Civil Municipal", "uf": "RJ"},
     "gm-campinas-2026": {"sigla": "GM Campinas", "cargo": "Guarda Municipal", "uf": "SP"},
     "assistente-semusa-porto-velho-2026": {"sigla": "Porto Velho", "cargo": "Assistente Administrativo", "uf": "RO"},

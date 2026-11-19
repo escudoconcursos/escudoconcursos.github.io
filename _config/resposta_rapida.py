@@ -61,6 +61,13 @@ RAPIDAS = {
         "prova": "A prova objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E, com peso: Conhecimentos Específicos e Legislação valem 60 dos 100 pontos. É preciso fazer o mínimo em cada disciplina e pelo menos 50 pontos no total.",
         "curso": "123 capítulos, 610 questões comentadas e 2 simulados de 60 questões",
     },
+    "professor-seduc-ma-2026": {
+        "nome": "SEDUC/MA Professor Conhecimentos Gerais e Redação",
+        "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",
+        "vagas": "São 2.000 vagas imediatas de Professor da SEDUC em 17 áreas de atuação, com vencimento de R$ 3.836,25 e jornada de 40 horas semanais. A Supervisão Escolar tem mais 170 vagas e faz a mesma prova de Conhecimentos Gerais. A taxa de inscrição é de R$ 120,00.",
+        "prova": "A prova objetiva tem 20 questões de Conhecimentos Gerais (peso 1) e 30 de Conhecimentos Específicos (peso 2), todas de múltipla escolha com cinco alternativas, de A a E, mais uma redação de 20 a 30 linhas. É preciso nota 6,00 para ser habilitado. O curso cobre os Conhecimentos Gerais e a redação, mas não os 30 Específicos de cada área.",
+        "curso": "84 capítulos, 405 questões comentadas, redação e 2 simulados de 40 questões de Conhecimentos Gerais",
+    },
     "gcm-angra-dos-reis-2026": {
         "nome": "GCM Angra dos Reis Guarda Civil Municipal",
         "quando": "A prova objetiva e a redação do concurso da Guarda Civil Municipal de Angra dos Reis são em 24/01/2027, à tarde, aplicadas pelo IDIB (Edital nº 01/2026, de 18 de novembro de 2026). As inscrições vão até 21/12/2026.",
