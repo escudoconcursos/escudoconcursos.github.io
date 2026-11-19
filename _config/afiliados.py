@@ -74,6 +74,8 @@ RECRUTAMENTO = {
     "cbmerj-cadete-2027": "https://affiliate.hotmart.com/affiliate-recruiting/view/5044C108546412",
     "gm-pedra-branca-do-amapari-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5595G108547833",
     "gcm-angra-dos-reis-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2199G108558426",
+    "professor-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1547P108577252",
+    "assistente-tecnico-sead-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0729A108574976",
 }
 
 
