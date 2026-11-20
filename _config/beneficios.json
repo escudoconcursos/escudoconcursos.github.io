@@ -123,6 +123,14 @@
   {"item": "Lei Orgânica e Regime Jurídico Único em 6 capítulos", "img": "assets/img/pedra-branca/mapa-lei-organica", "alt": "Primeira página do capítulo sobre a Lei Orgânica de Pedra Branca do Amapari"},
   {"item": "2 simulados inéditos de 60", "img": "assets/img/pedra-branca/b-leis-guarda", "alt": "Sumário da disciplina Legislação"}
  ],
+ "professor-seduc-sp-2026": [
+  {"item": "34 capítulos", "img": "assets/img/seducsp/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Gestão de Sala de Aula em 10 capítulos", "img": "assets/img/seducsp/b-gestao", "alt": "Sumário da parte Gestão de Sala de Aula: o programa"},
+  {"item": "A bibliografia fechada do edital em 16 capítulos", "img": "assets/img/seducsp/b-bibliografia", "alt": "Sumário da parte A bibliografia de Gestão de Sala de Aula"},
+  {"item": "Prova Discursiva e Currículo Paulista em 3 capítulos", "img": "assets/img/seducsp/b-discursiva", "alt": "Sumário da parte Prova Discursiva e Currículo Paulista"},
+  {"item": "Prova Prática em vídeo em 4 capítulos", "img": "assets/img/seducsp/b-pratica", "alt": "Sumário da parte Prova Prática de Simulação de Aula"},
+  {"item": "2 simulados inéditos de 10", "img": "assets/img/seducsp/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "professor-seduc-ma-2026": [
   {"item": "84 capítulos", "img": "assets/img/seducma/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Língua Portuguesa em 27 capítulos", "img": "assets/img/seducma/mapa-balaiada", "alt": "Primeira página de um capítulo, com o mapa do assunto"},
