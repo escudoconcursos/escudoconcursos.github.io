@@ -15,6 +15,7 @@
     "gm-maraba-2026": {"sigla": "GCM Marabá", "cargo": "Guarda Municipal", "uf": "PA"},
     "gm-pedra-branca-do-amapari-2026": {"sigla": "GM Pedra Branca", "cargo": "Guarda Municipal", "uf": "AP"},
     "professor-seduc-sp-2026": {"sigla": "SEDUC/SP", "cargo": "Professor", "uf": "SP"},
+    "professor-matematica-seduc-sp-2026": {"sigla": "SEDUC/SP", "cargo": "Professor de Matemática", "uf": "SP"},
     "professor-seduc-ma-2026": {"sigla": "SEDUC/MA", "cargo": "Professor", "uf": "MA"},
     "assistente-tecnico-sead-ma-2026": {"sigla": "SEAD/MA", "cargo": "Assistente Técnico", "uf": "MA"},
     "professor-lingua-portuguesa-seduc-ma-2026": {"sigla": "SEDUC/MA", "cargo": "Professor de Língua Portuguesa", "uf": "MA"},

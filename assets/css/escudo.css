@@ -489,3 +489,5 @@ a.chip{text-decoration:none}
 .tema-caramelo{--c:#C98B4F; --cb:#E8C39C; --cbtn1:#E8C39C; --cbtn2:#C98B4F; --cd:#7A4F24; --cbtn-txt:#0B1A33}
 /* ardósia, Professor SEDUC/SP 2026 (20/11/2026): botão azul acinzentado claro (#A9BFE0) com texto navy */
 .tema-ardosia{--c:#5B7DB1; --cb:#A9BFE0; --cbtn1:#A9BFE0; --cbtn2:#5B7DB1; --cd:#34507D; --cbtn-txt:#0B1A33}
+/* mostarda, Professor de Matemática SEDUC/SP 2026 (20/11/2026): botão mostarda claro (#E8D27F) com texto navy */
+.tema-mostarda{--c:#C9A227; --cb:#E8D27F; --cbtn1:#E8D27F; --cbtn2:#C9A227; --cd:#7D6413; --cbtn-txt:#0B1A33}

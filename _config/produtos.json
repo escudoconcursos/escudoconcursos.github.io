@@ -963,6 +963,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-matematica-seduc-sp-2026",
+      "atalho": "seducspmat",
+      "carreira": "educacao",
+      "tema": "tema-mostarda",
+      "tag": "Professor de Matemática SEDUC/SP 2026 · FGV",
+      "titulo": "Professor de Matemática da SEDUC/SP: prova completa",
+      "itens": [
+        "72 capítulos e 335 questões comentadas",
+        "Objetiva, discursiva e prova prática em vídeo: a prova inteira do componente"
+      ],
+      "imagem": "assets/img/produto-professor-matematica-seduc-sp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Matemática SEDUC/SP 2026, prova completa do concurso de Professor de Ensino Fundamental e Médio, 72 capítulos e 335 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFMATSP37",
+        "preco": 37,
+        "ate": "2027-02-15"
+      },
+      "inscricoes_ate": "2027-02-15",
+      "prova": "2027-04-25",
+      "link": "professor-matematica-seduc-sp-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "professor-seduc-ma-2026",
       "atalho": "seducma",
       "carreira": "educacao",

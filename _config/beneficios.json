@@ -131,6 +131,15 @@
   {"item": "Prova Prática em vídeo em 4 capítulos", "img": "assets/img/seducsp/b-pratica", "alt": "Sumário da parte Prova Prática de Simulação de Aula"},
   {"item": "2 simulados inéditos de 10", "img": "assets/img/seducsp/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "professor-matematica-seduc-sp-2026": [
+  {"item": "72 capítulos", "img": "assets/img/seducspmat/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Gestão de sala de aula em 26 capítulos, com as 4 obras da bibliografia do edital", "img": "assets/img/seducspmat/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
+  {"item": "Matemática em 31 capítulos, pelos 4 blocos do Anexo VI", "img": "assets/img/seducspmat/b-matematica", "alt": "Sumário da disciplina Matemática: álgebra e funções"},
+  {"item": "Cada capítulo abre com o mapa do assunto", "img": "assets/img/seducspmat/mapa-funcao", "alt": "Primeira página do capítulo sobre função quadrática, com o mapa do assunto"},
+  {"item": "Prova Discursiva em 4 capítulos, com respostas-modelo", "img": "assets/img/seducspmat/b-discursiva", "alt": "Abertura da disciplina Prova Discursiva"},
+  {"item": "Prova Prática em vídeo em 4 capítulos, com as 4 aulas de Matemática do Anexo XII", "img": "assets/img/seducspmat/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
+  {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducspmat/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "professor-seduc-ma-2026": [
   {"item": "84 capítulos", "img": "assets/img/seducma/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Língua Portuguesa em 27 capítulos", "img": "assets/img/seducma/mapa-balaiada", "alt": "Primeira página de um capítulo, com o mapa do assunto"},
