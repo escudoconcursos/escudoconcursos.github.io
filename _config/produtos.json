@@ -987,6 +987,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-lingua-portuguesa-seduc-sp-2026",
+      "atalho": "seducsplp",
+      "carreira": "educacao",
+      "tema": "tema-cereja",
+      "tag": "Professor de Língua Portuguesa SEDUC/SP 2026 · FGV",
+      "titulo": "Professor de Língua Portuguesa da SEDUC/SP: a prova completa",
+      "itens": [
+        "92 capítulos e 435 questões comentadas",
+        "Objetiva, Prova Discursiva e Prova Prática em vídeo: as três provas do componente"
+      ],
+      "imagem": "assets/img/produto-professor-lingua-portuguesa-seduc-sp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Língua Portuguesa SEDUC/SP 2026, prova completa: objetiva, discursiva e prova prática, 92 capítulos e 435 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFLPSP37",
+        "preco": 37,
+        "ate": "2027-02-15"
+      },
+      "inscricoes_ate": "2027-02-15",
+      "prova": "2027-04-25",
+      "link": "professor-lingua-portuguesa-seduc-sp-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "professor-seduc-ma-2026",
       "atalho": "seducma",
       "carreira": "educacao",
