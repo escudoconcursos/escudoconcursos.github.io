@@ -76,6 +76,9 @@ RECRUTAMENTO = {
     "gcm-angra-dos-reis-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2199G108558426",
     "professor-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1547P108577252",
     "assistente-tecnico-sead-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0729A108574976",
+    "supervisao-escolar-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2144S108578900",
+    "professor-lingua-portuguesa-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2627P108580120",
+    "professor-matematica-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3034P108581060",
 }
 
 
