@@ -19,6 +19,34 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 
 RAPIDAS = {
+    "gm-sao-goncalo-2026": {
+        "nome": "GM São Gonçalo Guarda Municipal",
+        "quando": "A prova objetiva do concurso da Guarda Municipal de São Gonçalo/RJ é em 24/01/2027, de manhã, aplicada pelo Instituto SELECON (Edital nº 001/PMSG/2026), em São Gonçalo, Niterói ou Rio de Janeiro, conforme a escolha feita na inscrição.",
+        "vagas": "São 100 vagas imediatas (95 de ampla concorrência e 5 para pessoas com deficiência) e 500 de cadastro de reserva para Guarda Municipal Nível II, com vencimento de R$ 3.172,96, ensino médio e CNH AB, cobrada só na posse.",
+        "prova": "São 80 questões de múltipla escolha com quatro alternativas, de A a D, somando 100 pontos: 15 de Português, 20 de Noções de Direito, 15 de Legislação Extravagante, 10 de Informática e 20 de Conhecimentos Específicos, que valem 2 pontos cada (40% da nota). É preciso fazer 50 pontos e não zerar nenhuma disciplina.",
+        "curso": "131 capítulos, 650 questões comentadas e 2 simulados de 80 questões",
+    },
+    "soldado-pmsc-2026": {
+        "nome": "PM/SC Soldado",
+        "quando": "A prova objetiva e a redação do concurso de Soldado da PM de Santa Catarina são em 13/12/2026, no mesmo dia, aplicadas pelo Instituto AOCP (Edital nº 002/CCP/2026).",
+        "vagas": "São 500 vagas para Soldado, todas de ampla concorrência, com remuneração de R$ 8.505,00 mais R$ 550,00 de auxílio-alimentação. Exige nível superior em qualquer área.",
+        "prova": "A objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E: 26 de Direito, 21 de Legislação e 13 de Conhecimentos Comuns (Português e Informática). É preciso fazer 30 pontos e não zerar nenhuma das três áreas. A redação vale 20 pontos, exige no mínimo 10 e o tema sai de Ordem Pública.",
+        "curso": "165 capítulos, 790 questões comentadas, redação e 2 simulados",
+    },
+    "recenseador-ibge-2026": {
+        "nome": "IBGE Recenseador",
+        "quando": "A prova objetiva do processo seletivo de Recenseador do IBGE para o 12º Censo Agropecuário é em 31/01/2027, das 13h às 17h, aplicada pela Fundação Cesgranrio (Edital nº 03/2026). As inscrições vão até 25/11/2026.",
+        "vagas": "São 27.279 vagas temporárias, com exigência de ensino fundamental completo, parcela fixa de R$ 1.741,00 e parcela variável por produção de até R$ 2.629,00, além de auxílio-alimentação de R$ 1.192,00.",
+        "prova": "São 60 questões de múltipla escolha com cinco alternativas, de A a E: 15 de Português, 15 de Matemática e 30 de Conhecimentos Técnicos, tirados da apostila oficial do Censo Agro. É preciso fazer 18 pontos e acertar pelo menos 1 questão em cada disciplina.",
+        "curso": "75 capítulos, 370 questões comentadas e 2 simulados de 60 questões",
+    },
+    "pmesp-soldado-2026": {
+        "nome": "PM/SP Soldado",
+        "quando": "A prova objetiva e a redação do concurso de Aluno-Soldado da PM de São Paulo estão previstas para 28/02/2027, à tarde, aplicadas pela Fundação VUNESP (Edital nº DP-4/321/26). As inscrições vão até 22/12/2026.",
+        "vagas": "São 2.000 cargos de Aluno-Soldado PM, com remuneração básica inicial de R$ 5.482,51, ensino médio e idade de 17 a 30 anos.",
+        "prova": "A objetiva tem 60 questões de múltipla escolha com cinco alternativas, de A a E: 20 de Português, 15 de Matemática, 15 de Conhecimentos Gerais, 5 de Informática e 5 de Administração Pública. É preciso fazer 30 pontos, sem nota mínima por disciplina, e há redação no mesmo dia.",
+        "curso": "75 capítulos, 345 questões comentadas e 2 simulados de 60 questões",
+    },
     "escrevente-tjsp-2026": {
         "nome": "TJSP Escrevente Técnico Judiciário",
         "quando": "A prova objetiva e a redação do concurso de Escrevente Técnico Judiciário do TJSP são em 14/03/2027, à tarde, aplicadas pela Vunesp (Edital nº 02/2026).",
@@ -196,7 +224,8 @@ def main():
         # 2. FAQPage em JSON-LD com todas as perguntas da página
         txt = re.sub(r"\n?" + re.escape(INI_L) + r".*?" + re.escape(FIM_L), "", txt, flags=re.S)
         faq = re.findall(r"<details(?: open)?><summary>(.*?)</summary><p>(.*?)</p></details>", txt, re.S)
-        if faq and "</head>" in txt:
+        # guias /concurso-*/ e posts já trazem o próprio FAQPage (guias.py, blog.py): não duplicar (20/11/2026)
+        if faq and "</head>" in txt and '"FAQPage"' not in txt:
             ld = {
                 "@context": "https://schema.org",
                 "@type": "FAQPage",

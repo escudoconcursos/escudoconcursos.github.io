@@ -167,6 +167,27 @@ def monta(h, prods, ativos_por_hub, G, V, modelo):
 
 
 
+def chips_guias():
+    """Link da home para cada guia /concurso-*/ (20/11/2026: 28 páginas do site estavam 'detectadas, mas não indexadas'
+    no Search Console e a home não apontava para nenhum guia). Nome curto = h1 até a primeira vírgula, dois-pontos ou parêntese."""
+    linhas = []
+    hoje = _vitrine()["HOJE"].isoformat()
+    for arq in sorted((RAIZ / "_config" / "guias").glob("concurso-*.md")):
+        m = re.match(r"^---\n(.*?)\n---\n", arq.read_text(encoding="utf-8"), re.S)
+        if not m:
+            continue
+        meta = {}
+        for linha in m.group(1).splitlines():
+            if ":" in linha:
+                k, v = linha.split(":", 1)
+                meta[k.strip()] = v.strip().strip('"')
+        if meta.get("data_prova") and meta["data_prova"] < hoje:
+            continue
+        nome = re.split(r"[,:(]| para | com ", meta.get("h1", arq.stem))[0].strip()
+        linhas.append('        <a class="chip" href="%s/">%s</a>' % (meta.get("slug", arq.stem), e(nome)))
+    return "\n".join(linhas)
+
+
 def main():
     V = _vitrine()
     G = guias()
@@ -190,8 +211,9 @@ def main():
              '    <p class="kicker">Encontre o seu concurso</p>\n'
              '    <h2 id="t-hubs">Concursos por carreira <em>e por estado</em></h2>\n    <hr class="regua">\n'
              '    <h3>Por carreira</h3>\n    <div class="hubs-lista">\n%s\n    </div>\n'
-             '    <h3>Por estado</h3>\n    <div class="hubs-lista">\n%s\n    </div>\n  </div>\n</section>\n'
-             % (chips("carreira"), chips("estado")))
+             '    <h3>Por estado</h3>\n    <div class="hubs-lista">\n%s\n    </div>\n'
+             '    <h3>Guias dos concursos</h3>\n    <div class="hubs-lista">\n%s\n    </div>\n  </div>\n</section>\n'
+             % (chips("carreira"), chips("estado"), chips_guias()))
     idx = RAIZ / "index.html"
     s = idx.read_text(encoding="utf-8")
     fim_vitrine = s.find("<!-- vitrine:fim -->")

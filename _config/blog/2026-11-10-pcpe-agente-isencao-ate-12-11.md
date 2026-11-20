@@ -1,21 +1,23 @@
 ---
 slug: pcpe-agente-isencao-ate-12-11
 tipo: noticia
-titulo_seo: "PC-PE Agente: pedido de isenção termina em 12/11 às 18h"
-descricao: "Quem quer ser Agente da Polícia Civil de Pernambuco sem pagar os R$ 250,00 da taxa tem até 12/11, às 18h de Brasília, para pedir isenção no Cebraspe."
-h1: "PC-PE Agente de Polícia: pedido de isenção da taxa termina em 12/11, às 18h"
+titulo_seo: "Resultado da isenção PC-PE: quando sai e o que fazer"
+descricao: "Resultado provisório da isenção da PC-PE sai de 27/11 a 3/12/2026, com recurso de 1º a 3/12, e o final em 15/12. Veja o que fazer se for negado."
+h1: "Resultado da isenção da PC-PE: quando sai e o que fazer se for negado"
 publicado: 2026-11-10
-atualizado_em: 2026-11-10
+atualizado_em: 2026-11-20
 curso_id: pcpe-agente-2026
 guia: concurso-pc-pe
-capa_titulo: "PC-PE: isenção da taxa até 12/11"
-capa_destaque: "12/11"
-valido_ate: 2026-11-13
-resumo: [["Órgão", "Polícia Civil de Pernambuco (PCPE), com SAD e SDS"], ["Banca", "Cebraspe"], ["Vagas de Agente", "1.200"], ["Pedido de isenção", "15/10 a 12/11/2026, até 18h de Brasília"], ["Taxa sem isenção", "R$ 250,00, só por boleto, até 18/12/2026"], ["Prova", "7/3/2027, à tarde"]]
+capa_titulo: "PC-PE: resultado da isenção"
+capa_destaque: "27/11"
+valido_ate: 2026-12-15
+resumo: [["Órgão", "Polícia Civil de Pernambuco (PCPE), com SAD e SDS"], ["Banca", "Cebraspe"], ["Vagas de Agente", "1.200"], ["Resultado provisório da isenção", "27/11 a 3/12/2026"], ["Resultado final da isenção", "15/12/2026"], ["Taxa sem isenção", "R$ 250,00, só por boleto, até 18/12/2026"], ["Prova", "7/3/2027, à tarde"]]
 fontes: [{"nome": "Edital nº 1 PCPE, de 02/10/2026, atualizado (Cebraspe)", "url": "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/C60302EBB5480DC47A14F3B3A59668D7CFEDCCC2DA4449BE51834CED668B9013.html"}, {"nome": "Edital nº 2 PCPE, de 15/10/2026 (retificação)", "url": "https://cdn.cebraspe.org.br/concursos/PC_PE_26/arquivos/C2C0328EECB707D52AE67C726B581D01DC14E717F030B44D84350A0C5337382C.html"}]
 ---
 
-Quem quer vestir o distintivo de **Agente da Polícia Civil de Pernambuco** sem pagar a taxa de **R$ 250,00** tem até **quinta-feira, 12/11/2026, às 18h (horário de Brasília)** para pedir isenção na Área do Candidato do Cebraspe. Depois desse horário, o pedido é indeferido e a única forma de entrar na disputa pelas 1.200 vagas é o boleto, pago até 18/12/2026.
+Atualização em 20/11/2026: o prazo para pedir isenção terminou em 12/11. Este texto passou a tratar do resultado.
+
+O **resultado provisório da isenção da PC-PE** fica disponível na Área do Candidato do Cebraspe **de 27/11 a 3/12/2026**. Quem teve o pedido negado pode recorrer **de 1º a 3/12/2026**, e o **resultado final sai em 15/12/2026**. Com o pedido negado, a inscrição para Agente da Polícia Civil de Pernambuco só vale com o boleto de **R$ 250,00** pago até **18/12/2026**.
 
 ## Quem tem direito à isenção na PC-PE?
 
@@ -32,13 +34,12 @@ O edital segue o art. 19 da Lei estadual nº 14.538/2011 e aceita oito situaçõ
 | Doadora regular de leite materno | Documento de entidade reconhecida pelo Governo do Estado |
 | Jurado do Tribunal do Júri em Pernambuco | Certidão de participação no Conselho de Sentença nos últimos dois anos |
 
-## Como fazer o pedido até quinta-feira
+## Como o pedido foi feito
 
 O pedido é feito só pela internet, na página do concurso no Cebraspe. No caso do CadÚnico, basta informar o NIS e preencher a declaração. Nos outros sete casos, é preciso enviar a imagem legível do documento, em PDF, PNG, JPEG ou JPG, com no máximo 2 MB por arquivo. O edital não aceita pedido pelo correio, por e-mail ou fora do prazo, e o Cebraspe confere os dados do CadÚnico com o órgão gestor. Informação falsa elimina o candidato.
 
-Deixar para a última hora é o erro mais comum: arquivo grande demais ou ilegível derruba o pedido, e não há segunda chance depois das 18h de 12/11.
 
-## E depois do pedido?
+## Calendário do resultado da isenção
 
 | Etapa | Data |
 |---|---|
@@ -58,8 +59,8 @@ Vale saber antes de montar o plano de estudos: o **Edital nº 2 PCPE, de 15 de o
 
 ## Perguntas frequentes
 
-### Até quando posso pedir isenção da taxa da PC-PE?
-Até 12/11/2026, às 18h no horário de Brasília, pela Área do Candidato no site do Cebraspe.
+### Ainda dá para pedir isenção da taxa da PC-PE?
+Não. O prazo terminou em 12/11/2026, às 18h de Brasília. Agora resta acompanhar o resultado na Área do Candidato do Cebraspe.
 
 ### Qual é a taxa de inscrição para Agente da PC-PE?
 R$ 250,00, paga só por boleto bancário gerado no sistema do Cebraspe, até 18/12/2026.

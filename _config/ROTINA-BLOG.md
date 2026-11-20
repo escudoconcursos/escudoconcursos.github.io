@@ -26,6 +26,7 @@ Responder e escrever sempre em português do Brasil, sem travessão. Horários s
    - Mudanças oficiais nos concursos com curso à venda: retificação, prorrogação, locais de prova, gabarito, resultado. Ver a página do concurso na banca (Cebraspe, FCC, FGV, Cesgranrio, AOCP, IBFC, Idecan, Consulplan, IBGP) e o Diário Oficial correspondente.
    - Edital novo de concurso do radar (prefeituras: API do Querido Diário, `https://api.queridodiario.org.br/gazettes?querystring=...`).
    - Datas que vencem nos próximos 3 dias (fim de inscrição, isenção, pagamento, prova) tiradas dos guias em `_config/guias/`: vira lembrete curto.
+   - **Antes do "o que estudar" genérico: pauta de busca** (seção "Pautas de busca" no fim deste arquivo). São perguntas que já aparecem no Google para o site e ainda não têm página que responda. Uma por dia, a de cima primeiro, e riscar a usada.
    - Sem fato novo: um post "o que estudar" (por banca e matéria, a partir de `escudo-dados/fichas/`) ou "rotina de estudos" (cronograma até a prova). Não repetir assunto que já tenha post em `_config/blog/`, nem copiar o guia do concurso: o post precisa trazer ângulo novo.
 4. Salvar o texto do documento oficial em `escudo-dados/fontes/<slug>/<nome>.txt` (PDF: `pdftotext -layout`).
 5. Escrever o post em `_config/blog/AAAA-MM-DD-<slug>.md` com o cabeçalho descrito em `blog.py` (tipo, titulo_seo até 60 caracteres, descricao até 160, h1, publicado, atualizado_em, curso_id, guia, ficha se usar, fontes com link oficial, calculado para valores que o post calcula, resumo, capa_titulo, capa_destaque, valido_ate). Padrão editorial (benchmark de 08/11 com Gran, Estratégia, Folha Dirigida, Focus e Solução):
@@ -51,3 +52,19 @@ Responder e escrever sempre em português do Brasil, sem travessão. Horários s
 ## Quando um fato muda
 
 Retificação de algo já publicado: editar o mesmo post, mudar `atualizado_em` e acrescentar uma linha "Atualização em dd/mm/aaaa: ..." no topo. Não criar post novo para o mesmo fato. E acrescentar a linha da mudança em `_config/guias/atualizacoes.json` (se for pequena) para ela aparecer no topo do guia.
+
+## Post de prazo não morre no prazo (20/11/2026)
+
+Post de "inscrições até", "isenção até" ou "pagamento até" continua recebendo busca depois da data, só que com outra pergunta ("quando sai o resultado da isenção"). Em 20/11 o post da isenção da PC-PE tinha 59 impressões na posição 5 e nenhum clique, porque o título ainda falava do prazo vencido. Regra: no dia seguinte ao prazo, reescrever o MESMO post (mesmo slug) para a etapa seguinte do edital (resultado provisório, recurso, resultado final, local de prova), trocando `titulo_seo`, `descricao`, `h1`, `capa_titulo`, `capa_destaque`, o primeiro parágrafo, a tabela `resumo` e `valido_ate` (nova data), com a linha "Atualização em dd/mm/aaaa" no topo. Conta como post do dia. Modelo: `_config/blog/2026-11-10-pcpe-agente-isencao-ate-12-11.md`.
+
+## Pautas de busca (Search Console de 20/11/2026)
+
+Consultas que já trazem impressão ao site e ainda não têm resposta própria. Sempre com a fonte oficial, como qualquer post.
+
+1. IBGE Recenseador: o que cai em Conhecimentos Técnicos a partir da apostila oficial do 12º Censo Agro (30 das 60 questões; inscrições até 25/11). Busca: "conteúdo do documento estudo dos conhecimentos técnicos 12º censo agropecuário".
+2. Policial Penal PE: resultado da isenção (aplicar a regra acima ao post de 20/11 em 23/11).
+3. Banestes: o que faz o Técnico Bancário do Banestes (atribuições do edital, jornada de 30 horas, salário). Busca: "o que faz um técnico bancário do banestes".
+4. PM-SP Soldado: como é a prova (60 questões, redação, nota mínima de 30) e onde achar provas anteriores da VUNESP no site oficial. Busca: "prova soldado pm sp 2026 pdf". Nunca hospedar PDF de prova da banca; só apontar o link oficial.
+5. CBM-PE Soldado: como é a prova do AOCP e onde estão as provas anteriores oficiais. Buscas: "prova cbmpe pdf", "apostila cbmpe pdf", "concurso bombeiros pe".
+6. PM-PE Soldado: datas que faltam até a prova de 21/02/2027 (o guia está na posição 24 para "concurso pm pe", com 133 impressões; um post novo e atual com link para o guia ajuda).
+7. Aparecida de Goiânia: o que faz o Agente Educativo (busca "agente educativo", 44 impressões na posição 5).
