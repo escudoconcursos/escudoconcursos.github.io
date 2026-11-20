@@ -103,6 +103,13 @@ RAPIDAS = {
         "prova": "A Prova Objetiva tem 30 questões de múltipla escolha, de A a E, de 1 ponto cada: 10 de gestão de sala de aula e 20 de Matemática, com mínimo de 15 pontos. Depois vêm a Prova Discursiva (2 questões de até 20 linhas, 20 pontos), a Prova Prática de Simulação de Aula (vídeo de 5 a 7 minutos, 30 pontos) e a Avaliação de Títulos (20 pontos), num total de 100. O programa não tem legislação nem conhecimentos gerais. O curso cobre a objetiva, a discursiva e a prova prática.",
         "curso": "72 capítulos, 335 questões comentadas, discursiva, prova prática em vídeo e 2 simulados de 30 questões",
     },
+    "professor-lingua-portuguesa-seduc-sp-2026": {
+        "nome": "SEDUC/SP Professor de Língua Portuguesa prova completa",
+        "quando": "As provas objetiva e discursiva do concurso da SEDUC-SP são em 25/04/2027 (data provável), pela manhã, aplicadas pela FGV (Edital nº 01/2026, publicado em 19/11/2026). As inscrições vão de 26/11/2026 a 15/02/2027, e o vídeo da Prova Prática é enviado de 19/03 a 02/04/2027.",
+        "vagas": "São 1.197 vagas efetivas de Professor de Língua Portuguesa, 478 na jornada de 25 horas e 719 na de 40 horas, o segundo maior número do edital. O subsídio inicial é de R$ 5.565,00 na jornada de 40 horas e de R$ 3.478,13 na de 25 horas. A taxa de inscrição é de R$ 64,00. Há ainda a lista de classificação para contratação temporária (PSS) no ano letivo de 2028.",
+        "prova": "A pontuação soma 100 pontos: Prova Objetiva de 30 questões de cinco alternativas, de A a E, de 1 ponto cada (10 de Gestão de Sala de Aula e 20 de Língua Portuguesa, mínimo de 15 pontos); Prova Discursiva de 2 questões de até 20 linhas, de 20 pontos (mínimo de 10); Prova Prática de Simulação de Aula, em vídeo de 5 a 7 minutos, de 30 pontos (mínimo de 15); e Avaliação de Títulos, de 20 pontos. O curso cobre as três provas.",
+        "curso": "92 capítulos, 435 questões comentadas, a Prova Discursiva, a Prova Prática e 2 simulados (30 questões objetivas e uma questão discursiva cada)",
+    },
     "professor-seduc-ma-2026": {
         "nome": "SEDUC/MA Professor Conhecimentos Gerais e Redação",
         "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",

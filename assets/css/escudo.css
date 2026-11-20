@@ -491,3 +491,5 @@ a.chip{text-decoration:none}
 .tema-ardosia{--c:#5B7DB1; --cb:#A9BFE0; --cbtn1:#A9BFE0; --cbtn2:#5B7DB1; --cd:#34507D; --cbtn-txt:#0B1A33}
 /* mostarda, Professor de Matemática SEDUC/SP 2026 (20/11/2026): botão mostarda claro (#E8D27F) com texto navy */
 .tema-mostarda{--c:#C9A227; --cb:#E8D27F; --cbtn1:#E8D27F; --cbtn2:#C9A227; --cd:#7D6413; --cbtn-txt:#0B1A33}
+/* cereja, Professor de Língua Portuguesa SEDUC/SP 2026 (20/11/2026): botão cereja claro (#F2A0BC) com texto navy */
+.tema-cereja{--c:#C0265A; --cb:#F2A0BC; --cbtn1:#F2A0BC; --cbtn2:#C0265A; --cd:#80153B; --cbtn-txt:#0B1A33}
