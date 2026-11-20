@@ -939,6 +939,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-seduc-sp-2026",
+      "atalho": "seducsp",
+      "carreira": "educacao",
+      "tema": "tema-ardosia",
+      "tag": "Professor SEDUC/SP 2026 · FGV",
+      "titulo": "Professor da SEDUC/SP: Gestão de Sala de Aula, Prova Discursiva e Prova Prática",
+      "itens": [
+        "34 capítulos e 155 questões comentadas",
+        "A parte comum a todos os componentes: sem os 20 Específicos"
+      ],
+      "imagem": "assets/img/produto-professor-seduc-sp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor SEDUC/SP 2026, Gestão de Sala de Aula, Prova Discursiva e Prova Prática, 34 capítulos e 155 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "SEDUCSP37",
+        "preco": 37,
+        "ate": "2027-02-15"
+      },
+      "inscricoes_ate": "2027-02-15",
+      "prova": "2027-04-25",
+      "link": "professor-seduc-sp-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "professor-seduc-ma-2026",
       "atalho": "seducma",
       "carreira": "educacao",

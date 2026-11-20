@@ -487,3 +487,5 @@ a.chip{text-decoration:none}
 .tema-pervinca{--c:#8C8CFF; --cb:#C7C7FF; --cbtn1:#C7C7FF; --cbtn2:#8C8CFF; --cd:#4A4AB8; --cbtn-txt:#0B1A33}
 /* caramelo, Supervisão Escolar SEDUC/MA 2026 (19/11/2026): botão caramelo claro (#E8C39C) com texto navy */
 .tema-caramelo{--c:#C98B4F; --cb:#E8C39C; --cbtn1:#E8C39C; --cbtn2:#C98B4F; --cd:#7A4F24; --cbtn-txt:#0B1A33}
+/* ardósia, Professor SEDUC/SP 2026 (20/11/2026): botão azul acinzentado claro (#A9BFE0) com texto navy */
+.tema-ardosia{--c:#5B7DB1; --cb:#A9BFE0; --cbtn1:#A9BFE0; --cbtn2:#5B7DB1; --cd:#34507D; --cbtn-txt:#0B1A33}
