@@ -79,6 +79,7 @@ RECRUTAMENTO = {
     "supervisao-escolar-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2144S108578900",
     "professor-lingua-portuguesa-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2627P108580120",
     "professor-matematica-seduc-ma-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3034P108581060",
+    "professor-seduc-sp-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/0216P108591261",
 }
 
 

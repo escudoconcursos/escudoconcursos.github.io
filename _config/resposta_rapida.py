@@ -96,6 +96,13 @@ RAPIDAS = {
         "prova": "São 100 pontos: Prova Objetiva (30 questões de A a E, 10 de Gestão de Sala de Aula e 20 de Conhecimentos Específicos, mínimo de 15 pontos), Prova Discursiva (2 questões de até 20 linhas, 20 pontos, mínimo de 10), Prova Prática de Simulação de Aula em vídeo de 5 a 7 minutos (30 pontos, mínimo de 15) e Títulos (20 pontos). O curso cobre as 10 questões de Gestão de Sala de Aula e o método da discursiva e do vídeo, mas não as 20 de Específicos.",
         "curso": "34 capítulos, 155 questões comentadas e 2 simulados de 10 questões com proposta de Prova Discursiva",
     },
+    "professor-matematica-seduc-sp-2026": {
+        "nome": "SEDUC/SP Professor de Matemática prova completa",
+        "quando": "As provas objetiva e discursiva do concurso de Professor de Ensino Fundamental e Médio da SEDUC/SP são em 25/04/2027, aplicadas pela FGV (Edital nº 01/2026, publicado em 19/11/2026). As inscrições vão das 16h de 26/11/2026 às 16h de 15/02/2027.",
+        "vagas": "Matemática tem 1.262 vagas efetivas, a maior oferta do edital: 505 de 25 horas semanais (subsídio de R$ 3.478,13) e 757 de 40 horas (R$ 5.565,00). A taxa de inscrição é de R$ 64,00.",
+        "prova": "A Prova Objetiva tem 30 questões de múltipla escolha, de A a E, de 1 ponto cada: 10 de gestão de sala de aula e 20 de Matemática, com mínimo de 15 pontos. Depois vêm a Prova Discursiva (2 questões de até 20 linhas, 20 pontos), a Prova Prática de Simulação de Aula (vídeo de 5 a 7 minutos, 30 pontos) e a Avaliação de Títulos (20 pontos), num total de 100. O programa não tem legislação nem conhecimentos gerais. O curso cobre a objetiva, a discursiva e a prova prática.",
+        "curso": "72 capítulos, 335 questões comentadas, discursiva, prova prática em vídeo e 2 simulados de 30 questões",
+    },
     "professor-seduc-ma-2026": {
         "nome": "SEDUC/MA Professor Conhecimentos Gerais e Redação",
         "quando": "A prova objetiva e a redação do Concurso Público Unificado do Maranhão são em 04/04/2027, aplicadas pela FCC (Edital nº 01/2026, de 17 de novembro de 2026). As inscrições vão de 14/12/2026 a 29/01/2027.",
