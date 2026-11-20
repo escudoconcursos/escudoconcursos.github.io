@@ -3,7 +3,7 @@ slug: concurso-semusa-porto-velho
 titulo_seo: "Concurso SEMUSA Porto Velho 2026: vagas, salário e prova"
 descricao: "Concurso SEMUSA Porto Velho 2026: 243 vagas de Assistente Administrativo e 209 de Técnico em Enfermagem, banca IBGP e prova em 13/12/2026. Veja a prova."
 h1: "Concurso SEMUSA Porto Velho 2026: Assistente Administrativo e Técnico em Enfermagem, vagas, salários e prova em 13 de dezembro"
-curso_id: assistente-semusa-porto-velho-2026
+curso_id: ["assistente-semusa-porto-velho-2026", "tecnico-enfermagem-porto-velho-2026"]
 orgao: Secretaria Municipal de Saúde de Porto Velho (SEMUSA)
 banca: IBGP
 situacao: edital aberto

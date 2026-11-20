@@ -3,7 +3,7 @@ slug: concurso-pc-pe
 titulo_seo: "Concurso PC-PE 2026 Agente: edital, vagas, salário e prova"
 descricao: "PC-PE Agente de Polícia: 1.200 vagas, R$ 5.667,92, banca Cebraspe, inscrições até 16/12/2026 e prova em 07/03/2027. Veja requisitos, prova e como estudar."
 h1: "Concurso PC-PE 2026 (Agente de Polícia): edital, 1.200 vagas, salário e o que cai"
-curso_id: pcpe-agente-2026
+curso_id: ["pcpe-agente-2026", "pcpe-escrivao-2026"]
 orgao: Polícia Civil de Pernambuco (PCPE)
 banca: Cebraspe
 situacao: edital aberto

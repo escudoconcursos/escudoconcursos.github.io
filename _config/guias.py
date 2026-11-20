@@ -214,10 +214,63 @@ def troca_marcador(s, nome, novo, onde):
     return s if i < 0 else s[:i] + bloco + "\n    " + s[i:]
 
 
+# Seção "Provas anteriores" em todo guia (20/11/2026): link do site oficial da banca citada no campo `banca`.
+# Endereços testados em 20/11/2026. Ordem importa: vale a primeira banca que aparece no texto do campo.
+BANCAS = [
+    (r"cebraspe", "Cebraspe", "https://www.cebraspe.org.br/concursos/encerrados"),
+    (r"\bFCC\b|Carlos Chagas", "Fundação Carlos Chagas (FCC)", "https://www.concursosfcc.com.br/"),
+    (r"\bFGV\b", "FGV Conhecimento", "https://conhecimento.fgv.br/concursos"),
+    (r"vunesp", "Fundação Vunesp", "https://www.vunesp.com.br/"),
+    (r"aocp", "Instituto AOCP", "https://www.institutoaocp.org.br/"),
+    (r"idecan", "IDECAN", "https://idecan.org.br/"),
+    (r"quadrix", "Instituto Quadrix", "https://www.quadrix.org.br/"),
+    (r"ibade", "IBADE", "https://www.ibade.org.br/"),
+    (r"cesgranrio", "Fundação Cesgranrio", "https://www.cesgranrio.org.br/"),
+    (r"ibgp", "IBGP", "https://www.ibgpconcursos.com.br/"),
+    (r"selecon", "Instituto SELECON", "https://selecon.org.br/"),
+    (r"idcap", "IDCAP", "https://www.idcap.org.br/"),
+    (r"idib", "IDIB", "https://concurso.idib.org.br/"),
+    (r"fadesp", "Fadesp", "https://portalfadesp.org.br/"),
+    (r"nazar", "Instituto Nazaré", "https://institutonazare.selecao.net.br/"),
+    (r"avalia", "Instituto Avalia", "https://avalia.org.br/"),
+    (r"verbena", "Instituto Verbena/UFG", "https://www.institutoverbena.ufg.br/"),
+    (r"fafipa", "Fundação FAFIPA", "https://www.fafipa.org/"),
+    (r"furb", "FURB", "https://www.furb.br/"),
+    (r"fepese", "FEPESE", "https://fepese.org.br/"),
+    (r"ibfc", "IBFC", "https://www.ibfc.org.br/"),
+    (r"uerr", "UERR", "https://www.uerr.edu.br/"),
+    (r"ufmt", "UFMT", "https://www.ufmt.br/"),
+    (r"\bCRS\b|PMMG", "Centro de Recrutamento e Seleção da PMMG", "https://www.policiamilitar.mg.gov.br/"),
+]
+
+
+def secao_provas(meta):
+    banca = str(meta.get("banca", ""))
+    achadas = [(m.start(), nome, url) for pad, nome, url in BANCAS for m in [re.search(pad, banca, re.I)] if m]
+    if not achadas:
+        return ""
+    _, nome, url = min(achadas)
+    previsto = "a definir" in banca.lower() or "previsto" in str(meta.get("situacao", "")).lower()
+    abre = ("O edital novo ainda não saiu, mas as provas e os gabaritos oficiais do último concurso" if previsto
+            else "As provas e os gabaritos oficiais deste concurso e dos anteriores")
+    return ("\n\n## Onde estão as provas anteriores?\n\n%s ficam no site da banca, [%s](%s), na área de concursos "
+            "(procure o órgão e o cargo; muitas vezes ficam em \"encerrados\"). Baixe só de lá ou do site do próprio órgão: "
+            "cópias em outros sites podem estar incompletas, sem as anulações ou com gabarito errado. Resolver a prova "
+            "anterior cronometrada, depois de estudar o conteúdo, é o melhor termômetro do nível da banca.\n"
+            % (abre, nome, url))
+
+
 guias = []
 for arq in sorted((RAIZ / "_config" / "guias").glob("*.md")):
+    if arq.name.startswith("_"):  # arquivos de apoio (ex.: _PROMPT-GUIA.md), não são guias
+        continue
     meta, corpo = le(arq)
     slug = meta.get("slug") or arq.stem
+    if slug != "quem-faz" and "provas anteriores" not in corpo.lower():
+        sp = secao_provas(meta)
+        if sp:
+            m_faq = re.search(r"^## Perguntas frequentes\s*$", corpo, re.M)
+            corpo = corpo[:m_faq.start()].rstrip() + sp + "\n" + corpo[m_faq.start():] if m_faq else corpo.rstrip() + sp
     h1, prods = monta(meta, corpo, slug)
     if slug != "quem-faz":
         guias.append((slug, h1, prods, meta))

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://escudoconcursos.com.br/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/pmmg-cfo-2027/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/pmmg-cfo-2027/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/pmmg-soldado-2026/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/policial-penal-pb-2026/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/pmac-soldado-2026/</loc><lastmod>2026-11-16</lastmod></url>
@@ -17,7 +17,7 @@
   <url><loc>https://escudoconcursos.com.br/pmrr-soldado-2026/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/gm-joinville-2026/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/gm-balneario-camboriu-2026/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/gm-maraba-2026/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/gm-maraba-2026/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/gm-pedra-branca-do-amapari-2026/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/gcm-angra-dos-reis-2026/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/professor-seduc-ma-2026/</loc><lastmod>2026-11-19</lastmod></url>
@@ -26,7 +26,7 @@
   <url><loc>https://escudoconcursos.com.br/professor-matematica-seduc-ma-2026/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/professor-lingua-portuguesa-seduc-ma-2026/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/tecnico-defensoria-dpe-pb-2026/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/trt4-tecnico-administrativo-2026/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/trt4-tecnico-administrativo-2026/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/pmpe-soldado-2026/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/gm-sao-goncalo-2026/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/pmal-soldado-2026/</loc><lastmod>2026-11-16</lastmod></url>
@@ -62,33 +62,55 @@
   <url><loc>https://escudoconcursos.com.br/afiliados/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-aparecida-de-goiania-educacao/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-banestes/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-cadete-cbmerj/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-cbm-al/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-cbm-es/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-cbm-pe/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/concurso-cfo-pmmg/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-cfo-pmerj/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-cfo-pmmg/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-contagem-assistente-administrativo/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-curitiba-agente-administrativo/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-detran-pr/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-dpe-pb/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/concurso-gcm-angra-dos-reis/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gcm-angra-dos-reis/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-gcm-salvador/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-gcm-santana/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/concurso-gm-maraba/</loc></url>
-  <url><loc>https://escudoconcursos.com.br/concurso-gm-pedra-branca-do-amapari/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gm-balneario-camboriu/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gm-campinas/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gm-joinville/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gm-maraba/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-gm-pedra-branca-do-amapari/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-gm-recife/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-gm-sao-goncalo/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-ibge-recenseador/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pc-ac/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pc-mg/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pc-pa/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pc-pe/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pc-to/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pjc-mt/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-ac/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pm-al/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pm-ba/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-mg/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-pa/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pm-pe/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-pr/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-rj/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-pm-rr/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pm-sc/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-pm-sp/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-policia-penal-pb/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-policia-penal-pe/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-policia-penal-pr/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-policia-penal-sc/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-seedf-professor/</loc></url>
   <url><loc>https://escudoconcursos.com.br/concurso-semed-porto-velho/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-semusa-porto-velho/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-tjsp-escrevente/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://escudoconcursos.com.br/concurso-trt4-tecnico/</loc></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-trt4-tecnico/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concurso-ufba-assistente-administracao/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://escudoconcursos.com.br/concurso-unificado-ma/</loc></url>
   <url><loc>https://escudoconcursos.com.br/quem-faz/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concursos-acre/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://escudoconcursos.com.br/concursos-administrativos/</loc><lastmod>2026-11-20</lastmod></url>
