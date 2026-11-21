@@ -36,6 +36,7 @@ SIMULADO2 = {
     "gm-pedra-branca-do-amapari-2026": "em 24/01/2027, 7 dias antes da prova, para o último teste.",
     "professor-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",
     "professor-matematica-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",
+    "professor-ingles-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",
     "professor-ciencias-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",
     "professor-fisica-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",
     "professor-lingua-portuguesa-seduc-sp-2026": "60 dias após a compra, a tempo do último teste antes da prova de 25/04/2027.",

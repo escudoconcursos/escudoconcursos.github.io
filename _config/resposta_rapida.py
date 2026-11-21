@@ -103,6 +103,13 @@ RAPIDAS = {
         "prova": "A Prova Objetiva tem 30 questões de múltipla escolha, de A a E, de 1 ponto cada: 10 de gestão de sala de aula e 20 de Matemática, com mínimo de 15 pontos. Depois vêm a Prova Discursiva (2 questões de até 20 linhas, 20 pontos), a Prova Prática de Simulação de Aula (vídeo de 5 a 7 minutos, 30 pontos) e a Avaliação de Títulos (20 pontos), num total de 100. O programa não tem legislação nem conhecimentos gerais. O curso cobre a objetiva, a discursiva e a prova prática.",
         "curso": "72 capítulos, 335 questões comentadas, discursiva, prova prática em vídeo e 2 simulados de 30 questões",
     },
+    "professor-ingles-seduc-sp-2026": {
+        "nome": "SEDUC/SP Professor de Língua Inglesa prova completa",
+        "quando": "As provas objetiva e discursiva do concurso de Professor de Ensino Fundamental e Médio da SEDUC/SP são em 25/04/2027, à tarde para Língua Inglesa (15h às 19h), aplicadas pela FGV (Edital nº 01/2026, publicado em 19/11/2026). As inscrições vão das 16h de 26/11/2026 às 16h de 15/02/2027.",
+        "vagas": "Língua Inglesa tem 430 vagas efetivas: 145 de 25 horas semanais (subsídio de R$ 3.478,13) e 285 de 40 horas (R$ 5.565,00). A taxa de inscrição é de R$ 64,00.",
+        "prova": "A Prova Objetiva tem 30 questões de múltipla escolha, de A a E, de 1 ponto cada: 10 de gestão de sala de aula e 20 de Língua Inglesa, com mínimo de 15 pontos. Depois vêm a Prova Discursiva (2 questões de até 20 linhas, 20 pontos), a Prova Prática de Simulação de Aula (vídeo de 5 a 7 minutos, 30 pontos) e a Avaliação de Títulos (20 pontos), num total de 100. O programa não tem legislação nem conhecimentos gerais. O curso cobre a objetiva, a discursiva e a prova prática (a aula do vídeo é parte em inglês e parte em português).",
+        "curso": "69 capítulos, 320 questões comentadas, discursiva, prova prática em vídeo e 2 simulados de 30 questões",
+    },
     "professor-ciencias-seduc-sp-2026": {
         "nome": "SEDUC/SP Professor de Ciências prova completa",
         "quando": "As provas objetiva e discursiva do concurso de Professor de Ensino Fundamental e Médio da SEDUC/SP são em 25/04/2027, à tarde para Ciências (15h às 19h), aplicadas pela FGV (Edital nº 01/2026, publicado em 19/11/2026). As inscrições vão das 16h de 26/11/2026 às 16h de 15/02/2027.",
