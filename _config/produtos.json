@@ -987,6 +987,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-ciencias-seduc-sp-2026",
+      "atalho": "seducspcien",
+      "carreira": "educacao",
+      "tema": "tema-jade",
+      "tag": "Professor de Ciências SEDUC/SP 2026 · FGV",
+      "titulo": "Professor de Ciências da SEDUC/SP: prova completa",
+      "itens": [
+        "74 capítulos e 345 questões comentadas",
+        "Objetiva, discursiva e prova prática em vídeo: a prova inteira do componente"
+      ],
+      "imagem": "assets/img/produto-professor-ciencias-seduc-sp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Ciências SEDUC/SP 2026, prova completa do concurso de Professor de Ensino Fundamental e Médio, 74 capítulos e 345 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFCIENSP37",
+        "preco": 37,
+        "ate": "2027-02-15"
+      },
+      "inscricoes_ate": "2027-02-15",
+      "prova": "2027-04-25",
+      "link": "professor-ciencias-seduc-sp-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "professor-fisica-seduc-sp-2026",
       "atalho": "seducspfis",
       "carreira": "educacao",
