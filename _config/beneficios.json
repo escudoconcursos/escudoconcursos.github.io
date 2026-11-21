@@ -140,6 +140,15 @@
   {"item": "Prova Prática em vídeo em 4 capítulos, com as 4 aulas de Matemática do Anexo XII", "img": "assets/img/seducspmat/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
   {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducspmat/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "professor-fisica-seduc-sp-2026": [
+  {"item": "73 capítulos", "img": "assets/img/seducspfis/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Gestão de sala de aula em 26 capítulos", "img": "assets/img/seducspfis/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
+  {"item": "Física em 36 capítulos", "img": "assets/img/seducspfis/b-fisica", "alt": "Sumário da disciplina Física: mecânica"},
+  {"item": "Cada capítulo abre com o mapa do assunto", "img": "assets/img/seducspfis/mapa-newton", "alt": "Primeira página do capítulo sobre aplicações das leis de Newton, com o mapa do assunto"},
+  {"item": "Prova Discursiva em 4 capítulos", "img": "assets/img/seducspfis/b-discursiva", "alt": "Abertura da disciplina Prova Discursiva"},
+  {"item": "Prova Prática em vídeo em 4 capítulos", "img": "assets/img/seducspfis/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
+  {"item": "2 simulados inéditos de 30 questões", "img": "assets/img/seducspfis/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "professor-lingua-portuguesa-seduc-sp-2026": [
   {"item": "92 capítulos", "img": "assets/img/seducsplp/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Gestão de Sala de Aula em 26 capítulos, com os autores do edital", "img": "assets/img/seducsplp/b-gestao", "alt": "Sumário do bloco Gestão de Sala de Aula"},

@@ -987,6 +987,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "professor-fisica-seduc-sp-2026",
+      "atalho": "seducspfis",
+      "carreira": "educacao",
+      "tema": "tema-cobalto",
+      "tag": "Professor de Física SEDUC/SP 2026 · FGV",
+      "titulo": "Professor de Física da SEDUC/SP: prova completa",
+      "itens": [
+        "73 capítulos e 340 questões comentadas",
+        "Objetiva, discursiva e prova prática em vídeo: a prova inteira do componente"
+      ],
+      "imagem": "assets/img/produto-professor-fisica-seduc-sp-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Professor de Física SEDUC/SP 2026, prova completa do concurso de Professor de Ensino Fundamental e Médio, 73 capítulos e 340 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PROFFISSP37",
+        "preco": 37,
+        "ate": "2027-02-15"
+      },
+      "inscricoes_ate": "2027-02-15",
+      "prova": "2027-04-25",
+      "link": "professor-fisica-seduc-sp-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "professor-lingua-portuguesa-seduc-sp-2026",
       "atalho": "seducsplp",
       "carreira": "educacao",
