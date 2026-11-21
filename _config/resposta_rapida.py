@@ -243,12 +243,56 @@ def bloco_rapido(d):
     )
 
 
+# Cursos fora de RAPIDAS (21/11/2026): a resposta rápida sai do guia do concurso (/concurso-*/), que já foi
+# conferido contra o edital. Dá conteúdo próprio às páginas de curso (12 estavam "rastreadas, mas não indexadas"
+# no Search Console) e liga curso e guia nos dois sentidos.
+NOMES = json.loads((RAIZ / "_config" / "nomes.json").read_text(encoding="utf-8"))["cursos"]
+
+
+def guias_por_curso():
+    saida = {}
+    for arq in sorted((RAIZ / "_config" / "guias").glob("concurso-*.md")):
+        txt = arq.read_text(encoding="utf-8")
+        m = re.search(r"^curso_id:\s*(.+)$", txt, re.M)
+        r = re.search(r"^> \*\*Resposta rápida:\*\*\s*(.+)$", txt, re.M)
+        if not (m and r):
+            continue
+        ids = re.findall(r"[a-z0-9-]+-20\d\d", m.group(1))
+        texto = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", r.group(1))
+        texto = re.sub(r"[*_`]", "", texto).strip()
+        for i in ids:
+            saida.setdefault(i, (arq.stem, texto))
+    return saida
+
+
+def bloco_do_guia(pasta, slug, texto):
+    n = NOMES.get(pasta, {})
+    nome = (n.get("sigla", "") + " " + n.get("cargo", "")).strip() or slug.replace("-", " ")
+    q = f"O que preciso saber sobre o concurso {nome}?"
+    return (
+        f"{INI_R}\n"
+        '<section class="secao claro" aria-labelledby="t-rapida">\n'
+        '  <div class="wrap">\n'
+        '    <p class="kicker">Resposta rápida</p>\n'
+        '    <h2 id="t-rapida">O essencial sobre o <em>concurso</em></h2>\n'
+        '    <hr class="regua">\n'
+        '    <div class="faq">\n'
+        f'      <details open><summary>{esc(q)}</summary><p>{esc(texto)}</p></details>\n'
+        "    </div>\n"
+        f'    <p class="rapida-guia"><a href="/{slug}/">Leia o guia completo do concurso: vagas, salário, prova e o que cai</a></p>\n'
+        "  </div>\n"
+        "</section>\n\n"
+        f"{FIM_R}\n\n"
+    )
+
+
 def tira_tags(t):
     return html.unescape(re.sub(r"<[^>]+>", "", t)).strip()
 
 
 def main():
     feitas_r = feitas_l = 0
+    guias = guias_por_curso()
     for pagina in sorted(RAIZ.glob("*/index.html")):
         pasta = pagina.parent.name
         txt = pagina.read_text(encoding="utf-8")
@@ -262,6 +306,9 @@ def main():
             else:
                 txt = txt.replace(ANCORA, bloco_rapido(RAPIDAS[pasta]) + ANCORA, 1)
                 feitas_r += 1
+        elif pasta in guias and ANCORA in txt and "pay.hotmart.com" in txt:
+            txt = txt.replace(ANCORA, bloco_do_guia(pasta, *guias[pasta]) + ANCORA, 1)
+            feitas_r += 1
 
         # 2. FAQPage em JSON-LD com todas as perguntas da página
         txt = re.sub(r"\n?" + re.escape(INI_L) + r".*?" + re.escape(FIM_L), "", txt, flags=re.S)

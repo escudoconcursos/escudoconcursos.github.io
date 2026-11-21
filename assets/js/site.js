@@ -174,7 +174,26 @@
     if (origem) { guardado.src = "site-" + origem; novo = true; }
   }
   if (novo) { try { sessionStorage.setItem("escudo-origem", JSON.stringify(guardado)); } catch (e) {} }
-  if (!Object.keys(guardado).length) return;
+
+  /* Página de entrada e página do clique no sck (21/11/2026): o src diz de onde a pessoa veio (chatgpt, google,
+     instagram), o sck diz por qual parte do site ela entrou (guia, blog, amostra, hub, home ou o próprio curso).
+     No relatório da Hotmart, filtro "Código de origem do checkout (SCK)". Ex.: src=site-chatgpt, sck=guia-pm-pe_curso. */
+  function tipo(caminho) {
+    var p = (caminho || "/").replace(/^\/+|\/+$/g, ""), partes = p.split("/");
+    if (!p) return "home";
+    if (partes[0] === "noticias") return partes[1] ? "blog-" + partes[1].slice(0, 24) : "blog";
+    if (partes[1] === "amostra") return "amostra";
+    if (/^concurso-/.test(partes[0])) return "guia-" + partes[0].replace(/^concurso-/, "").slice(0, 28);
+    if (/^concursos-/.test(partes[0])) return "hub-" + partes[0].replace(/^concursos-/, "").slice(0, 20);
+    if (/-20\d\d$/.test(partes[0])) return "curso";
+    return partes[0].slice(0, 20);
+  }
+  var entrada = "";
+  try { entrada = sessionStorage.getItem("escudo-entrada") || ""; } catch (e) {}
+  if (!entrada) { entrada = tipo(location.pathname); try { sessionStorage.setItem("escudo-entrada", entrada); } catch (e) {} }
+  var aqui = tipo(location.pathname), sck = (entrada === aqui ? entrada : entrada + "_" + aqui).replace(/[^\w.~-]/g, "").slice(0, 60);
+  if (!guardado.src) guardado.src = "site";
+  guardado.sck = sck;
   document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (a) {
     var u = new URL(a.href);
     Object.keys(guardado).forEach(function (k) { u.searchParams.set(k, guardado[k]); });

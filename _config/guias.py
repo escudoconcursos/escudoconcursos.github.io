@@ -93,6 +93,29 @@ def produtos_do_guia(meta):
     return [POR_ID[i] for i in ids if i in POR_ID]
 
 
+def titulo_curto(meta, prods, limite=60):
+    """<title> do guia em até 60 caracteres (21/11/2026: os títulos tinham 67 a 89 e o Google cortava; CTR 1,6%).
+    Com inscrições abertas, o prazo entra logo depois dos dois-pontos ("inscrições até 23/11"), que é o que a
+    busca "inscrição concurso X" quer ver. Itens do fim da lista caem até caber; " | ESCUDO" só se sobrar espaço."""
+    import datetime
+    base = (meta.get("titulo_seo") or meta.get("h1") or "").strip()
+    cab, _, resto = base.partition(":")
+    itens = [i.strip() for i in re.split(r",\s+|\s+e\s+", resto) if i.strip()]
+    hoje = datetime.date.today().isoformat()
+    fins = sorted(p.get("inscricoes_ate", "") for p in prods if p.get("inscricoes_ate", "") >= hoje)
+    if fins:
+        prazo = "inscrições até " + data_br(fins[0])[:5]
+        itens = [prazo] + [i for i in itens if "edital" not in i.lower() and "inscri" not in i.lower()]
+
+    def junta(lst):
+        return cab + (": " + (", ".join(lst[:-1]) + " e " + lst[-1] if len(lst) > 1 else lst[0]) if lst else "")
+
+    while len(itens) > 1 and len(junta(itens)) > limite:
+        itens = itens[:-1]
+    t = junta(itens)
+    return t + " | ESCUDO" if len(t) + 9 <= limite else t
+
+
 ATUALIZACOES = RAIZ / "_config" / "guias" / "atualizacoes.json"
 
 
@@ -199,6 +222,12 @@ def monta(meta, corpo, slug):
     s = MODELO
     for k, v in trocas.items():
         s = s.replace(k, v)
+    if not quem:
+        s = s.replace("<title>%s | ESCUDO Concursos</title>" % html.escape(titulo),
+                      "<title>%s</title>" % html.escape(titulo_curto(meta, prods)), 1)
+    # 21/11/2026: o guia não carregava o site.js, e quem chegava do ChatGPT num guia ia para o curso sem a origem
+    # (src) nem a página de entrada (sck) no link de compra da Hotmart.
+    s = s.replace("</body>", '<script src="../assets/js/site.js?v=9" defer></script>\n</body>', 1)
     destino = RAIZ / slug / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")
