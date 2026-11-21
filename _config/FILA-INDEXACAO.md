@@ -5,6 +5,8 @@ Quem cria página nova no site (guia, curso, post importante) acrescenta o ender
 
 ## Na fila
 
+- https://escudoconcursos.com.br/concurso-dpe-am-assistente/
+- https://escudoconcursos.com.br/concurso-inss-tecnico/
 <!-- 21/11/2026 noite: páginas de curso fora do índice (Detectada ou Rastreada, mas não indexada), agora com resposta rápida própria; prioridade -->
 - https://escudoconcursos.com.br/pmpe-soldado-2026/
 - https://escudoconcursos.com.br/pcpe-escrivao-2026/
