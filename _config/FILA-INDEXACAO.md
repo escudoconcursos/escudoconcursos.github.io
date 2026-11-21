@@ -5,6 +5,27 @@ Quem cria página nova no site (guia, curso, post importante) acrescenta o ender
 
 ## Na fila
 
+<!-- 21/11/2026 noite: páginas de curso fora do índice (Detectada ou Rastreada, mas não indexada), agora com resposta rápida própria; prioridade -->
+- https://escudoconcursos.com.br/pmpe-soldado-2026/
+- https://escudoconcursos.com.br/pcpe-escrivao-2026/
+- https://escudoconcursos.com.br/pcpe-agente-2026/
+- https://escudoconcursos.com.br/gm-recife-2026/
+- https://escudoconcursos.com.br/pmerj-soldado-2026/
+- https://escudoconcursos.com.br/pmpa-soldado-2026/
+- https://escudoconcursos.com.br/soldado-pmpr-2026/
+- https://escudoconcursos.com.br/policial-penal-pe-2026/
+- https://escudoconcursos.com.br/policial-penal-pb-2026/
+- https://escudoconcursos.com.br/investigador-policia-civil-mg-pcmg-2026/
+- https://escudoconcursos.com.br/pcac-oficial-investigador-2026/
+- https://escudoconcursos.com.br/ppsc-policial-penal-2026/
+- https://escudoconcursos.com.br/pjcmt-investigador-escrivao-2026/
+- https://escudoconcursos.com.br/pcpa-escrivao-2026/
+- https://escudoconcursos.com.br/seedf-pedagogia-2026/
+- https://escudoconcursos.com.br/cbmes-soldado-2026/
+- https://escudoconcursos.com.br/pmmg-cfo-2027/
+- https://escudoconcursos.com.br/concurso-pc-pe/
+- https://escudoconcursos.com.br/concurso-pm-ba/
+- https://escudoconcursos.com.br/concurso-pm-sc/
 - https://escudoconcursos.com.br/concurso-gm-joinville/
 - https://escudoconcursos.com.br/concurso-pc-mg/
 - https://escudoconcursos.com.br/concurso-pc-pa/
