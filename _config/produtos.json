@@ -564,6 +564,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "assistente-tecnico-dpe-am-2026",
+      "atalho": "dpeam",
+      "carreira": "tribunais",
+      "tema": "tema-agua",
+      "tag": "DPE/AM 2026 · FCC",
+      "titulo": "Assistente Técnico Administrativo da DPE-AM",
+      "itens": [
+        "125 capítulos e 620 questões comentadas",
+        "2 simulados de 60 questões, no formato da prova"
+      ],
+      "imagem": "assets/img/produto-assistente-tecnico-dpe-am-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Assistente Técnico Administrativo, DPE-AM 2026, 125 capítulos e 620 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "DPEAM37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "inscricoes_ate": "2027-01-04",
+      "prova": "2027-03-07",
+      "link": "assistente-tecnico-dpe-am-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "tecnico-defensoria-dpe-pb-2026",
       "atalho": "dpepb",
       "carreira": "tribunais",
