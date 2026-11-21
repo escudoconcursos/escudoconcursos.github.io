@@ -771,6 +771,12 @@
    "alt": "Primeira página do Simulado 1"
   }
  ],
+ "inss-tecnico-seguro-social-2026": [
+  {"item": "Direito Previdenciário em 78 capítulos:", "img": "assets/img/inss-tecnico/b-previdenciario", "alt": "Sumário de Plano de Benefícios e EC 103/2019"},
+  {"item": "Noções de Direito Administrativo em 26 capítulos,", "img": "assets/img/inss-tecnico/b-administrativo", "alt": "Sumário de Noções de Direito Administrativo, com a Lei 8.112"},
+  {"item": "Navegação clicável: do sumário você vai", "img": "assets/img/inss-tecnico/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos no desenho da", "img": "assets/img/inss-tecnico/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "trt4-tecnico-administrativo-2026": [
   {"item": "Noções de Legislação em 9 capítulos:", "img": "assets/img/trt4-tecnico/b-legislacao", "alt": "Sumário de Noções de Legislação (TRT-4, CNJ e CSJT)"},
   {"item": "Os Conhecimentos Específicos, que pesam o", "img": "assets/img/trt4-tecnico/b-especificos", "alt": "Sumário de Direito Constitucional, que abre os Conhecimentos Específicos"},

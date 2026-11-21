@@ -499,3 +499,5 @@ a.chip{text-decoration:none}
 .tema-jade{--c:#0F9D7A; --cb:#7FD8BF; --cbtn1:#0F9D7A; --cbtn2:#086B52; --cd:#086B52; --cbtn-txt:#fff}
 /* framboesa, Professor de Língua Inglesa SEDUC/SP 2026 (20/11/2026): botão framboesa com texto branco */
 .tema-framboesa{--c:#B0306A; --cb:#E79BBE; --cbtn1:#B0306A; --cbtn2:#741C45; --cd:#741C45; --cbtn-txt:#fff}
+/* inss, INSS Técnico do Seguro Social 2026 (21/11/2026): azul da logo do INSS (#007AC2, 4,6:1 com texto branco); a clara #6FC0EE dá 8,6:1 sobre o navy; verde #009A66 só na régua (--acce) */
+.tema-inss{--c:#007AC2; --cb:#6FC0EE; --cd:#005197; --cbtn1:#007AC2; --cbtn2:#005197; --cbtn-txt:#fff; --acce:#009A66}

@@ -517,6 +517,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "inss-tecnico-seguro-social-2026",
+      "atalho": "inss",
+      "carreira": "administrativo",
+      "tema": "tema-inss",
+      "tag": "INSS 2026 · Pré-edital",
+      "titulo": "Técnico do Seguro Social do INSS",
+      "itens": [
+        "158 capítulos e 1.570 itens certo/errado comentados",
+        "2 simulados de 120 itens, base no edital do Cebraspe de 2022"
+      ],
+      "imagem": "assets/img/produto-inss-tecnico-seguro-social-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Técnico do Seguro Social do INSS, pré-edital 2026, 158 capítulos e 1.570 itens certo/errado comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "INSS37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "inss-tecnico-seguro-social-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "trt4-tecnico-administrativo-2026",
       "atalho": "trt4",
       "carreira": "tribunais",
