@@ -140,6 +140,15 @@
   {"item": "Prova Prática em vídeo em 4 capítulos, com as 4 aulas de Matemática do Anexo XII", "img": "assets/img/seducspmat/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
   {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducspmat/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "professor-ingles-seduc-sp-2026": [
+  {"item": "69 capítulos", "img": "assets/img/seducsping/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Gestão de sala de aula em 26 capítulos, com as 4 obras da bibliografia do edital", "img": "assets/img/seducsping/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
+  {"item": "Língua Inglesa em 32 capítulos, pelos 6 blocos do Anexo VI", "img": "assets/img/seducsping/b-ingles", "alt": "Sumário da disciplina Língua Inglesa: conhecimentos linguísticos e gramaticais"},
+  {"item": "Cada capítulo abre com o mapa do assunto", "img": "assets/img/seducsping/mapa-modais", "alt": "Primeira página do capítulo sobre verbos modais (should, must, have to, might e may), com o mapa do assunto"},
+  {"item": "Prova Discursiva em 4 capítulos, com respostas-modelo", "img": "assets/img/seducsping/b-discursiva", "alt": "Abertura da disciplina Prova Discursiva"},
+  {"item": "Prova Prática em vídeo em 4 capítulos, com as 4 aulas de Língua Inglesa do Anexo XII", "img": "assets/img/seducsping/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
+  {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducsping/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "professor-ciencias-seduc-sp-2026": [
   {"item": "74 capítulos", "img": "assets/img/seducspcien/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Gestão de sala de aula em 26 capítulos, com as 4 obras da bibliografia do edital", "img": "assets/img/seducspcien/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
