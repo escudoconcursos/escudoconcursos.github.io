@@ -1,19 +1,19 @@
 ---
 slug: concurso-cadete-cbmerj
 titulo_seo: "Concurso Cadete CBMERJ 2027: edital previsto e o que cai"
-descricao: "Concurso Cadete CBMERJ (CFO) autorizado com 50 vagas, edital ainda não publicado. Veja o último edital (UERJ/DSEA): prova, redação, TAF e como estudar."
-h1: "Concurso Cadete CBMERJ 2027: 50 vagas autorizadas, edital ainda não publicado e o que o último edital pediu"
+descricao: "Concurso Cadete CBMERJ (CFO 2027) autorizado, edital ainda não publicado. Veja o último edital (UERJ/DSEA, 50 vagas): prova, redação, TAF e como estudar."
+h1: "Concurso Cadete CBMERJ 2027: concurso autorizado, edital ainda não publicado e o que o último edital pediu"
 curso_id: "cbmerj-cadete-2027"
 orgao: Corpo de Bombeiros Militar do Estado do Rio de Janeiro (CBMERJ)
 banca: "UERJ, por meio do DSEA, na parte acadêmica (a banca do edital novo ainda não foi divulgada)"
 situacao: "edital previsto"
-atualizado_em: 2026-11-20
-fontes: ["Concurso Público ABMDPII - CBMERJ/2026, Edital de Abertura do CFO, DOERJ de 05/12/2025, com a retificação e os Anexos I e II", "Autorização do concurso de Cadete BM com 50 vagas, Diário Oficial do Estado do Rio de Janeiro de 28/10/2026"]
+atualizado_em: 2026-11-21
+fontes: ["Concurso Público ABMDPII - CBMERJ/2026, Edital de Abertura do CFO, DOERJ de 05/12/2025, com a retificação e os Anexos I e II"]
 ---
 
-O Corpo de Bombeiros Militar do Rio de Janeiro teve autorizado um novo concurso para Cadete BM do Curso de Formação de Oficiais (CFO), com 50 vagas, no Diário Oficial de 28 de outubro de 2026, mas o edital ainda não saiu. Este guia mostra o que o último edital, de dezembro de 2025, exigiu, para quem quer começar a estudar agora.
+O Corpo de Bombeiros Militar do Rio de Janeiro teve autorizado um novo concurso para Cadete BM do Curso de Formação de Oficiais (CFO 2027), em publicação no Diário Oficial de 28 de outubro de 2026, mas o edital ainda não saiu. O número oficial de vagas só vale quando o edital for publicado; o último, de dezembro de 2025, ofereceu 50. Este guia mostra o que o último edital, de dezembro de 2025, exigiu, para quem quer começar a estudar agora.
 
-> **Resposta rápida:** edital novo ainda não publicado em 20/11/2026, sem datas de inscrição nem de prova. Concurso autorizado com 50 vagas de Cadete BM. Referência de estudo: o edital do CFO 2026, com nível médio, 50 vagas, remuneração inicial de R$ 4.227,16, taxa de R$ 100,00, prova objetiva de 80 questões (10 de cada uma de 8 disciplinas) e redação de até 20 pontos, aplicadas pela UERJ/DSEA. Tudo o que está abaixo como "edital de 2026" pode mudar no edital novo.
+> **Resposta rápida:** edital novo ainda não publicado em 20/11/2026, sem datas de inscrição nem de prova. Concurso autorizado; o número de vagas sai no edital. Referência de estudo: o edital do CFO 2026, com nível médio, 50 vagas, remuneração inicial de R$ 4.227,16, taxa de R$ 100,00, prova objetiva de 80 questões (10 de cada uma de 8 disciplinas) e redação de até 20 pontos, aplicadas pela UERJ/DSEA. Tudo o que está abaixo como "edital de 2026" pode mudar no edital novo.
 
 **Curso ESCUDO Cadete CBM/RJ 2027 em PDF:** 145 capítulos e 725 questões comentadas, redação e 2 simulados de 80 questões, feitos sobre o programa do último edital. De R$ 79,90 por R$ 59,90 com o cupom CBMERJCFO até 31/12/2026. [Ver o curso](/cbmerj-cadete-2027/)
 
@@ -23,11 +23,11 @@ O Corpo de Bombeiros Militar do Rio de Janeiro teve autorizado um novo concurso 
 
 O Cadete se vê na rotina do CBMERJ desde a matrícula: o edital de 2026 diz que o serviço bombeiro-militar tem natureza estatutária e dedicação integral, nos termos da Lei estadual nº 880/1985, e que o curso de formação tem duração mínima de 4 anos. Depois de concluí-lo com êxito, o Cadete é declarado Aspirante a Oficial.
 
-O que ainda **não** existe é o edital novo. A autorização de 28/10/2026 fixou 50 vagas, mas não há calendário, banca nem regras publicados. Por isso este guia usa o edital do CFO 2026 (Concurso Público ABMDPII - CBMERJ/2026), publicado no DOERJ de 05/12/2025.
+O que ainda **não** existe é o edital novo. Houve a autorização de 28/10/2026, mas não há edital, calendário, banca nem número oficial de vagas publicados. Por isso este guia usa o edital do CFO 2026 (Concurso Público ABMDPII - CBMERJ/2026), publicado no DOERJ de 05/12/2025.
 
 ## Quantas vagas e qual o salário?
 
-**Concurso novo:** 50 vagas autorizadas. A divisão por cotas, a remuneração e a taxa só valem quando saírem no edital novo.
+**Concurso novo:** o número de vagas, a divisão por cotas, a remuneração e a taxa só valem quando saírem no edital novo. O último edital teve 50 vagas.
 
 **Edital de 2026 (referência):**
 
@@ -155,10 +155,10 @@ Quando o edital novo sair, confira a banca, o número de questões, a data de co
 ## Perguntas frequentes
 
 ### Já saiu o edital do concurso de Cadete do CBMERJ?
-Não. Em 20/11/2026 o concurso está autorizado, com 50 vagas, mas o edital não foi publicado.
+Não. Em 21/11/2026 o concurso está autorizado, mas o edital não foi publicado.
 
 ### Quantas vagas tem o concurso de Cadete do CBMERJ?
-Foram autorizadas 50 vagas de Cadete BM. No edital de 2026, eram 35 de ampla concorrência, 5 para hipossuficiência econômica e 10 para negros e indígenas.
+O número oficial só sai no edital novo. No edital de 2026, foram 50 vagas de Cadete BM: 35 de ampla concorrência, 5 para hipossuficiência econômica e 10 para negros e indígenas.
 
 ### Qual é o salário de Cadete e de Aspirante a Oficial?
 No edital de 2026, a remuneração inicial do Cadete BM era de R$ 4.227,16, e a do Aspirante a Oficial, após o curso, de R$ 9.313,32. O edital novo pode trazer outros valores.
@@ -172,4 +172,4 @@ Foram 80 questões objetivas, 10 de cada uma de 8 disciplinas, mais uma redaçã
 ### Vale a pena estudar antes do edital?
 O programa de 2026 é a melhor referência disponível, e como a matéria é de ensino médio, a base que você montar agora tende a servir. Isso só se confirma com o edital novo, então reserve tempo para ajustar.
 
-*Material independente, sem vínculo com o Corpo de Bombeiros Militar do Estado do Rio de Janeiro nem com a UERJ. Atualizado em 20/11/2026 com base no Edital do Concurso Público ABMDPII - CBMERJ/2026 e na autorização de 28/10/2026.*
+*Material independente, sem vínculo com o Corpo de Bombeiros Militar do Estado do Rio de Janeiro nem com a UERJ. Atualizado em 20/11/2026 com base no Edital do Concurso Público ABMDPII - CBMERJ/2026 e no anúncio da autorização de 28/10/2026.*
