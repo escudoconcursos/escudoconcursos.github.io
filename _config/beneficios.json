@@ -140,6 +140,15 @@
   {"item": "Prova Prática em vídeo em 4 capítulos, com as 4 aulas de Matemática do Anexo XII", "img": "assets/img/seducspmat/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
   {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducspmat/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "professor-ciencias-seduc-sp-2026": [
+  {"item": "74 capítulos", "img": "assets/img/seducspcien/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "Gestão de sala de aula em 26 capítulos, com as 4 obras da bibliografia do edital", "img": "assets/img/seducspcien/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
+  {"item": "Ciências em 37 capítulos, pelos 5 blocos do Anexo VI", "img": "assets/img/seducspcien/b-ciencias", "alt": "Sumário da disciplina Ciências: matéria, materiais e transformações"},
+  {"item": "Cada capítulo abre com o mapa do assunto", "img": "assets/img/seducspcien/mapa-lua", "alt": "Primeira página do capítulo sobre o sistema Sol, Terra e Lua, com o mapa do assunto"},
+  {"item": "Prova Discursiva em 4 capítulos, com respostas-modelo", "img": "assets/img/seducspcien/b-discursiva", "alt": "Abertura da disciplina Prova Discursiva"},
+  {"item": "Prova Prática em vídeo em 4 capítulos, com as 2 aulas de Ciências do Anexo XII", "img": "assets/img/seducspcien/b-pratica", "alt": "Abertura da disciplina Prova Prática de Simulação de Aula"},
+  {"item": "2 simulados inéditos de 30 questões, com discursiva", "img": "assets/img/seducspcien/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "professor-fisica-seduc-sp-2026": [
   {"item": "73 capítulos", "img": "assets/img/seducspfis/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "Gestão de sala de aula em 26 capítulos", "img": "assets/img/seducspfis/b-gestao", "alt": "Sumário da disciplina Gestão de Sala de Aula"},
