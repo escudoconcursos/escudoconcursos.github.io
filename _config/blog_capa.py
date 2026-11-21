@@ -118,7 +118,7 @@ def gera(destino, titulo, selo, produto_img=None, destaque=None, foto=None):
     return destino
 
 
-def gera_story(destino, titulo, selo, destaque=None, foto=None, chamada="Toque no link e leia a notícia completa"):
+def gera_story(destino, titulo, selo, destaque=None, foto=None, chamada="Toque no link e leia a notícia completa", rodape="escudoconcursos.com.br/noticias"):
     """Arte de story 1080x1920 do post (Instagram/WhatsApp), no mesmo padrão da capa. 10/11/2026."""
     W, H = 1080, 1920
     im = Image.new("RGB", (W, H), NAVY)
@@ -172,7 +172,7 @@ def gera_story(destino, titulo, selo, destaque=None, foto=None, chamada="Toque n
     for i, l in enumerate(quebra(d, chamada, fc, W - 220)[:2]):
         d.text((W // 2, 1600 + i * 50 + (25 if len(quebra(d, chamada, fc, W - 220)) == 1 else 0)), l, font=fc, fill=CREME, anchor="mm")
     fr = fonte("Archivo-SemiBold", 32)
-    d.text((W // 2, 1800), "escudoconcursos.com.br/noticias", font=fr, fill=CINZA, anchor="mm")
+    d.text((W // 2, 1800), rodape, font=fr, fill=CINZA, anchor="mm")
     destino = pathlib.Path(destino)
     destino.parent.mkdir(parents=True, exist_ok=True)
     im.save(destino, "JPEG", quality=86, optimize=True, progressive=True)
