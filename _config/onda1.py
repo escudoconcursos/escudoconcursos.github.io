@@ -270,6 +270,11 @@ def main():
         arq.write_text(html, encoding="utf-8")
         avisos = [x for x, ok in (("sem H1", ok_h1), ("sem botão do meio", ok_meio), ("sem imagens nos benefícios", ok_img), ("sem selo do edital", ok_selo)) if not ok]
         print("ok", pasta, ("| " + ", ".join(avisos)) if avisos else "")
+    # 22/11/2026: garante os blocos do conversao.py (Avise-me e Simulado grátis) depois de mexer nas páginas.
+    import sys
+    sys.path.insert(0, str(RAIZ / "_config"))
+    import conversao
+    conversao.main()
 
 
 if __name__ == "__main__":
