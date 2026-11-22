@@ -21,7 +21,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/SairaCondensed-Black.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/css/escudo.css?v=28">
+<link rel="stylesheet" href="../assets/css/escudo.css?v=29">
 <style>
   .af-numeros{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0 0;padding:0;list-style:none}
   .af-numeros li{border:1px solid rgba(231,200,115,.35);border-radius:12px;padding:14px 16px}
@@ -180,7 +180,7 @@
   function tag(s) { return "#" + s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9]/g, ""); }
   function preenche() {
     var c = CURSOS[sel.value]; if (!c) return;
-    var cupom = c.cupom ? "R$ 47, ou R$ 37 com o cupom " + c.cupom + (c.cupom_ate ? " até " + c.cupom_ate : "") + "." : "R$ 47.";
+    var cupom = c.cupom ? "R$ 47, ou R$ " + (c.cupom_preco || "37") + (c.prevenda ? " na pré-venda" : "") + " com o cupom " + c.cupom + (c.cupom_ate ? " até " + c.cupom_ate : (c.prevenda ? " até sair o edital, com atualização grátis" : "")) + "." : "R$ 47.";
     zap.value = "Vai fazer o concurso de " + c.titulo + " (" + c.concurso + ")?\n\n" +
       "Tem curso em PDF feito pelo edital, item por item, com " + c.itens + ". Questões no estilo da banca (" + c.banca + "), todas com gabarito comentado.\n\n" +
       c.datas + "\n" + cupom + "\n\n" +

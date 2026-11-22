@@ -15,7 +15,7 @@ Em 20/11/2026, o concurso novo de Soldado da Polícia Militar do Estado do Rio d
 
 > **Resposta rápida:** edital novo ainda não publicado. Referência de estudo: Edital nº 001/2023 SEPM, com 2.000 vagas, taxa de R$ 100,00, prova objetiva de 50 questões A a E (5 disciplinas, 10 questões cada, 2 pontos por questão, mínimo de 60% e nenhuma disciplina zerada), redação de 25 a 30 linhas (mínimo de 50 de 100 pontos) e 9 etapas, da prova ao exame documental.
 
-**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos e 615 questões comentadas, com redação e 2 simulados no estilo FGV. De R$ 47 por R$ 37 com o cupom PMERJ37 até 31/12/2026. [Ver o curso](/pmerj-soldado-2026/)
+**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos e 615 questões comentadas, com redação e 2 simulados no estilo FGV. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMERJ35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/pmerj-soldado-2026/)
 
 ## O que é o concurso de Soldado da PMERJ?
 
@@ -151,7 +151,7 @@ A banca do concurso novo não está definida, mas o último edital foi da FGV, e
 3. **Resolva questões de 5 alternativas depois da teoria** e use o gabarito para entender por que cada errada erra.
 4. **Treine a redação desde cedo,** em 25 a 30 linhas, com os três critérios (30, 30 e 40) e o peso de 20% na nota final. Quando o edital novo sair, confira banca, programa e data de corte da legislação.
 
-**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos, 615 questões comentadas, redação e 2 simulados no estilo FGV, de R$ 47 por R$ 37 com o cupom PMERJ37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmerj-soldado-2026/)
+**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos, 615 questões comentadas, redação e 2 simulados no estilo FGV, de R$ 47 por R$ 35 na pré-venda com o cupom PMERJ35 até sair o edital, com atualização grátis. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmerj-soldado-2026/)
 
 ## Perguntas frequentes
 

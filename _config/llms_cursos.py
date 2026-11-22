@@ -45,7 +45,7 @@ def main():
             txt = "R$ %s" % ("%.2f" % preco).replace(".", ",").replace(",00", "")
             cupom = p.get("cupom") or {}
             if isinstance(cupom, dict) and cupom.get("preco") and cupom.get("ate", "9999") >= HOJE:
-                txt += " (R$ %s com o cupom %s)" % (("%.2f" % cupom["preco"]).replace(".", ",").replace(",00", ""), cupom.get("codigo", ""))
+                txt += (" (R$ %s na pré-venda com o cupom %s, até sair o edital)" if p.get("prevenda") else " (R$ %s com o cupom %s)") % (("%.2f" % cupom["preco"]).replace(".", ",").replace(",00", ""), cupom.get("codigo", ""))
             partes.append(txt)
         if p.get("prova") and p["prova"] != "2099-12-31":
             partes.append("Prova em " + data_br(p["prova"]))

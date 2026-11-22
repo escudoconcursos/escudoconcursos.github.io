@@ -16,7 +16,7 @@ O concurso da Polícia Militar da Bahia para Soldado foi autorizado, com 2.500 v
 
 > **Resposta rápida:** pré-edital. Concurso autorizado com 2.700 vagas, sendo 2.500 de Soldado e 200 de Oficial. Banca em contratação, sem edital, sem período de inscrição e sem data de prova. Previsão não oficial: edital em dezembro de 2026 e prova entre o fim de janeiro e fevereiro de 2027. Referência de estudo: Edital SAEB nº 05/2022 (FCC), com 80 questões e redação.
 
-**Curso ESCUDO PM/BA Soldado 2026 em PDF:** 166 capítulos e 795 questões comentadas, feitos sobre o programa do último edital do cargo. De R$ 47 por R$ 37 com o cupom PMBA37 até 31/12/2026. [Ver o curso](/pmba-soldado-2026/)
+**Curso ESCUDO PM/BA Soldado 2026 em PDF:** 166 capítulos e 795 questões comentadas, feitos sobre o programa do último edital do cargo. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMBA35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/pmba-soldado-2026/)
 
 ## O que é o concurso da PM-BA para Soldado?
 
@@ -99,7 +99,7 @@ A banca do concurso novo não está definida, então não há perfil seguro. Se 
 3. **Resolva questões depois de ler a teoria** e use o gabarito como aula, entendendo por que cada alternativa errada erra.
 4. **Treine a redação desde cedo,** com textos de 20 a 30 linhas e os três critérios de 2022. Quando o edital sair, confira a banca, o programa (o que entrou e saiu) e a data de corte da legislação.
 
-**Curso ESCUDO PM/BA Soldado 2026 em PDF:** 166 capítulos em 13 partes, 6 de redação e 2 simulados de 80 questões. De R$ 47 por R$ 37 com o cupom PMBA37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmba-soldado-2026/)
+**Curso ESCUDO PM/BA Soldado 2026 em PDF:** 166 capítulos em 13 partes, 6 de redação e 2 simulados de 80 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMBA35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmba-soldado-2026/)
 
 ## Perguntas frequentes
 

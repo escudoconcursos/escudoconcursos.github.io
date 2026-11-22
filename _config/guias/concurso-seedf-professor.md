@@ -15,7 +15,7 @@ O concurso da Secretaria de Educação do Distrito Federal para Professor de Edu
 
 > **Resposta rápida:** edital previsto, ainda não publicado. Banca: Instituto Quadrix. Termo de Referência 3/2026: 1.879 vagas imediatas e 5.638 de cadastro de reserva para Professor de Educação Básica, em 57 componentes curriculares, jornada de 40 horas e vencimento básico de R$ 6.749,10. Prova objetiva prevista com 120 itens Certo ou Errado (30 de Conhecimentos Básicos, 40 de Complementares e 50 de Específicos), mais discursiva e Estudo de Caso. Sem data de prova.
 
-**Curso ESCUDO Professor SEEDF Básicos e Complementares em PDF:** 110 capítulos e 1.060 itens comentados no formato Certo ou Errado, mais 2 simulados de 70 itens. De R$ 47 por R$ 37 com o cupom SEEDF37 até 31/12/2026. [Ver o curso](/seedf-professor-2026/)
+**Curso ESCUDO Professor SEEDF Básicos e Complementares em PDF:** 110 capítulos e 1.060 itens comentados no formato Certo ou Errado, mais 2 simulados de 70 itens. Na pré-venda, de R$ 47 por R$ 35 com o cupom SEEDF35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/seedf-professor-2026/)
 
 ## O que é o concurso da SEEDF para Professor?
 
@@ -119,7 +119,7 @@ O programa de 2022 (Anexo IV) é a melhor referência. Quase tudo o que cai nos 
 
 ## E para quem é de Pedagogia?
 
-O curso **Pedagogia SEEDF Específicos** cobre o bloco de 50 itens do componente de maior número de vagas, com base no programa do cargo Atividades de 2022. São 30 capítulos e 290 itens comentados, de R$ 47 por R$ 37 com o cupom PEDSEEDF37 até 31/12/2026. Ele se soma ao curso de Básicos e Complementares: juntos cobrem os 120 itens de quem faz Pedagogia. O programa de Pedagogia de 2026 só será conhecido com o edital novo. [Ver o curso de Pedagogia](/seedf-pedagogia-2026/)
+O curso **Pedagogia SEEDF Específicos** cobre o bloco de 50 itens do componente de maior número de vagas, com base no programa do cargo Atividades de 2022. São 30 capítulos e 290 itens comentados, de R$ 47 por R$ 35 na pré-venda com o cupom PEDSEEDF35 até sair o edital. Ele se soma ao curso de Básicos e Complementares: juntos cobrem os 120 itens de quem faz Pedagogia. O programa de Pedagogia de 2026 só será conhecido com o edital novo. [Ver o curso de Pedagogia](/seedf-pedagogia-2026/)
 
 ## Como estudar para a Quadrix, que usa Certo ou Errado?
 

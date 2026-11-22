@@ -34,10 +34,10 @@
       var x = prox[0], selo = li.querySelector("[data-selo]");
       var juntos = x.tipo === "cupom" && prox.some(function (y) { return y.tipo === "inscricoes" && y.data === x.data; });
       // "previsto" = curso sem edital novo (data 2099-12-31 no vitrine.py): selo sem data e o cartão nunca some
-      var txt = x.tipo === "previsto" ? "Edital previsto" :
+      var txt = x.tipo === "previsto" ? "Edital previsto" : x.tipo === "prevenda" ? "Pré-venda até sair o edital" :
         { cupom: juntos ? "Cupom e inscrições até " : "Cupom até ", inscricoes: "Inscrições até ", prova: "Prova em " }[x.tipo] + ddmm(x.data);
       var faltam = Math.round((data(x.data) - hoje) / DIA);
-      if (faltam <= 7 && x.tipo !== "previsto") txt += faltam === 0 ? " · último dia" : " · faltam " + faltam + " dia" + (faltam > 1 ? "s" : "");
+      if (faltam <= 7 && x.tipo !== "previsto" && x.tipo !== "prevenda") txt += faltam === 0 ? " · último dia" : " · faltam " + faltam + " dia" + (faltam > 1 ? "s" : "");
       if (selo) { selo.textContent = txt; selo.classList.toggle("urgente", faltam <= 7); }
       li.setAttribute("data-chave", x.data);
     });
@@ -230,5 +230,111 @@
         f.reset();
       }).catch(porEmail).then(function () { botao.disabled = false; });
     });
+  });
+})();
+
+/* 8. Lista "Avise-me quando sair o edital" (22/11/2026): e-mail e WhatsApp vão para o mesmo App da Web dos pedidos,
+      com tipo=lista (aba "Lista de espera" da planilha). Sem endpoint, abre um e-mail pronto. Conta no GoatCounter. */
+(function () {
+  var origem = function () { try { return (JSON.parse(sessionStorage.getItem("escudo-origem") || "{}").src) || ""; } catch (e) { return ""; } };
+  document.querySelectorAll("[data-lista-form]").forEach(function (f) {
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var caixa = f.closest("[data-lista]"), url = caixa.getAttribute("data-endpoint");
+      var email = (f.elements.email.value || "").trim(), zap = (f.elements.whatsapp.value || "").replace(/[^\d+]/g, "");
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { f.elements.email.focus(); return; }
+      var curso = caixa.getAttribute("data-curso"), concurso = caixa.getAttribute("data-concurso");
+      if (window.goatcounter && goatcounter.count) goatcounter.count({ path: "lista-edital", title: curso, event: true });
+      var ok = caixa.querySelector(".pedido-ok");
+      if (!ok) { ok = document.createElement("p"); ok.className = "pedido-ok"; ok.setAttribute("role", "status"); f.parentNode.insertBefore(ok, f.nextSibling); }
+      var porEmail = function () {
+        location.href = "mailto:" + caixa.getAttribute("data-email") + "?subject=" + encodeURIComponent("Avise-me do edital: " + concurso) +
+          "&body=" + encodeURIComponent("Quero o aviso quando sair o edital " + concurso + ".\nWhatsApp: " + (zap || "-") + "\n");
+        ok.textContent = "Abrimos o seu e-mail com o pedido pronto. É só enviar.";
+      };
+      if (!url) { porEmail(); return; }
+      var dados = new URLSearchParams({ tipo: "lista", curso: curso, concurso: concurso, cargo: caixa.getAttribute("data-cargo") || "",
+        email: email, whatsapp: zap, pagina: location.pathname, origem: origem() + "|" + (caixa.getAttribute("data-origem-bloco") || ""),
+        site_url: f.elements.site_url.value });
+      var botao = f.querySelector("button"); botao.disabled = true; ok.textContent = "Enviando...";
+      fetch(url, { method: "POST", mode: "no-cors", body: dados }).then(function () {
+        ok.textContent = "Pronto! Você está na lista do edital " + concurso + ". Avisamos no dia em que ele sair.";
+        f.reset();
+      }).catch(porEmail).then(function () { botao.disabled = false; });
+    });
+  });
+})();
+
+/* 9. Simulado grátis (22/11/2026): as questões vêm num <script type="application/json" id="simulado-dados">.
+      Nota na hora por disciplina; o gabarito comentado aparece depois do e-mail (tipo=simulado no App da Web). */
+(function () {
+  var raiz = document.querySelector("[data-simulado]");
+  var fonte = document.getElementById("simulado-dados");
+  if (!raiz || !fonte) return;
+  var S = JSON.parse(fonte.textContent), Q = S.questoes, lista = raiz.querySelector("[data-sim-questoes]");
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var md = function (s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>"); };
+  var letras = function (q) { return q.tipo === "ce" ? ["C", "E"] : Object.keys(q.alternativas); };
+  var rotulo = function (q, l) { return q.tipo === "ce" ? (l === "C" ? "Certo" : "Errado") : q.alternativas[l]; };
+  lista.innerHTML = Q.map(function (q, i) {
+    return '<li class="sim-q" id="q' + (i + 1) + '"><p class="sim-disc">' + esc(q.disciplina) + '</p><div class="sim-enun"><p>' + md(q.enunciado) + "</p></div>" +
+      '<fieldset><legend class="sr">Questão ' + (i + 1) + "</legend>" + letras(q).map(function (l) {
+        return '<label class="sim-alt"><input type="radio" name="q' + i + '" value="' + l + '"><b>' + l + "</b><span>" + md(rotulo(q, l)) + "</span></label>";
+      }).join("") + '</fieldset><div class="sim-coment" hidden></div></li>';
+  }).join("");
+  var conta = function (ev) { if (window.goatcounter && goatcounter.count) goatcounter.count({ path: ev, title: S.curso_id, event: true }); };
+  var comecou = false;
+  lista.addEventListener("change", function () { if (!comecou) { comecou = true; conta("simulado-inicio"); } });
+  var resultado = raiz.querySelector("[data-sim-resultado]"), gate = raiz.querySelector("[data-sim-gate]");
+  var respostas = function () { return Q.map(function (q, i) { var m = lista.querySelector('input[name="q' + i + '"]:checked'); return m ? m.value : ""; }); };
+  raiz.querySelector("[data-sim-corrigir]").addEventListener("click", function () {
+    var r = respostas(), brancas = r.filter(function (x) { return !x; }).length;
+    if (brancas && !confirm("Faltam " + brancas + " questões. Corrigir assim mesmo?")) return;
+    var por = {}, total = 0;
+    Q.forEach(function (q, i) {
+      var d = por[q.disciplina] || (por[q.disciplina] = { a: 0, n: 0 }); d.n++;
+      if (r[i] === q.gabarito) { d.a++; total++; }
+    });
+    var pct = Math.round(total / Q.length * 100);
+    resultado.innerHTML = '<p class="sim-nota"><b>' + total + " de " + Q.length + "</b> (" + pct + "%)</p>" +
+      '<p class="sim-frase">' + (pct >= 70 ? "Ótimo resultado. Agora é manter o ritmo até a prova." : pct >= 50 ? "Bom começo. Veja no gabarito comentado onde estão os pontos a reforçar." : "Ainda há chão pela frente, e o gabarito comentado mostra por onde começar.") + "</p>" +
+      '<table class="sim-tabela"><thead><tr><th>Disciplina</th><th>Acertos</th></tr></thead><tbody>' +
+      Object.keys(por).map(function (k) { return "<tr><td>" + esc(k) + "</td><td>" + por[k].a + "/" + por[k].n + "</td></tr>"; }).join("") + "</tbody></table>";
+    resultado.hidden = false; gate.hidden = false;
+    raiz.setAttribute("data-nota", total + "/" + Q.length);
+    conta("simulado-nota");
+    resultado.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  var revela = function () {
+    var r = respostas();
+    Q.forEach(function (q, i) {
+      var li = lista.children[i], c = li.querySelector(".sim-coment");
+      li.classList.add(r[i] === q.gabarito ? "certa" : "errada");
+      li.querySelectorAll(".sim-alt").forEach(function (lab) {
+        var v = lab.querySelector("input").value;
+        if (v === q.gabarito) lab.classList.add("gabarito");
+        else if (v === r[i]) lab.classList.add("marcada-errada");
+      });
+      c.innerHTML = "<p><b>Gabarito: " + esc(q.tipo === "ce" ? rotulo(q, q.gabarito) : q.gabarito) + ".</b> " + md(q.comentario) + "</p>";
+      c.hidden = false;
+    });
+    gate.hidden = true;
+    raiz.querySelector("[data-sim-final]").hidden = false;
+    try { localStorage.setItem("escudo-sim-" + S.curso_id, "1"); } catch (e) {}
+  };
+  var f = gate.querySelector("form");
+  f.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var email = (f.elements.email.value || "").trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { f.elements.email.focus(); return; }
+    var url = raiz.getAttribute("data-endpoint");
+    conta("simulado-gabarito");
+    if (url) {
+      var dados = new URLSearchParams({ tipo: "simulado", curso: S.curso_id, concurso: S.titulo, email: email,
+        whatsapp: (f.elements.whatsapp.value || "").replace(/[^\d+]/g, ""), nota: raiz.getAttribute("data-nota") || "",
+        pagina: location.pathname, site_url: f.elements.site_url.value });
+      fetch(url, { method: "POST", mode: "no-cors", body: dados }).catch(function () {});
+    }
+    revela();
   });
 })();

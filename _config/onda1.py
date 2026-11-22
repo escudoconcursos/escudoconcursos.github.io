@@ -243,7 +243,7 @@ def selo_edital(html, pasta):
         base = f"o último edital (<b>{e(pre)}</b>)" if pre else "o último edital do cargo"
         if pre.startswith("@"):  # texto próprio, sem edital anterior do cargo (ex.: DETRAN-PR, programa estimado)
             base = e(pre[1:])
-        txt = f"Pré-edital: baseado n{base}. Atualizado quando sair o novo"
+        txt = f"Pré-edital: baseado n{base}. Atualização grátis quando sair o novo"
         cls = "selo-edital selo-pre"
     else:
         return html, False
