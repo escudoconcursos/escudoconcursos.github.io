@@ -338,3 +338,12 @@ if llms.exists():
         s = s.rstrip("\n") + "\n\n" + bloco + "\n"
     llms.write_text(s, encoding="utf-8")
     print("ok llms.txt")
+
+# 22/11/2026: este script regrava os guias do zero e apagava os blocos que o conversao.py insere
+# ("Avise-me quando sair o edital" e "Simulado grátis"). Agora ele chama o conversao.py no fim,
+# então rodar só o guias.py (como a rotina do blog faz) já devolve os blocos. A Black Friday e a
+# pré-venda não dependem disso: ficam no site.js e no produtos.json.
+import sys as _sys
+_sys.path.insert(0, str(RAIZ / "_config"))
+import conversao as _conversao
+_conversao.main()
