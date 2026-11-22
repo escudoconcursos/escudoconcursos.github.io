@@ -15,7 +15,7 @@ A Polícia Militar do Paraná ainda não publicou o edital novo de Soldado. Em 2
 
 > **Resposta rápida:** pré-edital. Sem edital novo, sem inscrições e sem data de prova. Referência de estudo: Edital nº 01 - Soldado PMPR-2025 (28/03/2025), com 2.000 vagas regionalizadas, curso superior em qualquer área, até 30 anos no primeiro dia de inscrição, taxa de R$ 130,00, subsídio de R$ 6.101,87 ao chegar a Soldado de 1ª Classe. Prova objetiva de 60 questões (A a E) e redação de 20 pontos, em 5 horas, realizadas em 29/06/2025.
 
-**Curso ESCUDO Soldado PM/PR 2026 em PDF:** 126 capítulos e 595 questões comentadas, com redação e 2 simulados no formato da prova, feitos sobre o programa do último edital. De R$ 47 por R$ 37 com o cupom PMPR37 até 31/12/2026. [Ver o curso](/soldado-pmpr-2026/)
+**Curso ESCUDO Soldado PM/PR 2026 em PDF:** 126 capítulos e 595 questões comentadas, com redação e 2 simulados no formato da prova, feitos sobre o programa do último edital. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMPR35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/soldado-pmpr-2026/)
 
 ## O que é o concurso da PM-PR para Soldado?
 
@@ -122,7 +122,7 @@ A **Legislação Institucional** é a parte mais local: a Lei federal nº 14.751
 
 O item 15.15 do edital de 2025 só aceitava a legislação em vigor até a data de publicação do edital, 28/03/2025. O edital novo terá a sua própria data de corte, e só ela vale.
 
-**Curso ESCUDO Soldado PM/PR 2026 em PDF:** as disciplinas do último edital em 126 capítulos, 595 questões comentadas, redação e 2 simulados no formato da prova. Cupom PMPR37: R$ 37 até 31/12/2026 (preço cheio R$ 47). [Ver o curso](/soldado-pmpr-2026/)
+**Curso ESCUDO Soldado PM/PR 2026 em PDF:** as disciplinas do último edital em 126 capítulos, 595 questões comentadas, redação e 2 simulados no formato da prova. Pré-venda com o cupom PMPR35: R$ 35 até sair o edital, com atualização grátis (preço cheio R$ 47). [Ver o curso](/soldado-pmpr-2026/)
 
 ## Quais são as outras etapas?
 
@@ -142,7 +142,7 @@ A banca do concurso novo não está definida. Se for o IBFC de novo, vale o que 
 4. **Resolva questões depois de ler a teoria** e use o comentário como aula, entendendo por que cada alternativa errada erra.
 5. **Quando o edital sair, compare.** Confira banca, programa (o que entrou e o que saiu), recortes de lei e data de corte da legislação.
 
-**Curso ESCUDO Soldado PM/PR 2026 em PDF:** 126 capítulos, 595 questões comentadas, 6 capítulos de redação e 2 simulados no formato da prova. De R$ 47 por R$ 37 com o cupom PMPR37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/soldado-pmpr-2026/)
+**Curso ESCUDO Soldado PM/PR 2026 em PDF:** 126 capítulos, 595 questões comentadas, 6 capítulos de redação e 2 simulados no formato da prova. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMPR35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/soldado-pmpr-2026/)
 
 ## Perguntas frequentes
 

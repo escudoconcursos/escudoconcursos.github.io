@@ -506,3 +506,39 @@ a.chip{text-decoration:none}
 /* link do guia no fim da resposta rápida das páginas de curso (21/11/2026) */
 .rapida-guia{margin:14px 0 0;font-weight:600}
 .rapida-guia a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+/* ---------- lista "Avise-me quando sair o edital" e simulado grátis (22/11/2026) ---------- */
+.estreito{max-width:760px}
+.avise p{color:var(--ink2)}
+.avise .pedido-form label{color:var(--navy)}
+.avise .pedido-form input{border-color:var(--navy)}
+.lista-nota{font-size:.9rem;margin-top:12px}
+.avise .pedido-ok{font-weight:700;color:var(--navy);margin-top:12px}
+.avise-link{margin:10px 0 0;font-size:.95rem}
+.avise-link a{color:var(--cb);text-decoration:underline}
+.simulado-cta p{color:var(--ink2)}
+.simulado-guia .btn,.avise-guia .btn{margin-top:4px}
+.sim-intro{color:var(--ink2);font-size:1.05rem}
+.sim-lista{list-style:none;margin:24px 0;padding:0;counter-reset:q}
+.sim-q{counter-increment:q;background:#fff;border:1px solid rgba(11,27,51,.12);border-radius:var(--r,14px);padding:18px 16px;margin:0 0 16px}
+.sim-q::before{content:"Questão " counter(q);display:block;font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;color:var(--cd)}
+.sim-disc{margin:2px 0 8px;font-size:.88rem;color:var(--ink2)}
+.sim-enun p{margin:0 0 10px}
+.sim-q fieldset{border:0;margin:0;padding:0}
+.sim-alt{display:flex;gap:10px;align-items:flex-start;padding:10px;border:1px solid rgba(11,27,51,.15);border-radius:10px;margin:6px 0;cursor:pointer;min-height:44px}
+.sim-alt input{margin-top:4px;flex:none}
+.sim-alt b{flex:none;min-width:1.2em}
+.sim-alt span p{margin:0}
+.sim-alt.gabarito{border-color:#1d7a46;background:#e8f6ee}
+.sim-alt.marcada-errada{border-color:#b3261e;background:#fbeceb}
+.sim-coment{margin-top:10px;padding:12px;border-left:4px solid var(--gold);background:var(--cream);border-radius:6px}
+.sim-coment p{margin:0}
+.sim-nota{font-size:2rem;margin:0;color:var(--navy)}
+.sim-tabela{width:100%;border-collapse:collapse;margin:12px 0}
+.sim-tabela th,.sim-tabela td{text-align:left;padding:8px;border-bottom:1px solid rgba(11,27,51,.15)}
+.sim-caixa{background:#fff;border:2px solid var(--gold);border-radius:var(--r,14px);padding:18px 16px;margin:20px 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.guia .pedido h3{color:var(--goldb)}
+.guia .pedido p{color:var(--cream)}
+.guia .pedido .btn{color:var(--cbtn-txt,#0B1A33);text-decoration:none}
+.guia .pedido .pedido-ok{color:var(--goldb);font-weight:700}

@@ -15,7 +15,7 @@ A Prefeitura de Joinville (SC) já contratou o Instituto AOCP para um novo concu
 
 > **Resposta rápida:** pré-edital. Banca definida: Instituto AOCP (Termo de Dispensa nº 559/2026, de 22/09/2026), para um concurso conjunto de Guarda Municipal e Agentes de Trânsito. Edital, vagas, salário, taxa e data de prova ainda não saíram. Referência de estudo: edital 004/2019-SGP, com 35 questões de cinco alternativas, nota mínima de 40 pontos e 15 questões de conhecimentos específicos.
 
-**Curso ESCUDO GM Joinville 2026 em PDF:** 115 capítulos e 570 questões comentadas, 2 simulados de 35 questões, feitos sobre o programa do último edital. De R$ 47 por R$ 37 com o cupom JOINVILLE37 até 31/12/2026. [Ver o curso](/gm-joinville-2026/)
+**Curso ESCUDO GM Joinville 2026 em PDF:** 115 capítulos e 570 questões comentadas, 2 simulados de 35 questões, feitos sobre o programa do último edital. Na pré-venda, de R$ 47 por R$ 35 com o cupom JOINVILLE35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/gm-joinville-2026/)
 
 ## O que é o concurso da Guarda Municipal de Joinville?
 

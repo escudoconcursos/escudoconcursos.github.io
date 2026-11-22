@@ -223,13 +223,16 @@
       "alt": "Curso em PDF ESCUDO: Professor da SEEDF, Básicos e Complementares, SEEDF 2026, 110 capítulos e 1.060 itens comentados",
       "preco": 47,
       "cupom": {
-        "codigo": "SEEDF37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "SEEDF35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "SEEDF37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "seedf-professor-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "seedf-pedagogia-2026",
@@ -246,13 +249,16 @@
       "alt": "Curso em PDF ESCUDO: Professor Pedagogia da SEEDF, Conhecimentos Específicos, SEEDF 2026, 30 capítulos e 290 itens comentados",
       "preco": 47,
       "cupom": {
-        "codigo": "PEDSEEDF37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PEDSEEDF35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PEDSEEDF37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "seedf-pedagogia-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pedagogia-aparecida-2026",
@@ -437,12 +443,15 @@
       "alt": "Curso em PDF ESCUDO: Policial Penal do Paraná, Polícia Penal/PR 2026, 109 capítulos e 545 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PENAL37",
-        "preco": 37,
-        "ate": "2026-11-30"
+        "codigo": "PENAL35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PENAL37",
+        "_antes_ate": "2026-11-30"
       },
       "link": "policial-penal-pr-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "escrevente-tjsp-2026",
@@ -531,13 +540,16 @@
       "alt": "Curso em PDF ESCUDO: Técnico do Seguro Social do INSS, pré-edital 2026, 158 capítulos e 1.570 itens certo/errado comentados",
       "preco": 47,
       "cupom": {
-        "codigo": "INSS37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "INSS35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "INSS37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "inss-tecnico-seguro-social-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "trt4-tecnico-administrativo-2026",
@@ -626,13 +638,16 @@
       "alt": "Curso em PDF ESCUDO: Investigador da Polícia Civil de Minas Gerais, PCMG 2026, 129 capítulos e 645 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PCMG37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PCMG35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PCMG37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "investigador-policia-civil-mg-pcmg-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "soldado-pmpr-2026",
@@ -649,13 +664,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Paraná, PM/PR 2026, 126 capítulos e 595 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMPR37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMPR35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMPR37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "soldado-pmpr-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "gm-recife-2026",
@@ -672,12 +690,15 @@
       "alt": "Curso em PDF ESCUDO: Agente de Segurança Municipal do Recife, GM Recife 2026, 126 capítulos e 625 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "GMRECIFE37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "GMRECIFE35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "GMRECIFE37",
+        "_antes_ate": "2026-12-31"
       },
       "link": "gm-recife-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "policial-penal-pe-2026",
@@ -742,13 +763,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Rio de Janeiro, PM/RJ 2026, 129 capítulos e 615 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMERJ37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMERJ35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMERJ37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmerj-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmerj-cfo-2027",
@@ -811,13 +835,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Pará, PM/PA 2026, 160 capítulos e 795 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMPA37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMPA35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMPA37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmpa-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "cbm-al-soldado-2026",
@@ -858,13 +885,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar da Bahia, PM/BA 2026, 166 capítulos e 795 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMBA37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMBA35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMBA37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmba-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmesp-soldado-2026",
@@ -954,12 +984,15 @@
       "alt": "Curso em PDF ESCUDO: Guarda Municipal de Balneário Camboriú/SC, GM Balneário Camboriú 2026, 91 capítulos e 450 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "GMBC37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "GMBC35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "GMBC37",
+        "_antes_ate": "2026-12-31"
       },
       "link": "gm-balneario-camboriu-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "gm-pedra-branca-do-amapari-2026",
@@ -1312,12 +1345,15 @@
       "alt": "Curso em PDF ESCUDO: Guarda Municipal de Joinville, GM Joinville 2026, 115 capítulos e 570 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "JOINVILLE37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "JOINVILLE35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "JOINVILLE37",
+        "_antes_ate": "2026-12-31"
       },
       "link": "gm-joinville-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmrr-soldado-2026",
@@ -1334,13 +1370,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Roraima, PM/RR 2026, 151 capítulos e 750 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMRR37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMRR35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMRR37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmrr-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pjcmt-investigador-escrivao-2026",
@@ -1357,13 +1396,16 @@
       "alt": "Curso em PDF ESCUDO: Investigador e Escrivão da Polícia Civil de Mato Grosso, PC/MT 2026, 138 capítulos e 670 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PJCMT37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PJCMT35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PJCMT37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pjcmt-investigador-escrivao-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "ppsc-policial-penal-2026",
@@ -1380,13 +1422,16 @@
       "alt": "Curso em PDF ESCUDO: Policial Penal de Santa Catarina, Polícia Penal/SC 2026, 81 capítulos e 400 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PPSC37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PPSC35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PPSC37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "ppsc-policial-penal-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "detranpr-agente-2026",
@@ -1403,13 +1448,16 @@
       "alt": "Curso em PDF ESCUDO: Agente de Trânsito do DETRAN-PR, DETRAN/PR 2026, 138 capítulos e 685 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "DETRANPR37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "DETRANPR35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "DETRANPR37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "detranpr-agente-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pcpa-escrivao-2026",
@@ -1426,13 +1474,16 @@
       "alt": "Curso em PDF ESCUDO: Escrivão da Polícia Civil do Pará, PC/PA 2026, 132 capítulos e 640 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PCPAESC37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PCPAESC35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PCPAESC37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pcpa-escrivao-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pcpa-investigador-2026",
@@ -1449,13 +1500,16 @@
       "alt": "Curso em PDF ESCUDO: Investigador da Polícia Civil do Pará, PC/PA 2026, 132 capítulos e 640 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PCPAINV37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PCPAINV35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PCPAINV37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pcpa-investigador-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pcto-oficial-investigador-2026",
@@ -1472,13 +1526,16 @@
       "alt": "Curso em PDF ESCUDO: Oficial Investigador da Polícia Civil do Tocantins, PC/TO 2026, 160 capítulos e 780 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PCTO37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PCTO35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PCTO37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pcto-oficial-investigador-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "cbmes-soldado-2026",
@@ -1495,13 +1552,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado Combatente do Corpo de Bombeiros Militar do Espírito Santo, CBMES 2026, 142 capítulos e 705 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "CBMES37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "CBMES35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "CBMES37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "cbmes-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmac-soldado-2026",
@@ -1518,13 +1578,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Acre, PM/AC 2026, 95 capítulos e 470 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMAC37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMAC35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMAC37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmac-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "policial-penal-pb-2026",
@@ -1541,13 +1604,16 @@
       "alt": "Curso em PDF ESCUDO: Policial Penal da Paraíba, Polícia Penal/PB 2026, 133 capítulos e 645 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PPPB37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PPPB35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PPPB37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "policial-penal-pb-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmmg-soldado-2026",
@@ -1564,13 +1630,16 @@
       "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Minas Gerais, PM/MG 2026, 110 capítulos e 545 questões comentadas",
       "preco": 47,
       "cupom": {
-        "codigo": "PMMG37",
-        "preco": 37,
-        "ate": "2026-12-31"
+        "codigo": "PMMG35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMMG37",
+        "_antes_ate": "2026-12-31"
       },
       "prova": "2099-12-31",
       "link": "pmmg-soldado-2026/",
-      "botao": "Ver o curso"
+      "botao": "Ver o curso",
+      "prevenda": true
     },
     {
       "id": "pmmg-cfo-2027",

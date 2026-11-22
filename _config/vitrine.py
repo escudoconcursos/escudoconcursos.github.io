@@ -81,7 +81,9 @@ def eventos(p):
     """Prazos do curso em ordem: o primeiro que ainda não passou é o que aparece no selo."""
     ev = []
     c = p.get("cupom")
-    if c:
+    if c and p.get("prevenda"):  # pré-venda (22/11/2026): sem data, vale até sair o edital
+        ev.append({"tipo": "prevenda", "data": SEM_DATA})
+    elif c:
         ev.append({"tipo": "cupom", "data": c["ate"]})
     if p.get("inscricoes_ate"):
         ev.append({"tipo": "inscricoes", "data": p["inscricoes_ate"]})
@@ -89,7 +91,7 @@ def eventos(p):
         ev.append({"tipo": "prova", "data": p["prova"]})
     else:  # sem edital novo (ex.: Polícia Penal/PR): o cartão não some e o selo diz "Edital previsto"
         ev.append({"tipo": "previsto", "data": SEM_DATA})
-    return sorted(ev, key=lambda x: (x["data"], x["tipo"] != "cupom"))
+    return sorted(ev, key=lambda x: (x["data"], x["tipo"] not in ("cupom", "prevenda")))
 
 
 def selo(p):
@@ -100,11 +102,12 @@ def selo(p):
     x = ev[0]
     juntos = x["tipo"] == "cupom" and any(y["tipo"] == "inscricoes" and y["data"] == x["data"] for y in ev)
     txt = {"cupom": "Cupom e inscrições até %s" if juntos else "Cupom até %s",
-           "inscricoes": "Inscrições até %s", "prova": "Prova em %s", "previsto": "Edital previsto"}[x["tipo"]]
-    if x["tipo"] != "previsto":
+           "inscricoes": "Inscrições até %s", "prova": "Prova em %s", "previsto": "Edital previsto",
+           "prevenda": "Pré-venda até sair o edital"}[x["tipo"]]
+    if x["tipo"] not in ("previsto", "prevenda"):
         txt = txt % ddmm(x["data"])
     faltam = (d(x["data"]) - HOJE).days
-    if faltam <= 7 and x["tipo"] != "previsto":
+    if faltam <= 7 and x["tipo"] not in ("previsto", "prevenda"):
         txt += " · último dia" if faltam == 0 else " · faltam %d dia%s" % (faltam, "s" if faltam > 1 else "")
     return x["data"], txt, faltam <= 7
 
@@ -121,7 +124,10 @@ def cartao(p):
     brasao = ('<img class="tag-orgao" src="%s" width="61" height="80" alt="">' % e(p["brasao"])) if p.get("brasao") else ""
     prova = ("Prova em %s" % ddmm(p["prova"], True)) if (p.get("prova") and p["prova"] != SEM_DATA) else "Prova: aguardando o edital novo"
     itens = "".join("<li>%s</li>" % e(i) for i in p["itens"]) + "<li>%s</li>" % prova
-    if c and d(c["ate"]) >= HOJE:
+    if c and p.get("prevenda"):
+        valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s na pré-venda (cupom %s)</p>\n'
+                 '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], brl(p["preco"]), brl(c["preco"]), e(c["codigo"]), brl(p["preco"])))
+    elif c and d(c["ate"]) >= HOJE:
         valor = ('<p class="valor" data-cupom-ate="%sT23:59:59-03:00">De <s>R$ %s</s> por R$ %s com o cupom %s</p>\n'
                  '          <p class="valor" data-sem-cupom hidden>R$ %s</p>' % (c["ate"], brl(p["preco"]), brl(c["preco"]), e(c["codigo"]), brl(p["preco"])))
     else:

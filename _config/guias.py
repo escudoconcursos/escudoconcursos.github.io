@@ -227,7 +227,7 @@ def monta(meta, corpo, slug):
                       "<title>%s</title>" % html.escape(titulo_curto(meta, prods)), 1)
     # 21/11/2026: o guia não carregava o site.js, e quem chegava do ChatGPT num guia ia para o curso sem a origem
     # (src) nem a página de entrada (sck) no link de compra da Hotmart.
-    s = s.replace("</body>", '<script src="../assets/js/site.js?v=9" defer></script>\n</body>', 1)
+    s = s.replace("</body>", '<script src="../assets/js/site.js?v=10" defer></script>\n</body>', 1)
     destino = RAIZ / slug / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")
