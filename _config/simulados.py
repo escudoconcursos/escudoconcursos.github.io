@@ -41,7 +41,9 @@ def pagina(dados):
     titulo = f"Simulado grátis {sigla} {cargo} 2026: {qtd} questões"
     desc = f"Simulado grátis {sigla} {cargo} com {qtd} questões no estilo {dados.get('banca', 'da banca')}, nota na hora por disciplina e gabarito comentado."
     c = p.get("cupom") or {}
-    preco = f"R$ {c['preco']} com o cupom {c['codigo']}" if c.get("preco") else f"R$ {p.get('preco', 47)}"
+    import datetime as dt
+    hoje = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
+    preco = f"R$ {c['preco']} com o cupom {c['codigo']}" if c.get("preco") and c.get("ate", "") >= hoje else f"R$ {p.get('preco', 47)}"
     ld = {"@context": "https://schema.org", "@type": "Quiz", "name": titulo, "description": desc, "inLanguage": "pt-BR",
           "educationalLevel": "Concurso público", "about": f"{sigla} {cargo}", "url": BASE + slug + "/",
           "provider": {"@type": "Organization", "name": "ESCUDO Concursos", "url": BASE}}
