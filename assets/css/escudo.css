@@ -542,3 +542,4 @@ a.chip{text-decoration:none}
 .guia .pedido p{color:var(--cream)}
 .guia .pedido .btn{color:var(--cbtn-txt,#0B1A33);text-decoration:none}
 .guia .pedido .pedido-ok{color:var(--goldb);font-weight:700}
+.guia div.guia-curso p{color:var(--cream)}
