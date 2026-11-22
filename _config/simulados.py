@@ -80,7 +80,7 @@ def pagina(dados):
     s = MODELO
     for k, v in reps.items():
         s = s.replace(k, v)
-    s = s.replace("</body>", '<script src="../assets/js/site.js?v=10" defer></script>\n</body>', 1)
+    s = s.replace("</body>", '<script src="../assets/js/site.js?v=11" defer></script>\n</body>', 1)
     destino = RAIZ / slug / "index.html"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(s, encoding="utf-8")

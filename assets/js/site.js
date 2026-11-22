@@ -16,6 +16,44 @@
     if (agora > Date.parse(a.getAttribute("data-fim-cupom"))) a.href = a.getAttribute("data-href-sem-cupom");
   });
 
+  /* 10. Black Friday 27 a 30/11/2026: cupom BLACK30 (30%) criado na Hotmart só nos cursos de edital aberto abaixo.
+         Fora da janela nada muda. Troca preço, cupom e links de compra do curso e mostra uma faixa no topo. */
+  (function () {
+    var INI = Date.parse("2026-11-27T00:00:00-03:00"), FIM = Date.parse("2026-11-30T23:59:59-03:00");
+    var t = Date.now(); try { var q = /[?&]bf=(\d{4}-\d\d-\d\d)/.exec(location.search); if (q) t = Date.parse(q[1] + "T12:00:00-03:00"); } catch (e) {}
+    if (t < INI || t > FIM) return;
+    var PAGINAS = " agente-administrativo-curitiba-2026 agente-educativo-aparecida-2026 assistente-administrativo-contagem-2026 assistente-semusa-porto-velho-2026 assistente-tecnico-dpe-am-2026 assistente-tecnico-sead-ma-2026 cbm-al-soldado-2026 cbmpe-soldado-2026 escrevente-tjsp-2026 gcm-angra-dos-reis-2026 gcm-salvador-2026 gcm-santana-2026 gm-campinas-2026 gm-maraba-2026 gm-pedra-branca-do-amapari-2026 gm-sao-goncalo-2026 pcac-oficial-investigador-2026 pcpe-agente-2026 pcpe-escrivao-2026 pedagogia-aparecida-2026 pmal-soldado-2026 pmesp-soldado-2026 pmpe-soldado-2026 policial-penal-pe-2026 professor-ciencias-seduc-sp-2026 professor-fisica-seduc-sp-2026 professor-ingles-seduc-sp-2026 professor-lingua-portuguesa-seduc-ma-2026 professor-lingua-portuguesa-seduc-sp-2026 professor-matematica-seduc-ma-2026 professor-matematica-seduc-sp-2026 professor-seduc-ma-2026 professor-seduc-sp-2026 professor-semed-porto-velho-2026 soldado-pmsc-2026 supervisao-escolar-seduc-ma-2026 tecnico-bancario-banestes-2026 tecnico-defensoria-dpe-pb-2026 tecnico-enfermagem-porto-velho-2026 trt4-tecnico-administrativo-2026 ";
+    var pag = location.pathname.split("/").filter(Boolean)[0] || "";
+    if (PAGINAS.indexOf(" " + pag + " ") < 0) return;
+    var s = document.querySelector("[data-oferta] s");
+    var cheio = s ? parseFloat(s.textContent.replace(/[^\d,]/g, "").replace(",", ".")) : 47;
+    if (!(cheio > 0)) return;
+    var bf = Math.round(cheio * 70) / 100, real = function (v) { return v.toFixed(2).replace(".", ","); };
+    var reais = Math.floor(bf), cent = real(bf).split(",")[1];
+    document.querySelectorAll("[data-oferta]").forEach(function (o) {
+      var c = o.querySelector("[data-cupom-ate]");
+      if (!c) return;
+      c.hidden = false;
+      o.querySelectorAll("[data-sem-cupom]").forEach(function (x) { x.hidden = true; });
+      if (o.classList.contains("bp")) { c.innerHTML = "Black Friday<b>R$ " + real(bf) + "</b>"; return; }
+      var de = c.querySelector(".de"), por = c.querySelector(".por"), cp = c.querySelector(".cupom");
+      if (de) de.innerHTML = "de <s>R$ " + real(cheio).replace(",00", "") + "</s> por <b class=\"off\">30% OFF</b>";
+      if (por) por.innerHTML = "<small>R$</small>" + reais + "<small>," + cent + "</small>";
+      if (cp) cp.innerHTML = "Black Friday: cupom <code>BLACK30</code> até 30/11 às 23h59. Pelo botão, o cupom já vai preenchido.";
+    });
+    document.querySelectorAll("a[data-href-sem-cupom]").forEach(function (a) {
+      var u = a.getAttribute("data-href-sem-cupom");
+      a.href = u + (u.indexOf("?") < 0 ? "?" : "&") + "offDiscount=BLACK30";
+      a.removeAttribute("data-fim-cupom");
+    });
+    var f = document.createElement("a");
+    f.className = "faixa-bf"; f.href = "#oferta";
+    f.innerHTML = "<b>Black Friday ESCUDO</b> curso completo por R$ " + real(bf) + " com o cupom BLACK30, só até 30/11";
+    f.style.cssText = "display:block;background:#0b1a33;color:#fff;text-align:center;padding:10px 16px;font-size:.95rem;text-decoration:none;border-bottom:2px solid #c9a24b";
+    f.querySelector("b").style.cssText = "color:#c9a24b;margin-right:6px";
+    document.body.insertBefore(f, document.body.firstChild);
+  })();
+
   /* 4. Vitrine da página inicial: refaz selos e ordem com a data de hoje, esconde curso com prova passada
         e filtra por carreira. O filtro fica no endereço (#policial) para dar link direto num post. */
   var vitrine = document.querySelector("[data-vitrine]");
