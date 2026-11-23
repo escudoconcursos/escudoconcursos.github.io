@@ -1,0 +1,11 @@
+{
+  "_sobre": "Kit completo (curso + extras) vendido como oferta própria do curso na Hotmart, com turma Kit que libera o módulo de extras. Usado pelo conversao.py. Sem cupom e sem parcelamento.",
+  "kits": {
+    "escrevente-tjsp-2026": {
+      "link": "https://pay.hotmart.com/E108172281E?checkoutMode=10&off=erp7parj&src=site",
+      "preco": "79,90",
+      "separado": "102,50",
+      "itens": ["Curso completo em PDF", "Revisão Expressa", "Bateria Extra de Questões", "Lei Seca do Edital", "Planilha de Estudos + App"]
+    }
+  }
+}
