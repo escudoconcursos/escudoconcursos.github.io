@@ -21,7 +21,7 @@ Quem se inscreveu para vestir a farda da **Polícia Militar de Pernambuco** como
 
 ## Antes de começar: a sua inscrição foi deferida?
 
-Pelo cronograma do edital, a lista de inscrições deferidas sai em 19/11/2026, e o recurso contra o indeferimento vai de 0h de 23/11 às 23h59 de 25/11/2026, na página do concurso no site do Instituto AOCP. Confira o seu nome nesta primeira semana. O resultado depois dos recursos está previsto para 15/12/2026.
+A retificação de 14/10/2026 levou o fim das inscrições para as 14h de 23/11/2026 e empurrou o cronograma: a lista de inscrições deferidas sai em 04/12/2026, e o recurso contra o indeferimento vai de 0h de 07/12 às 23h59 de 09/12/2026, na página do concurso no site do Instituto AOCP. Confira o seu nome assim que a lista sair. O resultado depois dos recursos está previsto para 18/12/2026.
 
 ## Como dividir 15 horas por semana?
 

@@ -44,9 +44,9 @@ São **510 vagas** para Soldado, sem divisão por sexo e sem cadastro de reserva
 | Indígenas | 15 |
 | Quilombolas | 10 |
 
-O requisito mais traiçoeiro é a idade: o mínimo de 18 anos conta na data de ingresso, mas o **máximo de 30 anos conta na data da inscrição** (Lei Complementar estadual 108/2008). Quem se inscreve no último dia, 5 de novembro de 2026, precisa ter nascido em 6 de novembro de 1995 ou depois. Os outros requisitos são o ensino médio completo, comprovado na matrícula do Curso de Formação; a altura mínima de **1,65 m para homens e 1,60 m para mulheres**; a Carteira Nacional de Habilitação no mínimo na **categoria B**; a nacionalidade brasileira, a quitação eleitoral e militar e a ausência de antecedentes criminais.
+O requisito mais traiçoeiro é a idade: o mínimo de 18 anos conta na data de ingresso, mas o **máximo de 30 anos conta na data da inscrição** (Lei Complementar estadual 108/2008). Quem se inscreveu no último dia, 23 de novembro de 2026, precisava ter nascido em 24 de novembro de 1995 ou depois. Os outros requisitos são o ensino médio completo, comprovado na matrícula do Curso de Formação; a altura mínima de **1,60 m para homens e 1,55 m para mulheres**, já com a retificação de 14 de outubro; a Carteira Nacional de Habilitação no mínimo na **categoria B**; a nacionalidade brasileira, a quitação eleitoral e militar e a ausência de antecedentes criminais.
 
-Depois da formação, o soldo é de **R$ 5.617,92**, o mesmo do Soldado da PM. Durante o Curso de Formação, o aluno recebe bolsa-auxílio de **R$ 1.450,00**. A taxa é de R$ 180,00, e as inscrições vão de 5 de outubro a **5 de novembro de 2026**, com pagamento até o dia 6. O prazo de pedido de isenção já se encerrou, em 8 de outubro.
+Depois da formação, o soldo é de **R$ 5.617,92**, o mesmo do Soldado da PM. Durante o Curso de Formação, o aluno recebe bolsa-auxílio de **R$ 1.450,00**. A taxa é de R$ 180,00, e as inscrições foram de 5 de outubro a **23 de novembro de 2026** (prazo ampliado pela retificação de 14 de outubro), com pagamento até o mesmo dia. O prazo de pedido de isenção já se encerrou, em 8 de outubro.
 
 > 💡 **Dica:** a prova da PMPE é em 21 de fevereiro de 2027, e a do CBMPE, no domingo seguinte, 28 de fevereiro. Dá para fazer as duas. Mas os programas são diferentes: o do CBMPE tem Matemática, Física e Biologia, que a PMPE não cobra.
 
@@ -163,7 +163,7 @@ Leia o mapa antes da teoria. Na véspera, releia a revisão relâmpago e respond
 
 #### Revisão relâmpago
 
-- 510 vagas; idade máxima de 30 anos **na inscrição**; altura de 1,65 m (homens) e 1,60 m (mulheres); CNH B.
+- 510 vagas; idade máxima de 30 anos **na inscrição**; altura de 1,60 m (homens) e 1,55 m (mulheres); CNH B.
 - Prova em **28/02/2027**, manhã, 5 horas para 60 questões e a redação.
 - Elimina: zerar disciplina, ficar abaixo de 9, 3 ou 6 nos blocos, menos de 12 na redação, ficar fora da posição de corte.
 - Matemática tem 10 questões; Física e Biologia, 5 cada, e nenhuma pode zerar.

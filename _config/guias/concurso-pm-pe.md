@@ -8,13 +8,13 @@ orgao: Polícia Militar de Pernambuco (PMPE)
 banca: Instituto AOCP
 situacao: inscrições encerradas
 data_prova: 2027-02-21
-atualizado_em: 2026-11-07
-fontes: ["Edital de Abertura nº 001/2026 (Portaria Conjunta SAD/SDS nº 299), publicado no DOE/PE em 29/09/2026"]
+atualizado_em: 2026-11-23
+fontes: ["Edital de Abertura nº 001/2026 (Portaria Conjunta SAD/SDS nº 299), publicado no DOE/PE em 29/09/2026", "Primeiro Termo de Retificação (Portaria Conjunta SAD/SDS nº 310, de 14/10/2026): inscrições até 14h de 23/11/2026 e altura mínima de 1,60 m (homens) e 1,55 m (mulheres)"]
 ---
 
-A Polícia Militar de Pernambuco abriu 1.250 vagas para Soldado (Praça QPMG, código 201) no Edital de Abertura nº 001/2026, com banca do Instituto AOCP. As inscrições foram de 05/10 a 05/11/2026 e já encerraram. A prova objetiva com redação é em 21/02/2027, e este guia é para quem já se inscreveu e quer saber exatamente como a prova elimina e classifica.
+A Polícia Militar de Pernambuco abriu 1.250 vagas para Soldado (Praça QPMG, código 201) no Edital de Abertura nº 001/2026, com banca do Instituto AOCP. As inscrições foram de 05/10 a 23/11/2026, até as 14h, depois da prorrogação da retificação de 14/10/2026, e já encerraram. A prova objetiva com redação é em 21/02/2027, e este guia é para quem já se inscreveu e quer saber exatamente como a prova elimina e classifica.
 
-> **Resposta rápida:** são 1.250 vagas para Soldado, sem divisão por sexo e sem cadastro de reserva. O soldo é de R$ 5.617,92 e a taxa foi de R$ 180,00. Exige ensino médio, CNH categoria B e idade máxima de 30 anos na inscrição. A banca é o Instituto AOCP. As inscrições terminaram em 05/11/2026 (pagamento até 06/11). A prova objetiva e a redação são em 21/02/2027, de manhã.
+> **Resposta rápida:** são 1.250 vagas para Soldado, sem divisão por sexo e sem cadastro de reserva. O soldo é de R$ 5.617,92 e a taxa foi de R$ 180,00. Exige ensino médio, CNH categoria B e idade máxima de 30 anos na inscrição. A banca é o Instituto AOCP. As inscrições terminaram em 23/11/2026, às 14h, com pagamento até o mesmo dia. A prova objetiva e a redação são em 21/02/2027, de manhã.
 
 **Curso ESCUDO PMPE Soldado 2026 em PDF:** 116 capítulos e 550 questões comentadas, mais redação e 2 simulados, de acordo com o edital. Custa R$ 47. [Ver o curso](/pmpe-soldado-2026/)
 
@@ -45,7 +45,7 @@ Os requisitos principais do item 3.1.7 do edital:
 
 - ensino médio completo, comprovado na matrícula do Curso de Formação;
 - idade mínima de 18 anos na data de ingresso na carreira e **máxima de 30 anos na data da inscrição**;
-- altura mínima de 1,65 m para homens e 1,60 m para mulheres;
+- altura mínima de 1,60 m para homens e 1,55 m para mulheres (retificação de 14/10/2026);
 - Carteira Nacional de Habilitação, no mínimo categoria B;
 - nacionalidade brasileira, quitação eleitoral e, para homens, militar;
 - sem antecedentes criminais e com conduta civil compatível, verificada na investigação social.
@@ -57,10 +57,10 @@ Quem se inscreveu com idade fora do limite tem a inscrição indeferida (item 5.
 | Etapa | Data |
 |---|---|
 | Publicação do edital | 29/09/2026 |
-| Inscrições | 05/10 a 05/11/2026 |
-| Pagamento da taxa | até 06/11/2026 |
-| Deferimento das inscrições | 19/11/2026 |
-| Recurso contra o indeferimento | 23/11 a 25/11/2026 |
+| Inscrições | 05/10 a 23/11/2026 (até as 14h) |
+| Pagamento da taxa | até 23/11/2026 |
+| Deferimento das inscrições | 04/12/2026 |
+| Recurso contra o indeferimento | 07/12 a 09/12/2026 |
 | Edital com local e horário da prova | 02/02/2027 |
 | **Prova objetiva e redação** | **21/02/2027, manhã** |
 | Recurso contra o gabarito | 22/02 a 24/02/2027 |
@@ -71,7 +71,7 @@ Quem se inscreveu com idade fora do limite tem a inscrição indeferida (item 5.
 | Avaliação psicológica | 29/08/2027 |
 | Classificação na 1ª etapa | 14/10/2027 |
 
-Algumas datas dos exames médicos e do TAF saíram com o ano 2026 no Anexo I do edital, entre datas de 2027. Pela sequência, o ano certo é 2027, e é provável que uma retificação corrija o erro; acompanhe o site da AOCP. A investigação social e o Curso de Formação não têm data no cronograma.
+Algumas datas dos exames médicos e do TAF tinham saído com o ano 2026 no Anexo I do edital; o cronograma da retificação de 14/10/2026 traz todas essas etapas em 2027. Acompanhe novas publicações no site da AOCP. A investigação social e o Curso de Formação não têm data no cronograma.
 
 ## Como é a prova?
 
@@ -149,7 +149,7 @@ São 1.250 vagas para Soldado: 811 de ampla concorrência, 63 para pessoas com d
 O soldo é de R$ 5.617,92. Durante o Curso de Formação, a bolsa-auxílio é de R$ 1.450,00.
 
 ### Ainda dá para me inscrever?
-Não. As inscrições foram de 05/10 a 05/11/2026, com pagamento até 06/11/2026.
+Não. As inscrições foram de 05/10 a 23/11/2026, até as 14h, depois da prorrogação da retificação de 14/10/2026, e o pagamento ia até o mesmo dia. Quem se inscreveu deve acompanhar o deferimento, previsto para 04/12/2026.
 
 ### Como a nota elimina na objetiva?
 O candidato precisa de no mínimo 6 pontos em cada bloco de 20 questões, nenhuma disciplina zerada e 18 pontos no total. Na redação, o mínimo é 12 de 40.

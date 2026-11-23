@@ -8,13 +8,13 @@ orgao: Corpo de Bombeiros Militar de Pernambuco (CBMPE)
 banca: Instituto AOCP
 situacao: inscrições encerradas
 data_prova: 2027-02-28
-atualizado_em: 2026-11-07
-fontes: ["Edital de Abertura nº 002/2026 (Portaria Conjunta SAD/SDS nº 300, de 29/09/2026, DOE/PE Edição Extra de 29/09/2026)", "Nenhuma retificação publicada até 08/10/2026 (última apuração da ficha)"]
+atualizado_em: 2026-11-23
+fontes: ["Edital de Abertura nº 002/2026 (Portaria Conjunta SAD/SDS nº 300, de 29/09/2026, DOE/PE Edição Extra de 29/09/2026)", "Primeiro Termo de Retificação (Portaria Conjunta SAD/SDS nº 311, de 14/10/2026): inscrições até 14h de 23/11/2026 e altura mínima de 1,60 m (homens) e 1,55 m (mulheres)"]
 ---
 
-O concurso do Corpo de Bombeiros Militar de Pernambuco abriu 510 vagas para Soldado (cargo 201, QBMG), com soldo de R$ 5.617,92. As inscrições foram de 05/10 a 05/11/2026 e já estão encerradas; para quem se inscreveu, o foco agora é a prova objetiva e a redação, em 28/02/2027, aplicadas pelo Instituto AOCP.
+O concurso do Corpo de Bombeiros Militar de Pernambuco abriu 510 vagas para Soldado (cargo 201, QBMG), com soldo de R$ 5.617,92. As inscrições foram de 05/10 a 23/11/2026, até as 14h, depois da prorrogação da retificação de 14/10/2026, e já estão encerradas; para quem se inscreveu, o foco agora é a prova objetiva e a redação, em 28/02/2027, aplicadas pelo Instituto AOCP.
 
-> **Resposta rápida:** 510 vagas de Soldado, soldo de R$ 5.617,92 e taxa de R$ 180,00. Requisitos: ensino médio completo, no máximo 30 anos na data da inscrição, CNH categoria B e altura mínima de 1,65 m (homens) ou 1,60 m (mulheres). Banca: Instituto AOCP. Inscrições encerradas em 05/11/2026. Prova objetiva (60 questões) e redação (40 pontos) em 28/02/2027, domingo de manhã.
+> **Resposta rápida:** 510 vagas de Soldado, soldo de R$ 5.617,92 e taxa de R$ 180,00. Requisitos: ensino médio completo, no máximo 30 anos na data da inscrição, CNH categoria B e altura mínima de 1,60 m (homens) ou 1,55 m (mulheres). Banca: Instituto AOCP. Inscrições encerradas em 23/11/2026. Prova objetiva (60 questões) e redação (40 pontos) em 28/02/2027, domingo de manhã.
 
 **Curso ESCUDO CBMPE Soldado 2026 em PDF:** 142 capítulos e 680 questões comentadas, de acordo com o Edital nº 002/2026, com Matemática, Física e Biologia incluídas. Preço: R$ 47. [Ver o curso](/cbmpe-soldado-2026/)
 
@@ -44,20 +44,20 @@ O soldo do Soldado é de **R$ 5.617,92**, o mesmo do Soldado da PM de Pernambuco
 Os requisitos do cargo de Soldado, conforme o item 3.1.3 do edital, são:
 
 - **Escolaridade:** ensino médio completo, comprovado na matrícula do Curso de Formação, e não na inscrição.
-- **Idade:** mínimo de 18 anos na data de ingresso na carreira e máximo de 30 anos na data da inscrição. Quem se inscreveu no último dia, 05/11/2026, precisava ter nascido em 06/11/1995 ou depois.
-- **Altura:** mínimo de 1,65 m para homens e 1,60 m para mulheres.
+- **Idade:** mínimo de 18 anos na data de ingresso na carreira e máximo de 30 anos na data da inscrição. Quem se inscreveu no último dia, 23/11/2026, precisava ter nascido em 24/11/1995 ou depois.
+- **Altura:** mínimo de 1,60 m para homens e 1,55 m para mulheres, pela retificação de 14/10/2026.
 - **CNH:** categoria B, no mínimo.
 - **Outros:** nacionalidade brasileira, quitação eleitoral e militar, gozo dos direitos civis e políticos e ausência de antecedentes criminais.
 
-A taxa era de R$ 180,00, com pagamento até 06/11/2026. O pedido de isenção encerrou em 08/10/2026.
+A taxa era de R$ 180,00, com pagamento até 23/11/2026. O pedido de isenção encerrou em 08/10/2026.
 
 ## Qual é o cronograma?
 
-As datas abaixo são as do Anexo I do edital. Acompanhe as retificações na página do concurso, no site do Instituto AOCP.
+As datas abaixo são as do Anexo I do edital, já com a retificação de 14/10/2026. Acompanhe as retificações na página do concurso, no site do Instituto AOCP.
 
 | Etapa | Data |
 |---|---|
-| Inscrições | 05/10 a 05/11/2026 (encerradas) |
+| Inscrições | 05/10 a 23/11/2026, até as 14h (encerradas) |
 | Edital de horário e local da prova | 09/02/2027 |
 | **Prova objetiva e redação** | **28/02/2027 (domingo, manhã)** |
 | Resultado da objetiva e gabarito definitivo | 09/04/2027 |
@@ -150,7 +150,7 @@ Comece o preparo físico cedo: entre a redação (maio de 2027) e o TAF há só 
 ## Perguntas frequentes
 
 ### Ainda dá para se inscrever no concurso do CBM-PE?
-Não. As inscrições foram de 05/10 a 05/11/2026 e o pagamento da taxa ia até 06/11/2026. Quem se inscreveu deve acompanhar o deferimento (19/11/2026) e o edital de local de prova (09/02/2027).
+Não. As inscrições foram de 05/10 a 23/11/2026, até as 14h, e o pagamento da taxa ia até o mesmo dia. Quem se inscreveu deve acompanhar o deferimento (04/12/2026) e o edital de local de prova (09/02/2027).
 
 ### Qual é a data da prova do CBM-PE?
 Domingo, 28/02/2027, de manhã, com 5 horas para a objetiva e a redação.

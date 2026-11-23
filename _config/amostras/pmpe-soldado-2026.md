@@ -44,9 +44,9 @@ São **1.250 vagas** para Soldado (Praça da Polícia Militar QPMG, código 201)
 | Indígenas | 38 |
 | Quilombolas | 25 |
 
-Os requisitos que mais eliminam por descuido estão no item 3.1.7 do edital. O mais traiçoeiro é a idade: o mínimo de 18 anos conta na data de ingresso, mas o **máximo de 30 anos conta na data da inscrição** (Lei Complementar estadual 108/2008). Quem faz 31 anos em outubro de 2026 precisa se inscrever antes do aniversário, porque a inscrição fora do limite é indeferida. Os outros requisitos são o ensino médio completo, comprovado na matrícula do Curso de Formação; a altura mínima de **1,65 m para homens e 1,60 m para mulheres**; a Carteira Nacional de Habilitação no mínimo na **categoria B**; e a nacionalidade brasileira, a quitação eleitoral e militar e a ausência de antecedentes criminais.
+Os requisitos que mais eliminam por descuido estão no item 3.1.7 do edital. O mais traiçoeiro é a idade: o mínimo de 18 anos conta na data de ingresso, mas o **máximo de 30 anos conta na data da inscrição** (Lei Complementar estadual 108/2008). Quem faz 31 anos em outubro de 2026 precisa se inscrever antes do aniversário, porque a inscrição fora do limite é indeferida. Os outros requisitos são o ensino médio completo, comprovado na matrícula do Curso de Formação; a altura mínima de **1,60 m para homens e 1,55 m para mulheres**, já com a retificação de 14 de outubro; a Carteira Nacional de Habilitação no mínimo na **categoria B**; e a nacionalidade brasileira, a quitação eleitoral e militar e a ausência de antecedentes criminais.
 
-A remuneração depois da formação é o soldo de **R$ 5.617,92** (Lei Complementar 535/2024). Durante o Curso de Formação, o aluno recebe bolsa-auxílio de **R$ 1.450,00**. A taxa de inscrição é de R$ 180,00, e as inscrições vão de 5 de outubro a 5 de novembro de 2026. O regime é estatutário, regido pela Lei estadual 6.783/1974, o Estatuto dos Militares de Pernambuco, que também é conteúdo da sua prova (capítulos 107 a 110).
+A remuneração depois da formação é o soldo de **R$ 5.617,92** (Lei Complementar 535/2024). Durante o Curso de Formação, o aluno recebe bolsa-auxílio de **R$ 1.450,00**. A taxa de inscrição é de R$ 180,00, e as inscrições foram de 5 de outubro a 23 de novembro de 2026, prazo ampliado pela retificação de 14 de outubro. O regime é estatutário, regido pela Lei estadual 6.783/1974, o Estatuto dos Militares de Pernambuco, que também é conteúdo da sua prova (capítulos 107 a 110).
 
 > 💡 **Dica:** se você tem direito à isenção (CadÚnico, doador de sangue ou de medula, ensino médio em escola pública há menos de 3 anos, entre outras), o pedido vai só de 5 a 8 de outubro de 2026, às 13h. É uma janela de quatro dias, bem antes do fim das inscrições.
 
@@ -165,7 +165,7 @@ Leia o mapa antes da teoria, para saber onde cada detalhe se encaixa. Na vésper
 
 #### Revisão relâmpago
 
-- 1.250 vagas; idade máxima de 30 anos **na inscrição**; altura de 1,65 m (homens) e 1,60 m (mulheres); CNH B.
+- 1.250 vagas; idade máxima de 30 anos **na inscrição**; altura de 1,60 m (homens) e 1,55 m (mulheres); CNH B.
 - Prova em **21/02/2027**, manhã, 5 horas para 60 questões e a redação.
 - Elimina: zerar disciplina, menos de 6 em um bloco, menos de 12 na redação, ficar fora da posição de corte.
 - Redação de 15 a 20 linhas, dissertativa-argumentativa, 40 pontos em quatro aspectos de 10.
