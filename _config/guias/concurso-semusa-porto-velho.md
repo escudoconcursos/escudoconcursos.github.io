@@ -16,7 +16,7 @@ O Concurso Público da Saúde do Município de Porto Velho/RO tem 243 vagas para
 
 > **Resposta rápida:** Assistente Administrativo: 243 vagas (38 imediatas e 205 de cadastro), R$ 1.831,91, ensino médio e informática básica. Técnico em Enfermagem: 209 vagas (43 imediatas e 166 de cadastro), R$ 1.397,16, curso técnico e registro no Coren. Jornada de 40 horas, banca IBGP, taxa de R$ 105,00, inscrições até 11/11/2026. Prova objetiva em 13/12/2026, das 14h45 às 17h45, com 50 questões de A a E.
 
-**Cursos ESCUDO para o concurso da SEMUSA em PDF:** [Assistente Administrativo](/assistente-semusa-porto-velho-2026/) (138 capítulos e 685 questões comentadas, cupom ASSISTENTE37) e [Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/) (125 capítulos e 620 questões comentadas, cupom TECNICO37). Cada um sai por R$ 37 até 11/11/2026 (preço cheio R$ 47).
+**Cursos ESCUDO para o concurso da SEMUSA em PDF:** [Assistente Administrativo](/assistente-semusa-porto-velho-2026/) (138 capítulos e 685 questões comentadas) e [Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/) (125 capítulos e 620 questões comentadas). Cada um custa R$ 47.
 
 ## O que é o concurso da SEMUSA de Porto Velho?
 
@@ -112,7 +112,7 @@ O edital considera a legislação vigente na data da publicação (item 1.5). Qu
 
 **Específicos do Técnico em Enfermagem (15 questões).** Metade é legislação do SUS e da profissão: Constituição (arts. 194 a 200), Leis 8.080 e 8.142/1990, Decreto 7.508/2011, Política Nacional de Humanização, exercício profissional e Código de Ética. A outra metade são os cuidados: sinais vitais, medicamentos e cálculo de doses, vacinação, feridas e curativos, oxigenoterapia, sondagens, primeiros socorros, saúde da criança e do adulto, biossegurança, segurança do paciente e infecções relacionadas à assistência.
 
-**Cursos ESCUDO para o concurso da SEMUSA em PDF:** o [curso de Assistente Administrativo](/assistente-semusa-porto-velho-2026/) cobre as cinco disciplinas, as quatro leis municipais do cargo e 685 questões comentadas. O [curso de Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/) cobre o SUS e os cuidados de enfermagem em 620 questões comentadas. Cupons ASSISTENTE37 e TECNICO37: R$ 37 cada até 11/11/2026 (preço cheio R$ 47).
+**Cursos ESCUDO para o concurso da SEMUSA em PDF:** o [curso de Assistente Administrativo](/assistente-semusa-porto-velho-2026/) cobre as cinco disciplinas, as quatro leis municipais do cargo e 685 questões comentadas. O [curso de Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/) cobre o SUS e os cuidados de enfermagem em 620 questões comentadas. R$ 47 cada.
 
 ## Quais são as outras etapas?
 
@@ -129,7 +129,7 @@ Como toda questão vale 2 pontos, a prioridade é o retorno por hora e o risco d
 5. **Conhecimentos Gerais por último, mas não fora.** São 5 questões de atualidade local.
 6. **Refaça as questões erradas** depois de alguns dias, lendo o comentário inteiro.
 
-**Cursos ESCUDO para o concurso da SEMUSA em PDF:** escolha o do seu cargo, com 2 simulados no formato da prova. [Assistente Administrativo](/assistente-semusa-porto-velho-2026/), 138 capítulos (cupom ASSISTENTE37). [Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/), 125 capítulos (cupom TECNICO37). R$ 37 cada até 11/11/2026 (preço cheio R$ 47).
+**Cursos ESCUDO para o concurso da SEMUSA em PDF:** escolha o do seu cargo, com 2 simulados no formato da prova. [Assistente Administrativo](/assistente-semusa-porto-velho-2026/), 138 capítulos. [Técnico em Enfermagem](/tecnico-enfermagem-porto-velho-2026/), 125 capítulos. R$ 47 cada.
 
 ## Perguntas frequentes
 

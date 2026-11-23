@@ -16,7 +16,7 @@ A Defensoria Pública da Paraíba abriu o seu primeiro concurso para servidores,
 
 > **Resposta rápida:** Técnico da Defensoria (código A01), 9 vagas (2 reservadas a candidatos negros) mais cadastro de reserva, vencimento de R$ 4.042,50, exigência de ensino médio completo e taxa de R$ 103,00. Inscrições até 23h59 de 13/11/2026. Prova objetiva de 60 questões, em 28/02/2027, de manhã, com 3 horas. Não há redação. Habilitação com média ponderada de 6,00.
 
-**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** 133 capítulos e 660 questões comentadas, de acordo com o Edital nº 01/2026. Preço: R$ 47, ou R$ 37 com o cupom DPEPB37 até 13/11/2026. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
+**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** 133 capítulos e 660 questões comentadas, de acordo com o Edital nº 01/2026. Preço: R$ 47, com acesso imediato. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
 
 ## O que é o concurso da DPE-PB 2026?
 
@@ -98,7 +98,7 @@ O programa está no Anexo II. A regra de corte é a legislação vigente até 18
 
 O edital tem erros de digitação que não mudam o conteúdo: a Lei do SINASE aparece como "Lei nº 12.594/1912" (a lei é de 2012) e o "Estatuto do Idoso" hoje se chama Estatuto da Pessoa Idosa.
 
-**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** todas as disciplinas do programa em módulos, com 133 capítulos, 660 questões de A a E no padrão da FCC com gabarito comentado e 2 simulados. É 100% em PDF, sem videoaulas, com 7 dias de garantia pela Hotmart. Preço: R$ 47, ou R$ 37 com o cupom DPEPB37 até 13/11/2026. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
+**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** todas as disciplinas do programa em módulos, com 133 capítulos, 660 questões de A a E no padrão da FCC com gabarito comentado e 2 simulados. É 100% em PDF, sem videoaulas, com 7 dias de garantia pela Hotmart. Preço: R$ 47, com acesso imediato. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
 
 ## Quais são as outras etapas?
 
@@ -115,7 +115,7 @@ A FCC trabalha com questões de cinco alternativas e costuma cobrar a letra da n
 
 Depois de cada bloco, refaça as questões erradas alguns dias depois e leia o comentário completo.
 
-**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** 133 capítulos, 660 questões comentadas e 2 simulados no formato da prova. O Simulado 2 é liberado em 21/02/2027, uma semana antes do exame. Preço: R$ 47, ou R$ 37 com o cupom DPEPB37 até 13/11/2026. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
+**Curso ESCUDO DPE-PB Técnico da Defensoria 2026 em PDF:** 133 capítulos, 660 questões comentadas e 2 simulados no formato da prova. O Simulado 2 é liberado em 21/02/2027, uma semana antes do exame. Preço: R$ 47, com acesso imediato. [Ver o curso](/tecnico-defensoria-dpe-pb-2026/)
 
 ## Perguntas frequentes
 

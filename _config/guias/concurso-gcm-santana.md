@@ -16,7 +16,7 @@ A Prefeitura de Santana, no Amapá, abriu 50 vagas imediatas para Guarda Civil M
 
 > **Resposta rápida:** 50 vagas imediatas (47 de ampla concorrência e 3 para PcD) mais 50 de cadastro de reserva, salário de R$ 2.100,00 por 40 horas, ensino médio, de 18 a 45 anos na inscrição. Banca: IDCAP. Inscrições de 14/10 a 09/11/2026, taxa de R$ 110,00, pagamento até 10/11. Prova objetiva em 17/01/2027, das 14h às 18h.
 
-**Curso ESCUDO GCM Santana/AP 2026 em PDF:** 133 capítulos e 660 questões comentadas, de acordo com o Concurso Público nº 001/2026, mais 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom SANTANA37 até 09/11/2026, último dia de inscrições. [Ver o curso](/gcm-santana-2026/)
+**Curso ESCUDO GCM Santana/AP 2026 em PDF:** 133 capítulos e 660 questões comentadas, de acordo com o Concurso Público nº 001/2026, mais 2 simulados de 60 questões. R$ 47, com acesso imediato. [Ver o curso](/gcm-santana-2026/)
 
 ## O que é o concurso da GCM de Santana?
 
@@ -129,7 +129,7 @@ O peso decide a ordem. Uma sequência possível:
 
 Como o edital não desconta erros, não deixe questão em branco. Reserve os últimos 20 minutos para passar as respostas ao cartão, e lembre que com 4 horas para 60 questões você tem em média 4 minutos por questão.
 
-**Curso ESCUDO GCM Santana/AP 2026 em PDF:** 660 questões com cinco alternativas e gabarito comentado, e 2 simulados de 60 questões. R$ 37 com o cupom SANTANA37 só até 09/11/2026. [Ver o curso](/gcm-santana-2026/)
+**Curso ESCUDO GCM Santana/AP 2026 em PDF:** 660 questões com cinco alternativas e gabarito comentado, e 2 simulados de 60 questões. R$ 47, com acesso imediato. [Ver o curso](/gcm-santana-2026/)
 
 ## Perguntas frequentes
 

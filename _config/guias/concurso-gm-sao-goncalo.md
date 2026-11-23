@@ -16,7 +16,7 @@ O concurso da Guarda Municipal de São Gonçalo/RJ abriu 100 vagas imediatas e u
 
 > **Resposta rápida:** 100 vagas imediatas (95 de ampla concorrência e 5 para pessoas com deficiência) mais 500 no cadastro de reserva, vencimento de R$ 3.172,96, ensino médio e CNH categoria AB ou superior. Banca SELECON, Edital nº 001/PMSG/2026. Inscrições de 28/09 a 18/11/2026, taxa de R$ 95,18. Prova objetiva em 24/01/2027, de manhã, com 80 questões de quatro alternativas e mínimo de 50 pontos de 100.
 
-**Curso ESCUDO GM São Gonçalo 2026 em PDF:** 131 capítulos e 650 questões comentadas, de acordo com o Edital nº 001/PMSG/2026. De R$ 47 por R$ 37 com o cupom GMSG37 até 18/11/2026, último dia de inscrições. [Ver o curso](/gm-sao-goncalo-2026/)
+**Curso ESCUDO GM São Gonçalo 2026 em PDF:** 131 capítulos e 650 questões comentadas, de acordo com o Edital nº 001/PMSG/2026. R$ 47, com acesso imediato. [Ver o curso](/gm-sao-goncalo-2026/)
 
 ## O que é o concurso da Guarda Municipal de São Gonçalo?
 
@@ -107,7 +107,7 @@ No empate, os critérios são, nesta ordem: maior pontuação em Noções de Dir
 
 A legislação vale como estava na publicação do edital de abertura, em 23/09/2026.
 
-**Curso ESCUDO GM São Gonçalo 2026 em PDF:** os Conhecimentos Específicos têm 27 capítulos, cobrindo SUSP, Lei 13.022, Lei 1.625/2026 e Lei 1.416/2022, e o curso traz 2 simulados de 80 questões e 7 dias de garantia. De R$ 47 por R$ 37 com o cupom GMSG37 até 18/11/2026. [Ver o curso](/gm-sao-goncalo-2026/)
+**Curso ESCUDO GM São Gonçalo 2026 em PDF:** os Conhecimentos Específicos têm 27 capítulos, cobrindo SUSP, Lei 13.022, Lei 1.625/2026 e Lei 1.416/2022, e o curso traz 2 simulados de 80 questões e 7 dias de garantia. R$ 47, com acesso imediato. [Ver o curso](/gm-sao-goncalo-2026/)
 
 ## Quais são as outras etapas?
 
@@ -137,7 +137,7 @@ O critério de prioridade combina três coisas: os pontos de cada disciplina, o 
 
 Quanto à banca, o SELECON usa quatro alternativas por questão. Como as retificações já mexeram em regras importantes, como a de idade, acompanhe as publicações no site da banca e no Diário Oficial de São Gonçalo.
 
-**Curso ESCUDO GM São Gonçalo 2026 em PDF:** 650 questões inéditas de quatro alternativas, no formato da prova, com gabarito comentado. O Simulado 2 é liberado em 17/01/2027, uma semana antes da prova. De R$ 47 por R$ 37 com o cupom GMSG37 até 18/11/2026. [Ver o curso](/gm-sao-goncalo-2026/)
+**Curso ESCUDO GM São Gonçalo 2026 em PDF:** 650 questões inéditas de quatro alternativas, no formato da prova, com gabarito comentado. O Simulado 2 é liberado em 17/01/2027, uma semana antes da prova. R$ 47, com acesso imediato. [Ver o curso](/gm-sao-goncalo-2026/)
 
 ## Perguntas frequentes
 
