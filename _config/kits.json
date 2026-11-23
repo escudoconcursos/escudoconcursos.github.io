@@ -4,8 +4,167 @@
     "escrevente-tjsp-2026": {
       "link": "https://pay.hotmart.com/E108172281E?checkoutMode=10&off=erp7parj&src=site",
       "preco": "79,90",
-      "separado": "102,50",
-      "itens": ["Curso completo em PDF", "Revisão Expressa", "Bateria Extra de Questões", "Lei Seca do Edital", "Planilha de Estudos + App"]
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "soldado-pmsc-2026": {
+      "link": "https://pay.hotmart.com/O108168196D?checkoutMode=10&off=f6pno8bk&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "cbmpe-soldado-2026": {
+      "link": "https://pay.hotmart.com/R107943249I?checkoutMode=10&off=ur0v86jx&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "pmpe-soldado-2026": {
+      "link": "https://pay.hotmart.com/H107926902D?checkoutMode=10&off=tiqax625&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "pcpe-agente-2026": {
+      "link": "https://pay.hotmart.com/L107949883J?checkoutMode=10&off=75q7teqc&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "policial-penal-pe-2026": {
+      "link": "https://pay.hotmart.com/W108329835G?checkoutMode=10&off=pae1fjhx&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "pmesp-soldado-2026": {
+      "link": "https://pay.hotmart.com/S108363020R?checkoutMode=10&off=ts1vav2c&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "gm-campinas-2026": {
+      "link": "https://pay.hotmart.com/B108452382W?checkoutMode=10&off=zphlbiub&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "pcpe-escrivao-2026": {
+      "link": "https://pay.hotmart.com/J108528673M?checkoutMode=10&off=5iv20v9r&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "gm-maraba-2026": {
+      "link": "https://pay.hotmart.com/X108531280Y?checkoutMode=10&off=rnn0ipp7&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "assistente-tecnico-dpe-am-2026": {
+      "link": "https://pay.hotmart.com/M108598341X?checkoutMode=10&off=e4enteei&src=site",
+      "preco": "79,90",
+      "separado": "102,60",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "tecnico-bancario-banestes-2026": {
+      "link": "https://pay.hotmart.com/G108218161M?checkoutMode=10&off=tlein5lo&src=site",
+      "preco": "79,90",
+      "separado": "89,70",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Planilha de Estudos + App"
+      ]
+    },
+    "agente-administrativo-curitiba-2026": {
+      "link": "https://pay.hotmart.com/Y108255668B?checkoutMode=10&off=htgfx7qu&src=site",
+      "preco": "79,90",
+      "separado": "92,70",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Bateria Extra de Questões",
+        "Lei Seca do Edital"
+      ]
+    },
+    "trt4-tecnico-administrativo-2026": {
+      "link": "https://pay.hotmart.com/B108492524M?checkoutMode=10&off=1s5ce3qj&src=site",
+      "preco": "79,90",
+      "separado": "87,70",
+      "itens": [
+        "Curso completo em PDF",
+        "Revisão Expressa",
+        "Lei Seca do Edital",
+        "Planilha de Estudos + App"
+      ]
     }
   }
 }
