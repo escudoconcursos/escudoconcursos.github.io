@@ -1,20 +1,22 @@
 ---
 slug: aparecida-educacao-inscricoes-abrem-09-11
 tipo: noticia
-titulo_seo: "Concurso Aparecida de Goiânia: inscrições abrem 09/11"
-descricao: "Inscrições do concurso da Educação de Aparecida de Goiânia abrem em 09/11 no Instituto Verbena/UFG. Isenção da taxa só até 11/11. Veja prazos, taxas e vagas."
-h1: "Concurso Educação de Aparecida de Goiânia: inscrições abrem 09/11 e a isenção da taxa vai só até 11/11"
+titulo_seo: "Concurso Aparecida de Goiânia Educação: inscrições até 09/12"
+descricao: "Inscrições do concurso da Educação de Aparecida de Goiânia abertas até 09/12, às 17h, no Instituto Verbena/UFG: Agente Educativo e Professor PE-I. Prova em 31/01/2027."
+h1: "Concurso Educação de Aparecida de Goiânia: inscrições abertas até 09/12, às 17h"
 publicado: 2026-11-09
-atualizado_em: 2026-11-09
+atualizado_em: 2026-11-23
 curso_id: agente-educativo-aparecida-2026
 guia: concurso-aparecida-de-goiania-educacao
 ficha: 38-Aparecida-GO-Educacao
-capa_titulo: "Aparecida: inscrições abrem 09/11"
-capa_destaque: "09/11"
+capa_titulo: "Aparecida: inscrições até 09/12"
+capa_destaque: "09/12"
 valido_ate: 2026-12-09
 resumo: [["Órgão", "Prefeitura de Aparecida de Goiânia (Secretaria Municipal de Educação)"], ["Banca", "Instituto Verbena/UFG"], ["Vagas imediatas", "2.956 no edital (1.663 de Agente Educativo e 1.056 de PE-I Pedagogia)"], ["Inscrições", "09/11 a 09/12/2026, até as 17h do último dia (Brasília)"], ["Isenção da taxa", "09/11 a 11/11/2026"], ["Taxa", "R$ 130,00 (médio) e R$ 150,00 (superior)"], ["Prova", "31/01/2027 (domingo)"]]
 fontes: [{"nome": "Edital de Abertura nº 01/2026, de 30/09/2026, Prefeitura de Aparecida de Goiânia e Instituto Verbena/UFG", "url": "https://www.institutoverbena.ufg.br/"}, {"nome": "Prefeitura de Aparecida de Goiânia", "url": "https://www.aparecida.go.gov.br/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições abriram em 09/11 e seguem até **09/12/2026, às 17h (Brasília)**, no site do Instituto Verbena/UFG. O prazo da isenção da taxa já terminou (foi até 11/11). A prova é em 31/01/2027.
 
 As inscrições do concurso da **Secretaria Municipal de Educação de Aparecida de Goiânia** abrem nesta segunda-feira, **09/11/2026**, e vão até **09/12/2026**, só pelo site do Instituto Verbena/UFG. No último dia, a inscrição e o boleto ficam disponíveis até as **17h (Brasília)**. O pedido de isenção da taxa tem prazo bem mais curto: **09/11 a 11/11/2026**, segundo o Edital de Abertura nº 01/2026.
 

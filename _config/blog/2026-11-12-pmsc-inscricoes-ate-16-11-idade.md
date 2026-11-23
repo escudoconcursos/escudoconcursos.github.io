@@ -1,21 +1,23 @@
 ---
 slug: pmsc-inscricoes-ate-16-11-idade
 tipo: noticia
-titulo_seo: "PM-SC Soldado: inscrições até 16/11 e limite de 30 anos"
-descricao: "Concurso PM-SC Soldado: inscrições no Instituto AOCP terminam em 16/11/2026. Quem completa 30 anos até essa data fica de fora. Taxa de R$ 200,00 e prova em 13/12."
-h1: "PM-SC Soldado: inscrições terminam segunda-feira, 16/11, e a idade máxima conta nesse dia"
+titulo_seo: "PM-SC Soldado: locais de prova em 02/12 e prova em 13/12"
+descricao: "Inscrições da PM-SC encerradas. O Instituto AOCP divulga os locais de prova em 02/12/2026 e a prova objetiva com redação é em 13/12/2026. Veja como fechar a revisão."
+h1: "PM-SC Soldado: locais de prova saem em 02/12 e a prova é em 13/12/2026"
 publicado: 2026-11-12
-atualizado_em: 2026-11-12
+atualizado_em: 2026-11-23
 curso_id: soldado-pmsc-2026
 guia: concurso-pm-sc
 ficha: 43-PMSC-Soldado
-capa_titulo: "PM-SC: inscrições até 16/11"
-capa_destaque: "16/11"
-valido_ate: 2026-11-17
+capa_titulo: "PM-SC: prova em 13/12"
+capa_destaque: "13/12"
+valido_ate: 2026-12-13
 calculado: ["16/11/1996", "17/11/1996"]
-resumo: [["Órgão", "Polícia Militar de Santa Catarina (PMSC), Curso de Formação de Praças"], ["Banca", "Instituto AOCP"], ["Vagas", "500 para Soldado, todas de ampla concorrência"], ["Remuneração", "R$ 8.505,00 mais R$ 550,00 de auxílio-alimentação"], ["Inscrições", "até 16/11/2026, taxa de R$ 200,00"], ["Prova", "13/12/2026, objetiva e redação"]]
+resumo: [["Órgão", "Polícia Militar de Santa Catarina (PMSC), Curso de Formação de Praças"], ["Banca", "Instituto AOCP"], ["Vagas", "500 para Soldado"], ["Inscrições", "Encerradas em 16/11/2026"], ["Locais de prova", "Divulgados em 02/12/2026"], ["Prova", "13/12/2026, objetiva e redação"]]
 fontes: [{"nome": "Edital de Concurso Público nº 002/CCP/2026, PMSC, Curso de Formação de Praças (Instituto AOCP)", "url": "https://www.institutoaocp.org.br/concursos/proseleta-3"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições terminaram em 16/11. Agora são duas datas: **02/12/2026, quando o Instituto AOCP divulga os locais de prova**, e **13/12/2026, dia da prova objetiva e da redação**. Quem se inscreveu tem três semanas para revisar, e o [cronograma de 4 semanas](../pmsc-soldado-cronograma-4-semanas/) mostra como dividir esse tempo.
 
 Quem quer vestir a farda da **Polícia Militar de Santa Catarina** como **Soldado** tem até **segunda-feira, 16/11/2026**, para se inscrever no concurso do Instituto AOCP. São **500 vagas**, remuneração de **R$ 8.505,00** mais R$ 550,00 de auxílio-alimentação e taxa de **R$ 200,00**. E é nessa mesma data que o edital mede a idade máxima: quem completa 30 anos até 16/11/2026 não pode se inscrever.
 

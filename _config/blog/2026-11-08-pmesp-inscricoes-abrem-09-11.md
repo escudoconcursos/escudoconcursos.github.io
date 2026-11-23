@@ -1,20 +1,22 @@
 ---
 slug: pm-sp-soldado-inscricoes-abrem-09-11
 tipo: noticia
-titulo_seo: "PM SP Soldado: inscrições abrem 09/11 e isenção até 11/11"
-descricao: "Inscrições do concurso PM-SP Soldado 2026 abrem em 09/11 às 10h no site da VUNESP. Pedido de isenção ou redução da taxa só até 11/11. Veja prazos e regras."
-h1: "PM-SP Soldado 2026: inscrições abrem 09/11 e o prazo da isenção é só até 11/11"
+titulo_seo: "PM SP Soldado 2026: inscrições até 22/12, taxa e prova"
+descricao: "Inscrições do concurso PM-SP Soldado 2026 abertas até 22/12, às 23h59, na VUNESP: 2.000 vagas, R$ 5.482,51 e taxa de R$ 110,00. Prova prevista para 28/02/2027."
+h1: "PM-SP Soldado 2026: inscrições abertas até 22/12 na VUNESP"
 publicado: 2026-11-08
-atualizado_em: 2026-11-08
+atualizado_em: 2026-11-23
 curso_id: pmesp-soldado-2026
 guia: concurso-pm-sp
-capa_titulo: "PM-SP Soldado: inscrições abrem 09/11"
+capa_titulo: "PM-SP Soldado: inscrições até 22/12"
 fotos: [{"arquivo": "pmesp-formatura-soldados-2014.jpg", "credito": "Diogo Moreira/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Policiais_Militares_SP.jpg", "alt": "Soldados da PM-SP em formatura no Anhembi, em São Paulo", "legenda": "Formatura de soldados da PM-SP no Anhembi, em São Paulo"}, {"arquivo": "pmesp-formatura-soldados-2015.jpg", "credito": "Du Amorim/A2 Fotografia/Governo do Estado de São Paulo", "licenca": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Mulheres_da_PMESP.jpg", "alt": "Soldadas e soldados da PM-SP em formatura no Sambódromo do Anhembi", "legenda": "Soldadas e soldados da PM-SP na formatura no Sambódromo do Anhembi"}]
-capa_destaque: "09/11"
+capa_destaque: "22/12"
 valido_ate: 2026-12-22
 resumo: [["Cargo", "Aluno-Soldado PM (Quadro de Praças)"], ["Vagas", "2.000"], ["Salário inicial", "R$ 5.482,51"], ["Banca", "Fundação VUNESP"], ["Escolaridade", "Ensino médio (exigido na posse)"], ["Inscrições", "09/11 a 22/12/2026, em www.vunesp.com.br"], ["Isenção ou redução da taxa", "09/11 a 11/11/2026"], ["Taxa", "R$ 110,00"], ["Prova (prevista)", "28/02/2027, à tarde"]]
 fontes: [{"nome": "Edital de Concurso Público nº DP-4/321/26, Diário Oficial do Estado de São Paulo de 05/11/2026", "url": "https://www.concursopublico.sp.gov.br/"}, {"nome": "Fundação VUNESP, página de inscrições", "url": "https://www.vunesp.com.br/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições abriram em 09/11 e seguem até **22/12/2026, às 23h59**, no site da VUNESP. O prazo da isenção e da redução da taxa já terminou (foi até 11/11); quem não pediu paga a taxa de R$ 110,00. A prova está prevista para 28/02/2027.
 
 As inscrições do concurso da Polícia Militar do Estado de São Paulo para **Aluno-Soldado PM** abrem às **10h de segunda-feira, 09/11/2026**, e vão até as **23h59 de 22/12/2026**, só pelo site da Fundação VUNESP. São **2.000 cargos**, com remuneração básica inicial de **R$ 5.482,51**, segundo o Edital nº DP-4/321/26.
 

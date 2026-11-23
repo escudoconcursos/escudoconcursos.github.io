@@ -1,20 +1,22 @@
 ---
 slug: pcac-inscricoes-abrem-11-11
 tipo: noticia
-titulo_seo: "PC-AC Oficial Investigador: inscrições abrem em 11/11"
-descricao: "Inscrições do concurso PC-AC para Oficial Investigador abrem em 11/11 no IDECAN. Isenção só em 11 e 12/11, taxa de R$ 105,00 e prova em 24/01/2027."
-h1: "PC-AC Oficial Investigador: inscrições abrem em 11/11, e a isenção dura só dois dias"
+titulo_seo: "PC-AC Oficial Investigador: inscrições até 14/12 no IDECAN"
+descricao: "Inscrições do concurso PC-AC para Oficial Investigador abertas até 14/12 no IDECAN: 74 vagas, R$ 6.342,07 e taxa de R$ 105,00 paga até 15/12. Prova em 24/01/2027."
+h1: "PC-AC Oficial Investigador: inscrições abertas até 14/12 no IDECAN"
 publicado: 2026-11-10
-atualizado_em: 2026-11-10
+atualizado_em: 2026-11-23
 curso_id: pcac-oficial-investigador-2026
 guia: concurso-pc-ac
 ficha: 64-PCAC-Oficial-Investigador
-capa_titulo: "PC-AC: inscrições abrem 11/11"
-capa_destaque: "11/11"
-valido_ate: 2026-11-13
+capa_titulo: "PC-AC: inscrições até 14/12"
+capa_destaque: "14/12"
+valido_ate: 2026-12-14
 resumo: [["Órgão", "Polícia Civil do Estado do Acre (PCAC), com a SEAD/AC"], ["Banca", "IDECAN"], ["Vagas", "74 imediatas (7 PcD) e cadastro reserva"], ["Remuneração", "R$ 6.342,07"], ["Inscrições", "11/11 a 14/12/2026; taxa de R$ 105,00 paga até 15/12"], ["Isenção", "Só em 11 e 12/11/2026"]]
 fontes: [{"nome": "Edital nº 001 SEAD/PCAC, de 05/11/2026, publicado no DOE/AC nº 14.388 em 06/11/2026 (IDECAN)", "url": "https://idecan.org.br/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições abriram em 11/11 e seguem até **14/12/2026** no site do IDECAN, com a taxa de R$ 105,00 paga até 15/12. O prazo da isenção (11 e 12/11) já terminou. A prova é em 24/01/2027.
 
 Abrem nesta **quarta-feira, 11/11/2026**, no site do IDECAN, as inscrições do concurso da **Polícia Civil do Acre** para **Oficial Investigador de Polícia**: 74 vagas imediatas, remuneração de R$ 6.342,07 e taxa de **R$ 105,00**. O prazo de inscrição vai até 14/12/2026, mas o pedido de isenção da taxa tem janela curta: **só 11 e 12/11/2026**.
 

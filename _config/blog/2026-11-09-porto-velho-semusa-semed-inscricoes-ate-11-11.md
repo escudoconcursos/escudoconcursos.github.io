@@ -1,20 +1,22 @@
 ---
 slug: porto-velho-semusa-semed-inscricoes-ate-11-11
 tipo: noticia
-titulo_seo: "Concurso Porto Velho SEMUSA e SEMED: inscrições até 11/11"
-descricao: "Inscrições dos concursos da Saúde (SEMUSA) e da Educação (SEMED) de Porto Velho terminam em 11/11 às 16h de Rondônia. Boleto até 12/11, sem Pix. Veja os prazos."
-h1: "Concursos SEMUSA e SEMED Porto Velho: inscrições terminam 11/11 às 16h (horário de Rondônia)"
+titulo_seo: "Concurso Porto Velho SEMED e SEMUSA: provas em 06/12 e 13/12"
+descricao: "Inscrições encerradas. A prova da SEMED (Professor) é em 06/12/2026 e a da SEMUSA (Assistente e Técnico em Enfermagem) em 13/12/2026, pelo IBGP. Veja o que estudar."
+h1: "Concursos SEMED e SEMUSA Porto Velho: provas em 06/12 e 13/12/2026"
 publicado: 2026-11-09
-atualizado_em: 2026-11-09
+atualizado_em: 2026-11-23
 curso_id: assistente-semusa-porto-velho-2026
 guia: concurso-semusa-porto-velho
 ficha: 40-Porto-Velho-SEMUSA, 41-Porto-Velho-SEMED
-capa_titulo: "Porto Velho: inscrições até 11/11"
-capa_destaque: "11/11"
-valido_ate: 2026-11-12
-resumo: [["Órgão", "Prefeitura de Porto Velho/RO (Saúde e Educação)"], ["Banca", "IBGP"], ["Inscrições", "Até 11/11/2026, 16h de Rondônia (17h de Brasília)"], ["Pagamento do boleto", "Até 12/11/2026"], ["Taxa", "R$ 105,00 (médio e técnico); R$ 130,00 (Professor SEMED)"], ["Provas", "SEMED em 06/12/2026; SEMUSA em 13/12/2026"]]
+capa_titulo: "Porto Velho: provas 06/12 e 13/12"
+capa_destaque: "06/12"
+valido_ate: 2026-12-13
+resumo: [["Órgão", "Prefeitura de Porto Velho/RO (Saúde e Educação)"], ["Banca", "IBGP"], ["Inscrições", "Encerradas em 11/11/2026"], ["Prova SEMED (Professor)", "06/12/2026, domingo, às 9h15"], ["Prova SEMUSA (Assistente e Técnico em Enfermagem)", "13/12/2026, com gabarito preliminar no mesmo dia"], ["Recurso SEMUSA", "14/12 a 16/12/2026"]]
 fontes: [{"nome": "Edital nº 25/2026, Concurso Público da Saúde do Município de Porto Velho, consolidado com a Retificação nº 01 (IBGP)", "url": "https://www.ibgpconcursos.com.br/"}, {"nome": "Edital nº 24/2026, Concurso Público da Educação do Município de Porto Velho (IBGP)", "url": "https://www.ibgpconcursos.com.br/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições terminaram em 11/11. Agora o calendário é de prova: a **SEMED (Professor Séries Iniciais) faz a prova objetiva em 06/12/2026, domingo, às 9h15**, e a **SEMUSA (Assistente Administrativo e Técnico em Enfermagem) em 13/12/2026**, com gabarito preliminar no mesmo dia e recurso de 14/12 a 16/12. As duas são do IBGP. O que cai em cada cargo está nos guias da [SEMED](../../concurso-semed-porto-velho/) e da [SEMUSA](../../concurso-semusa-porto-velho/).
 
 Faltam três dias para se inscrever nos dois concursos da Prefeitura de Porto Velho organizados pelo IBGP: o da **Saúde (SEMUSA, Edital nº 25/2026)** e o da **Educação (SEMED, Edital nº 24/2026)**. Nos dois, a inscrição vai até as **16h de quarta-feira, 11/11/2026, no horário de Rondônia (17h de Brasília)**, só pelo site do IBGP, e o boleto pode ser pago até **12/11/2026**.
 

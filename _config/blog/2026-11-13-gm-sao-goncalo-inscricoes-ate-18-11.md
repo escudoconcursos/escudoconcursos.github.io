@@ -1,20 +1,22 @@
 ---
 slug: gm-sao-goncalo-inscricoes-ate-18-11
 tipo: noticia
-titulo_seo: "GM São Gonçalo: inscrições até 18/11, boleto até 19/11"
-descricao: "Concurso Guarda Municipal de São Gonçalo/RJ: inscrições no SELECON terminam em 18/11/2026, boleto de R$ 95,18 até 19/11. 100 vagas e prova em 24/01/2027."
-h1: "GM São Gonçalo: inscrições terminam quarta-feira, 18/11, e o boleto vence no dia seguinte"
+titulo_seo: "GM São Gonçalo: prova em 24/01/2027, gabarito em 25/01"
+descricao: "Inscrições da Guarda Municipal de São Gonçalo encerradas. A prova objetiva do SELECON é em 24/01/2027, de manhã, com gabarito em 25/01. Veja o que estudar até lá."
+h1: "GM São Gonçalo: prova objetiva em 24/01/2027 e gabarito preliminar em 25/01"
 publicado: 2026-11-13
-atualizado_em: 2026-11-13
+atualizado_em: 2026-11-23
 curso_id: gm-sao-goncalo-2026
 guia: concurso-gm-sao-goncalo
 ficha: 34-GM-Sao-Goncalo-RJ
-capa_titulo: "GM São Gonçalo: inscrições até 18/11"
-capa_destaque: "18/11"
-valido_ate: 2026-11-19
-resumo: [["Órgão", "Prefeitura de São Gonçalo/RJ, Guarda Municipal Nível II"], ["Banca", "Instituto SELECON"], ["Vagas", "100 imediatas (95 ampla concorrência e 5 PcD) e cadastro de reserva de 500"], ["Vencimento", "R$ 3.172,96"], ["Inscrições", "até 18/11/2026; boleto de R$ 95,18 pago até 19/11"], ["Prova", "24/01/2027, de manhã, 80 questões"]]
+capa_titulo: "GM São Gonçalo: prova 24/01"
+capa_destaque: "24/01"
+valido_ate: 2027-01-24
+resumo: [["Órgão", "Prefeitura de São Gonçalo/RJ, Guarda Municipal Nível II"], ["Banca", "Instituto SELECON"], ["Vagas", "100 imediatas e cadastro de reserva de 500"], ["Inscrições", "Encerradas em 18/11/2026"], ["Prova objetiva", "24/01/2027, de manhã, 4 horas"], ["Gabarito preliminar", "25/01/2027, com recurso em 26 e 27/01"]]
 fontes: [{"nome": "Edital nº 001/PMSG/2026, Prefeitura de São Gonçalo (Instituto SELECON), consolidado com as Retificações 01 e 02", "url": "https://selecon.selecao.net.br/informacoes/73/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições terminaram em 18/11. A **prova objetiva é em 24/01/2027, domingo de manhã, com 4 horas de duração**, e o **gabarito preliminar sai em 25/01**, com recurso em 26 e 27/01. Até lá são cerca de nove semanas, e o [cronograma de 10 semanas](../gm-sao-goncalo-cronograma-10-semanas/) já está ajustado a essa data.
 
 Quem quer vestir o uniforme da **Guarda Municipal de São Gonçalo** como **Guarda Municipal Nível II** tem até **quarta-feira, 18/11/2026**, para se inscrever no concurso do Instituto SELECON. O boleto da taxa de **R$ 95,18** pode ser pago até **quinta-feira, 19/11**. São **100 vagas imediatas**, mais 500 no cadastro de reserva, e vencimento de **R$ 3.172,96**. A prova objetiva é em 24/01/2027.
 

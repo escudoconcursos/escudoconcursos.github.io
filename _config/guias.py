@@ -106,6 +106,15 @@ def titulo_curto(meta, prods, limite=60):
     if fins:
         prazo = "inscrições até " + data_br(fins[0])[:5]
         itens = [prazo] + [i for i in itens if "edital" not in i.lower() and "inscri" not in i.lower()]
+    else:
+        # 23/11/2026 (CTR 1,8%): com a inscrição encerrada, quem busca o concurso quer a data da prova
+        # ("prova em 13/12"), que entra no lugar do prazo. Guia sem data de prova fica como está.
+        provas = sorted(p.get("prova", "") for p in prods if hoje <= p.get("prova", "") < "2099")
+        dp = str(meta.get("data_prova") or "").strip('"')
+        if not provas and re.fullmatch(r"\d{4}-\d{2}-\d{2}", dp) and dp >= hoje:
+            provas = [dp]
+        if provas:
+            itens = ["prova em " + data_br(provas[0])[:5]] + [i for i in itens if "prova" not in i.lower() and "inscri" not in i.lower()]
 
     def junta(lst):
         return cab + (": " + (", ".join(lst[:-1]) + " e " + lst[-1] if len(lst) > 1 else lst[0]) if lst else "")

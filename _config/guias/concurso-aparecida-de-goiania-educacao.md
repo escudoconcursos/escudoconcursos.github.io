@@ -1,7 +1,7 @@
 ---
 slug: concurso-aparecida-de-goiania-educacao
-titulo_seo: "Concurso Aparecida de Goiânia Educação 2026: vagas e prova"
-descricao: "Concurso da Educação de Aparecida de Goiânia: 2.719 vagas para Agente Educativo e Professor PE-I Pedagogia, banca Verbena/UFG, prova em 31/01/2027."
+titulo_seo: "Concurso Agente Educativo Aparecida 2026: vagas e prova"
+descricao: "Concurso da Educação de Aparecida de Goiânia: 2.719 vagas de Agente Educativo e Professor PE-I Pedagogia, banca Verbena/UFG, prova em 31/01/2027. Veja o que cai."
 h1: "Concurso Educação de Aparecida de Goiânia 2026: Agente Educativo e Professor PE-I Pedagogia, 2.719 vagas e prova em 31/01/2027"
 curso_id: ["agente-educativo-aparecida-2026", "pedagogia-aparecida-2026"]
 orgao: Prefeitura de Aparecida de Goiânia (Secretaria Municipal de Educação)

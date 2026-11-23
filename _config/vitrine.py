@@ -150,6 +150,53 @@ def cartao(p):
       </li>""", chave
 
 
+# Bloco "Em destaque" no topo da vitrine (23/11/2026, pedido do Mateus: dar destaque aos cursos válidos que ainda
+# não venderam). A lista vem de _config/destaque.json (medida na planilha da automação). Mostra 8 por visita,
+# em rodízio diário no navegador; todos ficam no HTML para o Google. Curso com prova passada não entra.
+def destaque_html():
+    arq = RAIZ / "_config" / "destaque.json"
+    if not arq.exists():
+        return ""
+    ids = json.loads(arq.read_text(encoding="utf-8")).get("cursos", [])
+    por_id = {p["id"]: p for p in DADOS["produtos"]}
+    lista = [por_id[i] for i in ids if i in por_id and (not por_id[i].get("prova") or d(por_id[i]["prova"]) >= HOJE)]
+    if not lista:
+        return ""
+
+    def prioridade(p):
+        ins = p.get("inscricoes_ate")
+        aberto = 0 if ins and d(ins) >= HOJE else (1 if p.get("prova") and p["prova"] != SEM_DATA else 2)
+        return (aberto, ins or p.get("prova") or SEM_DATA)
+
+    lista.sort(key=prioridade)
+    itens = []
+    for i, p in enumerate(lista):
+        _, txt, _ = selo(p)
+        c = p.get("cupom")
+        if c and (p.get("prevenda") or d(c["ate"]) >= HOJE):
+            preco = "R$ %s com o cupom %s" % (brl(c["preco"]), e(c["codigo"]))
+        else:
+            preco = "R$ %s" % brl(p["preco"])
+        itens.append(
+            '<li class="%s" data-ordem="%d"%s><a href="%s" data-goatcounter-click="destaque-home" data-goatcounter-title="destaque-home-%s">'
+            '<img src="%s" width="76" height="76" loading="lazy" alt=""><span><b>%s</b><strong>%s</strong><em>%s</em><i>%s</i></span></a></li>'
+            % (e(p["tema"]), i, "" if i < 8 else " hidden", e(p["link"]), e(p["id"]), e(p["imagem"]), e(p["tag"]), e(p["titulo"]), e(txt or "Edital previsto"), preco))
+    return ('<div class="vitrine-destaque" aria-labelledby="t-destaque"><p class="kicker" id="t-destaque">Em destaque</p>'
+            '<p class="vd-sub">Cursos completos, prontos para baixar, que muita gente ainda não conhece. Começar antes da concorrência faz diferença.</p>'
+            '<ul data-destaque>%s</ul></div>'
+            '<style>.vitrine-destaque{margin:6px 0 26px}.vd-sub{margin:4px 0 12px;color:var(--navy2)}'
+            '.vitrine-destaque ul{list-style:none;padding:0;margin:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}'
+            '.vitrine-destaque a{display:flex;gap:12px;align-items:center;padding:10px;border:1px solid rgba(201,162,75,.6);border-radius:10px;background:#fff;color:var(--navy);text-decoration:none;height:100%%}'
+            '.vitrine-destaque a:hover{box-shadow:0 4px 14px rgba(11,26,51,.14)}.vitrine-destaque img{width:76px;height:76px;border-radius:8px;flex:none;object-fit:cover}'
+            '.vitrine-destaque span{display:flex;flex-direction:column;gap:2px;min-width:0}.vitrine-destaque b{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:#7a5c17}'
+            '.vitrine-destaque strong{font-size:.98rem;line-height:1.25}.vitrine-destaque em{font-style:normal;font-size:.86rem;color:var(--navy3)}'
+            '.vitrine-destaque i{font-style:normal;font-weight:700;font-size:.9rem}</style>'
+            '<script>(function(){var u=document.querySelector("[data-destaque]");if(!u)return;var h=new Date();h.setHours(0,0,0,0);'
+            'var li=[].slice.call(u.children);var n=li.length,k=window.innerWidth<700?4:8;if(n<=k)return;var dia=Math.floor(h.getTime()/864e5);'
+            'var ini=(dia*k)%%n;li.forEach(function(x,i){var p=(i-ini+n)%%n;x.hidden=p>=k;x.style.order=p;});u.style.display="grid";})();</script>'
+            ) % "".join(itens)
+
+
 abertos = [p for p in DADOS["produtos"] if not p.get("prova") or d(p["prova"]) >= HOJE]
 cartoes = sorted((cartao(p) for p in abertos), key=lambda t: t[1])
 usadas = [k for k in CARREIRAS if any(p["carreira"] == k for p in abertos)]
@@ -158,6 +205,7 @@ botoes += ['<button type="button" class="chip" data-filtro="%s" aria-pressed="fa
            % (k, e(CARREIRAS[k]), k, sum(p["carreira"] == k for p in abertos)) for k in usadas]
 
 bloco = """<!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produtos.json; não editar à mão) -->
+    %s
     <div class="busca" data-busca-caixa hidden>
       <label for="busca-curso">Busque o seu concurso</label>
       <input id="busca-curso" type="search" placeholder="Ex.: PM-SP, Recife, Bahia, Soldado" autocomplete="off" enterkeyhint="search" data-busca-campo>
@@ -172,7 +220,7 @@ bloco = """<!-- vitrine:inicio (gerado por _config/vitrine.py a partir de produt
     <p class="vitrine-vazia" data-sem-resultado hidden>Nenhum curso com esse nome. Tente a sigla (PM-SP), a cidade ou o estado, ou <a href="#pedir" data-pedir-busca>peça este curso para a ESCUDO</a>.</p>
     <p class="vitrine-vazia" data-vazia%s>Novos cursos em breve. Acompanhe no Instagram <a href="https://www.instagram.com/escudoconcursos/">@escudoconcursos</a>.</p>
     %s
-    <!-- vitrine:fim -->""" % ("\n      ".join(botoes), "\n".join(t[0] for t in cartoes), "" if not abertos else " hidden", pedido_html())
+    <!-- vitrine:fim -->""" % (destaque_html(), "\n      ".join(botoes), "\n".join(t[0] for t in cartoes), "" if not abertos else " hidden", pedido_html())
 
 idx = RAIZ / "index.html"
 s = idx.read_text(encoding="utf-8")

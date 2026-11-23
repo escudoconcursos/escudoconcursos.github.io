@@ -1,19 +1,21 @@
 ---
 slug: dpepb-inscricoes-ate-13-11
 tipo: noticia
-titulo_seo: "DPE-PB Técnico: inscrições terminam em 13/11 às 23h59"
-descricao: "Concurso DPE-PB: inscrições para Técnico da Defensoria terminam em 13/11/2026, às 23h59, no site da FCC. Boleto de R$ 103,00 pode ser pago até 16/11."
-h1: "DPE-PB Técnico da Defensoria: inscrições terminam sexta-feira, 13/11, às 23h59"
+titulo_seo: "DPE-PB Técnico: locais de prova em 11/12 e prova em 28/02"
+descricao: "Inscrições do concurso DPE-PB encerradas. A FCC divulga os locais de prova em 11/12/2026 e a prova objetiva de Técnico da Defensoria é em 28/02/2027. Veja o que estudar."
+h1: "DPE-PB Técnico da Defensoria: locais de prova saem em 11/12 e a prova é em 28/02/2027"
 publicado: 2026-11-11
-atualizado_em: 2026-11-11
+atualizado_em: 2026-11-23
 curso_id: tecnico-defensoria-dpe-pb-2026
 guia: concurso-dpe-pb
-capa_titulo: "DPE-PB: inscrições até 13/11"
-capa_destaque: "13/11"
-valido_ate: 2026-11-16
-resumo: [["Órgão", "Defensoria Pública do Estado da Paraíba (DPE-PB)"], ["Banca", "Fundação Carlos Chagas (FCC)"], ["Cargo", "Técnico da Defensoria (A01), nível médio, 9 vagas e cadastro de reserva"], ["Vencimento inicial", "R$ 4.042,50"], ["Inscrições", "até 13/11/2026, às 23h59 de Brasília"], ["Taxa", "R$ 103,00, boleto pago até 16/11/2026"]]
+capa_titulo: "DPE-PB: prova em 28/02"
+capa_destaque: "28/02"
+valido_ate: 2027-02-28
+resumo: [["Órgão", "Defensoria Pública do Estado da Paraíba (DPE-PB)"], ["Banca", "Fundação Carlos Chagas (FCC)"], ["Cargo", "Técnico da Defensoria (A01), nível médio, 9 vagas e cadastro de reserva"], ["Inscrições", "Encerradas em 13/11/2026"], ["Locais de prova", "Edital de convocação em 11/12/2026"], ["Prova objetiva", "28/02/2027, domingo, de manhã"], ["Recurso contra o gabarito", "02 e 03/03/2027"]]
 fontes: [{"nome": "Edital nº 01/2026 de Abertura, DPE-PB (Fundação Carlos Chagas)", "url": "https://www.concursosfcc.com.br/concursos/dpepb126/edital_de_abertura_dpepb_16_09_2026.pdf"}, {"nome": "Edital nº 03/2026 de Retificação, DPE-PB (Fundação Carlos Chagas)", "url": "https://www.concursosfcc.com.br/concursos/dpepb126/dpepb126_edital_3_de_retificacao.pdf"}, {"nome": "Página do concurso na FCC", "url": "https://www.concursosfcc.com.br/concursos/dpepb126/"}]
 ---
+
+**Atualização em 23/11/2026:** As inscrições terminaram em 13/11. A próxima data é **11/12/2026, quando a FCC publica o edital de convocação com os locais de prova**. A **prova objetiva de Técnico da Defensoria é em 28/02/2027, domingo de manhã**, com recurso contra o gabarito em 02 e 03/03. Quem se inscreveu tem pouco mais de três meses: o peso de cada bloco e o que cai estão no [guia do concurso DPE-PB](../../concurso-dpe-pb/).
 
 Quem quer atender o público na **Defensoria Pública da Paraíba**, a instituição que leva a Justiça a quem não pode pagar advogado, tem até **sexta-feira, 13/11/2026, às 23h59 (horário de Brasília)** para se inscrever como **Técnico da Defensoria**. A inscrição é feita só no site da Fundação Carlos Chagas, a taxa é de **R$ 103,00** e o boleto pode ser pago até **16/11/2026**. A FCC não publicou prorrogação: a página do concurso, consultada na manhã desta quarta-feira, segue com o mesmo prazo e só os Editais nº 01, 02 e 03/2026.
 
