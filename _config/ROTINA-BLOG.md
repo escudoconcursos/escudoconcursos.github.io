@@ -68,3 +68,10 @@ Consultas que já trazem impressão ao site e ainda não têm resposta própria.
 5. CBM-PE Soldado: como é a prova do AOCP e onde estão as provas anteriores oficiais. Buscas: "prova cbmpe pdf", "apostila cbmpe pdf", "concurso bombeiros pe".
 6. PM-PE Soldado: datas que faltam até a prova de 21/02/2027 (o guia está na posição 24 para "concurso pm pe", com 133 impressões; um post novo e atual com link para o guia ajuda).
 7. Aparecida de Goiânia: o que faz o Agente Educativo (busca "agente educativo", 44 impressões na posição 5).
+
+## Prioridade de vendas: fim de inscrição (23/11/2026, pedido do Mateus)
+O curso vende quando a inscrição está para fechar e para quase a zero depois. Nos concursos abaixo, nos últimos 10 dias de inscrição, há um post por concurso a cada 3 ou 4 dias, na frente do "o que estudar" genérico (fato oficial novo continua na frente de tudo): lembrete do prazo, o que estudar com o tempo que falta e o link do curso com src=blog. Ângulo novo a cada post, sem repetir o guia.
+- TJSP Escrevente: inscrições até 10/12/2026 (posts em 30/11, 04/12 e 08/12).
+- PC-PE Agente e Escrivão: inscrições até 16/12/2026 (posts em 06/12, 10/12 e 14/12).
+- DPE-AM Assistente: inscrições de 30/11/2026 a 04/01/2027 (post na abertura, 30/11, e nos últimos 10 dias: 26/12, 30/12 e 02/01).
+A faixa "Inscrições terminando" da home (vitrine.py, DESTAQUE_PRAZOS) já mostra esses cursos; os stories das 20h já priorizam guia com inscrição perto do fim.

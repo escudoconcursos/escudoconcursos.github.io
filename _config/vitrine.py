@@ -195,3 +195,39 @@ for p in DADOS["produtos"]:
 <body><p><a href="{e(destino)}">{e(p['titulo'])}, {e(p['tag'])}</a></p></body></html>
 """, encoding="utf-8")
     print("ok atalho /%s/ -> %s" % (p["atalho"], destino))
+
+# Faixa "Inscrições terminando" no topo da home (23/11/2026, pedido do Mateus: destacar os concursos
+# com inscrição perto do fim, que é quando o curso vende). Até 6 cursos: os de DESTAQUE_PRAZOS e os da última semana.
+# Cursos que mais vendem: entram na faixa desde 45 dias antes do fim da inscrição (os outros, só na última semana).
+DESTAQUE_PRAZOS = {"escrevente-tjsp-2026", "pcpe-agente-2026", "pcpe-escrivao-2026", "assistente-tecnico-dpe-am-2026"}
+
+
+def faixa_prazos():
+    abertas = [p for p in DADOS["produtos"] if p.get("inscricoes_ate") and d(p["inscricoes_ate"]) >= HOJE]
+    fixos = [p for p in abertas if p["id"] in DESTAQUE_PRAZOS and d(p["inscricoes_ate"]) <= HOJE + dt.timedelta(days=45)]
+    perto = [p for p in abertas if p not in fixos and d(p["inscricoes_ate"]) <= HOJE + dt.timedelta(days=7)]
+    lista = sorted(fixos + sorted(perto, key=lambda p: p["inscricoes_ate"])[:max(0, 6 - len(fixos))], key=lambda p: p["inscricoes_ate"])
+    if not lista:
+        return "<!-- prazos:inicio --><!-- prazos:fim -->"
+    itens = []
+    for p in lista:
+        itens.append('<li data-ate="%s"><a href="%s" data-goatcounter-click="prazo-home" data-goatcounter-title="prazo-home-%s"><b>%s</b> %s · inscrições até %s</a></li>'
+                     % (p["inscricoes_ate"], e(p["link"]), e(p["id"]), e(p["tag"]), e(p["titulo"]), ddmm(p["inscricoes_ate"])))
+    return ('<!-- prazos:inicio (gerado por _config/vitrine.py) --><div class="prazos-home"><p class="kicker">Inscrições terminando</p>'
+            '<ul>%s</ul></div><style>.prazos-home{margin-top:22px}.prazos-home ul{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}'
+            '.prazos-home a{display:block;padding:10px 14px;border:1px solid rgba(212,175,90,.55);border-radius:8px;color:inherit;text-decoration:none}'
+            '.prazos-home a:hover{background:rgba(212,175,90,.12)}.prazos-home b{color:#d4af5a;margin-right:6px}</style>'
+            '<script>(function(){var h=new Date();h.setHours(0,0,0,0);document.querySelectorAll(".prazos-home li[data-ate]").forEach(function(li){'
+            'if(new Date(li.dataset.ate+"T23:59:59-03:00")<h)li.remove();});var u=document.querySelector(".prazos-home ul");'
+            'if(u&&!u.children.length)u.parentNode.remove();})();</script><!-- prazos:fim -->') % "".join(itens)
+
+
+s = idx.read_text(encoding="utf-8")
+faixa = faixa_prazos()
+if "<!-- prazos:inicio" in s:
+    s = re.sub(r"<!-- prazos:inicio.*?<!-- prazos:fim -->", lambda m: faixa, s, flags=re.S)
+else:
+    s = s.replace('item por item, na ordem do conteúdo programático, com questões no estilo da banca e gabarito comentado.</p>',
+                  'item por item, na ordem do conteúdo programático, com questões no estilo da banca e gabarito comentado.</p>\n    ' + faixa, 1)
+idx.write_text(s, encoding="utf-8")
+print("ok faixa de prazos na home")
