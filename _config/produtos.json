@@ -1356,6 +1356,32 @@
       "prevenda": true
     },
     {
+      "id": "pmpb-soldado-2026",
+      "atalho": "pmpb",
+      "carreira": "policial",
+      "tema": "tema-esmeralda",
+      "tag": "PM/PB 2026 · Pré-edital",
+      "titulo": "Soldado da PM da Paraíba",
+      "itens": [
+        "136 capítulos e 660 questões comentadas",
+        "Estatuto da PMPB e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pmpb-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar da Paraíba, PM/PB 2026, 136 capítulos e 660 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMPB35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "PMPB37",
+        "_antes_ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmpb-soldado-2026/",
+      "botao": "Ver o curso",
+      "prevenda": true
+    },
+    {
       "id": "pmrr-soldado-2026",
       "atalho": "pmrr",
       "carreira": "policial",

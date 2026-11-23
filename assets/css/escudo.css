@@ -500,7 +500,9 @@ a.chip{text-decoration:none}
 /* framboesa, Professor de Língua Inglesa SEDUC/SP 2026 (20/11/2026): botão framboesa com texto branco */
 .tema-framboesa{--c:#B0306A; --cb:#E79BBE; --cbtn1:#B0306A; --cbtn2:#741C45; --cd:#741C45; --cbtn-txt:#fff}
 /* agua, DPE-AM Assistente Técnico Administrativo 2026 (21/11/2026): cor clara (10,9:1 sobre o navy), botão com texto navy */
-.tema-agua{--c:#7EDBE6; --cb:#B8F0F5; --cd:#237F8E; --cbtn1:#B8F0F5; --cbtn2:#7EDBE6; --cbtn-txt:#0B1A33}
+.tema-agua{--c:#7EDBE6; --cb:#B8F0F5; --cd:#237F8E; --cbtn1:#B8F0F5; --cbtn2:#7EDBE6; --cbtn-txt:#0B1A33}
+/* esmeralda, PMPB Soldado 2026 (23/11/2026): cor clara (11,7:1 sobre o navy), botão com texto navy */
+.tema-esmeralda{--c:#24F292; --cb:#A0F9CF; --cd:#0A7C49; --cbtn1:#A0F9CF; --cbtn2:#24F292; --cbtn-txt:#0B1A33}
 /* inss, INSS Técnico do Seguro Social 2026 (21/11/2026): azul da logo do INSS (#007AC2, 4,6:1 com texto branco); a clara #6FC0EE dá 8,6:1 sobre o navy; verde #009A66 só na régua (--acce) */
 .tema-inss{--c:#007AC2; --cb:#6FC0EE; --cd:#005197; --cbtn1:#007AC2; --cbtn2:#005197; --cbtn-txt:#fff; --acce:#009A66}
 /* link do guia no fim da resposta rápida das páginas de curso (21/11/2026) */

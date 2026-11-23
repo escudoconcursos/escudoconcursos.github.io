@@ -1177,6 +1177,28 @@
    "alt": "Sumário geral clicável da apostila"
   }
  ],
+ "pmpb-soldado-2026": [
+  {
+   "item": "Direito Militar em 12 capítulos:",
+   "img": "assets/img/pmpb/b-militar",
+   "alt": "Sumário da disciplina Noções de Direito Militar, com o Estatuto da PMPB"
+  },
+  {
+   "item": "Geografia e História da Paraíba em 17 capítulos:",
+   "img": "assets/img/pmpb/b-paraiba",
+   "alt": "Sumário da disciplina História da Paraíba"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmpb/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pmpb/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmrr-soldado-2026": [
   {
    "item": "Legislação da PMRR e Lei Orgânica Nacional em 17 capítulos",
