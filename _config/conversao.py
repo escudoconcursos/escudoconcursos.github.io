@@ -5,6 +5,7 @@
    e nos guias desses cursos. O site.js (bloco 8) manda para o App da Web do Apps Script (pedido_url do site.json)
    com tipo=lista: vira linha na aba "Lista de espera" da planilha. No dia do edital, o disparo do Apps Script
    manda o aviso com o cupom só para quem está na lista daquele curso.
+3. Kit completo (curso + extras numa oferta só, _config/kits.json) logo abaixo do botão do topo.
 2. Chamada para o simulado grátis (/simulado-{curso}/, gerado pelo simulados.py) nas páginas de curso de edital
    aberto e nos guias, quando o simulado existe.
 
@@ -19,6 +20,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SITE = json.loads((RAIZ / "_config/site.json").read_text(encoding="utf-8"))
 NOMES = json.loads((RAIZ / "_config/nomes.json").read_text(encoding="utf-8"))["cursos"]
 ED = json.loads((RAIZ / "_config/editais.json").read_text(encoding="utf-8"))
+KITS = json.loads((RAIZ / "_config/kits.json").read_text(encoding="utf-8"))["kits"] if (RAIZ / "_config/kits.json").exists() else {}
 PROD = {p["id"]: p for p in json.loads((RAIZ / "_config/produtos.json").read_text(encoding="utf-8"))["produtos"]}
 e = lambda s: H.escape(str(s), quote=True)
 
@@ -125,6 +127,21 @@ def link_avise(h):
                  lambda hh, t: hh[:i] + t + hh[i:])
 
 
+def kit_html(k):
+    itens = "".join(f"<li>{e(i)}</li>" for i in k["itens"])
+    return ('<style>.kit-oferta{margin:14px 0 4px;padding:12px 14px;border:1px dashed rgba(201,162,75,.7);border-radius:8px;text-align:left}.kit-oferta .kit-tit{margin:0 0 6px}.kit-oferta .kit-tit s{opacity:.7;font-size:.9em;margin-left:4px}.kit-oferta ul{margin:0 0 10px;padding-left:18px;font-size:.92rem}.btn-kit{display:inline-block;padding:9px 14px;border-radius:6px;border:1px solid currentColor;color:inherit;font-weight:700;text-decoration:none}.btn-kit:hover{background:rgba(201,162,75,.15)}</style>' + f'<div class="kit-oferta"><p class="kit-tit"><b>Kit completo</b> por <b>R$ {e(k["preco"])}</b> '
+            f'<s>R$ {e(k["separado"])} separado</s></p><ul>{itens}</ul>'
+            f'<a class="btn-kit" href="{e(k["link"])}" data-goatcounter-click="compra-kit" data-goatcounter-title="compra-kit">Quero o kit completo</a></div>\n        ')
+
+
+def link_kit(h, k):
+    alvo = '<ul class="selos">'
+    i = h.find(alvo, h.find('id="oferta"'))
+    if i < 0:
+        return h
+    return bloco(h, "kit", kit_html(k), lambda hh, t: hh[:i] + t + hh[i:])
+
+
 def guias_por_curso():
     g = {}
     for md in (RAIZ / "_config/guias").glob("concurso-*.md"):
@@ -151,6 +168,8 @@ def main():
         if cid in ED["pre"]:
             h = bloco(h, "lista-edital", lista_html(cid, "curso"), apos_hero)
             h = link_avise(h)
+        if cid in KITS:
+            h = link_kit(h, KITS[cid])
         if cid in sims:
             h = bloco(h, "simulado-cta", simulado_html(cid, sims[cid]), apos_hero)
         if h != h0:
