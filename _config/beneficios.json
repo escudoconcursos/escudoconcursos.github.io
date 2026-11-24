@@ -1177,6 +1177,28 @@
    "alt": "Sumário geral clicável da apostila"
   }
  ],
+ "pmba-cfo-2026": [
+  {
+   "item": "História e Geografia em 60 capítulos:",
+   "img": "assets/img/pmba-cfo/b-historia",
+   "alt": "Sumário da disciplina Ciências Humanas: História, com os capítulos da Antiguidade ao Brasil República"
+  },
+  {
+   "item": "Redação no padrão da UNEB em 6 capítulos:",
+   "img": "assets/img/pmba-cfo/b-redacao",
+   "alt": "Sumário da disciplina Redação, com o barema da UNEB, a argumentação, a norma culta e as redações comentadas"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/pmba-cfo/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/pmba-cfo/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "cbmba-soldado-2026": [
   {
    "item": "Ciências Naturais em 43 capítulos:",

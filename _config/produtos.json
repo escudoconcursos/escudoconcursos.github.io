@@ -1356,6 +1356,29 @@
       "prevenda": true
     },
     {
+      "id": "pmba-cfo-2026",
+      "atalho": "cfo-pmba",
+      "carreira": "policial",
+      "tema": "tema-platina",
+      "tag": "CFO PM/BA 2026 · Pré-edital",
+      "titulo": "Oficial da Polícia Militar da Bahia (CFO)",
+      "itens": [
+        "240 capítulos e 1.165 questões comentadas",
+        "Redação e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pmba-cfo-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Oficial da Polícia Militar da Bahia, CFO PM/BA 2026, pré-edital, 240 capítulos e 1.165 questões comentadas",
+      "preco": 79.9,
+      "cupom": {
+        "codigo": "PMBACFO",
+        "preco": 59.9,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmba-cfo-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "cbmba-soldado-2026",
       "atalho": "cbmba",
       "carreira": "policial",
