@@ -1356,6 +1356,32 @@
       "prevenda": true
     },
     {
+      "id": "cbmba-soldado-2026",
+      "atalho": "cbmba",
+      "carreira": "policial",
+      "tema": "tema-mel",
+      "tag": "CBM/BA 2026 · Pré-edital",
+      "titulo": "Soldado do Corpo de Bombeiros da Bahia",
+      "itens": [
+        "179 capítulos e 860 questões comentadas",
+        "Lei do CBMBA e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-cbmba-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado do Corpo de Bombeiros Militar da Bahia, CBM/BA 2026, 179 capítulos e 860 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "CBMBA35",
+        "preco": 35,
+        "ate": "2027-12-31",
+        "_antes": "CBMBA37",
+        "_antes_ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "cbmba-soldado-2026/",
+      "botao": "Ver o curso",
+      "prevenda": true
+    },
+    {
       "id": "pmpb-soldado-2026",
       "atalho": "pmpb",
       "carreira": "policial",

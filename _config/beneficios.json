@@ -1177,6 +1177,28 @@
    "alt": "Sumário geral clicável da apostila"
   }
  ],
+ "cbmba-soldado-2026": [
+  {
+   "item": "Ciências Naturais em 43 capítulos:",
+   "img": "assets/img/cbmba/b-ciencias",
+   "alt": "Sumário da disciplina Ciências Naturais, com Física, Química e Biologia"
+  },
+  {
+   "item": "Direito Administrativo e a lei do CBMBA em 20 capítulos:",
+   "img": "assets/img/cbmba/b-adm",
+   "alt": "Sumário da disciplina Direito Administrativo, com a Organização Básica do CBMBA e a segurança contra incêndio e pânico"
+  },
+  {
+   "item": "Navegação clicável",
+   "img": "assets/img/cbmba/b-sumario",
+   "alt": "Sumário geral clicável da apostila"
+  },
+  {
+   "item": "2 simulados inéditos de 80 questões",
+   "img": "assets/img/cbmba/b-simulado",
+   "alt": "Primeira página do Simulado 1"
+  }
+ ],
  "pmpb-soldado-2026": [
   {
    "item": "Direito Militar em 12 capítulos:",
