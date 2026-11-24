@@ -16,7 +16,7 @@ O concurso da Guarda Municipal do Recife para Agente de Segurança Municipal est
 
 > **Resposta rápida:** 400 vagas previstas, ensino médio completo, banca Instituto AOCP, remuneração de R$ 3.240,00 segundo o Termo de Referência [conferir]. Edital não publicado: sem datas de inscrição, sem taxa definida e sem data de prova. A imprensa fala em edital possível em novembro de 2026, sem confirmação oficial.
 
-**Curso ESCUDO GM Recife 2026 em PDF:** 126 capítulos e 625 questões comentadas, feitos a partir do Termo de Referência de 25/08/2026, mais 2 simulados. Na pré-venda, de R$ 47 por R$ 35 com o cupom GMRECIFE35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/gm-recife-2026/)
+**Curso ESCUDO GM Recife 2026 em PDF:** 126 capítulos e 625 questões comentadas, feitos a partir do Termo de Referência de 25/08/2026, mais 2 simulados. De R$ 47 por R$ 37 com o cupom GMRECIFE37 até 31/12/2026. [Ver o curso](/gm-recife-2026/)
 
 ## O que é o concurso da Guarda Municipal do Recife?
 
@@ -140,7 +140,7 @@ Como não há edital, o plano se baseia no que já é certo:
 3. **Leia a lei seca com atenção às palavras pequenas.** Quando errar, procure qual dado foi trocado na alternativa marcada.
 4. **Ajuste quando o edital sair.** Compare o programa publicado com o seu plano, confira a data de corte da lei, o número de questões e o critério de eliminação.
 
-**Curso ESCUDO GM Recife 2026 em PDF:** 126 capítulos, 625 questões comentadas de cinco alternativas e 2 simulados de 50 questões (número estimado até o edital sair). R$ 47, ou R$ 35 na pré-venda com o cupom GMRECIFE35 até sair o edital, com atualização grátis. [Ver o curso](/gm-recife-2026/)
+**Curso ESCUDO GM Recife 2026 em PDF:** 126 capítulos, 625 questões comentadas de cinco alternativas e 2 simulados de 50 questões (número estimado até o edital sair). R$ 47, ou R$ 37 com o cupom GMRECIFE37 até 31/12/2026. [Ver o curso](/gm-recife-2026/)
 
 ## Perguntas frequentes
 

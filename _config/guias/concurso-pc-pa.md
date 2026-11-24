@@ -15,7 +15,7 @@ O concurso da Polícia Civil do Pará para Escrivão está previsto para 2026, m
 
 > **Resposta rápida:** pré-edital. A previsão de 2026 traz 100 vagas imediatas de Escrivão e 137 administrativas, sem Investigador. Sem edital, sem banca e sem calendário. Referência de estudo: Edital C-207/2020 (AOCP), com 60 questões objetivas de cinco alternativas, nota mínima 6,0 e uma discursiva de 15 a 30 linhas.
 
-**Cursos ESCUDO em PDF:** Escrivão PC-PA (132 capítulos e 640 questões, com Lei Orgânica da PC/PA, Arquivologia e 2 simulados de 60 questões, cupom PCPAESC35) e Investigador PC-PA (132 capítulos e 640 questões, com Contabilidade, cupom PCPAINV35). Na pré-venda, de R$ 47 por R$ 35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso de Escrivão](/pcpa-escrivao-2026/) | [Ver o curso de Investigador](/pcpa-investigador-2026/)
+**Cursos ESCUDO em PDF:** Escrivão PC-PA (132 capítulos e 640 questões, com Lei Orgânica da PC/PA, Arquivologia e 2 simulados de 60 questões, cupom PCPAESC37) e Investigador PC-PA (132 capítulos e 640 questões, com Contabilidade, cupom PCPAINV37). De R$ 47 por R$ 37 com o cupom de cada cargo, até 31/12/2026. [Ver o curso de Escrivão](/pcpa-escrivao-2026/) | [Ver o curso de Investigador](/pcpa-investigador-2026/)
 
 ## O que é o concurso da Polícia Civil do Pará?
 
@@ -127,7 +127,7 @@ A banca do concurso novo não está definida. Se for a AOCP de novo, o perfil vi
 3. **Resolva questões depois da teoria** e use o gabarito para entender por que cada alternativa errada erra.
 4. **Treine a discursiva desde cedo,** com texto à mão de 15 a 30 linhas e os quatro critérios da Tabela 12.2. Quando o edital sair, confira a banca, o programa e a data de corte da legislação.
 
-**Cursos ESCUDO em PDF:** Escrivão com 2 simulados de 60 questões, cupom PCPAESC35; Investigador com cupom PCPAINV35. Na pré-venda, de R$ 47 por R$ 35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Escrivão](/pcpa-escrivao-2026/) | [Investigador](/pcpa-investigador-2026/)
+**Cursos ESCUDO em PDF:** Escrivão com 2 simulados de 60 questões, cupom PCPAESC37; Investigador com cupom PCPAINV37. De R$ 47 por R$ 37 com o cupom de cada cargo, até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Escrivão](/pcpa-escrivao-2026/) | [Investigador](/pcpa-investigador-2026/)
 
 ## Perguntas frequentes
 

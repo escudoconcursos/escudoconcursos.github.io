@@ -15,7 +15,7 @@ O DETRAN-PR anunciou concurso para Agente de Trânsito, com 94 vagas distribuíd
 
 > **Resposta rápida:** pré-edital. Concurso anunciado pelo DETRAN-PR em 16/10/2026 com 94 vagas de Agente de Trânsito (25 em Curitiba e Região Metropolitana, 69 no interior). Subsídio inicial de R$ 4.231,60, ensino médio completo e CNH categoria B ou superior. A execução cabe à FUNDASEG. Sem edital, sem taxa, sem inscrições e sem data de prova. O último concurso do quadro foi em 2005.
 
-**Curso ESCUDO DETRAN-PR Agente de Trânsito 2026 em PDF:** 138 capítulos e 685 questões comentadas, com o Código de Trânsito Brasileiro, 20 Resoluções do CONTRAN e 2 simulados de 60 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom DETRANPR35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/detranpr-agente-2026/)
+**Curso ESCUDO DETRAN-PR Agente de Trânsito 2026 em PDF:** 138 capítulos e 685 questões comentadas, com o Código de Trânsito Brasileiro, 20 Resoluções do CONTRAN e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom DETRANPR37 até 31/12/2026. [Ver o curso](/detranpr-agente-2026/)
 
 ## O que é o concurso do DETRAN-PR para Agente de Trânsito?
 
@@ -85,7 +85,7 @@ Sem edital, o programa de referência é o do DETRAN-SP 2026, combinado com o qu
 - **Língua Portuguesa, Matemática, Raciocínio Lógico e Informática:** o conteúdo comum de concurso de nível médio, com Microsoft 365 e noções de inteligência artificial.
 - **Realidade do Paraná:** história, geografia, economia, cultura e temas atuais do Estado. O concurso anterior do DETRAN-PR trouxe conhecimentos gerais do Paraná, por isso o curso reserva espaço para o tema.
 
-**Curso ESCUDO DETRAN-PR Agente de Trânsito 2026 em PDF:** as 10 disciplinas do programa estimado em 138 capítulos, com 685 questões de A a E comentadas e 2 simulados de 60 questões. É 100% em PDF, sem videoaulas, com 7 dias de garantia pela Hotmart. Na pré-venda, de R$ 47 por R$ 35 com o cupom DETRANPR35 até sair o edital, com atualização grátis quando ele sair. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/detranpr-agente-2026/)
+**Curso ESCUDO DETRAN-PR Agente de Trânsito 2026 em PDF:** as 10 disciplinas do programa estimado em 138 capítulos, com 685 questões de A a E comentadas e 2 simulados de 60 questões. É 100% em PDF, sem videoaulas, com 7 dias de garantia pela Hotmart. De R$ 47 por R$ 37 com o cupom DETRANPR37 até 31/12/2026. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/detranpr-agente-2026/)
 
 ## Quais serão as outras etapas?
 

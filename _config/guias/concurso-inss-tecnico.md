@@ -15,7 +15,7 @@ O concurso do INSS para Técnico do Seguro Social ainda não tem edital. Em 21/1
 
 > **Resposta rápida:** edital previsto. O INSS pediu ao MGI 10 mil vagas (8.501 de Técnico e 1.499 de Analista), ligadas ao orçamento de 2027; até 18/11/2026 não havia autorização, banca nem edital. Referência de estudo: o edital de 2022 (Cebraspe), com 1.000 vagas de nível médio, remuneração de até R$ 5.905,79, prova de 120 itens de certo ou errado em 3h30 e curso de formação.
 
-**Curso ESCUDO INSS Técnico do Seguro Social 2026 em PDF:** 158 capítulos e 1.570 itens certo/errado comentados, feitos sobre o programa do edital de 2022, e 2 simulados de 120 itens. Na pré-venda, de R$ 47 por R$ 35 com o cupom INSS35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/inss-tecnico-seguro-social-2026/)
+**Curso ESCUDO INSS Técnico do Seguro Social 2026 em PDF:** 158 capítulos e 1.570 itens certo/errado comentados, feitos sobre o programa do edital de 2022, e 2 simulados de 120 itens. De R$ 47 por R$ 37 com o cupom INSS37 até 31/12/2026. [Ver o curso](/inss-tecnico-seguro-social-2026/)
 
 ## O que é o concurso do INSS para Técnico?
 

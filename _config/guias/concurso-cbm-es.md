@@ -15,7 +15,7 @@ Quem quer ser Soldado Combatente do Corpo de Bombeiros Militar do Espírito Sant
 
 > **Resposta rápida:** edital novo ainda não publicado nas fontes oficiais consultadas, por isso sem data de inscrição nem de prova. Último edital (nº 001/2022, IDECAN): ensino médio completo e CNH categoria B, 18 a 28 anos, altura mínima de 1,65 m (homens) e 1,60 m (mulheres), taxa de R$ 79,00, 120 questões objetivas (1 ponto cada) em 7 disciplinas, mínimo de 60 pontos e nenhuma área zerada. Soldado formado: R$ 3.735,79 mais auxílio-alimentação de R$ 600,00 (valores de 2022 e 2024).
 
-**Curso ESCUDO Soldado CBMES 2026 em PDF:** 142 capítulos e 705 questões comentadas, com Química, Física e Biologia explicadas do zero, e 2 simulados de 120 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom CBMES35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/cbmes-soldado-2026/)
+**Curso ESCUDO Soldado CBMES 2026 em PDF:** 142 capítulos e 705 questões comentadas, com Química, Física e Biologia explicadas do zero, e 2 simulados de 120 questões. De R$ 47 por R$ 37 com o cupom CBMES37 até 31/12/2026. [Ver o curso](/cbmes-soldado-2026/)
 
 ## O que é o concurso do CBM-ES para Soldado?
 
@@ -157,7 +157,7 @@ Com 120 questões e sete áreas que podem eliminar, o plano é cobrir tudo e ref
 
 A banca do edital novo ainda é incerta. Se for a mesma de 2022, espere enunciados longos e contextualizados. Se for outra, confira o formato (número de alternativas, tipo de questão) e se o edital pede redação: a prova do CFO de 2026, do mesmo CBMES, teve 80 questões objetivas e uma redação.
 
-**Curso ESCUDO Soldado CBMES 2026 em PDF:** 142 capítulos, 705 questões comentadas e 2 simulados de 120 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom CBMES35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/cbmes-soldado-2026/)
+**Curso ESCUDO Soldado CBMES 2026 em PDF:** 142 capítulos, 705 questões comentadas e 2 simulados de 120 questões. De R$ 47 por R$ 37 com o cupom CBMES37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/cbmes-soldado-2026/)
 
 ## Perguntas frequentes
 

@@ -15,7 +15,7 @@ O concurso para Soldado da Polícia Militar de Minas Gerais ainda não tem edita
 
 > **Resposta rápida:** edital novo de Soldado da PMMG ainda não publicado. Referência: Edital DRH/CRS nº 10/2024 (CFSd 2025), com 3.102 vagas, remuneração inicial de R$ 4.360,83, nível superior, 18 a 30 anos, CNH categoria B e altura mínima de 1,60 m. Prova objetiva de 50 questões de 4 alternativas, 2 pontos cada, 3 horas, mínimo de 60 pontos. Quem organiza é o próprio CRS da PMMG, não uma banca externa.
 
-**Curso ESCUDO PM/MG Soldado 2026 em PDF:** 110 capítulos e 545 questões comentadas, com Literatura, Inglês e 2 simulados de 50 questões, montados sobre o programa do último edital. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMMG35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/pmmg-soldado-2026/)
+**Curso ESCUDO PM/MG Soldado 2026 em PDF:** 110 capítulos e 545 questões comentadas, com Literatura, Inglês e 2 simulados de 50 questões, montados sobre o programa do último edital. De R$ 47 por R$ 37 com o cupom PMMG37 até 31/12/2026. [Ver o curso](/pmmg-soldado-2026/)
 
 ## O que é o concurso de Soldado da PMMG?
 
@@ -109,7 +109,7 @@ O Anexo B de 2024 foi de Português, Matemática e Lógica com um recorte de Dir
 4. **Literatura (5 questões).** Em 2024, "Campo Geral" (João Guimarães Rosa) e "Vidas Secas" (Graciliano Ramos). As obras podem mudar: com o edital novo, confira a lista antes de ler.
 5. **Noções de Língua Inglesa (5 questões).** Compreensão e interpretação de texto em inglês e itens gramaticais relevantes para entender o sentido.
 
-**Curso ESCUDO PM/MG Soldado 2026 em PDF:** 110 capítulos e 545 questões de 4 alternativas (A a D), no formato do edital, com Literatura e Inglês em capítulos próprios e 2 simulados de 50 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMMG35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/pmmg-soldado-2026/)
+**Curso ESCUDO PM/MG Soldado 2026 em PDF:** 110 capítulos e 545 questões de 4 alternativas (A a D), no formato do edital, com Literatura e Inglês em capítulos próprios e 2 simulados de 50 questões. De R$ 47 por R$ 37 com o cupom PMMG37 até 31/12/2026. [Ver o curso](/pmmg-soldado-2026/)
 
 ## Quais são as etapas depois da prova?
 

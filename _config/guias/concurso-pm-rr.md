@@ -15,7 +15,7 @@ O concurso da Polícia Militar de Roraima para Soldado ainda não tem edital. O 
 
 > **Resposta rápida:** edital previsto. Estudos autorizados, com previsão de 600 vagas para praças e formação escalonada em quatro anos (portal do Governo de Roraima, 28/10/2026). Sem edital, sem banca divulgada, sem inscrição e sem data de prova. Referência de estudo: Edital nº 001/2018 (UERR), com 80 questões de cinco alternativas, 40 pontos para passar e nenhuma matéria zerada.
 
-**Curso ESCUDO PMRR Soldado 2026 em PDF:** 151 capítulos e 750 questões comentadas, com Legislação da PMRR e 2 simulados de 80 questões, feitos sobre o programa do último edital do cargo. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMRR35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/pmrr-soldado-2026/)
+**Curso ESCUDO PMRR Soldado 2026 em PDF:** 151 capítulos e 750 questões comentadas, com Legislação da PMRR e 2 simulados de 80 questões, feitos sobre o programa do último edital do cargo. De R$ 47 por R$ 37 com o cupom PMRR37 até 31/12/2026. [Ver o curso](/pmrr-soldado-2026/)
 
 ## O que é o concurso da PMRR para Soldado?
 
@@ -130,7 +130,7 @@ A banca do concurso novo não está definida em documento oficial, então não h
 
 Quando o edital sair, confira a banca, o número de questões por disciplina, o programa (o que entrou e saiu) e a data de corte da legislação.
 
-**Curso ESCUDO PMRR Soldado 2026 em PDF:** 151 capítulos, 750 questões comentadas, Legislação da PMRR e 2 simulados de 80 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PMRR35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmrr-soldado-2026/)
+**Curso ESCUDO PMRR Soldado 2026 em PDF:** 151 capítulos, 750 questões comentadas, Legislação da PMRR e 2 simulados de 80 questões. De R$ 47 por R$ 37 com o cupom PMRR37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmrr-soldado-2026/)
 
 ## Perguntas frequentes
 

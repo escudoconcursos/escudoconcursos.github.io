@@ -15,7 +15,7 @@ Em 20/11/2026, os documentos oficiais que este guia usa não trazem edital novo 
 
 > **Resposta rápida:** edital novo ainda não publicado. Referência: Edital nº 04/2024 (FGV e ACADEPOL), 165 vagas de Investigador de Polícia I, vencimento inicial de R$ 5.332,62, nível superior em qualquer área, taxa de R$ 85,00. Prova objetiva de 70 questões de cinco alternativas (A a E), 1 ponto cada, com mínimo de 35 pontos. Depois vêm exames biomédicos e biofísicos, avaliação psicológica, títulos, investigação social e o Curso de Formação na ACADEPOL.
 
-**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos e 645 questões comentadas, 2 simulados no formato da prova. Na pré-venda, de R$ 47 por R$ 35 com o cupom PCMG35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
+**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos e 645 questões comentadas, 2 simulados no formato da prova. De R$ 47 por R$ 37 com o cupom PCMG37 até 31/12/2026. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
 
 ## O que é o concurso de Investigador da PCMG?
 
@@ -126,7 +126,7 @@ O Anexo I do edital de 2024 traz o programa de cada disciplina. Alguns pontos pe
 
 **Língua Portuguesa (10 questões).** É a disciplina com mais questões. Inclui redação oficial: ofício, memorando, requerimento, relatório e parecer.
 
-**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos que cobrem as doze disciplinas do edital de 2024, com 645 questões de cinco alternativas e gabarito comentado. Na pré-venda, de R$ 47 por R$ 35 com o cupom PCMG35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
+**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos que cobrem as doze disciplinas do edital de 2024, com 645 questões de cinco alternativas e gabarito comentado. De R$ 47 por R$ 37 com o cupom PCMG37 até 31/12/2026. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
 
 ## Quais são as outras etapas?
 
@@ -153,7 +153,7 @@ A banca do concurso novo não está definida, então a referência é a prova de
 
 Como o desempate começa por Noções de Direito, depois Português e Informática, essas três frentes merecem horas extras. Quando o edital novo sair, confira a banca, o programa e a data de corte da legislação.
 
-**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos, 645 questões comentadas e 2 simulados no formato da prova. Na pré-venda, de R$ 47 por R$ 35 com o cupom PCMG35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
+**Curso ESCUDO Investigador PCMG 2026 em PDF:** 129 capítulos, 645 questões comentadas e 2 simulados no formato da prova. De R$ 47 por R$ 37 com o cupom PCMG37 até 31/12/2026. [Ver o curso](/investigador-policia-civil-mg-pcmg-2026/)
 
 ## Perguntas frequentes
 

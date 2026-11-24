@@ -15,7 +15,7 @@ O concurso para Policial Penal da Paraíba ainda não tem edital. Em 20/11/2026,
 
 > **Resposta rápida:** edital previsto. Sem edital publicado, sem vagas, sem salário, sem banca e sem data de prova definidos em documento oficial. A Constituição da Paraíba manda preencher o quadro da Polícia Penal por concurso público. Último edital do cargo (Agente de Segurança Penitenciária): Edital nº 01/2008/SEAD/SECAP, FCC, 60 questões (Português 20, Atualidades 15, Legislação Específica 25).
 
-**Curso ESCUDO Policial Penal PB 2026 em PDF:** 133 capítulos e 645 questões comentadas, com Legislação da Paraíba e 2 simulados de 90 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PPPB35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/policial-penal-pb-2026/)
+**Curso ESCUDO Policial Penal PB 2026 em PDF:** 133 capítulos e 645 questões comentadas, com Legislação da Paraíba e 2 simulados de 90 questões. De R$ 47 por R$ 37 com o cupom PPPB37 até 31/12/2026. [Ver o curso](/policial-penal-pb-2026/)
 
 ## O que é a Polícia Penal da Paraíba?
 
@@ -107,7 +107,7 @@ Não existe programa oficial do concurso novo. Existem duas pistas seguras: o pr
 
 **Sobre o molde do curso:** o curso ESCUDO foi montado em modo pré-edital. Como a Paraíba não tem edital novo, o quadro de prova usado nos simulados é o do Edital nº 007/2024-SAP/CE (Polícia Penal do Ceará, organizado pelo Idecan), que traz 90 questões de 5 alternativas (A a E): 40 de conhecimentos básicos (1 ponto cada) e 50 de específicos (2 pontos cada). Isso é uma hipótese de treino, não o formato do concurso da Paraíba.
 
-**Curso ESCUDO Policial Penal PB 2026 em PDF:** 14 módulos, de Língua Portuguesa a Legislação Extravagante, com 133 capítulos, 645 questões comentadas e 2 simulados de 90 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PPPB35 até sair o edital, com atualização grátis quando ele sair. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/policial-penal-pb-2026/)
+**Curso ESCUDO Policial Penal PB 2026 em PDF:** 14 módulos, de Língua Portuguesa a Legislação Extravagante, com 133 capítulos, 645 questões comentadas e 2 simulados de 90 questões. De R$ 47 por R$ 37 com o cupom PPPB37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/policial-penal-pb-2026/)
 
 ## Como estudar sem edital?
 

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Pré-venda dos cursos pré-edital (22/11/2026, ideia 3 do estudo de vendas, aprovada pelo Mateus a R$ 35).
+"""APOSENTADO em 24/11/2026: o Mateus mandou voltar ao preço padrão (XX37) nos pré-edital; ver despreve.py. Não rodar.
+
+Pré-venda dos cursos pré-edital (22/11/2026, ideia 3 do estudo de vendas, aprovada pelo Mateus a R$ 35).
 
 Troca o cupom de lançamento XX37 (R$ 37 até 31/12) pelo cupom de pré-venda XX35 (R$ 35, 25,53% na Hotmart, sem data de fim),
 "válido até sair o edital", com a promessa de atualização grátis. Só cursos de R$ 47 listados em "pre" no editais.json.

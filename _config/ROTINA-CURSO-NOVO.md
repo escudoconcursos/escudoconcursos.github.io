@@ -43,10 +43,10 @@ Subir a versão em todas as páginas e nos geradores: `escudo.css?v=N` e `site.j
 
 Trocar a linha do curso em `editais.json` (de "pre" para "aberto" quando sair o edital), atualizar datas em `produtos.json` e rodar `onda1.py`, `vitrine.py`, `hubs.py`, `aplicar.py` e `contador.py`.
 
-## 5. Vendas (22/11/2026): pré-venda, lista de espera e simulado grátis
+## 5. Vendas (22/11/2026): lista de espera e simulado grátis
 
-- `prevenda.py`: curso pré-edital de R$ 47 usa o cupom de pré-venda `XX35` (R$ 35, 25,53% na Hotmart, sem data de fim), "até sair o edital", com atualização grátis. Marca `"prevenda": true` no produtos.json. Curso pré-edital novo: criar o cupom XX35 na Hotmart e rodar `prevenda.py`. Quando sair o edital: tirar `prevenda`, voltar ao cupom XX37 com data, desativar o XX35 na Hotmart.
+- Preço (regra de 24/11/2026, pedido do Mateus): curso pré-edital fica no preço padrão, R$ 47 com o cupom de lançamento `XX37` (R$ 37 até 31/12/2026). Não existe mais pré-venda a R$ 35 (`XX35`): o `prevenda.py` está aposentado e o `despreve.py` desfez a pré-venda nos 25 cursos. O preço só sobe quando o edital sair. A promessa de atualização grátis quando sair o edital continua no selo de pré-edital.
 - `conversao.py` (desde 22/11/2026 o `guias.py` e o `onda1.py` já chamam o conversao no fim, então rodar só o guias.py não apaga mais os blocos; rodar à mão só se mexer em simulado ou na lista de pré-edital): formulário "Avise-me quando sair o edital" (e-mail e WhatsApp) nos cursos e guias pré-edital, e chamada do simulado grátis nos cursos e guias que têm simulado. Os dados vão para o App da Web "Pedidos de apostila ESCUDO" v2 (abas "Lista de espera" e "Simulados" da planilha). Aviso do edital: linha na aba "Disparos" (Curso, Assunto, HTML, Teste) e rodar `dispararPendentes()` no editor do Apps Script (cerca de 100 e-mails por dia; rodar de novo no dia seguinte continua).
 - `simulados.py`: gera `/simulado-{curso}/` a partir de `_config/simulados/{curso}.json` (20 questões do curso, fora dos simulados pagos e da amostra).
 
-Ordem completa: seo, vitrine, hubs, onda1, prevenda (se mudou), amostra, guias, simulados, conversao, afiliados, aplicar, contador.
+Ordem completa: seo, vitrine, hubs, onda1, amostra, guias, simulados, conversao, afiliados, aplicar, contador.

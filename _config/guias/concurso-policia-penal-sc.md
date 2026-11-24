@@ -15,7 +15,7 @@ Não há edital novo de Policial Penal de Santa Catarina publicado: sem vagas, s
 
 > **Resposta rápida:** edital previsto, ainda não publicado em 20/11/2026. Banca a definir (a última foi a FEPESE). Pela LC 774/2021, o ingresso na PPSC exige diploma de graduação, idade de 18 a 45 anos e CNH categoria B. Referência de estudo: o Edital nº 01/2019-SAP/SC, com 100 questões de cinco alternativas, nota mínima 5,00 e acerto de pelo menos 1 questão em cada disciplina.
 
-**Curso ESCUDO Policial Penal SC 2026 em PDF:** 81 capítulos e 400 questões comentadas, com Legislação de Santa Catarina e 2 simulados de 100 questões. Na pré-venda, de R$ 47 por R$ 35 com o cupom PPSC35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/ppsc-policial-penal-2026/)
+**Curso ESCUDO Policial Penal SC 2026 em PDF:** 81 capítulos e 400 questões comentadas, com Legislação de Santa Catarina e 2 simulados de 100 questões. De R$ 47 por R$ 37 com o cupom PPSC37 até 31/12/2026. [Ver o curso](/ppsc-policial-penal-2026/)
 
 ## O que é o concurso de Policial Penal de Santa Catarina?
 
@@ -115,7 +115,7 @@ O programa de 2019 (Anexo 1) é o ponto de partida, com uma atualização import
 
 Um plano simples: leia a teoria, resolva questões logo em seguida e releia o comentário das erradas. Como a prova é de 100 questões, o ritmo importa tanto quanto o conteúdo, e os 2 simulados servem para treinar o tempo.
 
-**Curso ESCUDO Policial Penal SC 2026 em PDF:** as 11 disciplinas do programa de 2019 em 81 capítulos, com 400 questões comentadas, Legislação de Santa Catarina e 2 simulados de 100 questões. Quando o edital novo sair, o programa será conferido item por item. Na pré-venda, de R$ 47 por R$ 35 com o cupom PPSC35 até sair o edital, com atualização grátis quando ele sair. [Ver o curso](/ppsc-policial-penal-2026/)
+**Curso ESCUDO Policial Penal SC 2026 em PDF:** as 11 disciplinas do programa de 2019 em 81 capítulos, com 400 questões comentadas, Legislação de Santa Catarina e 2 simulados de 100 questões. Quando o edital novo sair, o programa será conferido item por item. De R$ 47 por R$ 37 com o cupom PPSC37 até 31/12/2026. [Ver o curso](/ppsc-policial-penal-2026/)
 
 ## Perguntas frequentes
 
