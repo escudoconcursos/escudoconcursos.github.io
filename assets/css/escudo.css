@@ -507,6 +507,8 @@ a.chip{text-decoration:none}
 .tema-mel{--c:#F2A93B; --cb:#F8CE8A; --cd:#9A6410; --cbtn1:#F8CE8A; --cbtn2:#F2A93B; --cbtn-txt:#0B1A33}
 /* platina, CFO PM/BA Oficial 2026 (24/11/2026): prata azulado claro (11,7:1 sobre o navy), botao com texto navy */
 .tema-platina{--c:#D4DAE3; --cb:#EDF0F5; --cd:#5C6779; --cbtn1:#EDF0F5; --cbtn2:#D4DAE3; --cbtn-txt:#0B1A33}
+/* orquidea, PP-MS Policial Penal 2026 (24/11/2026): cor clara (7,6:1 sobre o navy), botão com texto navy */
+.tema-orquidea{--c:#EB85F2; --cb:#F5BDF9; --cd:#8E2A96; --cbtn1:#F5BDF9; --cbtn2:#EB85F2; --cbtn-txt:#0B1A33}
 /* inss, INSS Técnico do Seguro Social 2026 (21/11/2026): azul da logo do INSS (#007AC2, 4,6:1 com texto branco); a clara #6FC0EE dá 8,6:1 sobre o navy; verde #009A66 só na régua (--acce) */
 .tema-inss{--c:#007AC2; --cb:#6FC0EE; --cd:#005197; --cbtn1:#007AC2; --cbtn2:#005197; --cbtn-txt:#fff; --acce:#009A66}
 /* link do guia no fim da resposta rápida das páginas de curso (21/11/2026) */

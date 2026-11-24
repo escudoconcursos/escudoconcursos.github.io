@@ -255,6 +255,22 @@
    "em": "em Mato Grosso"
   },
   {
+   "slug": "concursos-mato-grosso-do-sul",
+   "tipo": "estado",
+   "nome": "Mato Grosso do Sul",
+   "filtro": {
+    "uf": "MS"
+   },
+   "titulo": "Concursos em Mato Grosso do Sul 2026: apostilas em PDF",
+   "descricao": "Concursos em Mato Grosso do Sul 2026 com apostila em PDF: Policial Penal da AGEPEN, com a legislação do estado.",
+   "h1": "Concursos em Mato Grosso do Sul 2026: Polícia Penal",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para concursos em Mato Grosso do Sul: Policial Penal da AGEPEN, com o pedido de 1.000 vagas ainda sem autorização, banca ou edital.",
+    "Os concursos estaduais de Mato Grosso do Sul cobram a Constituição e a legislação do próprio estado. Cada curso traz essa legislação conferida na fonte oficial e questões inéditas no formato da banca, com gabarito comentado."
+   ],
+   "em": "em Mato Grosso do Sul"
+  },
+  {
    "slug": "concursos-distrito-federal",
    "tipo": "estado",
    "nome": "Distrito Federal",

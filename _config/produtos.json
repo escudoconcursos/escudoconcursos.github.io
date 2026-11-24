@@ -1435,6 +1435,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "ppms-policial-penal-2026",
+      "atalho": "ppms",
+      "carreira": "policial",
+      "tema": "tema-orquidea",
+      "tag": "Polícia Penal/MS 2026 · Pré-edital",
+      "titulo": "Policial Penal de Mato Grosso do Sul",
+      "itens": [
+        "51 capítulos e 250 questões comentadas",
+        "Legislação de Mato Grosso do Sul e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-ppms-policial-penal-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal de Mato Grosso do Sul, Polícia Penal/MS 2026, 51 capítulos e 250 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PPMS37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "ppms-policial-penal-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppsc-policial-penal-2026",
       "atalho": "ppsc",
       "carreira": "policial",
