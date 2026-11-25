@@ -15,7 +15,7 @@ O concurso da Polícia Civil do Tocantins para Oficial Investigador de Polícia 
 
 > **Resposta rápida:** pré-edital. Em 20/11/2026 não há edital, banca confirmada em documento oficial, período de inscrição nem data de prova. O cargo de Oficial Investigador de Polícia existe pela Lei 4.653/2025, exige curso superior mais CNH e aprovação no Curso de Formação, e o subsídio inicial é de R$ 7.917,97 (Lei 5.032/2026). A prova de 2014, o único edital anterior com as mesmas atribuições, teve 80 questões de 4 alternativas.
 
-**Curso ESCUDO Oficial Investigador PC-TO 2026 em PDF:** 160 capítulos e 780 questões comentadas, com o Estatuto da Polícia Civil do Tocantins e 2 simulados de 80 questões. De R$ 47 por R$ 37 com o cupom PCTO37 até 31/12/2026. [Ver o curso](/pcto-oficial-investigador-2026/)
+**Curso ESCUDO Oficial Investigador PC-TO 2026 em PDF:** 160 capítulos e 780 questões comentadas, com o Estatuto da Polícia Civil do Tocantins e 2 simulados de 80 questões. De R$ 47 por R$ 37 com o cupom PCTO37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pcto-oficial-investigador-2026/)
 
 ## O que é o concurso de Oficial Investigador da PC-TO?
 
@@ -117,7 +117,7 @@ Uma ordem de estudo possível, com a ressalva de que ela precisa ser revista qua
 4. **Treine a escrita.** O cargo lavra atos e relatórios, então um texto objetivo sobre tema da carreira vale como treino mesmo antes de saber se haverá redação.
 5. **Refaça as questões erradas** dias depois, lendo o comentário inteiro.
 
-**Curso ESCUDO Oficial Investigador PC-TO 2026 em PDF:** 160 capítulos feitos sobre o programa do último edital do cargo, mais a legislação nova da carreira, com 780 questões de A a E e comentários, capítulos de prova discursiva, 2 simulados de 80 questões e um bloco de temas que costumam aparecer em editais de Oficial Investigador. De R$ 47 por R$ 37 com o cupom PCTO37 até 31/12/2026. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/pcto-oficial-investigador-2026/)
+**Curso ESCUDO Oficial Investigador PC-TO 2026 em PDF:** 160 capítulos feitos sobre o programa do último edital do cargo, mais a legislação nova da carreira, com 780 questões de A a E e comentários, capítulos de prova discursiva, 2 simulados de 80 questões e um bloco de temas que costumam aparecer em editais de Oficial Investigador. De R$ 47 por R$ 37 com o cupom PCTO37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/pcto-oficial-investigador-2026/)
 
 ## Como acompanhar o edital sem perder o prazo?
 

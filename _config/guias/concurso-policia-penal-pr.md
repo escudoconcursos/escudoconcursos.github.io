@@ -15,7 +15,7 @@ O concurso de Policial Penal do Paraná ainda não tem edital novo nos documento
 
 > **Resposta rápida:** edital novo previsto, sem data. Último edital: nº 04/2024 (Instituto AOCP), com prova objetiva de 75 questões de A a E, nota mínima de 60 pontos de 100 e subsídio inicial de R$ 4.548,97 em 2024. Já houve ampliação de 500 vagas em 16/10/2025 e de mais 500 em 14/04/2026. Desde a LC 283/2025, quem ingressa na carreira precisa de curso superior e de exame de aptidão física eliminatório.
 
-**Curso ESCUDO Policial Penal PR 2026 em PDF:** 109 capítulos e 545 questões comentadas, feitos sobre o programa do último edital. De R$ 47 por R$ 37 com o cupom PENAL37 até 31/12/2026. [Ver o curso](/policial-penal-pr-2026/)
+**Curso ESCUDO Policial Penal PR 2026 em PDF:** 109 capítulos e 545 questões comentadas, feitos sobre o programa do último edital. De R$ 47 por R$ 37 com o cupom PENAL37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/policial-penal-pr-2026/)
 
 ## O que é o concurso de Policial Penal do Paraná?
 
@@ -121,7 +121,7 @@ O Anexo II do Edital 04/2024 traz dez disciplinas. Alguns pontos pedem atenção
 
 **Gerais.** Língua Portuguesa, Raciocínio Lógico Matemático (lógica, conjuntos, porcentagem, regra de três, probabilidade) e Informática (o edital de 2024 citava Windows 7 e 10, Office 2010 a 2016 e LibreOffice 5 e 6). Nos Gerais há mínimo por disciplina, então nenhuma pode ser abandonada.
 
-**Curso ESCUDO Policial Penal PR 2026 em PDF:** 109 capítulos sobre o programa do último edital, com 545 questões de cinco alternativas e gabarito comentado, mais 2 simulados de 75 questões. De R$ 47 por R$ 37 com o cupom PENAL37 até 31/12/2026. [Ver o curso](/policial-penal-pr-2026/)
+**Curso ESCUDO Policial Penal PR 2026 em PDF:** 109 capítulos sobre o programa do último edital, com 545 questões de cinco alternativas e gabarito comentado, mais 2 simulados de 75 questões. De R$ 47 por R$ 37 com o cupom PENAL37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/policial-penal-pr-2026/)
 
 ## Quais são as outras etapas?
 

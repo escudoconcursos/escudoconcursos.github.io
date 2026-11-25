@@ -15,7 +15,7 @@ A Polícia Militar do Estado do Rio de Janeiro prepara o concurso do Curso de Fo
 
 > **Resposta rápida:** edital previsto, ainda não publicado. O Termo de Referência de 07/07/2026 prevê 100 vagas (70 de ampla concorrência, 20 para negros e indígenas, 10 para hipossuficientes), nível superior com bacharelado em Direito e prova objetiva de 80 questões (A a E) das 6 disciplinas jurídicas, mais prova discursiva de 4 questões. Idade, altura, taxa, salário, banca e datas só saem no edital. Referência para estudar: Edital nº 001/2024 (FGV).
 
-**Curso ESCUDO CFO PM/RJ 2027 em PDF:** 184 capítulos e 900 questões comentadas, prova discursiva e 2 simulados de 80 questões, feitos sobre o programa do último edital. De R$ 79,90 por R$ 59,90 com o cupom PMERJCFO até 31/12/2026. [Ver o curso](/pmerj-cfo-2027/)
+**Curso ESCUDO CFO PM/RJ 2027 em PDF:** 184 capítulos e 900 questões comentadas, prova discursiva e 2 simulados de 80 questões, feitos sobre o programa do último edital. De R$ 79,90 por R$ 59,90 com o cupom PMERJCFO até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pmerj-cfo-2027/)
 
 ## O que é o concurso do CFO da PMERJ?
 
@@ -117,7 +117,7 @@ O programa do edital de 2024 (Anexo II), que o concurso novo deve repetir, tem p
 
 Como a banca do concurso novo não está definida, não há como saber o estilo das questões. Em 2024 a FGV usou casos concretos longos e o comando "é correto afirmar". Enquanto o edital não sai, o melhor é ler a letra da lei e resolver questões, depois refazer as erradas lendo o comentário inteiro.
 
-**Curso ESCUDO CFO PM/RJ 2027 em PDF:** as seis disciplinas da objetiva e a prova discursiva em 184 capítulos, com 900 questões comentadas e 2 simulados de 80 questões. De R$ 79,90 por R$ 59,90 com o cupom PMERJCFO até 31/12/2026. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/pmerj-cfo-2027/)
+**Curso ESCUDO CFO PM/RJ 2027 em PDF:** as seis disciplinas da objetiva e a prova discursiva em 184 capítulos, com 900 questões comentadas e 2 simulados de 80 questões. De R$ 79,90 por R$ 59,90 com o cupom PMERJCFO até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. Quando o edital sair, o programa será conferido item por item. [Ver o curso](/pmerj-cfo-2027/)
 
 ## Quais são as etapas seguintes?
 

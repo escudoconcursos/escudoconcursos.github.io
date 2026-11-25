@@ -15,7 +15,7 @@ O Corpo de Bombeiros Militar do Rio de Janeiro teve autorizado um novo concurso 
 
 > **Resposta rápida:** edital novo ainda não publicado em 20/11/2026, sem datas de inscrição nem de prova. Concurso autorizado; o número de vagas sai no edital. Referência de estudo: o edital do CFO 2026, com nível médio, 50 vagas, remuneração inicial de R$ 4.227,16, taxa de R$ 100,00, prova objetiva de 80 questões (10 de cada uma de 8 disciplinas) e redação de até 20 pontos, aplicadas pela UERJ/DSEA. Tudo o que está abaixo como "edital de 2026" pode mudar no edital novo.
 
-**Curso ESCUDO Cadete CBM/RJ 2027 em PDF:** 145 capítulos e 725 questões comentadas, redação e 2 simulados de 80 questões, feitos sobre o programa do último edital. De R$ 79,90 por R$ 59,90 com o cupom CBMERJCFO até 31/12/2026. [Ver o curso](/cbmerj-cadete-2027/)
+**Curso ESCUDO Cadete CBM/RJ 2027 em PDF:** 145 capítulos e 725 questões comentadas, redação e 2 simulados de 80 questões, feitos sobre o programa do último edital. De R$ 79,90 por R$ 59,90 com o cupom CBMERJCFO até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/cbmerj-cadete-2027/)
 
 ## O que é o concurso de Cadete do CBMERJ?
 
@@ -125,7 +125,7 @@ O Anexo II do edital de 2026 traz um programa de ensino médio para as oito disc
 - **Língua Estrangeira:** a prova avalia a proficiência em leitura, em Inglês ou em Espanhol, com tipologias textuais, coesão, léxico e intertextualidade.
 - **Redação:** discussão de uma questão polêmica, que admite posicionamentos diferentes. A prova valoriza a argumentação, a leitura e a interpretação, o domínio da dissertação e a norma-padrão.
 
-**Curso ESCUDO Cadete CBM/RJ 2027 em PDF:** as oito disciplinas e a redação em 145 capítulos, com 725 questões comentadas, 4 capítulos de redação e 2 simulados de 80 questões. De R$ 79,90 por R$ 59,90 com o cupom CBMERJCFO até 31/12/2026. [Ver o curso](/cbmerj-cadete-2027/)
+**Curso ESCUDO Cadete CBM/RJ 2027 em PDF:** as oito disciplinas e a redação em 145 capítulos, com 725 questões comentadas, 4 capítulos de redação e 2 simulados de 80 questões. De R$ 79,90 por R$ 59,90 com o cupom CBMERJCFO até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/cbmerj-cadete-2027/)
 
 ## Quais são as outras etapas?
 

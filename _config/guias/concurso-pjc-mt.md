@@ -15,7 +15,7 @@ O edital novo da Polícia Judiciária Civil de Mato Grosso para Investigador de 
 
 > **Resposta rápida:** pré-edital. Sem edital novo, sem banca, sem número de vagas e sem data de prova. O edital de 2022 formava cadastro de reserva, pagava R$ 5.657,47 aos dois cargos e exigia curso superior em qualquer área, mais CNH B, C ou D para Investigador. A prova de 2022 teve 60 questões de múltipla escolha (A a E) e uma redação de 0 a 10, com programa igual para os dois cargos.
 
-**Curso ESCUDO PJC-MT Investigador e Escrivão 2026 em PDF:** 138 capítulos e 670 questões comentadas, com Estatuto da PJC-MT, Redação e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PJCMT37 até 31/12/2026. [Ver o curso](/pjcmt-investigador-escrivao-2026/)
+**Curso ESCUDO PJC-MT Investigador e Escrivão 2026 em PDF:** 138 capítulos e 670 questões comentadas, com Estatuto da PJC-MT, Redação e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PJCMT37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pjcmt-investigador-escrivao-2026/)
 
 ## O que é o concurso da PJC-MT?
 
@@ -171,7 +171,7 @@ A banca do concurso novo não está definida, então não há perfil seguro. O q
 
 Quando o edital novo sair, confira a banca, o programa (o que entrou e o que saiu), a data de corte da legislação e as regras de eliminação.
 
-**Curso ESCUDO PJC-MT Investigador e Escrivão 2026 em PDF:** 138 capítulos, 670 questões comentadas, Redação e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PJCMT37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pjcmt-investigador-escrivao-2026/)
+**Curso ESCUDO PJC-MT Investigador e Escrivão 2026 em PDF:** 138 capítulos, 670 questões comentadas, Redação e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PJCMT37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pjcmt-investigador-escrivao-2026/)
 
 ## Perguntas frequentes
 

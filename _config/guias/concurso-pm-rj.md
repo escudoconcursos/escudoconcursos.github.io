@@ -15,7 +15,7 @@ Em 20/11/2026, o concurso novo de Soldado da Polícia Militar do Estado do Rio d
 
 > **Resposta rápida:** edital novo ainda não publicado. Referência de estudo: Edital nº 001/2023 SEPM, com 2.000 vagas, taxa de R$ 100,00, prova objetiva de 50 questões A a E (5 disciplinas, 10 questões cada, 2 pontos por questão, mínimo de 60% e nenhuma disciplina zerada), redação de 25 a 30 linhas (mínimo de 50 de 100 pontos) e 9 etapas, da prova ao exame documental.
 
-**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos e 615 questões comentadas, com redação e 2 simulados no estilo FGV. De R$ 47 por R$ 37 com o cupom PMERJ37 até 31/12/2026. [Ver o curso](/pmerj-soldado-2026/)
+**Curso ESCUDO PM/RJ Soldado em PDF:** 129 capítulos e 615 questões comentadas, com redação e 2 simulados no estilo FGV. De R$ 47 por R$ 37 com o cupom PMERJ37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pmerj-soldado-2026/)
 
 ## O que é o concurso de Soldado da PMERJ?
 

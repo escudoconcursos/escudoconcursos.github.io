@@ -15,7 +15,7 @@ O concurso da Guarda Municipal de Balneário Camboriú (SC) ainda não tem edita
 
 > **Resposta rápida:** pré-edital. A Lei nº 5.355/2026 ampliou em 90 vagas os cargos efetivos da Guarda Municipal (de 200 para 290 cargos). A FURB foi contratada para o concurso. Edital, inscrições, salário em edital e data da prova: ainda não existem. Exigências já fixadas no Estatuto da Guarda: ensino médio, CNH no mínimo AB, 18 anos e menos de 35, altura mínima de 1,65 m.
 
-**Curso ESCUDO GM Balneário Camboriú 2026 em PDF:** 91 capítulos e 450 questões comentadas, mais 2 simulados de 50 questões no molde da FURB. De R$ 47 por R$ 37 com o cupom GMBC37 até 31/12/2026. [Ver o curso](/gm-balneario-camboriu-2026/)
+**Curso ESCUDO GM Balneário Camboriú 2026 em PDF:** 91 capítulos e 450 questões comentadas, mais 2 simulados de 50 questões no molde da FURB. De R$ 47 por R$ 37 com o cupom GMBC37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/gm-balneario-camboriu-2026/)
 
 ## O que é o concurso da Guarda Municipal de Balneário Camboriú?
 

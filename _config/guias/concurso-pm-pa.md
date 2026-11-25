@@ -15,7 +15,7 @@ O concurso para Soldado da Polícia Militar do Pará ainda não tem edital novo.
 
 > **Resposta rápida:** edital previsto. Nos documentos oficiais reunidos até 04/11/2026 não consta edital novo, nem banca, nem data de prova. Referência de estudo: o edital de 2023, com 4.000 vagas, nível médio, prova objetiva de 60 questões de múltipla escolha (A a E) em 4 horas, 100 pontos, sem redação. Elimina quem fizer menos de 10 pontos na P1 ou menos de 40 na P2. Tudo o que aparece abaixo como "2023" pode mudar no edital novo.
 
-**Curso ESCUDO PM/PA Soldado 2026 em PDF:** 160 capítulos e 795 questões comentadas, feitos sobre o programa do último edital, mais 2 simulados de 60 questões no estilo Cebraspe. De R$ 47 por R$ 37 com o cupom PMPA37 até 31/12/2026. [Ver o curso](/pmpa-soldado-2026/)
+**Curso ESCUDO PM/PA Soldado 2026 em PDF:** 160 capítulos e 795 questões comentadas, feitos sobre o programa do último edital, mais 2 simulados de 60 questões no estilo Cebraspe. De R$ 47 por R$ 37 com o cupom PMPA37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pmpa-soldado-2026/)
 
 ## O que é o concurso da PM-PA para Soldado?
 

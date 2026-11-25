@@ -15,7 +15,7 @@ A Polícia Militar do Estado do Acre ainda não publicou o edital do novo concur
 
 > **Resposta rápida:** pré-edital. Sem edital novo de Soldado no Diário Oficial do Estado do Acre, sem vagas, banca ou datas oficiais. Pela lei do Estatuto (LC 164/2006), o ingresso exige diploma de nível superior, no máximo 32 anos na inscrição e altura mínima de 1,60 m (homens) e 1,55 m (mulheres). Referência de estudo: Edital nº 001 SGA/PMAC/2017 (IBADE), com 60 questões de A a E, 100 pontos e mínimo de 50%.
 
-**Curso ESCUDO PM/AC Soldado 2026 em PDF:** 95 capítulos e 470 questões comentadas, com o Estatuto dos Militares do Acre e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PMAC37 até 31/12/2026. [Ver o curso](/pmac-soldado-2026/)
+**Curso ESCUDO PM/AC Soldado 2026 em PDF:** 95 capítulos e 470 questões comentadas, com o Estatuto dos Militares do Acre e 2 simulados de 60 questões. De R$ 47 por R$ 37 com o cupom PMAC37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. [Ver o curso](/pmac-soldado-2026/)
 
 ## O que é o concurso da PM-AC para Soldado?
 
@@ -123,7 +123,7 @@ A banca do concurso novo não está definida, então não há perfil seguro. O q
 
 Quando o edital sair, confira a banca, o programa (o que entrou e o que saiu), a escolaridade exigida e a data de corte da legislação.
 
-**Curso ESCUDO PM/AC Soldado 2026 em PDF:** 95 capítulos, 470 questões comentadas e 2 simulados de 60 questões, no quadro da prova de 2017. De R$ 47 por R$ 37 com o cupom PMAC37 até 31/12/2026. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmac-soldado-2026/)
+**Curso ESCUDO PM/AC Soldado 2026 em PDF:** 95 capítulos, 470 questões comentadas e 2 simulados de 60 questões, no quadro da prova de 2017. De R$ 47 por R$ 37 com o cupom PMAC37 até 31/12/2026. **Preço de pré-venda:** quando o edital sair, o curso vai subir de preço. Quando o edital novo sair, o programa será conferido item por item. [Ver o curso](/pmac-soldado-2026/)
 
 ## Perguntas frequentes
 
