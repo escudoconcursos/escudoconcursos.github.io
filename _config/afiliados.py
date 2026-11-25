@@ -38,6 +38,7 @@ RECRUTAMENTO = {
     "tecnico-bancario-banestes-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4044B108218182",
     "tecnico-defensoria-dpe-pb-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/1465D108236420",
     "assistente-tecnico-dpe-am-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4475D108598362",
+    "ifg-assistente-administracao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3155I108663583",
     "trt4-tecnico-administrativo-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3200T108492545",
     "inss-tecnico-seguro-social-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/3152I108597460",
     "investigador-policia-civil-mg-pcmg-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2102P108238085",
