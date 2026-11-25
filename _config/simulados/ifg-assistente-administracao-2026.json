@@ -1,0 +1,268 @@
+{
+  "curso_id": "ifg-assistente-administracao-2026",
+  "titulo": "Simulado grátis IFG Assistente em Administração 2026",
+  "banca": "AOCP",
+  "tempo_min": 60,
+  "questoes": [
+    {
+      "disciplina": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que apresenta uma reescrita do excerto a seguir em que o sentido e a norma-padrão são mantidos: \"A resposta da secretaria ao requerimento foi célere, e o processo foi despachado no mesmo dia.\"",
+      "alternativas": {
+        "A": "\"A resposta da secretaria ao requerimento foi célebre, e o processo foi despachado no mesmo dia.\"",
+        "B": "\"A resposta da secretaria ao requerimento foi morosa, e o processo foi despachado no mesmo dia.\"",
+        "C": "\"A resposta da secretaria ao requerimento foi rápida, e o processo foi despachado no mesmo dia.\"",
+        "D": "\"A resposta da secretaria ao requerimento foi tardia, e o processo foi despachado no mesmo dia.\"",
+        "E": "\"A resposta da secretaria ao requerimento foi vagarosa, e o processo foi despachado no mesmo dia.\""
+      },
+      "gabarito": "C",
+      "comentario": "\"Célere\" significa rápido, ágil, e \"rápida\" mantém o sentido e a concordância com \"resposta\". \"Célebre\" é o parônimo que significa famoso. \"Morosa\", \"tardia\" e \"vagarosa\" dizem o contrário e, além disso, contradizem a informação de que o processo foi despachado no mesmo dia, o que pressupõe uma resposta ágil."
+    },
+    {
+      "disciplina": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa em que a palavra destacada entre aspas está empregada de acordo com a norma-padrão e com o sentido pretendido.",
+      "alternativas": {
+        "A": "O motorista \"infligiu\" as regras de trânsito ao avançar o sinal vermelho na avenida.",
+        "B": "O \"tráfego\" de drogas no entorno do câmpus foi combatido por uma campanha da Reitoria.",
+        "C": "Diante do perigo \"eminente\" de desabamento, a equipe de manutenção isolou toda a área.",
+        "D": "O servidor agiu com muita \"descrição\" ao tratar os dados sigilosos de um aluno.",
+        "E": "O juiz expediu o \"mandado\" de segurança em favor da servidora aprovada no concurso."
+      },
+      "gabarito": "E",
+      "comentario": "\"Mandado\" é a ordem judicial, e é esse o sentido da frase. Nas demais, o parônimo trocado muda o sentido: quem desrespeita a regra a \"infringe\" (\"infligir\" é aplicar pena); o comércio ilegal é \"tráfico\" (\"tráfego\" é o movimento de veículos); o perigo prestes a acontecer é \"iminente\" (\"eminente\" é ilustre); e quem age com reserva age com \"discrição\" (\"descrição\" é o ato de descrever)."
+    },
+    {
+      "disciplina": "Língua Portuguesa",
+      "enunciado": "Em \"Chegaram ao almoxarifado, na manhã de ontem, os novos equipamentos de proteção individual.\", o sujeito da oração é",
+      "alternativas": {
+        "A": "\"ao almoxarifado\".",
+        "B": "\"na manhã de ontem\".",
+        "C": "indeterminado, marcado pelo verbo na terceira pessoa do plural.",
+        "D": "\"os novos equipamentos de proteção individual\".",
+        "E": "inexistente, porque o verbo \"chegar\" é impessoal nesse contexto."
+      },
+      "gabarito": "D",
+      "comentario": "Perguntando antes do verbo, o que é que chegou? \"Os novos equipamentos de proteção individual\": é o sujeito, posposto ao verbo, e por isso o verbo está no plural. \"Ao almoxarifado\" é adjunto adverbial de lugar, e \"na manhã de ontem\", adjunto adverbial de tempo. O sujeito não é indeterminado, porque está expresso na oração, e \"chegar\" não é verbo impessoal."
+    },
+    {
+      "disciplina": "Língua Portuguesa",
+      "enunciado": "No trecho \"Elas permitirão acompanhar o movimento das filas e acionar rapidamente as equipes mais próximas\" (primeiro parágrafo), o pronome \"Elas\" refere-se, anaforicamente,",
+      "alternativas": {
+        "A": "às salas do câmpus Aparecida de Goiânia.",
+        "B": "às telas de acompanhamento.",
+        "C": "aos servidores que atuarão no balcão.",
+        "D": "às equipes mais próximas.",
+        "E": "às salas do câmpus Goiânia."
+      },
+      "gabarito": "B",
+      "comentario": "O pronome \"Elas\" é feminino plural, e o que permite acompanhar o movimento das filas são as telas de acompanhamento instaladas nos corredores, mencionadas no período anterior. Salas e corredores não acompanham nada; \"os servidores\" é masculino e não pode ser retomado por \"Elas\"; e as equipes são o que as telas ajudam a acionar, e não o que acompanha o movimento."
+    },
+    {
+      "disciplina": "Legislação",
+      "enunciado": "Segundo o art. 11 da LDB, na redação vigente em 16/11/2026, os Municípios poderão atuar em outros níveis de ensino",
+      "alternativas": {
+        "A": "somente quando estiverem atendidas plenamente as necessidades da sua área de competência e com recursos acima dos percentuais mínimos vinculados pela Constituição.",
+        "B": "a qualquer momento, desde que a Secretaria Municipal de Educação autorize.",
+        "C": "sempre que o Estado deixar de ofertar o ensino médio, sem outras condições.",
+        "D": "somente quando houver convênio com a União, ainda que as necessidades da sua área não estejam atendidas.",
+        "E": "somente quando estiverem atendidas plenamente as necessidades da sua área, sem exigência de recursos acima dos mínimos constitucionais."
+      },
+      "gabarito": "A",
+      "comentario": "Comentário: o art. 11, V, permite a atuação em outros níveis somente quando as necessidades da área própria (educação infantil e ensino fundamental) estiverem plenamente atendidas e com recursos acima dos mínimos constitucionais. As duas condições são cumulativas. Autorização da Secretaria, omissão do Estado ou convênio com a União não aparecem como requisitos, e dispensar uma das condições é justamente a supressão que o dispositivo veda. Exigir apenas a necessidade atendida, sem os recursos acima dos mínimos, suprime uma das duas condições."
+    },
+    {
+      "disciplina": "Legislação",
+      "enunciado": "De acordo com o art. 206 da Constituição Federal, o ensino será ministrado com base, entre outros, no princípio da",
+      "alternativas": {
+        "A": "gratuidade do ensino em todos os estabelecimentos, públicos e privados.",
+        "B": "gestão democrática do ensino público, na forma da lei.",
+        "C": "valorização dos profissionais da educação escolar, com ingresso nas redes públicas exclusivamente por concurso de provas.",
+        "D": "pluralismo de ideias, com prioridade das instituições públicas sobre as privadas.",
+        "E": "igualdade de condições para o acesso à escola, cabendo à família garantir a permanência."
+      },
+      "gabarito": "B",
+      "comentario": "A gestão democrática do ensino público, na forma da lei, é princípio do art. 206, VI. A gratuidade é do ensino público em estabelecimentos oficiais (IV), não de todo ensino. O ingresso nas redes públicas é por concurso de provas e títulos (V), não só de provas. O inciso III fala em coexistência de instituições públicas e privadas, sem prioridade de umas sobre outras. E a igualdade de condições abrange o acesso e a permanência na escola (I), sem transferir a permanência à família."
+    },
+    {
+      "disciplina": "Legislação",
+      "enunciado": "De acordo com o art. 35-C da LDB, a formação geral básica do ensino médio tem carga horária mínima total de",
+      "alternativas": {
+        "A": "2.400 horas, e de 2.100 horas no caso da formação técnica e profissional, admitindo-se até 300 horas de aprofundamento.",
+        "B": "3.000 horas, sem qualquer redução no caso da formação técnica e profissional.",
+        "C": "1.800 horas, independentemente da formação técnica e profissional.",
+        "D": "2.100 horas, e de 2.400 horas no caso da formação técnica e profissional.",
+        "E": "2.400 horas, e também de 2.400 horas no caso da formação técnica e profissional, sem redução."
+      },
+      "gabarito": "A",
+      "comentario": "Comentário: o art. 35-C fixa 2.400 horas para a formação geral básica e o parágrafo único reduz para 2.100 horas na formação técnica e profissional, admitindo até 300 horas de aprofundamento de conteúdos da BNCC. Trocar os números, ou inverter as situações, ou falar em 3.000 e 1.800 horas, altera a regra, e a redução existe, sim, para a formação técnica. Manter 2.400 horas também na formação técnica nega a redução para 2.100 horas que o parágrafo único admite."
+    },
+    {
+      "disciplina": "Legislação",
+      "enunciado": "De acordo com a Lei nº 11.892/2008, os Institutos Federais são instituições",
+      "alternativas": {
+        "A": "de educação superior, básica e profissional, pluricurriculares e multicampi, especializadas na oferta de educação profissional e tecnológica.",
+        "B": "de educação exclusivamente superior, unicurriculares e multicampi, especializadas na oferta de bacharelados.",
+        "C": "de educação básica e profissional, pluricurriculares e de câmpus único, vinculadas aos sistemas estaduais.",
+        "D": "de educação superior e profissional, monocurriculares, equiparadas às universidades estaduais.",
+        "E": "de educação profissional, pluricurriculares e multicampi, com natureza de fundação privada."
+      },
+      "gabarito": "A",
+      "comentario": "O art. 2º define os Institutos Federais como instituições de educação superior, básica e profissional, pluricurriculares e multicampi, especializados na oferta de educação profissional e tecnológica. A opção B erra ao dizer \"exclusivamente superior\" e \"unicurriculares\"; a C fala em câmpus único e em vínculo estadual, quando o IF é multicampi e federal; a D troca \"pluricurriculares\" por \"monocurriculares\" e \"universidades federais\" por \"estaduais\"; a E atribui natureza de fundação privada, mas o IF é autarquia (art. 1º, parágrafo único)."
+    },
+    {
+      "disciplina": "Raciocínio Lógico e Matemática",
+      "enunciado": "Considere os conjuntos A = {2, 4, 6, 8}, B = {4, 8, 12} e C = {1, 2, 4}. Assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ∩ B ∩ C = {4, 8}.",
+        "B": "B − A = {4, 8}.",
+        "C": "(A ∪ C) − B = {1, 2, 6}.",
+        "D": "A ∪ B tem 7 elementos.",
+        "E": "C ⊂ A."
+      },
+      "gabarito": "C",
+      "comentario": "A ∪ C = {1, 2, 4, 6, 8}; retirando os elementos de B (4, 8 e 12), sobra {1, 2, 6}. A) Errada: A ∩ B = {4, 8}, mas o 8 não está em C; a interseção dos três é {4}. B) Errada: B − A são os elementos de B fora de A, isto é, {12}. D) Errada: A ∪ B = {2, 4, 6, 8, 12} tem 5 elementos, porque 4 e 8 contam uma vez só. E) Errada: o 1 pertence a C e não pertence a A."
+    },
+    {
+      "disciplina": "Raciocínio Lógico e Matemática",
+      "enunciado": "O valor da expressão 40 − 2 × [7 + (−3)² ÷ 3] + √16 é",
+      "alternativas": {
+        "A": "20.",
+        "B": "24.",
+        "C": "36.",
+        "D": "28.",
+        "E": "384."
+      },
+      "gabarito": "B",
+      "comentario": "Primeiro a potência: (−3)² = 9 (o sinal está dentro do parêntese). Nos colchetes: 9 ÷ 3 = 3 e 7 + 3 = 10. A raiz: √16 = 4. Depois a multiplicação: 2 × 10 = 20. Por fim, 40 − 20 + 4 = **24**. A) 20 esquece a parcela √16. C) 36 toma (−3)² como −9: os colchetes valeriam 7 − 3 = 4, e 40 − 8 + 4 = 36. D) 28 toma √16 como 8 (metade de 16). E) 384 faz a subtração antes da multiplicação: (40 − 2) × 10 + 4."
+    },
+    {
+      "disciplina": "Informática",
+      "enunciado": "No Windows 10, em sua configuração padrão, um servidor selecionou um arquivo gravado em um pen drive e pressionou a tecla Delete, confirmando a exclusão. Sobre essa situação, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O arquivo foi enviado para a Lixeira do computador e poderá ser restaurado para o pen drive depois.",
+        "B": "O arquivo foi apenas recortado e continuará no pen drive até ser colado em outra pasta do computador.",
+        "C": "O arquivo foi excluído permanentemente, pois itens de unidades removíveis não vão para a Lixeira.",
+        "D": "O arquivo ficou oculto no pen drive e pode ser exibido pela opção de itens ocultos do Explorador.",
+        "E": "O arquivo foi movido para a biblioteca Documentos, de onde pode ser devolvido com Ctrl + Z em seguida."
+      },
+      "gabarito": "C",
+      "comentario": "Itens excluídos de unidades removíveis não vão para a Lixeira: a exclusão é definitiva, e por isso o Windows pede confirmação. A) A Lixeira não recebe arquivos de pen drive. B) Recortar é Ctrl + X, não Delete. D) Excluir não marca o atributo Oculto. E) O arquivo não é movido para biblioteca alguma."
+    },
+    {
+      "disciplina": "Informática",
+      "enunciado": "No Microsoft PowerPoint 365, em português, em sua configuração padrão, um servidor editava o slide 7 de uma apresentação da secretaria acadêmica e deseja iniciar a exibição a partir desse slide. O atalho adequado é",
+      "alternativas": {
+        "A": "F5.",
+        "B": "Ctrl + M.",
+        "C": "Ctrl + P.",
+        "D": "Alt + Shift + C.",
+        "E": "Shift + F5."
+      },
+      "gabarito": "E",
+      "comentario": "**Shift + F5** inicia a apresentação a partir do slide atual. A) F5 inicia do primeiro slide. B) Ctrl + M insere um novo slide. C) Ctrl + P abre a impressão. D) Alt + Shift + C é o Pincel de Animação."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Acerca dos conceitos de eficiência, eficácia e efetividade na administração, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A eficácia diz respeito à maneira de fazer as coisas, com o melhor aproveitamento possível dos recursos disponíveis.",
+        "B": "A eficiência é o alcance dos objetivos e das metas previstos, independentemente dos recursos gastos.",
+        "C": "A efetividade se resume ao cumprimento do prazo previsto para a conclusão das atividades.",
+        "D": "A eficiência trata dos meios empregados, a eficácia trata do alcance dos objetivos e a efetividade trata do impacto produzido pelos resultados.",
+        "E": "Uma organização eficaz é necessariamente eficiente, pois o alcance das metas pressupõe o menor custo."
+      },
+      "gabarito": "D",
+      "comentario": "Eficiência é o plano dos meios, fazer certo com bom uso dos recursos; eficácia é o plano dos fins, alcançar os objetivos; efetividade é o plano do impacto, o efeito duradouro dos resultados sobre o público atendido. A opção que atribui à eficácia a maneira de fazer troca os dois primeiros conceitos, e a que define a eficiência como alcance de metas faz o mesmo no sentido inverso. A efetividade não se resume a prazo: ela mede impacto. E é plenamente possível atingir a meta com desperdício, de modo que a eficácia não implica eficiência."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Um câmpus do IFG adotou um conjunto de atitudes para garantir a todos os servidores, inclusive aos que enfrentam discriminação, acesso igualitário à participação, aos direitos e às oportunidades. No gerenciamento da diversidade, esse conjunto de atitudes corresponde à",
+      "alternativas": {
+        "A": "diversidade, limitada ao reconhecimento das diferenças.",
+        "B": "equidade, que trata todos de forma uniforme.",
+        "C": "homogeneização, que reduz as diferenças a um padrão.",
+        "D": "igualdade formal, que ignora as necessidades individuais.",
+        "E": "inclusão, que assegura acesso e oportunidades a todos."
+      },
+      "gabarito": "E",
+      "comentario": "Garantir acesso igualitário a participação, direitos e oportunidades, inclusive a quem enfrenta discriminação, é a definição de inclusão. A diversidade é a aceitação e valorização das diferenças, e não assegura, por si, o acesso. A equidade não trata todos de forma uniforme: ajusta o apoio à necessidade de cada pessoa. A homogeneização é o oposto da gestão da diversidade. A igualdade formal dá a todos o mesmo tratamento, sem considerar necessidades individuais, e é o contraponto da equidade."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Na mediação de conflitos, o terceiro imparcial",
+      "alternativas": {
+        "A": "facilita o diálogo para que as próprias partes construam a solução, sem poder de decisão sobre o conflito.",
+        "B": "profere decisão obrigatória para as partes, depois de examinar as provas apresentadas.",
+        "C": "representa os interesses de uma das partes perante a outra, defendendo a solução que lhe convém.",
+        "D": "impõe às partes a solução que considerar mais justa, com base na sua experiência no tema.",
+        "E": "atua apenas no Poder Judiciário, sendo vedada a mediação no âmbito das organizações."
+      },
+      "gabarito": "A",
+      "comentario": "O mediador é terceiro imparcial que facilita o diálogo para que as partes construam a solução; ele não decide. Proferir decisão obrigatória depois de examinar provas é papel do árbitro. O mediador é imparcial, por isso não representa nenhum dos lados nem impõe solução. E a mediação não é exclusiva do Judiciário: pode ocorrer em qualquer organização, com um facilitador neutro."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Acerca do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, aprovado pelo Decreto nº 1.171/1994, é correto afirmar:",
+      "alternativas": {
+        "A": "A pena aplicável ao servidor público pela Comissão de Ética é a de advertência, convertida em suspensão no caso de reincidência.",
+        "B": "Cada Comissão de Ética é integrada por sete servidores públicos e respectivos suplentes, vedada a recondução.",
+        "C": "A criação de Comissão de Ética é facultativa e depende de deliberação do dirigente máximo do órgão.",
+        "D": "A pena aplicável ao servidor público pela Comissão de Ética é a de censura, e sua fundamentação constará do respectivo parecer, assinado por todos os seus integrantes, com ciência do faltoso.",
+        "E": "À Comissão de Ética é vedado fornecer aos organismos de carreira registros sobre a conduta ética do servidor, por se tratar de informação de acesso restrito."
+      },
+      "gabarito": "D",
+      "comentario": "O inciso XXII do Código de Ética é expresso: a pena aplicável pela Comissão de Ética é a de censura, com fundamentação no parecer assinado por todos os integrantes e ciência do faltoso. A afirmação que fala em advertência convertida em suspensão transporta para o Código penalidades que pertencem ao regime disciplinar e não à Comissão de Ética. A composição fixada pelo art. 2º do Decreto é de três servidores ou empregados, e não sete. A criação da Comissão não é facultativa, pois o inciso XVI determina que em todos os órgãos e entidades da Administração Pública Federal direta, indireta autárquica e fundacional deverá ser criada uma Comissão de Ética. Por fim, o inciso XVIII faz exatamente o contrário do que afirma a frase sobre vedação de fornecer registros, pois incumbe à Comissão fornecê-los para instruir promoções."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Acerca da distinção entre recrutamento e seleção de pessoas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O recrutamento é o processo de escolher, entre os candidatos disponíveis, aquele que melhor atende aos requisitos do cargo.",
+        "B": "O recrutamento é o conjunto de técnicas destinado a atrair candidatos potencialmente qualificados, ao passo que a seleção é a escolha, entre os recrutados, do candidato mais adequado à vaga.",
+        "C": "A seleção antecede o recrutamento e serve para divulgar as vagas disponíveis ao mercado de recursos humanos.",
+        "D": "Recrutamento e seleção integram o subsistema de recompensar pessoas na organização.",
+        "E": "O recrutamento é responsabilidade exclusiva do gestor da área, sem participação da unidade de gestão de pessoas."
+      },
+      "gabarito": "B",
+      "comentario": "Recrutamento atrai, seleção escolhe. O primeiro divulga as oportunidades ao mercado de candidatos e se mede pela capacidade de atração; a segunda compara perfis com requisitos e culmina na decisão de admitir. Por isso erram as opções que atribuem ao recrutamento a função de escolher e as que invertem a ordem das duas etapas. Ambas integram o subsistema de agregar pessoas, e não o de recompensar. E o recrutamento não é responsabilidade exclusiva do gestor da área: a unidade de gestão de pessoas conduz o processo, ainda que a decisão final sobre a contratação caiba ao gestor."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Acerca dos conceitos de cargo, função e tarefa, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Cargo é a atividade individual executada de forma repetitiva, e a tarefa é o conjunto de funções com posição na estrutura da organização.",
+        "B": "Função é o lugar do ocupante no organograma, e o cargo é cada atividade individual desempenhada.",
+        "C": "Tarefa é o conjunto de cargos de uma área, e a função é a posição hierárquica do servidor.",
+        "D": "O cargo desaparece quando o ocupante deixa a organização, pois ele se confunde com a pessoa que o exerce.",
+        "E": "A tarefa é a atividade individual, a função reúne tarefas e o cargo reúne funções, com posição formal na estrutura."
+      },
+      "gabarito": "E",
+      "comentario": "A tarefa ou atribuição é a atividade individual; a função é o conjunto de tarefas ou atribuições executadas de forma sistemática; o cargo é o conjunto de funções com posição formal na estrutura. As opções que dão ao cargo o sentido de atividade individual ou à função o de lugar no organograma invertem a ordem de grandeza. A que define tarefa como conjunto de cargos faz o mesmo erro no sentido oposto. O cargo, por fim, não se confunde com a pessoa e existe mesmo sem ocupante, como ocorre com um cargo vago."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "Uma secretaria de Estado precisa levar, com urgência, uma carga leve, perecível e de alto valor a uma unidade distante da capital. Em consonância com as características dos modais, o transporte mais indicado é o",
+      "alternativas": {
+        "A": "ferroviário, que tem frete baixo e grande capacidade de carga.",
+        "B": "rodoviário, que dispensa documentação e atinge qualquer ponto.",
+        "C": "hidroviário, que tem custo unitário baixo e navega por rios.",
+        "D": "dutoviário, que transporta cargas de forma contínua e segura.",
+        "E": "aeroviário, que é o mais rápido, ainda que com frete mais elevado."
+      },
+      "gabarito": "E",
+      "comentario": "Carga leve, perecível, de alto valor e urgente é o perfil do transporte aeroviário, o mais rápido dos modais, com poucos extravios, ainda que o frete seja mais elevado. A alternativa A descreve o ferroviário, indicado a grande volume e peso, e lento. A B descreve o rodoviário, de entrega flexível, mas mais lento em longa distância e sujeito a avarias. A C descreve o hidroviário, barato e lento. A D descreve o dutoviário, restrito a líquidos e gases."
+    },
+    {
+      "disciplina": "Conhecimentos Específicos",
+      "enunciado": "O termo ESG, difundido a partir do relatório Who Cares Wins, elaborado no âmbito do Pacto Global da ONU com instituições financeiras, refere-se a",
+      "alternativas": {
+        "A": "indicadores exclusivamente ambientais de emissão de gases de efeito estufa.",
+        "B": "norma de certificação obrigatória para empresas com ações negociadas em bolsa.",
+        "C": "índice que mede a lucratividade das empresas no mercado de capitais.",
+        "D": "critérios ambientais, sociais e de governança usados para avaliar organizações e investimentos.",
+        "E": "programa governamental de incentivos fiscais a empresas sustentáveis."
+      },
+      "gabarito": "D",
+      "comentario": "ESG designa critérios ambientais, sociais e de governança usados para avaliar organizações e investimentos, ideia que nasceu justamente para orientar o mercado financeiro. A opção dos indicadores exclusivamente ambientais esquece os pilares social e de governança; não há norma de certificação obrigatória chamada ESG; um índice de lucratividade mede outra coisa; e o conceito não é programa governamental de incentivo fiscal."
+    }
+  ]
+}

@@ -43,6 +43,7 @@
     "tecnico-bancario-banestes-2026": {"sigla": "Banestes", "cargo": "Técnico Bancário", "uf": "ES"},
     "tecnico-defensoria-dpe-pb-2026": {"sigla": "DPE-PB", "cargo": "Técnico da Defensoria", "uf": "PB"},
     "assistente-tecnico-dpe-am-2026": {"sigla": "DPE-AM", "cargo": "Assistente Técnico Administrativo", "uf": "AM"},
+    "ifg-assistente-administracao-2026": {"sigla": "IFG", "cargo": "Assistente em Administração", "uf": "GO"},
     "trt4-tecnico-administrativo-2026": {"sigla": "TRT-4", "cargo": "Técnico Judiciário Área Administrativa", "uf": "RS"},
     "inss-tecnico-seguro-social-2026": {"sigla": "INSS", "cargo": "Técnico do Seguro Social", "uf": "BR"},
     "policial-penal-pr-2026": {"sigla": "Polícia Penal PR", "cargo": "Policial Penal", "uf": "PR"},

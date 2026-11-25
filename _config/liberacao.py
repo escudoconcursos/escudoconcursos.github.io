@@ -61,6 +61,7 @@ SIMULADO2 = {
     "tecnico-bancario-banestes-2026": "em 17/01/2027, 7 dias antes da prova, para o último teste.",
     "tecnico-defensoria-dpe-pb-2026": "em 21/02/2027, 7 dias antes da prova, para o último teste.",
     "assistente-tecnico-dpe-am-2026": "em 28/02/2027, 7 dias antes da prova, para o último teste.",
+    "ifg-assistente-administracao-2026": "em 07/02/2027, 7 dias antes da prova, para o último teste.",
     "trt4-tecnico-administrativo-2026": "60 dias após a compra, para o último teste.",
     "inss-tecnico-seguro-social-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "policial-penal-pe-2026": "em 14/03/2027, 7 dias antes da prova, para o último teste.",

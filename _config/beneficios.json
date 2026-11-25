@@ -784,6 +784,12 @@
   {"item": "Navegação clicável: do sumário você vai", "img": "assets/img/trt4-tecnico/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "2 simulados inéditos no formato da", "img": "assets/img/trt4-tecnico/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "ifg-assistente-administracao-2026": [
+  {"item": "Legislação em 46 capítulos:", "img": "assets/img/ifg-assistente/b-legislacao", "alt": "Sumário de Legislação, com a Lei 8.112 e as leis dos Institutos Federais"},
+  {"item": "Os Conhecimentos Específicos, que valem 60%", "img": "assets/img/ifg-assistente/b-especificos", "alt": "Sumário dos Conhecimentos Específicos, que abre com redação oficial e Arquivologia"},
+  {"item": "Navegação clicável: do sumário você vai", "img": "assets/img/ifg-assistente/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos no formato exato da", "img": "assets/img/ifg-assistente/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "assistente-tecnico-dpe-am-2026": [
   {"item": "Legislação da Defensoria em 21 capítulos:", "img": "assets/img/dpe-am-assistente/b-legislacao", "alt": "Sumário de Legislação da Defensoria, com as leis do Amazonas"},
   {"item": "Os Conhecimentos Específicos, que pesam o", "img": "assets/img/dpe-am-assistente/b-especificos", "alt": "Sumário de Direito Administrativo, que abre os Conhecimentos Específicos"},

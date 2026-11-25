@@ -564,6 +564,30 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "ifg-assistente-administracao-2026",
+      "atalho": "ifg",
+      "carreira": "educacao",
+      "tema": "tema-musgo",
+      "tag": "IFG/GO 2026 · AOCP",
+      "titulo": "Assistente em Administração do IFG",
+      "itens": [
+        "126 capítulos e 625 questões comentadas",
+        "2 simulados de 50 questões, no formato da prova"
+      ],
+      "imagem": "assets/img/produto-ifg-assistente-administracao-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Assistente em Administração, IFG 2026, 126 capítulos e 625 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "IFG37",
+        "preco": 37,
+        "ate": "2026-12-23"
+      },
+      "inscricoes_ate": "2026-12-23",
+      "prova": "2027-02-14",
+      "link": "ifg-assistente-administracao-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "assistente-tecnico-dpe-am-2026",
       "atalho": "dpeam",
       "carreira": "tribunais",
