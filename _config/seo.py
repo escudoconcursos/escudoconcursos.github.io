@@ -31,6 +31,8 @@ def numero(html, rotulo):
 
 
 def descricao_de(html, n, p):
+    if n.get("descricao"):  # curso sem edital (ENEM): texto próprio, 26/11/2026
+        return n["descricao"]
     cap, q = numero(html, "capítulos"), numero(html, "questões")
     rot_q = "questões comentadas"
     if not q:

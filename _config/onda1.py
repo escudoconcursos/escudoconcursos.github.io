@@ -218,7 +218,7 @@ def outros(html, pasta, n, p):
     guia = ""
     g = GUIAS.get(pasta)
     if g and (RAIZ / g["slug"] / "index.html").exists():
-        guia = f'<a href="../{g["slug"]}/">Guia do concurso: edital, vagas e o que cai</a> · '
+        guia = f'<a href="../{g["slug"]}/">{e(n.get("rotulo_guia") or "Guia do concurso: edital, vagas e o que cai")}</a> · '
     plural = CARREIRA_PLURAL.get(car, "cursos")
     hub, est = HUBS.hub_da_carreira(pasta), HUBS.hub_do_estado(pasta)
     existe = lambda h: h and (RAIZ / h["slug"] / "index.html").exists()

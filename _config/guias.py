@@ -315,6 +315,7 @@ for arq in sorted((RAIZ / "_config" / "guias").glob("*.md")):
     print("ok", slug)
 
 # rodapé: link "Quem faz" em todas as páginas; link do guia nas páginas de curso
+_NOMES = json.loads((RAIZ / "_config" / "nomes.json").read_text(encoding="utf-8"))["cursos"]
 guia_do_curso = {p["id"]: slug for slug, _, prods, _ in guias for p in prods}
 for pag in [RAIZ / "index.html"] + sorted(RAIZ.glob("*/index.html")):
     s = pag.read_text(encoding="utf-8")
@@ -326,7 +327,7 @@ for pag in [RAIZ / "index.html"] + sorted(RAIZ.glob("*/index.html")):
         links = '<a class="rodape-link" href="%snoticias/">Notícias e dicas de concursos</a> · ' % pre + links
     curso = pag.parent.name
     if curso in guia_do_curso:
-        links = '<a class="rodape-link" href="../%s/">Guia do concurso: edital, vagas e o que cai</a> · ' % guia_do_curso[curso] + links
+        links = '<a class="rodape-link" href="../%s/">%s</a> · ' % (guia_do_curso[curso], _NOMES.get(curso, {}).get("rotulo_guia") or "Guia do concurso: edital, vagas e o que cai") + links
     novo = '<p class="rodape-links">%s</p>' % links
     s2 = troca_marcador(s, "links-rodape", novo, "<small>©")
     if s2 != s:

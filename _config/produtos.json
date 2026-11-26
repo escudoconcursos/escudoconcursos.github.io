@@ -564,6 +564,25 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "enem-2027",
+      "atalho": "enem",
+      "carreira": "educacao",
+      "tema": "tema-lavanda",
+      "tag": "ENEM 2027 · Inep",
+      "titulo": "ENEM 2027: curso completo em PDF",
+      "itens": [
+        "204 capítulos e 1.259 questões comentadas",
+        "Redação, Linguagens, Humanas, Natureza e Matemática"
+      ],
+      "imagem": "assets/img/produto-enem-2027.webp",
+      "alt": "Curso em PDF ESCUDO: ENEM 2027, 204 capítulos e 1.259 questões comentadas, com Redação",
+      "preco": 59.9,
+      "prova": "2027-11-07",
+      "prova_provavel": true,
+      "link": "enem-2027/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ifg-assistente-administracao-2026",
       "atalho": "ifg",
       "carreira": "educacao",
