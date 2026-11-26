@@ -511,7 +511,13 @@ a.chip{text-decoration:none}
 .tema-orquidea{--c:#EB85F2; --cb:#F5BDF9; --cd:#8E2A96; --cbtn1:#F5BDF9; --cbtn2:#EB85F2; --cbtn-txt:#0B1A33}
 /* musgo, IFG Assistente em Administração 2026 (25/11/2026): verde acinzentado (5,9:1 sobre o navy), botão com texto navy */
 .tema-musgo{--c:#72A177; --cb:#B4D2B7; --cd:#3E6A47; --cbtn1:#B4D2B7; --cbtn2:#72A177; --cbtn-txt:#0B1A33}
-.tema-lavanda{--c:#B8A2F0; --cb:#D9CCF8; --cd:#6A4FB8; --cbtn1:#D9CCF8; --cbtn2:#B8A2F0; --cbtn-txt:#0B1A33}
+.tema-lavanda{--c:#B8A2F0; --cb:#D9CCF8; --cd:#6A4FB8; --cbtn1:#D9CCF8; --cbtn2:#B8A2F0; --cbtn-txt:#0B1A33}
+/* relva, PM-MT Soldado 2026 (26/11/2026): cor clara (10,6:1 sobre o navy), botão com texto navy */
+.tema-relva{--c:#50E650; --cb:#A3F2A3; --cd:#1F8F2B; --cbtn1:#A3F2A3; --cbtn2:#50E650; --cbtn-txt:#0B1A33}
+/* camelia, PP-TO Policial Penal 2026 (26/11/2026): cor clara (8,5:1 sobre o navy), botão com texto navy */
+.tema-camelia{--c:#F29DBD; --cb:#F8C8DA; --cd:#A83A68; --cbtn1:#F8C8DA; --cbtn2:#F29DBD; --cbtn-txt:#0B1A33}
+/* pistache, PP-BA Policial Penal 2026 (26/11/2026): cor clara (12,9:1 sobre o navy), botão com texto navy */
+.tema-pistache{--c:#A2F285; --cb:#C8F8B6; --cd:#35923F; --cbtn1:#C8F8B6; --cbtn2:#A2F285; --cbtn-txt:#0B1A33}
 /* inss, INSS Técnico do Seguro Social 2026 (21/11/2026): azul da logo do INSS (#007AC2, 4,6:1 com texto branco); a clara #6FC0EE dá 8,6:1 sobre o navy; verde #009A66 só na régua (--acce) */
 .tema-inss{--c:#007AC2; --cb:#6FC0EE; --cd:#005197; --cbtn1:#007AC2; --cbtn2:#005197; --cbtn-txt:#fff; --acce:#009A66}
 /* link do guia no fim da resposta rápida das páginas de curso (21/11/2026) */

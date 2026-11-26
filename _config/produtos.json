@@ -1478,6 +1478,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmmt-soldado-2026",
+      "atalho": "pmmt",
+      "carreira": "policial",
+      "tema": "tema-relva",
+      "tag": "PM/MT 2026 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar de Mato Grosso",
+      "itens": [
+        "136 capítulos e 675 questões comentadas",
+        "Legislação Básica e 2 simulados de 60 questões"
+      ],
+      "imagem": "assets/img/produto-pmmt-soldado-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar de Mato Grosso, PM/MT 2026, 136 capítulos e 675 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMMT37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmmt-soldado-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppms-policial-penal-2026",
       "atalho": "ppms",
       "carreira": "policial",
