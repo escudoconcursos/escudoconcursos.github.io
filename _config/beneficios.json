@@ -1312,6 +1312,13 @@
   {"item": "Navegação clicável", "img": "assets/img/ppba/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "2 simulados inéditos de 80 questões", "img": "assets/img/ppba/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "pcrn-agente-2026": [
+  {"item": "Constituição do RN e LC 270/2004 em capítulos próprios", "img": "assets/img/pcrn/b-rn", "alt": "Sumário da disciplina Direito Constitucional"},
+  {"item": "Penal, Processo Penal e Legislação Extravagante em 36 capítulos", "img": "assets/img/pcrn/b-esp", "alt": "Sumário da disciplina Direito Penal, Processual Penal e Legislação Extravagante"},
+  {"item": "Pegadinhas e quadros", "img": "assets/img/pcrn/nao-confunda", "alt": "Quadros de atenção no capítulo sobre prisão em flagrante"},
+  {"item": "Navegação clicável", "img": "assets/img/pcrn/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos de 100 questões", "img": "assets/img/pcrn/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "ppms-policial-penal-2026": [
   {"item": "Legislação de Mato Grosso do Sul em 5 capítulos", "img": "assets/img/ppms/b-ms", "alt": "Sumário da disciplina Legislação de Mato Grosso do Sul"},
   {"item": "Lei de Execução Penal em 5 capítulos", "img": "assets/img/ppms/b-lep", "alt": "Sumário da disciplina Lei de Execução Penal"},

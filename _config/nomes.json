@@ -61,6 +61,7 @@
     "ppsc-policial-penal-2026": {"sigla": "Polícia Penal/SC", "cargo": "Policial Penal", "uf": "SC"},
     "ppto-policial-penal-2026": {"sigla": "Polícia Penal/TO", "cargo": "Policial Penal", "uf": "TO"},
     "ppba-policial-penal-2026": {"sigla": "Polícia Penal/BA", "cargo": "Policial Penal", "uf": "BA"},
+    "pcrn-agente-2026": {"sigla": "Polícia Civil/RN", "cargo": "Agente", "uf": "RN"},
     "ppms-policial-penal-2026": {"sigla": "Polícia Penal/MS", "cargo": "Policial Penal", "uf": "MS"},
     "pmmt-soldado-2026": {"sigla": "PMMT", "cargo": "Soldado PM", "uf": "MT"},
     "pjcmt-investigador-escrivao-2026": {"sigla": "Polícia Civil/MT", "cargo": "Investigador e Escrivão", "uf": "MT"},

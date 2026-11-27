@@ -1547,6 +1547,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pcrn-agente-2026",
+      "atalho": "pcrn",
+      "carreira": "policial",
+      "tema": "tema-canario",
+      "tag": "Polícia Civil/RN 2026 · Pré-edital",
+      "titulo": "Agente da Polícia Civil do RN",
+      "itens": [
+        "140 capítulos e 685 questões comentadas",
+        "Constituição do RN, LC 270/2004, discursiva e 2 simulados de 100 questões"
+      ],
+      "imagem": "assets/img/produto-pcrn-agente-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Agente da Polícia Civil do RN, Polícia Civil/RN 2026, 140 capítulos e 685 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCRN37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pcrn-agente-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppms-policial-penal-2026",
       "atalho": "ppms",
       "carreira": "policial",
