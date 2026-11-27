@@ -1524,6 +1524,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "ppba-policial-penal-2026",
+      "atalho": "ppba",
+      "carreira": "policial",
+      "tema": "tema-pistache",
+      "tag": "Polícia Penal/BA 2026 · Pré-edital",
+      "titulo": "Policial Penal da Bahia",
+      "itens": [
+        "201 capítulos e 985 questões comentadas",
+        "Legislação da Bahia, LEP, redação e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-ppba-policial-penal-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal da Bahia, Polícia Penal/BA 2026, 201 capítulos e 985 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PPBA37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "ppba-policial-penal-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppms-policial-penal-2026",
       "atalho": "ppms",
       "carreira": "policial",
