@@ -59,6 +59,7 @@
     "pcpa-escrivao-2026": {"sigla": "PC/PA", "cargo": "Escrivão", "uf": "PA"},
     "detranpr-agente-2026": {"sigla": "DETRAN/PR", "cargo": "Agente de Trânsito", "uf": "PR"},
     "ppsc-policial-penal-2026": {"sigla": "Polícia Penal/SC", "cargo": "Policial Penal", "uf": "SC"},
+    "ppto-policial-penal-2026": {"sigla": "Polícia Penal/TO", "cargo": "Policial Penal", "uf": "TO"},
     "ppms-policial-penal-2026": {"sigla": "Polícia Penal/MS", "cargo": "Policial Penal", "uf": "MS"},
     "pmmt-soldado-2026": {"sigla": "PMMT", "cargo": "Soldado PM", "uf": "MT"},
     "pjcmt-investigador-escrivao-2026": {"sigla": "Polícia Civil/MT", "cargo": "Investigador e Escrivão", "uf": "MT"},

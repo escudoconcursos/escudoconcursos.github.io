@@ -1298,6 +1298,13 @@
   {"item": "Navegação clicável", "img": "assets/img/pmmt/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "2 simulados inéditos de 60 questões", "img": "assets/img/pmmt/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "ppto-policial-penal-2026": [
+  {"item": "História e Geografia do Tocantins em 16 capítulos", "img": "assets/img/ppto/b-to", "alt": "Sumário da disciplina Atualidades, História e Geografia do Tocantins"},
+  {"item": "Carreira de Policial Penal e Lei de Execução Penal", "img": "assets/img/ppto/b-esp", "alt": "Sumário da disciplina Conhecimentos Específicos"},
+  {"item": "Pegadinhas e quadros", "img": "assets/img/ppto/nao-confunda", "alt": "Quadros de atenção no capítulo da Polícia Penal do Tocantins"},
+  {"item": "Navegação clicável", "img": "assets/img/ppto/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos de 65 questões", "img": "assets/img/ppto/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "ppms-policial-penal-2026": [
   {"item": "Legislação de Mato Grosso do Sul em 5 capítulos", "img": "assets/img/ppms/b-ms", "alt": "Sumário da disciplina Legislação de Mato Grosso do Sul"},
   {"item": "Lei de Execução Penal em 5 capítulos", "img": "assets/img/ppms/b-lep", "alt": "Sumário da disciplina Lei de Execução Penal"},

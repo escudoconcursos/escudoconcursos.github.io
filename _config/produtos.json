@@ -1501,6 +1501,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "ppto-policial-penal-2026",
+      "atalho": "ppto",
+      "carreira": "policial",
+      "tema": "tema-camelia",
+      "tag": "Polícia Penal/TO 2026 · Pré-edital",
+      "titulo": "Policial Penal do Tocantins",
+      "itens": [
+        "104 capítulos e 515 questões comentadas",
+        "Constituição e legislação do Tocantins e 2 simulados de 65 questões"
+      ],
+      "imagem": "assets/img/produto-ppto-policial-penal-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Policial Penal do Tocantins, Polícia Penal/TO 2026, 104 capítulos e 515 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PPTO37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "ppto-policial-penal-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppms-policial-penal-2026",
       "atalho": "ppms",
       "carreira": "policial",

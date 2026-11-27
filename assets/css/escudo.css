@@ -518,6 +518,8 @@ a.chip{text-decoration:none}
 .tema-camelia{--c:#F29DBD; --cb:#F8C8DA; --cd:#A83A68; --cbtn1:#F8C8DA; --cbtn2:#F29DBD; --cbtn-txt:#0B1A33}
 /* pistache, PP-BA Policial Penal 2026 (26/11/2026): cor clara (12,9:1 sobre o navy), botão com texto navy */
 .tema-pistache{--c:#A2F285; --cb:#C8F8B6; --cd:#35923F; --cbtn1:#C8F8B6; --cbtn2:#A2F285; --cbtn-txt:#0B1A33}
+/* canario, PC-RN Agente 2026 (26/11/2026): cor clara (contraste alto sobre o navy), botão com texto navy */
+.tema-canario{--c:#F2F218; --cb:#F9F99C; --cd:#7D7D00; --cbtn1:#F9F99C; --cbtn2:#F2F218; --cbtn-txt:#0B1A33}
 /* inss, INSS Técnico do Seguro Social 2026 (21/11/2026): azul da logo do INSS (#007AC2, 4,6:1 com texto branco); a clara #6FC0EE dá 8,6:1 sobre o navy; verde #009A66 só na régua (--acce) */
 .tema-inss{--c:#007AC2; --cb:#6FC0EE; --cd:#005197; --cbtn1:#007AC2; --cbtn2:#005197; --cbtn-txt:#fff; --acce:#009A66}
 /* link do guia no fim da resposta rápida das páginas de curso (21/11/2026) */
