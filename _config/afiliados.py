@@ -75,6 +75,7 @@ RECRUTAMENTO = {
     "detranpr-agente-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/9703D108484578",
     "ppsc-policial-penal-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/4968P108523597",
     "ppms-policial-penal-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5844P108649892",
+    "pmmt-soldado-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/2494S108682645",
     "pjcmt-investigador-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/5356P108524741",
     "pcpe-escrivao-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/6598P108528694",
     "gm-maraba-2026": "https://affiliate.hotmart.com/affiliate-recruiting/view/7515G108531301",
