@@ -1570,6 +1570,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pcpb-escrivao-investigador-2026",
+      "atalho": "pcpb",
+      "carreira": "policial",
+      "tema": "tema-neon",
+      "tag": "Polícia Civil/PB 2026 · Pré-edital",
+      "titulo": "Escrivão e Investigador da Polícia Civil da Paraíba",
+      "itens": [
+        "152 capítulos e 730 questões comentadas",
+        "LC 85/2008 da Paraíba, discursiva e 2 simulados de 80 questões"
+      ],
+      "imagem": "assets/img/produto-pcpb-escrivao-investigador-2026.webp",
+      "alt": "Curso em PDF ESCUDO: Escrivão e Investigador da Polícia Civil da Paraíba, Polícia Civil/PB 2026, 152 capítulos e 730 questões comentadas",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PCPB37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pcpb-escrivao-investigador-2026/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "ppms-policial-penal-2026",
       "atalho": "ppms",
       "carreira": "policial",
