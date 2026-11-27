@@ -93,7 +93,7 @@ Com 70 pontos inteiros e muita gente na disputa, o empate é comum. O edital des
 
 **Raciocínio Lógico-Matemático (10).** Terceiro critério de desempate e, junto com Português, a base do Módulo I. Habilidade que se constrói devagar.
 
-**Informática (8).** Aqui o edital manda no vocabulário: o programa pede Windows XP, 7 e 8 e as suítes Microsoft Word e Excel na versão 2010 BR ou superior. Prepare-se para menu Iniciar, Painel de Controle, Windows Explorer e Faixa de Opções, e não para a nomenclatura de versões mais novas.
+**Informática (8).** Aqui o edital manda no vocabulário: desde a 1ª Retificação, de 18/09/2026, o programa pede o Windows 11 BR e as suítes Microsoft Word e Excel na versão 2010 BR ou superior. Prepare-se para o menu Iniciar, as Configurações e o Explorador de Arquivos do Windows 11 e para a Faixa de Opções do Office.
 
 **Direito Constitucional e Civil (10).** O programa de Direito Civil pede, no item 7, súmulas do STF, do STJ e do TJ-BA.
 
@@ -126,7 +126,7 @@ Com 7 de novembro como ponto de partida e a prova em 17 de janeiro de 2027, um p
 3. **Mantenha o Módulo I todo dia.** Português e Raciocínio Lógico, um capítulo por dia. Reserve um horário fixo para Informática, mesmo pequeno, porque ela sustenta o corte de 14 do Módulo I.
 4. **Treine com simulados e refaça os erros.** Marque os assuntos em que errar duas ou mais questões: eles são a revisão da última semana. Nos simulados, confira a nota por módulo, e não só o total.
 
-Onde o edital nomeia versão, norma ou recorte, vale o que o edital diz. Se o programa pede Windows 7 e Word 2010, é esse o vocabulário da prova, mesmo que você use versões mais novas no dia a dia.
+Onde o edital nomeia versão, norma ou recorte, vale o que o edital diz. Se o programa pede Windows 11 e Word 2010 ou superior, é esse o vocabulário da prova.
 
 **Curso ESCUDO GCM Salvador 2026 em PDF:** 785 questões comentadas de cinco alternativas, no formato da FGV, mais 2 simulados de 70 questões, o Simulado 2 liberado em 10/01/2027, uma semana antes da prova. De R$ 47 por R$ 37 com o cupom SALVADOR37 até 30/11/2026. [Ver o curso](/gcm-salvador-2026/)
 
