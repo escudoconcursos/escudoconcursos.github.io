@@ -127,7 +127,7 @@ O **TAF** é aplicado a todos os aprovados na discursiva, em cinco provas e trê
 | Corrida de 2.000 m (M) ou 1.800 m (F) | 11 minutos | 13 minutos |
 | Natação de 50 m em piscina | 1 min 5 s | 1 min 5 s |
 
-Os exames da avaliação médica são por conta do candidato. O toxicológico tem janela mínima de 180 dias. Os quadros de convocação divergem: o Edital nº 11 incluiu PcD no corte da avaliação médica (825 AC, 55 PcD, 220 PPIQ), mas os da avaliação psicológica (item 12.1) e da investigação social (item 13.1.1) seguem sem PcD (880 AC e 220 PPIQ), com o mesmo total de 1.100.
+Os exames da avaliação médica são por conta do candidato. O toxicológico tem janela mínima de 180 dias. Desde o Edital nº 17, de 03/11/2026, os quadros de convocação da avaliação médica, da avaliação psicológica (item 12.1) e da investigação social (item 13.1.1) são iguais e incluem PcD: 825 AC, 55 PcD e 220 PPIQ, 1.100 no total.
 
 ## Como estudar para a prova do Cebraspe?
 

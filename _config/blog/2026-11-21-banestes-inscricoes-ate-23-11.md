@@ -1,69 +1,58 @@
 ---
 slug: banestes-inscricoes-ate-23-11
 tipo: noticia
-titulo_seo: "Banestes Técnico Bancário: inscrições até segunda, 23/11"
-descricao: "Concurso Banestes: inscrições para Técnico Bancário terminam em 23/11/2026, às 23h59, na FCC. Boleto de R$ 67,00 gerado até as 22h e pago até 24/11."
-h1: "Banestes Técnico Bancário: inscrições terminam segunda-feira, 23/11, às 23h59, e o boleto vence na terça, 24/11"
+titulo_seo: "Banestes Técnico: inscrições encerradas; prova em 24/01"
+descricao: "Concurso Banestes: inscrições encerradas. Listas das vagas reservadas saem a partir de 02/12, convocação com os locais em 06/01/2027 e prova da FCC em 24/01/2027."
+h1: "Banestes Técnico Bancário: inscrições encerradas; listas das vagas reservadas saem em dezembro e a prova é em 24/01/2027"
 publicado: 2026-11-21
-atualizado_em: 2026-11-21
+atualizado_em: 2026-11-28
 curso_id: tecnico-bancario-banestes-2026
 guia: concurso-banestes
 ficha: 48-Banestes-Tecnico-Bancario
-capa_titulo: "Banestes: inscrições até 23/11"
-capa_destaque: "23/11"
-valido_ate: 2026-11-24
-resumo: [["Órgão", "Banco do Estado do Espírito Santo (Banestes), Técnico Bancário"], ["Banca", "Fundação Carlos Chagas (FCC)"], ["Vagas", "866 postos de cadastro de reserva em 34 polos"], ["Remuneração", "R$ 4.552,43 por 30 horas semanais"], ["Inscrições", "até 23/11/2026, às 23h59 de Brasília"], ["Taxa", "R$ 67,00, boleto gerado até as 22h e pago até 24/11/2026"]]
-fontes: [{"nome": "Edital nº 01/2026 de Abertura de Inscrições do Banestes, retificado em 10/11/2026 (itens 4.3, 4.4, 4.7, 8.4.3, 10.1 e Anexo V)", "url": "https://www.concursosfcc.com.br/concursos/banes126/edital_01-2026_-_banestes_oficial_-_10_11_2026_-_retificado.pdf"}, {"nome": "Página do concurso Banestes na Fundação Carlos Chagas", "url": "https://www.concursosfcc.com.br/concursos/banes126/index.html"}]
+capa_titulo: "Banestes: prova em 24/01"
+capa_destaque: "24/01"
+valido_ate: 2026-12-07
+resumo: [["Órgão", "Banco do Estado do Espírito Santo (Banestes), Técnico Bancário"], ["Banca", "Fundação Carlos Chagas (FCC)"], ["Vagas", "866 postos de cadastro de reserva em 34 polos"], ["Vagas reservadas e condições especiais", "a partir de 02/12/2026 (itens do edital) ou 07/12/2026 (Anexo V)"], ["Convocação com os locais", "06/01/2027"], ["Prova objetiva", "24/01/2027 (domingo), de manhã"]]
+calculado: ["28/11/2026", "30/11"]
+fontes: [{"nome": "Edital nº 01/2026 de Abertura de Inscrições do Banestes, retificado em 10/11/2026 (itens 5.9.1, 6.8, 7.8, 8.8, 10.1 e Anexo V)", "url": "https://www.concursosfcc.com.br/concursos/banes126/edital_01-2026_-_banestes_oficial_-_10_11_2026_-_retificado.pdf"}, {"nome": "Página do concurso Banestes na Fundação Carlos Chagas", "url": "https://www.concursosfcc.com.br/concursos/banes126/index.html"}]
 ---
 
-Quem quer o crachá de **Técnico Bancário do Banestes**, atendendo clientes e oferecendo os produtos do banco dos capixabas, tem até **segunda-feira, 23/11/2026, às 23h59 (horário de Brasília)** para se inscrever no site da Fundação Carlos Chagas. A taxa é de **R$ 67,00**, o boleto pode ser gerado até as **22h de terça-feira, 24/11/2026**, e o pagamento precisa sair nesse mesmo dia, dentro do horário bancário. Na página do concurso na FCC, conferida na manhã deste sábado, não há aviso de nova prorrogação.
+Atualização em 28/11/2026: as inscrições terminaram em 23/11 e o prazo do boleto, em 24/11. Este texto passou a tratar das próximas etapas até a prova.
 
-## O que vence na segunda, 23/11, e na terça, 24/11?
+As **inscrições para Técnico Bancário do Banestes terminaram em 23/11/2026** e o último dia para pagar o boleto foi **24/11/2026**. A próxima publicação da Fundação Carlos Chagas é a lista de quem concorre às vagas reservadas e das condições especiais deferidas para o dia da prova, prevista para **02/12/2026** nos itens do edital e para **07/12/2026** no cronograma do Anexo V. O edital de convocação, com o local de prova, sai em **06/01/2027**, e a prova objetiva é no domingo, **24/01/2027**, de manhã, em Vitória, São Mateus e Cachoeiro de Itapemirim. Na página do concurso na FCC, conferida na manhã de 28/11/2026, não há aviso novo para o Técnico Bancário.
 
-O fim das inscrições também encerra o prazo de todos os documentos que vão pelo link de inscrição. O calendário dos dois dias, pelo edital consolidado da FCC:
+## Quando saem as listas das vagas reservadas?
 
-| O que fazer | Prazo |
-|---|---|
-| Preencher o formulário e enviar a foto | 23/11/2026, até as 23h59 |
-| Laudo médico, para concorrer como pessoa com deficiência | 23/11/2026 |
-| Documentos de quem concorre às vagas de indígenas | 23/11/2026 |
-| Documentos de renda e de escola pública, para as vagas de hipossuficientes | 23/11/2026 |
-| Pedido de atendimento específico no dia da prova, com atestado | 23/11/2026 |
-| Gerar o boleto no site da FCC | 24/11/2026, até as 22h |
-| Pagar o boleto | 24/11/2026, no horário do banco |
+O edital consolidado da FCC traz duas datas para a mesma etapa. Os itens 5.9.1, 6.8 e 7.8 marcam **02/12/2026** para as listas de pessoas com deficiência, negros e indígenas, com respostas aos recursos em 09/12/2026. O item 8.8 marca **07/12/2026** para a lista dos hipossuficientes, com respostas em 15/12/2026. Já o Anexo V põe tudo em 07/12/2026, com recurso de 08/12 a 09/12/2026 e resultado em 15/12/2026.
 
-Uma regra do item 4.4.5.1 pega quem deixa para a última hora: pagamento feito pelo aplicativo ou no caixa eletrônico depois do horário limite do banco entra como movimento do dia útil seguinte e a inscrição não é aceita. Boleto gerado fora do site da FCC também não vale.
+Quem pediu vaga reservada ou atendimento especial deve olhar o site da FCC a partir de 02/12. O recurso é de 2 dias úteis depois da publicação e não aceita documento novo. Quem não aparece na lista e não recorre passa a concorrer só na ampla concorrência.
 
-## Qual polo escolher?
-
-Cada candidato concorre em **um único cargo e polo de classificação**. Quem se inscreve mais de uma vez fica só com a última inscrição paga, e o item 10.7 proíbe trocar o polo ou a cidade de prova depois. Por isso vale escolher com calma antes de gerar o boleto.
-
-O polo de Vitória (TB04) concentra 400 dos 866 postos. Os outros vão de 6 a 41 postos, espalhados pelo interior do Espírito Santo, e incluem São Paulo (capital) e São José do Rio Preto. A tabela completa, polo a polo, está no [guia do concurso Banestes](../../concurso-banestes/).
-
-No mesmo formulário o candidato escolhe a cidade onde quer fazer a prova: **Vitória, São Mateus ou Cachoeiro de Itapemirim**.
-
-## Ainda dá para pedir as vagas de hipossuficientes?
-
-Sim, até 23/11/2026. A reserva vale para quem tem renda familiar baixa e cursou o ensino médio em escola pública ou como bolsista integral em escola particular. Quem já está inscrito pode entrar na área do candidato e mudar a opção para concorrer a essas vagas, sem pagar outra taxa (item 4.3.3). Os comprovantes de renda e a declaração da escola vão pelo próprio link de inscrição, em arquivo de até 10 MB cada.
-
-## O que vem depois da inscrição?
+## O que vem até a prova e depois dela?
 
 | Etapa | Data |
 |---|---|
-| Lista das vagas reservadas e condições especiais deferidas | 07/12/2026 |
+| Vagas reservadas e condições especiais deferidas (Anexo V) | 07/12/2026 |
+| Recurso contra o indeferimento | 08/12 a 09/12/2026 |
+| Resultado após os recursos | 15/12/2026 |
 | Edital de convocação para a prova, com o local | 06/01/2027 |
 | Prova objetiva, de manhã | 24/01/2027 (domingo) |
 | Gabarito e questões no site da FCC, a partir das 17h | 25/01/2027 |
+| Recurso contra o gabarito | 26/01 a 27/01/2027 |
+| Resultado preliminar | 01/03/2027 |
 
-A partir de 26/10/2026 o próprio site da FCC mostra se os dados da inscrição chegaram e se o pagamento foi registrado. Vale conferir uns dias depois de pagar. Para saber o que estudar na maior disciplina da prova, veja o post [o que estudar em Conhecimentos Bancários](../banestes-tecnico-bancario-conhecimentos-bancarios-o-que-estudar/).
+A cidade de prova escolhida na inscrição não muda: o edital proíbe a troca. Se faltar lugar nos colégios de uma das três cidades, a FCC pode levar candidatos para cidades próximas, e o endereço exato só aparece na convocação de 06/01/2027.
+
+## O que estudar nas 8 semanas até 24/01?
+
+Entre esta segunda, 30/11, e o domingo da prova há 8 semanas. A maior disciplina da prova é Conhecimentos Bancários, e o post [o que estudar em Conhecimentos Bancários](../banestes-tecnico-bancario-conhecimentos-bancarios-o-que-estudar/) mostra o programa por tema. Para entender o dia a dia do cargo, de atendimento ao cliente à venda de produtos do banco dos capixabas, veja [o que faz o Técnico Bancário do Banestes](../banestes-o-que-faz-tecnico-bancario/). A distribuição das 70 questões e a nota mínima estão no [guia do concurso Banestes](../../concurso-banestes/).
 
 ## Perguntas frequentes
 
-### Até quando vão as inscrições do concurso Banestes?
-Até 23/11/2026, às 23h59 no horário de Brasília, só pela internet, no site da Fundação Carlos Chagas.
+### Ainda dá para se inscrever no concurso Banestes?
+Não. As inscrições terminaram em 23/11/2026 e o boleto podia ser pago até 24/11/2026.
 
-### Até quando posso pagar o boleto do Banestes?
-O boleto de R$ 67,00 pode ser gerado até as 22h de 24/11/2026 e precisa ser pago nesse dia, dentro do horário do banco. Pagamento depois do horário limite não é aceito.
+### Quando sai o local de prova do Banestes?
+No edital de convocação previsto para 06/01/2027, no site da Fundação Carlos Chagas. A prova é em 24/01/2027, de manhã.
 
-### Posso trocar o polo depois de me inscrever?
-Não. Cada candidato concorre a um único polo, só a última inscrição paga vale, e o edital proíbe a troca de polo ou de cidade de prova depois.
+### Quando sai a lista de quem concorre às vagas reservadas?
+O edital fala em 02/12/2026 para pessoas com deficiência, negros e indígenas e em 07/12/2026 para hipossuficientes; o cronograma do Anexo V marca 07/12/2026 para todas. Vale conferir o site da FCC a partir de 02/12.

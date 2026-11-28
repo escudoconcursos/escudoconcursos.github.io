@@ -57,7 +57,7 @@ A Retificação nº 03/2026 criou uma reserva de 10% para candidatos hipossufici
 | Retificação nº 03/2026 | 23/10/2026 |
 | Inscrições | 19/10 a 23/11/2026, até as 23h59 |
 | Pagamento do boleto | até 24/11/2026 |
-| Convocação para a prova, com os locais | 17/12/2026 |
+| Convocação para a prova, com os locais | 06/01/2027 |
 | Prova objetiva | 24/01/2027, de manhã |
 | Gabarito e caderno de questões no site da FCC | 25/01/2027 |
 | Recursos contra o gabarito | 26 e 27/01/2027 |
