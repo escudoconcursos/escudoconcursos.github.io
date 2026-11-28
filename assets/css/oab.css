@@ -1,0 +1,49 @@
+/* ESCUDO Concursos: tema OAB (Exame de Ordem), com <body class="tema-carmim tema-oab">. Criado em 28/11/2026.
+   Cor carmim da ESCUDO para este produto. Sem logotipo, brasão ou identidade visual da OAB: só texto e cor. */
+.tema-carmim{--c:#A6192E; --cb:#E8A1AA; --cd:#6E0F1D; --cbtn1:#A6192E; --cbtn2:#6E0F1D; --cbtn-txt:#fff}
+.tema-oab{--vinho:#2A0C14}
+
+/* faixa embaixo do topo */
+.tema-oab .topo{border-bottom:0}
+.tema-oab .topo::after{content:"EXAME DE ORDEM    ·    1ª FASE    ·    80 QUESTÕES    ·    40 PARA PASSAR    ·    PROVA DE 10/01/2027";
+  display:block;white-space:pre;overflow:hidden;text-align:center;padding:4px 0 5px;background:#14090F;
+  font-family:var(--ff-t);font-weight:800;font-size:.78rem;letter-spacing:.16em;color:rgba(232,161,170,.88);
+  border-bottom:4px solid var(--c)}
+
+/* blocos escuros: navy com brilho carmim */
+.tema-oab .escuro{background:radial-gradient(900px 520px at 12% 0%,rgba(166,25,46,.36),transparent 65%),
+  radial-gradient(700px 480px at 100% 100%,rgba(166,25,46,.18),transparent 60%),linear-gradient(180deg,#101A33,#0B1226)}
+.tema-oab .escuro a:not(.btn){color:var(--cb)}
+.tema-oab .kicker{color:var(--cb);letter-spacing:.2em}
+.tema-oab .claro .kicker,.tema-oab .creme .kicker{color:var(--cd)}
+.tema-oab .secao:not(.escuro) h2 em{color:var(--navy);padding:0 .06em;
+  background:linear-gradient(176deg,transparent 56%,rgba(166,25,46,.28) 56% 92%,transparent 92%);
+  -webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+/* faixa de aviso de independência */
+.aviso-ind{margin:22px 0 0;padding:12px 16px;border-left:4px solid var(--c);background:#fff;border-radius:0 10px 10px 0;font-size:.95rem;color:var(--ink2)}
+.escuro .aviso-ind{background:rgba(255,255,255,.06);color:var(--cream)}
+
+/* Passe Anual */
+.passe-caixa{display:grid;gap:18px;margin:28px 0 0}
+.passe-preco{background:var(--navy2);border:2px solid var(--c);border-radius:var(--r);padding:22px 20px;text-align:center}
+.passe-preco .de{margin:0;color:var(--cb);font-size:1rem}
+.passe-preco .de s{opacity:.85}
+.passe-preco .por{font-family:var(--ff-t);font-weight:900;font-size:3.2rem;line-height:1;color:var(--cream);margin:6px 0}
+.passe-preco .por small{font-size:1.2rem;margin-right:4px}
+.passe-preco .eco{display:inline-block;margin:6px 0 14px;padding:5px 12px;border-radius:999px;background:var(--c);color:#fff;font-weight:800;font-size:.95rem}
+.passe-tab{width:100%;border-collapse:collapse;font-size:.97rem}
+.passe-tab caption{text-align:left;color:var(--cb);padding:0 0 10px;font-size:.92rem}
+.passe-tab th{font-family:var(--ff-t);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.88rem;text-align:left;background:rgba(255,255,255,.08);color:var(--cream);padding:10px 12px}
+.passe-tab td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.12);color:var(--cream);vertical-align:top}
+.passe-tab td.num,.passe-tab th.num{text-align:right;white-space:nowrap}
+.passe-tab tfoot td{font-weight:800;border-bottom:0;color:var(--cb)}
+@media(min-width:900px){.passe-caixa{grid-template-columns:minmax(260px,340px) 1fr;align-items:start}}
+
+/* produtos avulsos */
+.avulsos{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin:26px 0 0;padding:0;list-style:none}
+.avulsos li{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:center;background:#fff;border:1px solid #E6DFCC;border-top:4px solid var(--c);border-radius:12px;padding:12px}
+.avulsos img{width:84px;height:84px;border-radius:8px;display:block}
+.avulsos b{display:block;color:var(--navy);line-height:1.2}
+.avulsos .v{display:block;font-family:var(--ff-t);font-weight:900;font-size:1.3rem;color:var(--cd)}
+.avulsos span.d{display:block;font-size:.88rem;color:var(--ink2);line-height:1.3}

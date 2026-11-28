@@ -7,7 +7,8 @@
     "educacao": "Educação",
     "tribunais": "Tribunais",
     "fiscal": "Fiscal",
-    "bancaria": "Bancária"
+    "bancaria": "Bancária",
+    "oab": "OAB"
   },
   "produtos": [
     {
@@ -581,6 +582,25 @@
       "prova": "2027-11-07",
       "prova_provavel": true,
       "link": "enem-2027/",
+      "botao": "Ver o curso"
+    },
+    {
+      "id": "oab-1-fase",
+      "atalho": "oab",
+      "carreira": "oab",
+      "tema": "tema-carmim",
+      "tema_visual": "oab",
+      "tag": "OAB 1ª fase · 48º Exame · FGV",
+      "titulo": "OAB 1ª fase: curso em PDF para o Exame de Ordem",
+      "itens": [
+        "165 capítulos e 889 questões inéditas comentadas",
+        "527 casos resolvidos e 370 súmulas e teses conferidas"
+      ],
+      "imagem": "assets/img/produto-oab-1-fase.webp",
+      "alt": "Curso em PDF ESCUDO: OAB 1ª fase, 48º Exame de Ordem, 165 capítulos e 889 questões inéditas no formato da FGV",
+      "preco": 59.9,
+      "prova": "2027-01-10",
+      "link": "oab-1-fase/",
       "botao": "Ver o curso"
     },
     {

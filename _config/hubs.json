@@ -95,6 +95,22 @@
    ]
   },
   {
+   "slug": "exame-de-ordem-oab",
+   "tipo": "carreira",
+   "nome": "Exame de Ordem (OAB)",
+   "filtro": {
+    "carreira": "oab"
+   },
+   "titulo": "Exame de Ordem OAB 2027: curso em PDF da 1ª fase",
+   "descricao": "Exame de Ordem (OAB) com curso em PDF da 1ª fase: 48º Exame, prova de 10/01/2027, banca FGV, 165 capítulos e 889 questões inéditas.",
+   "h1": "Exame de Ordem (OAB): curso em PDF da 1ª fase",
+   "intro": [
+    "Esta página reúne os cursos ESCUDO para o Exame de Ordem Unificado, a prova da OAB. O primeiro é o da 1ª fase, uma prova objetiva de 80 questões e 4 alternativas, na qual você precisa de 40 acertos. A banca é a FGV, que escolhe as questões em casos concretos e cobra lei, súmula e número.",
+    "O curso foi montado a partir da análise de 1.022 questões de 13 Exames, com casos resolvidos, o quadro de súmulas e teses que a banca cobra e 889 questões inéditas no formato da prova, todas com gabarito comentado. Há ainda o Passe Anual, que reúne o curso, a Revisão e os simulados do 48º Exame e os materiais de apoio.",
+    "Material independente, sem vínculo com a OAB nem com a FGV. Cada Exame tem edital próprio, e o que vale é o edital do exame que você vai fazer."
+   ]
+  },
+  {
    "slug": "concursos-pernambuco",
    "tipo": "estado",
    "nome": "Pernambuco",

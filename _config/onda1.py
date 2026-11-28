@@ -36,7 +36,7 @@ ANO = "2026"
 e = lambda s: H.escape(str(s), quote=True)
 CARREIRA_PLURAL = {"policial": "cursos policiais", "administrativo": "cursos administrativos", "saude": "cursos de saúde",
                    "educacao": "cursos de educação", "tribunais": "cursos de tribunais", "fiscal": "cursos fiscais",
-                   "bancaria": "cursos bancários"}
+                   "bancaria": "cursos bancários", "oab": "cursos da OAB"}
 
 
 def bloco(html, nome, conteudo, onde):

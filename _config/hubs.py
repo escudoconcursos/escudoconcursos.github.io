@@ -108,8 +108,8 @@ def tabela(prods, G, V):
         href = p["link"] if p["link"].startswith("http") else "../" + p["link"]
         prova = V["ddmm"](p["prova"], True) if p.get("prova") and p["prova"] != V["SEM_DATA"] else "a definir"
         guia = '<a href="../%s/">Guia</a>' % e(g["slug"]) if g.get("slug") else ""
-        banca = re.sub(r"\s*\(.*?\)", "", g.get("banca", "")) or "a definir"
-        situ = g.get("situacao") or ("pré-edital" if prova == "a definir" else "")
+        banca = re.sub(r"\s*\(.*?\)", "", g.get("banca", "")) or NOMES.get(p["id"], {}).get("banca") or "a definir"
+        situ = g.get("situacao") or NOMES.get(p["id"], {}).get("situacao") or ("pré-edital" if prova == "a definir" else "")
         linhas.append("<tr><td><a href=\"%s\">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>"
                       % (e(href), e(nome_curso(p)), e(banca), e(situ), prova, guia))
     return ('<div class="guia-tabela"><table><thead><tr><th>Concurso</th><th>Banca</th><th>Situação</th><th>Prova</th>'

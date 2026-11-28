@@ -44,6 +44,7 @@
     "tecnico-defensoria-dpe-pb-2026": {"sigla": "DPE-PB", "cargo": "Técnico da Defensoria", "uf": "PB"},
     "assistente-tecnico-dpe-am-2026": {"sigla": "DPE-AM", "cargo": "Assistente Técnico Administrativo", "uf": "AM"},
     "enem-2027": {"sigla": "ENEM", "cargo": "Curso completo", "uf": "BR", "ano": "2027", "descricao": "Apostila ENEM 2027 em PDF: 204 capítulos e 1.259 questões comentadas no estilo do ENEM, com Redação. Garantia de 7 dias.", "rotulo_guia": "Guia do ENEM 2027: provas, TRI e o que cai"},
+    "oab-1-fase": {"sigla": "OAB 1ª fase", "cargo": "48º Exame de Ordem", "uf": "BR", "ano": "2027", "banca": "FGV", "situacao": "edital publicado", "descricao": "Apostila OAB 1ª fase em PDF para o 48º Exame de Ordem: 165 capítulos, 889 questões inéditas e 527 casos resolvidos. Garantia de 7 dias."},
     "ifg-assistente-administracao-2026": {"sigla": "IFG", "cargo": "Assistente em Administração", "uf": "GO"},
     "trt4-tecnico-administrativo-2026": {"sigla": "TRT-4", "cargo": "Técnico Judiciário Área Administrativa", "uf": "RS"},
     "inss-tecnico-seguro-social-2026": {"sigla": "INSS", "cargo": "Técnico do Seguro Social", "uf": "BR"},
