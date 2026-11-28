@@ -198,7 +198,7 @@ def monta_post(meta, corpo):
     pasta, _, selo = CATEGORIAS.get(tipo, CATEGORIAS["noticia"])
     url = BASE + "noticias/" + slug + "/"
     p = POR_ID.get(meta.get("curso_id", ""))
-    carreira = CSS_CARREIRA.get((p or {}).get("carreira", ""), "")
+    carreira = (p or {}).get("tema_visual") or CSS_CARREIRA.get((p or {}).get("carreira", ""), "")  # tema_visual (28/11/2026): ENEM usa enem.css, de aluno, sem sair da carreira educacao
     tema = (p or {}).get("tema", "")
     titulo = meta.get("titulo_seo") or meta.get("h1")
     h1 = meta.get("h1") or titulo

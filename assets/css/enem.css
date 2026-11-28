@@ -1,0 +1,99 @@
+/* ESCUDO Concursos: tema ENEM (aluno, não professor), com <body class="tema-<cor> tema-enem">. Criado em 28/11/2026 a pedido do Mateus:
+   o ENEM continua na carreira "educacao" (vitrine e hubs), mas o visual é de estudante e mistura as áreas da prova.
+   Cores das áreas: Linguagens laranja, Humanas coral, Natureza verde, Matemática azul, Redação lavanda.
+   Escuro = mesa de estudo à noite com rabiscos das áreas; claro = folha de redação; creme = papel quadriculado;
+   preço = cartão-resposta. Só CSS: a página não precisa de marcação nova além da classe no body. */
+.tema-enem{--ling:#F29E4C;--hum:#E8696E;--nat:#3FBF8A;--mat:#4C93E8;--red:#B8A2F0;
+  --mesa:#141638;--mesa2:#0B1A33;--papel:#FFFEF9;--pauta:rgba(108,92,170,.20);--mx:max(5px,calc((100% - 1120px)/2 - 14px))}
+
+/* faixa das áreas embaixo do topo */
+.tema-enem .topo{border-bottom:0}
+.tema-enem .topo::after{content:"LINGUAGENS    ·    HUMANAS    ·    NATUREZA    ·    MATEMÁTICA    ·    REDAÇÃO";
+  display:block;white-space:pre;overflow:hidden;text-align:center;padding:4px 0 5px;background:#0E1230;
+  font-family:var(--ff-t);font-weight:800;font-size:.8rem;letter-spacing:.16em;color:rgba(255,255,255,.78);
+  border-bottom:4px solid transparent;border-image:linear-gradient(90deg,var(--ling) 0 20%,var(--hum) 20% 40%,var(--nat) 40% 60%,var(--mat) 60% 80%,var(--red) 80%) 1}
+
+/* mesa de estudo: fundo escuro com pontinhos e rabiscos das cinco áreas */
+.tema-enem .escuro{background:
+  radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.4px) 0 0/22px 22px,
+  radial-gradient(900px 520px at 15% 0%,rgba(184,162,240,.22),transparent 65%),
+  radial-gradient(700px 480px at 100% 100%,rgba(76,147,232,.16),transparent 60%),
+  linear-gradient(180deg,var(--mesa),var(--mesa2))}
+.tema-enem .escuro::after{content:"";position:absolute;z-index:-1;right:-20px;top:24px;width:360px;height:320px;opacity:.2;pointer-events:none;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 460' fill='none' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg stroke='%23F29E4C' transform='translate(40 40) rotate(-8 60 50)'%3E%3Cpath d='M10 20Q40 10 60 22Q80 10 110 20V92Q80 82 60 94Q40 82 10 92Z'/%3E%3Cpath d='M60 22V94'/%3E%3C/g%3E%3Cg stroke='%23E8696E' transform='translate(350 30)'%3E%3Ccircle cx='60' cy='60' r='48'/%3E%3Cellipse cx='60' cy='60' rx='20' ry='48'/%3E%3Cpath d='M12 60H108M20 36H100M20 84H100'/%3E%3C/g%3E%3Cg stroke='%233FBF8A' transform='translate(200 150)'%3E%3Cellipse cx='60' cy='60' rx='56' ry='20'/%3E%3Cellipse cx='60' cy='60' rx='56' ry='20' transform='rotate(60 60 60)'/%3E%3Cellipse cx='60' cy='60' rx='56' ry='20' transform='rotate(-60 60 60)'/%3E%3Ccircle cx='60' cy='60' r='6' fill='%233FBF8A'/%3E%3C/g%3E%3Cg stroke='%234C93E8' transform='translate(40 270)'%3E%3Cpath d='M10 120V10M10 120H150'/%3E%3Cpath d='M18 104Q60 100 80 60T146 20'/%3E%3Ctext x='96' y='112' font-family='Georgia' font-size='54' fill='%234C93E8' stroke='none'%3E%CF%80%3C/text%3E%3C/g%3E%3Cg stroke='%23B8A2F0' transform='translate(370 260) rotate(30 50 60)'%3E%3Cpath d='M38 10H62V110L50 132L38 110Z'/%3E%3Cpath d='M38 26H62M38 110H62'/%3E%3C/g%3E%3C/svg%3E") right top/contain no-repeat}
+.tema-enem .marca-dagua{display:none}
+.tema-enem .escuro a:not(.btn){color:var(--cb)}
+
+/* títulos: marca-texto nas cores das áreas */
+.tema-enem .hero h1 em,.tema-enem .escuro.secao h2 em{color:var(--cb)}
+.tema-enem .secao:not(.escuro) h2 em{color:var(--navy);padding:0 .06em;
+  background:linear-gradient(176deg,transparent 56%,color-mix(in srgb,var(--red) 70%,transparent) 56% 92%,transparent 92%);
+  -webkit-box-decoration-break:clone;box-decoration-break:clone}
+.tema-enem .secao:nth-of-type(4n+1):not(.escuro) h2 em{background:linear-gradient(176deg,transparent 56%,color-mix(in srgb,var(--ling) 60%,transparent) 56% 92%,transparent 92%)}
+.tema-enem .secao:nth-of-type(4n+2):not(.escuro) h2 em{background:linear-gradient(176deg,transparent 56%,color-mix(in srgb,var(--nat) 55%,transparent) 56% 92%,transparent 92%)}
+.tema-enem .secao:nth-of-type(4n+3):not(.escuro) h2 em{background:linear-gradient(176deg,transparent 56%,color-mix(in srgb,var(--mat) 50%,transparent) 56% 92%,transparent 92%)}
+.tema-enem .kicker{color:var(--gold);letter-spacing:.2em}
+.tema-enem .claro .kicker,.tema-enem .creme .kicker{color:var(--goldt)}
+/* bolinha do cartão-resposta antes do kicker */
+.tema-enem .kicker::before{content:"";display:inline-block;width:16px;height:16px;margin:0 9px -2px 0;border-radius:50%;
+  background:radial-gradient(circle,var(--c,#8A72D8) 0 52%,transparent 54%);box-shadow:0 0 0 2px currentColor inset}
+/* régua de cinco cores, uma para cada área */
+.tema-enem .regua{width:160px;height:7px;border-radius:4px;
+  background:linear-gradient(90deg,var(--ling) 0 20%,var(--hum) 20% 40%,var(--nat) 40% 60%,var(--mat) 60% 80%,var(--red) 80%)}
+.tema-enem .escuro .intro{color:#C9CDEA}
+.tema-enem .hero .lead{color:#DCE0F2}
+
+/* folha de redação (claro) e papel quadriculado (creme) */
+.tema-enem .secao.claro{background:
+  linear-gradient(90deg,transparent var(--mx),rgba(138,114,216,.45) var(--mx) calc(var(--mx) + 2px),transparent calc(var(--mx) + 2px)),
+  repeating-linear-gradient(180deg,transparent 0 31px,var(--pauta) 31px 32px),var(--papel)}
+.tema-enem .secao.creme{background:
+  linear-gradient(rgba(76,147,232,.13) 1px,transparent 1px) 0 0/24px 24px,linear-gradient(90deg,rgba(76,147,232,.13) 1px,transparent 1px) 0 0/24px 24px,#F7F8FD}
+.tema-enem .secao.claro,.tema-enem .secao.creme{position:relative;overflow:hidden;isolation:isolate}
+
+/* números do topo: uma área por cartão */
+.tema-enem .numeros li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-top:4px solid var(--red);border-radius:10px}
+.tema-enem .numeros li:nth-child(1){border-top-color:var(--ling)}
+.tema-enem .numeros li:nth-child(2){border-top-color:var(--hum)}
+.tema-enem .numeros li:nth-child(3){border-top-color:var(--nat)}
+.tema-enem .numeros li:nth-child(4){border-top-color:var(--mat)}
+.tema-enem .numeros b{color:#fff}
+.tema-enem .numeros span{color:#C9CDEA}
+
+/* preço como cartão-resposta: fileira A B C D E com a resposta marcada */
+.tema-enem .preco{position:relative;background:rgba(14,18,48,.78);border:2px solid rgba(184,162,240,.55);border-radius:14px;padding-top:40px}
+.tema-enem .preco::before{content:"";position:absolute;top:12px;left:50%;width:150px;height:20px;transform:translateX(-50%);
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 20' font-family='Arial' font-weight='700' font-size='10' text-anchor='middle'%3E%3Cg fill='none' stroke='%23B8A2F0' stroke-width='1.6'%3E%3Ccircle cx='15' cy='10' r='8'/%3E%3Ccircle cx='45' cy='10' r='8'/%3E%3Ccircle cx='105' cy='10' r='8'/%3E%3Ccircle cx='135' cy='10' r='8'/%3E%3C/g%3E%3Ccircle cx='75' cy='10' r='8.6' fill='%23B8A2F0'/%3E%3Cg fill='%23B8A2F0'%3E%3Ctext x='15' y='13.5'%3EA%3C/text%3E%3Ctext x='45' y='13.5'%3EB%3C/text%3E%3Ctext x='105' y='13.5'%3ED%3C/text%3E%3Ctext x='135' y='13.5'%3EE%3C/text%3E%3C/g%3E%3Ctext x='75' y='13.5' fill='%230E1230'%3EC%3C/text%3E%3C/svg%3E") center/contain no-repeat}
+.tema-enem .preco .cupom code{background:var(--cb);border-radius:4px}
+.tema-enem .btn{border-radius:12px;box-shadow:0 5px 0 rgba(0,0,0,.3)}
+.tema-enem .btn:hover{transform:translateY(-1px)}
+.tema-enem .secao:not(.escuro) .btn{box-shadow:0 5px 0 rgba(11,26,51,.2)}
+.tema-enem .selos svg{color:var(--cb)}
+
+/* selo da capa vira post-it */
+.tema-enem .capa-livro .selo{background:linear-gradient(180deg,#FFE58A,#F7D25C);color:var(--navy);border-radius:2px;transform:rotate(5deg);box-shadow:4px 8px 14px rgba(0,0,0,.4)}
+
+/* fichas viram post-its nas cores das áreas */
+.tema-enem .fatos li{border:0;border-radius:3px;box-shadow:3px 5px 0 rgba(11,26,51,.10);background:#FFF3DE;border-top:6px solid var(--ling)}
+.tema-enem .fatos li:nth-child(4n+2){background:#FDE8E9;border-top-color:var(--hum)}
+.tema-enem .fatos li:nth-child(4n+3){background:#E3F6EE;border-top-color:var(--nat)}
+.tema-enem .fatos li:nth-child(4n+4){background:#E5EFFC;border-top-color:var(--mat)}
+.tema-enem .fatos li:nth-child(odd){transform:rotate(-.6deg)}
+.tema-enem .fatos li:nth-child(even){transform:rotate(.6deg)}
+.tema-enem .fatos b{color:var(--navy)}
+.tema-enem .entregas li{border:1px solid #E2E0EE;border-left:6px solid var(--red);border-radius:4px 10px 10px 4px}
+.tema-enem .entregas li:nth-child(4n+1){border-left-color:var(--ling)}
+.tema-enem .entregas li:nth-child(4n+2){border-left-color:var(--hum)}
+.tema-enem .entregas li:nth-child(4n+3){border-left-color:var(--nat)}
+.tema-enem .entregas li:nth-child(4n+4){border-left-color:var(--mat)}
+.tema-enem .pqe .cartao{border-radius:8px;border:1px solid #E2E0EE;box-shadow:0 6px 0 rgba(11,26,51,.06);
+  background:repeating-linear-gradient(180deg,transparent 0 31px,var(--pauta) 31px 32px),#fff}
+
+/* guia do concurso: caixa do curso e resposta rápida */
+.tema-enem .guia-resposta{border-left:6px solid var(--red)}
+
+/* celular: faixa das áreas cabe na tela e os rabiscos ficam mais discretos atrás do texto */
+@media (max-width:640px){
+  .tema-enem .topo::after{content:"LINGUAGENS · HUMANAS · NATUREZA · MATEMÁTICA · REDAÇÃO";font-size:.56rem;letter-spacing:.06em}
+  .tema-enem .escuro::after{opacity:.09;width:260px;height:230px}
+}

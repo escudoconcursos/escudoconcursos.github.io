@@ -171,7 +171,7 @@ def monta(meta, corpo, slug):
     prods = [] if quem else produtos_do_guia(meta)
     p0 = prods[0] if prods else {}
     tema = p0.get("tema", "")
-    carreira = CSS_CARREIRA.get(p0.get("carreira", ""), "")
+    carreira = p0.get("tema_visual") or CSS_CARREIRA.get(p0.get("carreira", ""), "")  # tema_visual (28/11/2026): ENEM usa enem.css, de aluno, sem sair da carreira educacao
     corpo_sem_faq, faq, rodape = separa_faq(corpo)
     corpo_sem_faq = re.sub(r"^## Notas para a montagem.*", "", corpo_sem_faq, flags=re.S | re.M)
     corpo_sem_faq = re.sub(r"<!--.*?-->", "", corpo_sem_faq, flags=re.S).rstrip().rstrip("-").rstrip()
