@@ -1319,6 +1319,13 @@
   {"item": "Navegação clicável", "img": "assets/img/pcrn/b-sumario", "alt": "Sumário geral clicável da apostila"},
   {"item": "2 simulados inéditos de 100 questões", "img": "assets/img/pcrn/b-simulado", "alt": "Primeira página do Simulado 1"}
  ],
+ "pmdf-soldado-2027": [
+  {"item": "Legislação da PMDF em 26 capítulos", "img": "assets/img/pmdf/b-leg", "alt": "Sumário da disciplina Legislação aplicada à PMDF"},
+  {"item": "Penal Militar e Processual Penal Militar em 35 capítulos", "img": "assets/img/pmdf/b-pm", "alt": "Sumário da disciplina Noções de Direito Penal Militar"},
+  {"item": "Pegadinhas e quadros", "img": "assets/img/pmdf/nao-confunda", "alt": "Quadros de atenção no capítulo sobre o Estatuto da PMDF"},
+  {"item": "Navegação clicável", "img": "assets/img/pmdf/b-sumario", "alt": "Sumário geral clicável da apostila"},
+  {"item": "2 simulados inéditos de 120 itens", "img": "assets/img/pmdf/b-simulado", "alt": "Primeira página do Simulado 1"}
+ ],
  "pcpb-escrivao-investigador-2026": [
   {"item": "LC 85/2008 da Paraíba em 4 capítulos próprios", "img": "assets/img/pcpb/b-rn", "alt": "Sumário da disciplina Direito Administrativo, com a LC 85/2008"},
   {"item": "Legislação Complementar em 16 capítulos", "img": "assets/img/pcpb/b-esp", "alt": "Sumário da disciplina Legislação Complementar Penal e Processual Penal"},

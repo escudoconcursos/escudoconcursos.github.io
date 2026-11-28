@@ -1570,6 +1570,29 @@
       "botao": "Ver o curso"
     },
     {
+      "id": "pmdf-soldado-2027",
+      "atalho": "pmdf",
+      "carreira": "policial",
+      "tema": "tema-piscina",
+      "tag": "PM/DF 2027 · Pré-edital",
+      "titulo": "Soldado da Polícia Militar do Distrito Federal",
+      "itens": [
+        "246 capítulos e 2.410 itens de certo ou errado comentados",
+        "Legislação da PMDF, discursiva e 2 simulados de 120 itens"
+      ],
+      "imagem": "assets/img/produto-pmdf-soldado-2027.webp",
+      "alt": "Curso em PDF ESCUDO: Soldado da Polícia Militar do Distrito Federal, PM/DF 2027, 246 capítulos e 2.410 itens comentados",
+      "preco": 47,
+      "cupom": {
+        "codigo": "PMDF37",
+        "preco": 37,
+        "ate": "2026-12-31"
+      },
+      "prova": "2099-12-31",
+      "link": "pmdf-soldado-2027/",
+      "botao": "Ver o curso"
+    },
+    {
       "id": "pcpb-escrivao-investigador-2026",
       "atalho": "pcpb",
       "carreira": "policial",

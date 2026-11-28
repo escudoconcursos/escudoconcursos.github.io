@@ -90,6 +90,7 @@ SIMULADO2 = {
     "ppto-policial-penal-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "ppba-policial-penal-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pcrn-agente-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
+    "pmdf-soldado-2027": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pcpb-escrivao-investigador-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "ppms-policial-penal-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
     "pmmt-soldado-2026": "60 dias após a compra, porque ainda não há data de prova marcada.",
