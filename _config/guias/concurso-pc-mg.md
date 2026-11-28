@@ -1,6 +1,6 @@
 ---
 slug: concurso-pc-mg
-titulo_seo: "Concurso PCMG Investigador 2026: edital previsto e o que cai"
+titulo_seo: "Concurso PCMG 2026 Polícia Civil MG: Investigador, edital previsto"
 descricao: "Concurso PCMG Investigador de Polícia I 2026: sem edital novo nas fontes oficiais. Veja o Edital 04/2024 (FGV) como referência: prova, etapas e como estudar."
 h1: "Concurso PCMG Investigador 2026: edital novo ainda não publicado e o que o último edital cobrou"
 curso_id: "investigador-policia-civil-mg-pcmg-2026"

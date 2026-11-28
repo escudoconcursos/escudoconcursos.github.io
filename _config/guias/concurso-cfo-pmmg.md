@@ -1,6 +1,6 @@
 ---
 slug: concurso-cfo-pmmg
-titulo_seo: "Concurso CFO PMMG 2027: 90 vagas, salário e prova"
+titulo_seo: "CFO PMMG 2027: edital aberto, R$ 7.912 e 90 vagas"
 descricao: "Concurso CFO PMMG 2027 para Cadete: 90 vagas, R$ 7.912,17, bacharel em Direito, prova com redação em 10/01/2027. Veja requisitos, prova e como estudar."
 h1: "Concurso CFO PMMG 2027: 90 vagas para Cadete, bolsa de R$ 7.912,17 e prova em 10 de janeiro"
 curso_id: pmmg-cfo-2027

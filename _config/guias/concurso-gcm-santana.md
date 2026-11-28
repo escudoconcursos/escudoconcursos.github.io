@@ -1,6 +1,6 @@
 ---
 slug: concurso-gcm-santana
-titulo_seo: "Concurso GCM Santana/AP 2026: vagas, salário e o que cai"
+titulo_seo: "Concurso Guarda Municipal Santana/AP 2026: vagas e salário"
 descricao: "Prefeitura de Santana/AP: 50 vagas para Guarda Civil Municipal, R$ 2.100,00, banca IDCAP, inscrições até 09/11 e prova em 17/01/2027. Veja a prova."
 h1: "Concurso GCM Santana/AP 2026: 50 vagas, salário de R$ 2.100,00 e prova do IDCAP em 17/01/2027"
 curso_id: gcm-santana-2026

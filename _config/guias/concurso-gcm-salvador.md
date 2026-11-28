@@ -1,7 +1,7 @@
 ---
 slug: concurso-gcm-salvador
-titulo_seo: "Concurso GCM Salvador 2026: vagas, salário, prova FGV e o que cai"
-descricao: "Concurso GCM Salvador 2026: 50 vagas, R$ 3.546,42, banca FGV e prova em 17/01/2027. Veja a nota de corte por módulo, as matérias e como estudar."
+titulo_seo: "Concurso GCM Salvador 2026 (Guarda Municipal): 50 vagas e salário"
+descricao: "Concurso da Guarda Municipal de Salvador (GCM) 2026: 50 vagas, R$ 3.546,42, banca FGV e prova em 17/01/2027. Veja a nota de corte por módulo, as matérias e como estudar."
 h1: "Concurso GCM Salvador 2026: 50 vagas, R$ 3.546,42 e prova da FGV em 17/01/2027"
 curso_id: gcm-salvador-2026
 orgao: Prefeitura Municipal do Salvador (Guarda Civil Municipal)

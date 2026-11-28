@@ -24,11 +24,55 @@
     if (t < INI || t > FIM) return;
     var PAGINAS = " agente-administrativo-curitiba-2026 agente-educativo-aparecida-2026 assistente-administrativo-contagem-2026 assistente-semusa-porto-velho-2026 assistente-tecnico-dpe-am-2026 assistente-tecnico-sead-ma-2026 cbm-al-soldado-2026 cbmpe-soldado-2026 escrevente-tjsp-2026 gcm-angra-dos-reis-2026 gcm-salvador-2026 gcm-santana-2026 gm-campinas-2026 gm-maraba-2026 gm-pedra-branca-do-amapari-2026 gm-sao-goncalo-2026 pcac-oficial-investigador-2026 pcpe-agente-2026 pcpe-escrivao-2026 pedagogia-aparecida-2026 pmal-soldado-2026 pmesp-soldado-2026 pmpe-soldado-2026 policial-penal-pe-2026 professor-ciencias-seduc-sp-2026 professor-fisica-seduc-sp-2026 professor-ingles-seduc-sp-2026 professor-lingua-portuguesa-seduc-ma-2026 professor-lingua-portuguesa-seduc-sp-2026 professor-matematica-seduc-ma-2026 professor-matematica-seduc-sp-2026 professor-seduc-ma-2026 professor-seduc-sp-2026 professor-semed-porto-velho-2026 soldado-pmsc-2026 supervisao-escolar-seduc-ma-2026 tecnico-bancario-banestes-2026 tecnico-defensoria-dpe-pb-2026 tecnico-enfermagem-porto-velho-2026 trt4-tecnico-administrativo-2026 ";
     var pag = location.pathname.split("/").filter(Boolean)[0] || "";
-    if (PAGINAS.indexOf(" " + pag + " ") < 0) return;
+    var real = function (v) { return v.toFixed(2).replace(".", ","); };
+    var faixa = function (href, txt) {
+      var f = document.createElement("a");
+      f.className = "faixa-bf"; f.href = href;
+      f.innerHTML = "<b>Black Friday ESCUDO</b> " + txt;
+      f.style.cssText = "display:block;background:#0b1a33;color:#fff;text-align:center;padding:10px 16px;font-size:.95rem;text-decoration:none;border-bottom:2px solid #c9a24b";
+      f.querySelector("b").style.cssText = "color:#c9a24b;margin-right:6px";
+      document.body.insertBefore(f, document.body.firstChild);
+    };
+    if (PAGINAS.indexOf(" " + pag + " ") < 0) {
+      /* 28/11/2026: guias, posts, home e hubs (onde chega o Google) também mostram a Black Friday.
+         Curso da página = o do botão "Ver o curso" do topo; preço cheio sai do texto ("De R$ 47"). */
+      var curso = function (a) { var p = (a && a.pathname || "").split("/").filter(Boolean)[0] || ""; return PAGINAS.indexOf(" " + p + " ") >= 0 ? p : ""; };
+      var preco = function (txt) { var m = /R\$\s*([\d.]+(?:,\d\d)?)/.exec(txt || ""); return m ? parseFloat(m[1].replace(".", "").replace(",", ".")) : 47; };
+      var algum = false;
+      document.querySelectorAll(".guia-curso").forEach(function (b) {
+        if (!curso(b.querySelector("a"))) return;
+        var de = /De R\$ ([\d,]+) por R\$ [\d,]+ com o cupom \S+ até [\d\/]+\./.exec(b.innerHTML);
+        var cheio = de ? preco("R$ " + de[1]) : 47;
+        var novo = "Black Friday: de R$ " + real(cheio).replace(",00", "") + " por R$ " + real(Math.round(cheio * 70) / 100) + " com o cupom BLACK30, só até 30/11.";
+        if (de) b.innerHTML = b.innerHTML.replace(de[0], novo);
+        else { var a = b.querySelector("a"); if (a) a.insertAdjacentHTML("beforebegin", novo + " "); }
+        algum = true;
+      });
+      document.querySelectorAll(".produto[data-oferta]").forEach(function (o) {
+        if (!curso(o.querySelector("a.btn"))) return;
+        var c = o.querySelector("[data-cupom-ate]"), s = o.querySelector("[data-cupom-ate] s, [data-sem-cupom]");
+        if (!c) return;
+        var cheio = preco(s && s.textContent);
+        c.hidden = false; c.removeAttribute("data-cupom-ate");
+        c.innerHTML = "De <s>R$ " + real(cheio).replace(",00", "") + "</s> por R$ " + real(Math.round(cheio * 70) / 100) + " com o cupom BLACK30 (Black Friday)";
+        o.querySelectorAll("[data-sem-cupom]").forEach(function (x) { x.hidden = true; });
+        algum = true;
+      });
+      var topo = document.querySelector("a.topo-link"), cTopo = curso(topo);
+      if (cTopo) {
+        var caixa = document.querySelector(".guia-curso");
+        var cheioT = 47, mT = caixa && /de R\$ ([\d,]+) por R\$ [\d,]+ com o cupom BLACK30/.exec(caixa.textContent);
+        if (mT) cheioT = preco("R$ " + mT[1]);
+        faixa(topo.href.split("#")[0] + "#oferta", "curso completo por R$ " + real(Math.round(cheioT * 70) / 100) + " com o cupom BLACK30, só até 30/11");
+      } else if (algum) {
+        faixa(pag ? "/#cursos" : "#cursos", "30% OFF nos cursos com edital aberto, cupom BLACK30, só até 30/11");
+      }
+      return;
+    }
     var s = document.querySelector("[data-oferta] s");
     var cheio = s ? parseFloat(s.textContent.replace(/[^\d,]/g, "").replace(",", ".")) : 47;
     if (!(cheio > 0)) return;
-    var bf = Math.round(cheio * 70) / 100, real = function (v) { return v.toFixed(2).replace(".", ","); };
+    var bf = Math.round(cheio * 70) / 100;
     var reais = Math.floor(bf), cent = real(bf).split(",")[1];
     document.querySelectorAll("[data-oferta]").forEach(function (o) {
       var c = o.querySelector("[data-cupom-ate]");
@@ -46,12 +90,7 @@
       a.href = u + (u.indexOf("?") < 0 ? "?" : "&") + "offDiscount=BLACK30";
       a.removeAttribute("data-fim-cupom");
     });
-    var f = document.createElement("a");
-    f.className = "faixa-bf"; f.href = "#oferta";
-    f.innerHTML = "<b>Black Friday ESCUDO</b> curso completo por R$ " + real(bf) + " com o cupom BLACK30, só até 30/11";
-    f.style.cssText = "display:block;background:#0b1a33;color:#fff;text-align:center;padding:10px 16px;font-size:.95rem;text-decoration:none;border-bottom:2px solid #c9a24b";
-    f.querySelector("b").style.cssText = "color:#c9a24b;margin-right:6px";
-    document.body.insertBefore(f, document.body.firstChild);
+    faixa("#oferta", "curso completo por R$ " + real(bf) + " com o cupom BLACK30, só até 30/11");
   })();
 
   /* 4. Vitrine da página inicial: refaz selos e ordem com a data de hoje, esconde curso com prova passada

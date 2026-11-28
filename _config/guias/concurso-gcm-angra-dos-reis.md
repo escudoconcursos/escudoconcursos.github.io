@@ -1,6 +1,6 @@
 ---
 slug: concurso-gcm-angra-dos-reis
-titulo_seo: "Concurso GCM Angra dos Reis 2026: 200 vagas e R$ 3.872,27"
+titulo_seo: "Guarda Municipal Angra dos Reis 2026: 200 vagas e R$ 3.872,27"
 descricao: "Concurso da Guarda Civil Municipal de Angra dos Reis/RJ 2026: 200 vagas, R$ 3.872,27, banca IDIB, inscrições até 21/12 e prova em 24/01/2027. Veja o que cai."
 h1: "Concurso GCM Angra dos Reis 2026: 200 vagas, R$ 3.872,27 e prova do IDIB em 24/01/2027"
 curso_id: gcm-angra-dos-reis-2026

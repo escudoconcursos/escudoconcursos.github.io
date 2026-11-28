@@ -76,3 +76,22 @@ O curso vende quando a inscrição está para fechar e para quase a zero depois.
 - PC-PE Agente e Escrivão: inscrições até 16/12/2026 (posts em 06/12, 10/12 e 14/12).
 - DPE-AM Assistente: inscrições de 30/11/2026 a 04/01/2027 (post na abertura, 30/11, e nos últimos 10 dias: 26/12, 30/12 e 02/01).
 A faixa "Inscrições terminando" da home (vitrine.py, DESTAQUE_PRAZOS) já mostra esses cursos; os stories das 20h já priorizam guia com inscrição perto do fim.
+
+## Calendário "quando sai" (28/11/2026, pedido do Mateus)
+Na análise de 28/11, os posts que mais trouxeram cliques do Google foram os de "resultado da isenção" (PC-PE: 2.114 impressões e 29 cliques em 7 dias; Policial Penal PE: 1.340 e 23). A busca é "quando sai o resultado", "local de prova", "gabarito". Regra: 2 ou 3 dias antes de cada etapa abaixo, publicar um post "<Concurso>: <etapa> sai em dd/mm, veja como consultar" (tipo noticia, guia do concurso, `valido_ate` = dia da etapa) e, no dia da etapa ou no seguinte, reescrever o MESMO post com o resultado (regra "Post de prazo não morre no prazo"). Data sempre conferida no edital ou retificação salvos em `escudo-dados/fontes/`; se o edital não trouxer a data, o post não sai. Entra na frente do "o que estudar" genérico e respeita o limite de 2 posts por dia. Riscar a linha usada.
+- 30/11: PM-SC Soldado, locais de prova em 02/12.
+- 03/12: GM Campinas, resultado da isenção (pedido de 25/11 a 02/12; data do resultado no edital da Vunesp).
+- 05/12: DPE-AM Assistente, resultado da isenção em 10/12 (após recursos 18/12).
+- 09/12: DPE-PB Técnico, convocação com os locais de prova em 11/12.
+- 11/12: SEMUSA Porto Velho, prova e gabarito preliminar em 13/12.
+- 12/12: PM-SC Soldado, gabarito preliminar em 14/12; Curitiba Agente Administrativo, gabarito preliminar em 14/12.
+- 15/12: Banestes Técnico Bancário, convocação com os locais em 17/12.
+- 17/12: Unificado MA, isenção de 14 a 16/12 e resultado em 18/01/2027.
+- 19/12: UFBA Assistente, gabarito preliminar e caderno de questões em 21/12.
+- 28/12: PM-AL Soldado, locais de prova em 30/12.
+- 02/01: CFO PMMG, locais de prova em 04/01/2027.
+- 04/01: GCM Santana/AP, locais de prova em 06/01/2027.
+- 13/01: GCM Angra dos Reis e PC-AC, locais de prova em 15/01/2027.
+- 16/01: GCM Salvador e GCM Santana, gabarito preliminar em 18/01/2027; GM Marabá e GM Pedra Branca, cartão com o local de prova em 18/01/2027.
+- 23/01: GCM Angra, GM Marabá, GM São Gonçalo e PC-AC, gabarito preliminar em 25/01/2027.
+A cada nova etapa achada num edital ou retificação, acrescentar a linha aqui na ordem da data.

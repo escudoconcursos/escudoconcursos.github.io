@@ -1,6 +1,6 @@
 ---
 slug: concurso-gm-campinas
-titulo_seo: "Concurso GM Campinas 2026: 100 vagas, R$ 3.796,61 e Vunesp"
+titulo_seo: "Concurso Guarda Municipal Campinas 2026: 100 vagas e Vunesp"
 descricao: "Concurso Guarda Municipal de Campinas/SP 2026: 100 vagas, R$ 3.796,61, banca Vunesp, inscrições de 25/11 a 08/01/2027 e prova em 21/03/2027. Veja o que cai."
 h1: "Concurso GM Campinas 2026: 100 vagas, R$ 3.796,61 e prova da Vunesp em 21/03/2027"
 curso_id: "gm-campinas-2026"

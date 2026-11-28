@@ -248,6 +248,10 @@ def monta_post(meta, corpo):
                  'Veja a situação atual no guia do concurso.</p>') % (data_br(pub), data_br(va))
     artigo = aviso + capa + artigo
     if p:
+        # 28/11/2026: caixa do curso também antes do 1º H2 (quem vem do Google quase não chega ao fim do post)
+        i = artigo.find("<h2")
+        if i >= 0:
+            artigo = artigo[:i] + caixa_curso(p, slug) + "\n" + artigo[i:]
         artigo += "\n" + caixa_curso(p, slug)
     faq_html = ""
     if faq:

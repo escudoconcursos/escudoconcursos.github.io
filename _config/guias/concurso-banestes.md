@@ -1,6 +1,6 @@
 ---
 slug: concurso-banestes
-titulo_seo: "Concurso Banestes 2026 Técnico Bancário: 866 vagas, R$ 4.552 e FCC"
+titulo_seo: "Concurso Banestes 2026: 866 vagas, Técnico Bancário"
 descricao: "Concurso Banestes 2026, Técnico Bancário: 866 postos de cadastro de reserva, R$ 4.552,43, banca FCC, inscrições até 23/11 e prova em 24/01/2027."
 h1: "Concurso Banestes 2026, Técnico Bancário: 866 postos, R$ 4.552,43 e prova da FCC em 24/01/2027"
 curso_id: tecnico-bancario-banestes-2026
